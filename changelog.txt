@@ -1,0 +1,317 @@
+todo before next release:
+-update the first forum post
+-peasant arrival
+-elyser unit graphics for fiannon
+-redo description goblin cutthroat
+-Naia's resistance amla gives 15% instead of 25% (Maybe fiannons as well?)
+-adjust fiannon's description
+-Naia's teleport is still manly
+-Thindromli's presentage message is wrong. Only amlas, no lvl up
+-lycantropy giving false amount of hp
+-turtles message is far too late
+-DOT abbreviation for savefiles?
+-Egoist is described with '...and thus needs twice as much time to level up. +70%XP to advance.' which mean the unit needs (to be exact) 1.7 times as much. Or 'almost' twice as much.
+
+-20180107 10:31:48 error display: unknown image function in path: dawn_of_thunder
+20180107 10:31:48 error config: Failed to apply a modification to an image:
+Image: attacks/blank-attack.png.
+Modifications: ~CROP(2,2,56,56)~SCALE(72,72)~BLIT(halo/lightning-bolt-1-2.png~O(2.5)~CROP(17,121,66,66),3,3)~BLIT(halo/illuminates-aura.png~dawn_of_thunder(72,72)~O(2.1),0,0)~BLIT(units/huma
+
+scenario 1:
+-event missing name field -error
+
+scenario 2:
+-terrain changes for naia's arrival
+-reduce tomato-ness of Liraks appearing minions upon his death
+
+scenario 4: 
+-[event] is missing name field
+-[items] are visible through shroud
+
+scenario 5:
+-item images?
+-remove naga going away
+
+scenario 6:
+- non-elf message reformulating (start)
+- first peasant message
+- bewitched my Eyes --> bewitched my eyes
+- spits, --> spits
+-improve "peasantish accent"
+
+scenario 7:
+-[item] visible through shroud
+-redo ending dialogue
+-make fight hard. boss pushback + wosespawn ability
+
+scenario 8:
+-"guys, kill them" --> something better
+-more castle space + some lvl 3 units to main orc
+
+scenario 12:
+-make harder
+
+-scenario 14:
+-adjust difficulty according to advancements?
+
+Scenario 17:
+-only number left message doesn't work
+-last of Smilvolf's message is overdose when Lirak's the last enemy
+
+Chapter names:
+3. Reconquest
+	15_Wild_Steppe
+	16_The_Tower
+	17_Jotha
+	18_Illuvèn
+	19
+	20
+	21
+4. Banishing the Dark
+5. Curtain Fall
+
+-scenario 5 wml optimieren
+-music files redo
+-randomise unit spawns in scenario 12
+-scenario 6 ToDo: Die ganze Szenari file mal ordnen. Alle events sind wild durcheinander. Ein bisschen Struktur wäre schön. Ist so wie es jetzt ist sehr schwer zu lesen. Ganz schwer da was zu finden.
+
+-------------------------------------------------------------------------------
+0.1.9.5
+general:
+-roc should be recruitable now
+-save files have the Dot- abbreviation at the start of their filename now
+
+scenario 1:
+-unknown conditionional wml [clear_variable] upon moving on the troll-tunnel
+-increase of turn limit on normal (35-->36) and hard(30-->33)
+-limited wolf riders on hard
+
+scenario 2:
+-first time teleportation event empty spaces between words: only__me
+
+scenario 3:
+-revenants can trigger the stone dialogue
+-Limwen doesn't say neria's name at the ending dialogue
+
+scenario 5:
+-message about loyals is not actual anymore
+-adjust turn limits to 32-28-24
+
+scenario 6:
+-limwens (weird) starting message
+
+scenario 9:
+-the signpost message being said by fiannon instead of the narrator
+
+scenario 10:
+-scenario 10 death knight moving
+-shroud-lifting in scenario 10
+
+scenario 17:
+-passive Naga leader
+-gold carryover to 40%
+
+FEATURES
+--------------------------------------------------------------------------------
+0.1.9
+-significantly reduced the number of loyals received through the campaign
+-various improvements to scenario 7 (deep forest)
+-scenario 3 (Enemies of Old) is now slightly harder
+-improvements for scenario 11 (Subterranean Crossfire)
+-various bugfixes for scenario 16,17 and more
+
+0.1.8
+-New Scenarios: 15, 16, 17
+-Now loading core campaign units instead of custom ones when possible
+-using mainline campaign units now, instead of redefining them
+
+0.1.7
+-from scenario 7 on Naia is capable of recruiting peasants, providing a way to use the main loyalist units (if you really want)
+-text corrections in scenario 1,2,3 and 4
+-code improvements for readability and shortness
+-changed ID and folder pathes to the new name
+-naia's animations which were sometimes male have been fixed
+-Portrait of dark wose "Oenoch" has been fixed
+-the undead in scenario 10 are now allied, which should make it a tad harder
+-the black portraits at the start of scenario 6 are now realised through image-path-functions instead of beeing different images (effectively reducing memory)
+-Scenario 9 has been polished and a few events have been added
+-scenario 13 & 14 have been added!
+-made sure a lot of variables are cleared when they're not needed anymore
+-finally realised the freezing events in scenario 12
+-Bossfight intros!
+
+0.1.6.a
+-bugfix of the scenario 3 events (introduced in 0.1.5)
+
+0.1.6
+-fixed shadows on some sprites
+-added transparency to M'brin's portrait
+
+0.1.5
+-New map for scenario 2
+-Later waves in scenario 3(after turn 22) now have a higher chance to spawn higher lvl enemies
+-minor fixes for scenario 10
+-scenario 12 (halfly) done!
+-animations for the elvish Glavier (again thanks to forestdragon!)
+-Bugfixes mentioned by RainerT
+
+
+0.1.4
+-Renamed!
+-added animations to the elvish glavier (Big thanks to ForestDragon from the Forum who made them without being asked. :D You're awesome man!)
+-New animations and sprites for the Wose shaman and the rogue mage line
+-Minor text corrections
+-added a message explaining the miners in scenario 10
+-scenario 11 done!
+-rework of the introductions (maybe one day I'll be satisfied)
+-there are now obstacles on the rails
+-Made M'Brin stronger in scenario 10
+-Campaign now has the same Icon on server as in the campaign menu
+
+0.1.3b
+bugfix: scenario 10 should now work as intended
+text corrections in multiple scenarios
+bugfix:early finishing bonuses and gold carryover
+appropriate objectives for scenario 2
+scenario 9: added more flat terrain and set a turn limit
+
+0.1.3a
+-bugfix:Harendoions soulless gets an appropriate portrait
+-bugfix:Corrected a variable name in scenario 3 that corrupted savefiles
+
+0.1.3
+-(minor)text revisions in nearly all scenarios
+-Scenario 2: Harendoion now appears as mounted variation of a soulless and has portrait
+-An easteregg to be found (don't cheat and look in the code!)
+-fixed the desccription of fallen faeries and dark woses
+-added the death speeches for heroes to scenario 9
+-small changes to scenario 3's ending
+-checked all units abilities and special notes and corrected them if necessary
+-scenario 8 was rebalanced for easy, changes were made to the big bad orc and his push event (it finally works as intended and the animation sequence is better)
+-scenario intros were made into one line again (still not completely satisfied, open to ideas)
+-autumn faerie and natures avatar get a different ability in scenario 9
+-scenario 10 added
+
+0.1.2.4a
+-added death dialogue for maeblie in scenario 7
+-changed the egoist trait to increase the experience need by only 70%
+-formatted the spawnevents for scenario 3 to use the [switch] [case] syntax
+-added messages for the first selection of Fiannon and Naia, explaining their unusual advancements
+-Gave the player control of allied sides
+-renamed chapter 2 to: "Of stones and beards"
+-balancing of scenario 8 especially for hard difficulty
+-fixed smaller bugs appearing in the stderr.txt (multiple unit types with the same id, wrong linked images, wrong animation syntax, deprecated ai code, capitalized letters that shouldn't be, setting 0 as empty value instead of "", wrongly accessed variables, referring to music not existing, hitting a borderline case for wml)
+-undead spawns in scenario 3 are now completely random
+-switched from LOYAL_UNDEAD_UNIT to GENERIC_UNIT as both give the unit the undead trait but the latter doesn't makes them loyal
+-fixed the timing of events in scenario 3
+-removed bats from the spawnlist of scenario 3 as they don't fit the mood of the scenario
+-victory in scenario 2 and 3 now fires directly after the last unit was killed instead of after clicking on "end turn"
+-gave the naga in scenario 5 the effects of the ring too, as he is supposed to wear it (that should also give a little hint)
+-proper notification when there is only 1 wave left (also change to [switch][case] syntax) for scenario 3
+-fixed a bug where the unit taking the caravan for one of your leaders wasn't unstored
+-balanced Oenoch to have 50 hitpoints more, which should make rushes harder
+-made it impossible to attack the big bad Orc in scenario 8 (he says funny things when you try it! [anybody's welcome to submit more funny things for him to say!]))
+-When you (try to) kill them in scenario 8 Bodo and Urhuga are now fleeing (again!)
+-modified the Intro screens to each scenario
+
+0.1.2.3
+-fixed a bug in scenario 3 which couldn't be ended early because of false use of the [then]-tag
+-different traits for the loyals you get
+-Ronurs death in scenario 7 is now better animated using [harm_unit]
+-rework of the unit spawning system in scenario (better than before, but not completed)
+-added wave counter to scenario 3
+-set a turn limit to scenario 3
+-using [interim_text] for better intros to scenarios
+-turn limit on scenario 8
+-added gold carryover instructions to every scenario
+-balancing on scenario 8
+-Limwen and Rothilion are now less likely to be hit in the first few turns of scenario 3 and 5
+-changed map 1 and 2 to have less dependence on the quick trait
+
+0.1.2.2
+-small dialogue changes in scenario 1,3,4
+-added more 10 more turns on each difficulty to scenario 1
+-Alasar now always advances to an elvish hero, because it fits his character more
+-added a sound to Naia appearence in scenario 2
+-added an event to scenario 1 related to the tunnel, which might trigger the trolls appearance in advance, if the player is too good.
+-less and weaker enemies when Lirak walks away in scenario 2
+-corrected wrongly displayed message in scenario 3
+-scenario 8 Is now part of chapter 2 Darkness and Despair (chapters are arranged similar to LoW)
+
+0.1.2.1
+-New add-on image
+-altered description
+-altered filenames to fit 1.12 add-on server
+-uploaded to 1.12
+
+0.1.2
+-support for the [feedback] tag added onwards from 1.11.8
+-updated description
+
+0.1.1
+-added the topic_id tag for version 1.11.8 upwards
+-added [avoid] tag, to keep elves from attacking from water in scenario 8
+-changed the map, to give the elves a better defense on the isle an another hint where tunnels are in scenario 8
+-the victory event didn't triggered, if another unit moved to the tunnels in scenario 8 
+-removed Raief from the objectives in scenario 8
+-fixed missing ' in scenario 8
+-wrong portrait for naia corrected
+-dying dialogue for Rothilion (scenario 5) added
+-changed the start gold in scenario 8
+-fixed a typo in scenario 7 (bowmen instead of bowman)
+-fixed the village problem in scenario 1&2
+
+0.1.0
+-new sprites for the corrupted woses
+-finished chapter 1 (added scenario 8)
+-dying dialogue for silam added
+-adjusted the [endlevel] tag of scenario 6
+-removed the underscore from the name
+-moved the unitmarker to a different add-on, which now affects all campaigns
+-changed the boss icon of Oenoch to be only a midboss
+-adaptations to the dialogue parts in scenario 4 and 5 to fit with scenario 10
+-improvements to Fiannons and Limwen's portrait
+-corrected the journey of scenario 7 which looked bad
+-small dialogue changes
+-fixed the micro ai for M'brin, who didn't move, if other units were at the target location
+-modified Alasar to distinguish him more from other units, made him need more experience also
+-gave the player the ownership of all the villages north of the river, and the one next to the bridge in scenario 1
+-gave the enemy more income in scenario 2 to counterbalance
+-fixed the (now for version 1.11.7) unneeded micro ai configurations
+
+0.0.8
+-fixing the upper-case name folder for elvish unit images
+-small changes to scenario 1
+
+0.0.7
+-improvements of scenario 7 including a playlist
+-bug fixing in scenario 6
+-new portrait for Fiannon
+-reduced the size of the add-on by ca. 2MiB
+
+0.0.6
+-corrected the id's of Naia unit type
+-various bug fixes and code improvements
+-new scenario nr. 7
+
+0.0.5
+-worked on scenario 6, you might need to restart it to be able to play scenario 7 correctly
+-cleared a few bugs in the micro ai's, which I set up wrong
+
+0.0.4:
+-modified some existing micro Ai's, added some others when needed
+-replaced a non-working filter in scenario 6
+-gave the player another warning about the bandits
+-modified the bandit spawning event in scenario 6
+-fixed a few typos in scenario 6
+-modified some critical wml, which was likely to cause errors
+-fixed a bug in treewalk ability
+
+0.0.3:
+Minor corrections to the writing, false variables and heavily reduced the orcs gold in the first scenario. 
+
+0.0.2:
+fixed a missing macro who made it impossible to start
+
+0.0.1
+Yay, first upload! Scenarios 1-6
