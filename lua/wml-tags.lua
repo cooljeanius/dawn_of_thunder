@@ -4,7 +4,9 @@ helper = wesnoth.require 'lua/helper.lua'
 function alpha_print(text, size, alpha)
 	local c = helper.round(255 * alpha)
 
-	--wesnoth.message(string.format("alpha %0.1f, step %d", alpha ,c))
+	if (wesnoth.game_config.debug) and (c < 0) then
+		wesnoth.message(string.format("alpha %0.1f, step %d", alpha ,c))
+	end
 
 	wml_actions.print({
 		text = text,
@@ -22,7 +24,9 @@ function wml_actions.interim_text(cfg)
 	local title = cfg.title
 	local text = cfg.text
 	local duration = cfg.duration
-	--local fade_duration = cfg.fade_duration
+	if (wesnoth.game_config.debug) then
+		local fade_duration = cfg.fade_duration
+	end
 
 	if text == nil then
 		text = ""
@@ -33,7 +37,7 @@ function wml_actions.interim_text(cfg)
 	end
 
 	if duration == nil then
-		duration = 5000
+		duration = 500
 	end
 
 	for alpha = 0.0, 1.0, 0.1 do
