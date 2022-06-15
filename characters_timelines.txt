@@ -1,0 +1,86 @@
+(spoiler warning!)
+
+Fiannon:
+1. Introduced
+(Hero, alive and featured throughout)
+Alasar:
+1. Introduced
+(Optional hero; can die but continues to have conditional dialogue)
+Harendoion:
+1. Introduced; leaves
+2. Dies sometime in between scenarios; comes back as zombie (dies again)
+Marashka-Gahn (Orcish Warrior):
+1. Introduced, dies
+Urhuga (Orcish Slayer):
+1. Introduced, flees (still alive)
+8. Re-introduced (has advanced to Orcish Nightblade); escapes again (still alive)
+Grelok (Goblin Knight):
+1. Introduced; probably dies
+Ekon (Troll):
+1. Introduced; probably dies
+Lirak (Dark Adept):
+2. Introduced; disappears (still alive)
+16. Referenced
+17. Re-introduced (has advanced to Dark Sorcerer & gained "Mal" prefix); escapes
+    again (still alive)
+Naia:
+2. Introduced as hero (stays featured throughout)
+Limwen:
+3. Introduced as optional hero (can die; continues to have conditional dialogue)
+M'Brin:
+3. Introduced; can be pseudo-killed but not really (stays "alive"/can be revived)
+10. Re-introduced; same story (survives in undeath)
+King Eldrim:
+4. Introduced
+8. Was supposed to arrive, but he sent your party instead, so instead the elves
+   of Wesmere send reinforcements to him
+Queen Esyae:
+4. Introduced
+Silam:
+4. Introduced as hero; joins party
+8. Leaves party to take over for Tehlmar, who left (Silam is still alive at end)
+Syviis (Elvish Enchantress):
+4. Introduced
+Kerym (Elvish Champion):
+4. Introduced
+Ragziss (Naga):
+5. Introduced; escapes (still alive)
+17. Re-introduced; dies
+Waruk-Gahn (brother of Marashka-Gahn from S1):
+5. Introduced; dies
+Bodo (Goblin Pillager):
+5. Introduced; escapes (still alive)
+8. Re-introduced (has advanced to Goblin Cutthroat); escapes again (still alive)
+Rothilion (Elvish Captain):
+5. Introduced; gives you hunters; sees you on your way (still alive)
+Raief:
+6. Introduced
+7. Follows along to fight tree; goes back to Aldril (still alive)
+Rhearent:
+6. Introduced; joins party as loyal unit (can die in later scenarios)
+Ronur:
+6. Introduced; uncertain fate (still alive)
+7. Killed by Maeblie
+Maeblie:
+6. Introduced; escapes (still alive)
+7. Kills Ronur; dies herself (probably)
+Duron Bleil:
+6. Introduced; captured (still alive)
+18. Re-introduced; dies
+Oenoch:
+7. Introduced; dies
+Olaugh-Gahn (brother of other 2 Gahns):
+8. Introduced; unkillable in this scenario, probably survives afterwards, too
+Nyvorlas (Elvish High Lord):
+8. Introduced; has to survive this scenario, might die afterwards
+Blossomblow (Wose Shaman):
+8. Introduced; has to survive this scenario, but seems to be dying
+Lady Riluaneth (Elvish Lady):
+8. Introduced; has to survive this scenario, might die afterwards
+Tehlmar:
+8. Introduced; disappears (traitor?)
+
+So, as of the end of S18 (current end of this campaign), the following characters
+with speaking roles are definitely still alive:
+Fiannon, Urhuga, Mal Lirak, M'Brin, King Eldrim, Queen Esyae, Silam, Syviis, Kerym,
+Bodo, Rothilion, Raief, Olaugh-Gahn
