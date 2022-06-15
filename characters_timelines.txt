@@ -79,6 +79,26 @@ Lady Riluaneth (Elvish Lady):
 8. Introduced; has to survive this scenario, might die afterwards
 Tehlmar:
 8. Introduced; disappears (traitor?)
+Thordrul (Dwarvish Arcanister):
+10. Introduced, joins player temporarily
+Thindromli (Dwarvish Smith):
+10. Introduced, joins player as hero
+Gladrunri (Dwarvish Runesmith):
+10. Introduced, joins player temporarily
+Smilvolf:
+13. Introduced, joins player
+Ungus (Northguard Savageheart):
+14. Introduced
+Pelagius:
+15. Introduced, joins player
+Oclavior (Archmage):
+16. Introduced, stays in tower (still alive)
+Kai Kaspius:
+17. Introduced
+Queen Eruadne:
+17. Introduced
+Chad Eyepatch:
+18. Introduced
 
 So, as of the end of S18 (current end of this campaign), the following characters
 with speaking roles are definitely still alive:
