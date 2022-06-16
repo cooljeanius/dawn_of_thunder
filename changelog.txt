@@ -73,7 +73,13 @@ Chapter names:
 -scenario 5 wml optimieren
 -music files redo
 -randomise unit spawns in scenario 12
--scenario 6 ToDo: Die ganze Szenari file mal ordnen. Alle events sind wild durcheinander. Ein bisschen Struktur wäre schön. Ist so wie es jetzt ist sehr schwer zu lesen. Ganz schwer da was zu finden.
+-scenario 6 ToDo: Die ganze Szenari file mal ordnen. Alle events sind wild
+durcheinander. Ein bisschen Struktur wŠre schšn. Ist so wie es jetzt ist sehr
+schwer zu lesen. Ganz schwer da was zu finden.
+English via Google Translate:
+"Arrange the whole scenario file. All events are wildly mixed up. A little
+structure would be nice. It's very difficult to read as it is now. Very hard to
+find anything there."
 
 -------------------------------------------------------------------------------
 0.1.9.5
