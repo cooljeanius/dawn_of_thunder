@@ -81,6 +81,7 @@ Tehlmar:
 8. Introduced; disappears (traitor?)
 Thordrul (Dwarvish Arcanister):
 10. Introduced, joins player temporarily
+11. Leaves party (still alive)
 Thindromli (Dwarvish Smith):
 10. Introduced, joins player as hero
 Gladrunri (Dwarvish Runesmith):
