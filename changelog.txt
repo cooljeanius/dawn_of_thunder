@@ -35,8 +35,6 @@ scenario 5:
 scenario 6:
 - non-elf message reformulating (start)
 - first peasant message
-- bewitched my Eyes --> bewitched my eyes
-- spits, --> spits
 -improve "peasantish accent"
 
 scenario 7:
@@ -45,11 +43,10 @@ scenario 7:
 -make fight hard. boss pushback + wosespawn ability
 
 scenario 8:
--"guys, kill them" --> something better
--more castle space + some lvl 3 units to main orc
+-manage lvl 3 units of main orc better
 
 scenario 12:
--make harder
+-make more interesting and less of a slog
 
 -scenario 14:
 -adjust difficulty according to advancements?
@@ -63,12 +60,26 @@ Chapter names:
 	15_Wild_Steppe
 	16_The_Tower
 	17_Jotha
-	18_IlluvËn
-	19
+	18_Illuvèn
+	19_Reinforcing_the_Kalian
 	20
 	21
 4. Banishing the Dark
+	22
+	23
+	24
+	25
+	26
+	27
+	28
 5. Curtain Fall
+	29
+	30
+	31
+	32
+	33
+	34
+	35
 
 -scenario 5 wml optimieren
 -music files redo
