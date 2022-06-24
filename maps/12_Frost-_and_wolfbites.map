@@ -1,17 +1,14 @@
-border_size=1
-usage=map
-
 Ms, Gg, Ms, Gg, Ms^Xm, Gg, Ms^Xm, Gg, Ms^Xm, Gg, Ms^Xm, Gg, Ms^Xm, Gg, Ms^Xm, Gg, Ms^Xm, Gg, Ms^Xm, Gg, Ms, Gg, Ms^Xm, Gg, Ms^Xm, Gg, Ms^Xm, Gg, Ms^Xm, Gg, Ms^Xm, Gg, Ms^Xm, Gg, Ms^Xm, Gg, Ms^Xm, Gg, Ms^Xm, Gg, Ms^Xm, Ai, Ai, Gg, Ms^Xm, Gg
 Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms, Ms^Xm, Ms, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ai, Ai, Ms^Xm, Ms^Xm, Ms^Xm
 Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Aa^Vha, Ms, Aa, Ms, Ms, Ms, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ai, Ai, Ms, Ms, Ms
 Ha, Ms, Ha, Ms, Ha, Ms, Ha, Ha, Ha, Aa, Aa, Aa, Ha, Ms, Ha, Ms, Aa^Fpa, Ms, Cha, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Aa^Fpa, Ms, Aa^Fpa, Ms, Aa^Fpa, Ms, Ms, Ms, Ms, Ms, Ha, Ha, Ha, Ha, Ha, Ms, Wo, Wo, Xu, Xu, Xu, Xu
 Ha, Ha, Aa, Aa, Aa, Ha, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Ms, Aa^Vha, Ha, Ha, Cha, 2 Kha, Ms, Ms^Xm, Ms^Xm, Ms, Ha, Ha, Aa^Fda, Aa^Fma, Aa^Fpa, Aa^Fma, Aa^Fma, Aa, Ms, Aa, Ms, Ms, Ms, Aa^Vha, Ms, Ai, Ww, Xu, Xu, Xu, Xu, Uu^Vud, Xu
-Aa, Aa, Aa, Aa, Aa, Aa, Rrc, Aa, Rrc, Aa, Rrc, Aa, Aa, Aa, Aa, Aa, Ha, Ms, Cha, Ms, Ms^Xm, Ms, Ha, Ha^Vhha, Aa, Aa^Fma, Aa, Aa^Fda, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Ai, Ha, Cud, Xu, Uu, Uu^Ecf, Uu, Uu
-Aa, Aa, Rrc, Rrc, Ha, Ha, Ha, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Rrc, Aa, Aa, Ha, Ms, Ms^Xm, Ms, Ms, Ha, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Ha, Aa, Rrc, Aa, Aa, Rrc, Aa, Aa, Ww^Bw\r, Aa, Uu, Uu^Ecf, Ce, Ce, Ce, Uu
-Aa, Aa, Aa, Aa, Ha, Ms, Ha, Aa, Aa, Aa, Ms, Aa, Aa, Aa, Aa, Aa, Aa, Aa^Fpa, Ms^Xm, Ms^Xm, Ms, Ha, Aa, Aa, Aa, Rrc, Aa, Rrc, Aa, Ha, Ha, Aa, Aa, Aa, Aa, Aa, Rrc, Ww^Bw/r, Aa, Rrc, Uu, Uu, Ce, 1 Ke, Ce, Uu
-Aa, Aa, Aa, Aa, Aa^Fpa, Ha, Aa, Aa^Fpa, Aa^Fpa, Aa, Ha, Aa^Vha, Ha, Aa, Aa, Aa, Aa, Ha, Ha, Ms^Xm, Ms, Aa, Rrc, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Ai, Ai, Ai, Aa, Cud, Uu^Ecf, Uu, Ce, Uu, Uu
-Ms, Ha, Ha, Aa, Ha, Aa^Fpa, Aa, Aa, Ha, Ha, Ha, Ha, Ha, Ha, Aa, Rrc, Ha, Ha, Rrc, Ms, Aa, Aa, Aa, Aa, Aa^Fma, Aa^Fma, Ha, Aa^Vla, Ha, Ms, Ha, Aa, Ha, Aa, Ha, Ms, Ai, Ai, Ai, Ai, Xu, Xu, Xu, Uu^Ecf, Uu^Vud, Uu
-Ms, Ms, Ms, Ha, Ms, Aa, Ha, Ha, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Aa, Aa, Aa, Ms, Ha, Rrc, Ha, Aa, Aa^Fma, Aa^Fpa, Aa^Fpa, Ms, Ha, Ms, Ha, Ms, Ms, Ms, Ha, Ms, Ha, Ha, Ai, Ms, Ha, Ms, Xu, Xu, Xu, Xu, Xu
+Aa, Aa, Aa, Aa, Aa, Aa, Rra, Aa, Rra, Aa, Rra, Aa, Aa, Aa, Aa, Aa, Ha, Ms, Cha, Ms, Ms^Xm, Ms, Ha, Ha^Vhha, Aa, Aa^Fma, Aa, Aa^Fda, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Ai, Ha, Cud, Xu, Uu, Uu^Ecf, Uu, Uu
+Aa, Aa, Rra, Rra, Ha, Ha, Ha, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Rra, Aa, Aa, Ha, Ms, Ms^Xm, Ms, Ms, Ha, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Ha, Aa, Rra, Aa, Aa, Rra, Aa, Aa, Ww^Bw\r, Aa, Uu, Uu^Ecf, Ce, Ce, Ce, Uu
+Aa, Aa, Aa, Aa, Ha, Ms, Ha, Aa, Aa, Aa, Ms, Aa, Aa, Aa, Aa, Aa, Aa, Aa^Fpa, Ms^Xm, Ms^Xm, Ms, Ha, Aa, Aa, Aa, Rra, Aa, Rra, Aa, Ha, Ha, Aa, Aa, Aa, Aa, Aa, Rra, Ww^Bw/r, Aa, Rra, Uu, Uu, Ce, 1 Ke, Ce, Uu
+Aa, Aa, Aa, Aa, Aa^Fpa, Ha, Aa, Aa^Fpa, Aa^Fpa, Aa, Ha, Aa^Vha, Ha, Aa, Aa, Aa, Aa, Ha, Ha, Ms^Xm, Ms, Aa, Rra, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Ai, Ai, Ai, Aa, Cud, Uu^Ecf, Uu, Ce, Uu, Uu
+Ms, Ha, Ha, Aa, Ha, Aa^Fpa, Aa, Aa, Ha, Ha, Ha, Ha, Ha, Ha, Aa, Rra, Ha, Ha, Rra, Ms, Aa, Aa, Aa, Aa, Aa^Fma, Aa^Fma, Ha, Aa^Vla, Ha, Ms, Ha, Aa, Ha, Aa, Ha, Ms, Ai, Ai, Ai, Ai, Xu, Xu, Xu, Uu^Ecf, Uu^Vud, Uu
+Ms, Ms, Ms, Ha, Ms, Aa, Ha, Ha, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Aa, Aa, Aa, Ms, Ha, Rra, Ha, Aa, Aa^Fma, Aa^Fpa, Aa^Fpa, Ms, Ha, Ms, Ha, Ms, Ms, Ms, Ha, Ms, Ha, Ha, Ai, Ms, Ha, Ms, Xu, Xu, Xu, Xu, Xu
 Ms, Ms, Ms, Ms, Ms, Ha, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Ha, Ha, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ha^Vhha, Ms, Ms, Ms, Ms, Ms, Ms, Xu, Ms^Xm, Xu
 Ms^Xm, Ms, Ms^Xm, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Aa, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms, Ms^Xm, Ms^Xm
 Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms, Ms^Xm, Ms, Ms^Xm, Ms, Ms^Xm, Ms, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms, Ms^Xm, Ms, Ms^Xm, Ms, Ms^Xm, Ms, Ms^Xm, Ms, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm, Ms^Xm
