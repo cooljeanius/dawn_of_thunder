@@ -93,6 +93,11 @@ structure would be nice. It's very difficult to read as it is now. Very hard to
 find anything there."
 
 -------------------------------------------------------------------------------
+0.2.0
+general:
+-ported to BfW 1.16
+
+-------------------------------------------------------------------------------
 0.1.9.5
 general:
 -roc should be recruitable now
