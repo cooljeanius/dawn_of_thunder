@@ -96,6 +96,92 @@ find anything there."
 0.2.0
 general:
 -ported to BfW 1.16
+-added a README
+-ran WML maintenance tools (many times)
+-spellchecking and copyediting
+-generate a potfile for translators
+-hosted on GitHub now, so you can check the full commit history there
+
+scenario 1:
+-use {SCENARIO_MUSIC} macros properly to avoid invalid WML warnings
+-give elves more favorable terrain
+
+scenario 2:
+-fix music
+-make easier
+-remove unreachable village from map border
+
+scenario 3:
+-add music
+-fix Limwen death event
+
+scenario 4:
+-fix music
+
+scenario 5:
+-fix directions units are facing
+-add Naga Dirkfangs
+
+scenario 6:
+-give player starting villages
+-make easier (hints on EASY, traits on EASY, slow things if EASY)
+
+scenario 7:
+-tune allied AI
+-fix cutscene so enemy woses aren't invisible
+
+scenario 8:
+-tune allied AI
+-give allied leaders unique recruits
+-add more allied leaders, so that they use the outposts
+-give enemies some (limited) lvl3 recruits
+-scroll around more in cutscenes
+-tweak musical cues
+-additional dialogue
+
+scenario 9:
+-add music
+-make easier
+-modify enemy AI
+-add some additional moveto events
+-modify map to make bridge over void more noticeable against its background
+
+scenario 10:
+-add music
+-make easier (nerf enemies, increase bottleneck to slow down enemy, etc.)
+-give traits to allied dwarves
+
+scenario 11:
+-add music
+
+scenario 12:
+-make freezing less annoying
+-add music
+-nerf ice ghosts
+-use new snowy cobbles terrain
+-have side for Rocs actually show up
+
+scenario 13:
+-mess around with audio effects
+
+scenario 15:
+-make easier (nerf enemies, improve player's starting base, etc.)
+-additional enemy recruits
+
+scenario 16:
+-make easier
+
+scenario 17:
+-reduce crab spawn locations on EASY
+-nerf enemy crabs in general
+-add additional units
+
+scenario 18:
+-make easier
+-add a time schedule
+-make sure portal stops spawning ghosts when closed
+-give a water trail for aquatic units
+-avoid defeat on killing Duron Bleil
 
 -------------------------------------------------------------------------------
 0.1.9.5
