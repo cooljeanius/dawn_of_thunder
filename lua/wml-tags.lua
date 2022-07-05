@@ -2,7 +2,7 @@ wml_actions = wesnoth.wml_actions
 helper = wesnoth.require 'lua/helper.lua'
 
 function alpha_print(text, size, alpha)
-	local c = helper.round(255 * alpha)
+	local c = mathx.round(255 * alpha)
 
 	if (wesnoth.game_config.debug) and (c < 0) then
 		wesnoth.message(string.format("alpha %0.1f, step %d", alpha ,c))
@@ -15,7 +15,7 @@ function alpha_print(text, size, alpha)
 		duration = 1000
 	})
 
-	wesnoth.delay(20)
+	wesnoth.interface.delay(20)
 
 	wml_actions.redraw({})
 end
@@ -44,13 +44,13 @@ function wml_actions.interim_text(cfg)
 		alpha_print(text, 20, alpha)
 	end
 
-	wesnoth.delay(duration)
+	wesnoth.interface.delay(duration)
 
 	for alpha = 1.0, 0.0, -0.1 do
 		alpha_print(text, 20, alpha)
 	end
 
-	wesnoth.delay(750)
+	wesnoth.interface.delay(750)
 end
 
 function wml_actions.clear_print()
@@ -59,7 +59,7 @@ function wml_actions.clear_print()
 		duration = 1
 	})
 	
-	wesnoth.delay(20)
+	wesnoth.interface.delay(20)
 
 	wml_actions.redraw({})
 end
