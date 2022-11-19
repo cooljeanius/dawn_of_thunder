@@ -1,13 +1,12 @@
 todo before next release:
--update the first forum post
--peasant arrival
--elyser unit graphics for fiannon
--redo description goblin cutthroat
--Naia's resistance amla gives 15% instead of 25% (Maybe fiannons as well?)
--adjust fiannon's description
--Naia's teleport is still manly
--Thindromli's presentage message is wrong. Only amlas, no lvl up
--lycantropy giving false amount of hp
+-peasant arrival(?)
+-elyser(?) unit graphics for Fiannon
+-redo description for Goblin Cutthroat
+-Naia's resistance amla gives 15% instead of 25% (Maybe Fiannon's as well?)
+-adjust Fiannon's description
+-Naia's teleport is still manly(?)
+-Thindromli's presentage message is wrong. Only AMLAs, no lvl up
+-lycanthropy giving false amount of HP
 -turtles message is far too late
 -DOT abbreviation for savefiles?
 -Egoist is described with '...and thus needs twice as much time to level up. +70%XP to advance.' which mean the unit needs (to be exact) 1.7 times as much. Or 'almost' twice as much.
@@ -21,8 +20,8 @@ scenario 1:
 -event missing name field -error
 
 scenario 2:
--terrain changes for naia's arrival
--reduce tomato-ness of Liraks appearing minions upon his death
+-terrain changes for Naia's arrival
+-reduce tomato-ness of Lirak's appearing minions upon his death
 
 scenario 4: 
 -[event] is missing name field
@@ -33,14 +32,14 @@ scenario 5:
 -remove naga going away
 
 scenario 6:
-- non-elf message reformulating (start)
-- first peasant message
+-non-elf message reformulating (start)
+-first peasant message
 -improve "peasantish accent"
 
 scenario 7:
 -[item] visible through shroud
 -redo ending dialogue
--make fight hard. boss pushback + wosespawn ability
+-make fight hard(er). Boss pushback + wosespawn ability
 
 scenario 8:
 -manage lvl 3 units of main orc better
@@ -53,7 +52,7 @@ scenario 12:
 
 Scenario 17:
 -only number left message doesn't work
--last of Smilvolf's message is overdose when Lirak's the last enemy
+-last of Smilvolf's message is overdose(?) when Lirak's the last enemy
 
 Chapter names:
 3. Reconquest
