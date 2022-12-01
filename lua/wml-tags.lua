@@ -50,7 +50,7 @@ function wml_actions.interim_text(cfg)
 		alpha_print(text, 20, alpha)
 	end
 
-	wesnoth.interface.delay(640)
+	wesnoth.interface.delay(310)
 end
 
 function wml_actions.clear_print()
