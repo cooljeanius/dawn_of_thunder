@@ -2,10 +2,10 @@ todo before next release:
 -peasant arrival(?)
 -elyser(?) unit graphics for Fiannon
 -redo description for Goblin Cutthroat
--Naia's resistance amla gives 15% instead of 25% (Maybe Fiannon's as well?)
--adjust Fiannon's description
+-Naia's resistance AMLA gives 15% instead of 25% (Maybe Fiannon's as well?)
+-adjust Fiannon's description (how?)
 -Naia's teleport is still manly(?)
--Thindromli's presentage message is wrong. Only AMLAs, no lvl up
+-Thindromli's presentage(?) message is wrong. Only AMLAs, no lvl up
 -lycanthropy giving false amount of HP
 -turtles message is far too late
 -DOT abbreviation for savefiles?
