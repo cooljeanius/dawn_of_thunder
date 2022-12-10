@@ -91,6 +91,76 @@ English via Google Translate:
 structure would be nice. It's very difficult to read as it is now. Very hard to
 find anything there."
 
+0.2.2
+-------------------------------------------------------------------------------
+general:
+-stuff
+-update textdomains
+-copyediting
+-a bit of SPECIAL_NOTES removal
+-other stuff
+
+scenario 1:
+-scatter images around the map
+-misc. tweaks
+
+scenario 2:
+-Blessing of Eloh may now be obtained by multiple units
+-misc. tweaks
+
+scenario 3:
+-misc. tweaks
+
+scenario 4:
+-misc. tweaks
+
+scenario 5:
+-try increasing hunter survivability
+
+scenario 6:
+-fix bug that allowed skipping the finding of the woodchoppers
+
+scenario 7:
+-misc. tweaks
+
+scenario 8:
+-not much
+
+scenario 9:
+-likewise
+
+scenario 10:
+-rename maskfile that gets applied
+
+scenario 12:
+-make Rocs less annoying
+-give a new Dunefolk Falconer in one of the villages for better visibility
+-recalling dwarves is now cheaper
+
+scenario 13:
+-not much
+
+scenario 14:
+-rename maskfile that gets applied
+
+scenario 15:
+-misc. tweaks
+
+scenario 16:
+-not much
+
+scenario 17:
+-add music
+-rebalance
+-tweak AI of both allies and enemies
+-fix bug where remaining victory conditions would be blank
+-give IDs to events
+-misc. tweaks
+
+scenario 18:
+-add music
+-debugging of victory conditions
+
 -------------------------------------------------------------------------------
 0.2.1
 general:
