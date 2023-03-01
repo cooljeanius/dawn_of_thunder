@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-12-10 10:36 UTC\n"
+"POT-Creation-Date: 2023-03-01 16:17 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,9 +24,9 @@ msgstr ""
 #: dawn_of_thunder/_main.cfg:15
 msgid ""
 "Follow Fiannon on a quest that will lead him farer than any elf has ever been.\n"
-"<span color='#808080'><small>Intermediate campaign, unfinished 17 of ??? scenarios, 2 dialogue only.\n"
+"<span color='#808080'><small>Intermediate campaign, unfinished 18 of ??? scenarios, 2 dialogue only.\n"
 "visit the forum thread! r.wesnoth.org/t39512\n"
-"version: 0.2.1</small></span>"
+"version: 0.2.3</small></span>"
 msgstr ""
 
 #. [campaign]: id=dawn_of_thunder
@@ -755,7 +755,7 @@ msgstr ""
 
 #. [object]: id=blessing_of_Eloh
 #: dawn_of_thunder/scenarios/02_rescue.cfg:1061
-msgid "Only elves who haven't already been blessed are eligible for blessing."
+msgid "Only elves (specifically, ones who haven't already been blessed) are eligible for blessing."
 msgstr ""
 
 #. [message]: speaker=narrator
@@ -3986,42 +3986,42 @@ msgid "As a gesture of good will, the dwarves of Darwaeton Hold will help pay fo
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:433
+#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:434
 msgid "Hello, are you the traveler training a falcon that the guards of Darwaeton Hold told us about?"
 msgstr ""
 
 #. [message]: speaker=traveling_scout
-#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:437
+#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:438
 msgid "Possibly; who wants to know?"
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:441
+#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:443
 msgid "I am Fiannon; my companions and I are traveling to The Vast Peak in search of the Northguards. Would you care to join us? We could use an extra scout."
 msgstr ""
 
 #. [message]: speaker=traveling_scout
-#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:445
+#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:447
 msgid "Ah, I was on my way to seek the Northguards myself! I heard that they are good with animals, so I was going to seek their assistance in training my falcon. All right, I'll join; I could use some protection from some of the wildlife in this area, anyways."
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:462
+#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:464
 msgid "Thank you! Now, onwards to The Vast Peak!"
 msgstr ""
 
 #. [message]: speaker=mammoth
-#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:488
+#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:490
 msgid "<span size='large'>*trumpets*</span>"
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:492
+#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:494
 msgid "Uhhhh... that one looks big. And dangerous."
 msgstr ""
 
 #. [message]: speaker=Wyrm
-#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:554
+#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:556
 msgid ""
 "Did you guyssss just ssssslay,\n"
 "Whom I have chosssssen asssss my prey?\n"
@@ -4030,17 +4030,17 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Alasar
-#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:567
+#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:569
 msgid "Really? A rhyming dragon?"
 msgstr ""
 
 #. [message]: speaker=Thindromli
-#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:571
+#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:573
 msgid "It's a Wyrm actually, similar to dragons in many aspects but not quite as dangerous."
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:644
+#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:646
 msgid "Now where are those so-called Northguards?"
 msgstr ""
 

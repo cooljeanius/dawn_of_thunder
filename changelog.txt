@@ -91,6 +91,12 @@ English via Google Translate:
 structure would be nice. It's very difficult to read as it is now. Very hard to
 find anything there."
 
+0.2.3
+-------------------------------------------------------------------------------
+general:
+-new falconer portrait from ThroneGame/Kordov
+-compress images by running them through ImageOptim
+
 0.2.2
 -------------------------------------------------------------------------------
 general:
