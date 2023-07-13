@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-07-09 05:49 UTC\n"
+"POT-Creation-Date: 2023-07-13 03:38 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1325,7 +1325,7 @@ msgstr ""
 
 #. [message]: speaker=Silam
 #: dawn_of_thunder/scenarios/04_royal_court.cfg:539
-msgid "Yes, Sir! I will not deceive you, Sir!"
+msgid "Yes, Sir! I will not let you down, Sir!"
 msgstr ""
 
 #. [message]: speaker=Esyae
@@ -1340,7 +1340,7 @@ msgstr ""
 
 #. [part]
 #: dawn_of_thunder/scenarios/05_lake_aelin.cfg:23
-msgid "As soon as Fiannon accepted the High Lord's request, he got his seal. But the seal wasn't a ring, nor was it some kind of parchment or similar. Instead, a big emblem appeared on Fiannon's shoulder. He tried to rub it away, but it was persistent and didn't go away."
+msgid "As soon as Fiannon accepted the High Lord's request, he received his seal. But the seal wasn't a ring, nor was it some kind of parchment or similar. Instead, a big emblem appeared on Fiannon's shoulder. He tried to rub it away, but it was persistent and didn't go away."
 msgstr ""
 
 #. [part]
@@ -1475,7 +1475,7 @@ msgstr ""
 
 #. [message]: speaker=Fiannon
 #: dawn_of_thunder/scenarios/05_lake_aelin.cfg:490
-msgid "Look, this Outpost is being attacked!"
+msgid "Look, this Outpost is under attack!"
 msgstr ""
 
 #. [message]: speaker=elf_leader
@@ -1495,7 +1495,7 @@ msgstr ""
 
 #. [message]: speaker=elf_leader
 #: dawn_of_thunder/scenarios/05_lake_aelin.cfg:506
-msgid "Quite bad. The Nagas have always been a threat in this region, but since they allied with the Orcs it has become far worse. Last moon they attacked us together, and since then we are under a siege, unable to call for reinforcements."
+msgid "Quite bad. The Nagas have always been a threat in this region, but since they allied with the Orcs it has become far worse. Last moon they attacked us together, and since then we have been under a siege, unable to call for reinforcements."
 msgstr ""
 
 #. [message]: speaker=elf_leader
@@ -2085,7 +2085,7 @@ msgstr ""
 
 #. [message]: speaker=Raief
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1253
-msgid "Damn Treehugger! I knew we should have never allied with those treehuggers! Until now, we had no proof, that they are the one's who are always harassing us from the forest. Burning our crops, killing our cattle and destroying our bridges! Sure, as long as nobody saw them, I couldn't do anything, the king wouldn't have listened. But now they have failed to kill all witnesses! And they are here in my reach! I won't let them escape and the king will reward me greatly for clearing the plague that has been bothering Aldril since a few month! Guards! Catch those beardless monsters!"
+msgid "Damn Treehugger! I knew we should have never allied with those treehuggers! Until now, we had no proof, that they are the one's who are always harassing us from the forest. Burning our crops, killing our cattle and destroying our bridges! Sure, as long as nobody saw them, I couldn't do anything, the king wouldn't have listened. But now they have failed to kill all witnesses! And they are here in my reach! I won't let them escape, and the king will reward me greatly for clearing the plague that has been bothering Aldril for a few months now! Guards! Catch those beardless monsters!"
 msgstr ""
 
 #. [message]: speaker=Raief
@@ -2396,7 +2396,7 @@ msgstr ""
 
 #. [part]
 #: dawn_of_thunder/scenarios/07_deep_forest.cfg:25
-msgid "Sometimes they would see strange creatures in the distance, glancing at them with their creepy eyes and fleeing when they were discovered. This forest was definitely not natural any more."
+msgid "Sometimes they would see strange creatures in the distance, glancing at them with their creepy eyes and fleeing when they were discovered. This forest was definitely not natural anymore."
 msgstr ""
 
 #. [objective]: condition=win
@@ -2412,8 +2412,7 @@ msgstr ""
 
 #. [note]
 #: dawn_of_thunder/scenarios/07_deep_forest.cfg:193
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:961
-msgid "Fiannon and his allies are hurrying, so their starting keeps will be dismantled after two turns."
+msgid "Fiannon and his allies are in a hurry, so their starting keeps will be dismantled after two turns."
 msgstr ""
 
 #. [message]: speaker=Silam
@@ -2572,12 +2571,17 @@ msgstr ""
 
 #. [message]: speaker=Silam
 #: dawn_of_thunder/scenarios/07_deep_forest.cfg:931
-msgid "This thing is called Oenoch and we need to destroy him! There's no other possibility! Once a wose is corrupted, he will never become normal again! If he dies, the other woses will get back to their endless sleep"
+msgid "This thing is called Oenoch and we need to destroy him! There's no other possibility! Once a wose is corrupted, he will never become normal again! If he dies, the other woses will go back to their endless sleep."
 msgstr ""
 
 #. [objective]: condition=win
 #: dawn_of_thunder/scenarios/07_deep_forest.cfg:937
 msgid "Destroy Oenoch the Giant"
+msgstr ""
+
+#. [note]
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:961
+msgid "Fiannon and his allies are hurrying, so their starting keeps will be dismantled after two turns."
 msgstr ""
 
 #. [message]: speaker=wose_speaker
@@ -6464,7 +6468,7 @@ msgid ""
 "\n"
 "Such encounters are all that is known of what are presumably the most ancient of woses.\n"
 "\n"
-"When these woses become corrupted, they become stronger, faster, and also more aggresive. On the other side their bound to nature becomes weaker, they only regenerate at certain times of the day and their life force is weaker too."
+"When these woses become corrupted, they become stronger, faster, and also more aggressive. On the other hand, their bond with nature becomes weaker, they only regenerate at certain times of the day, and their life force is weaker, too."
 msgstr ""
 
 #. [attack]: type=impact
