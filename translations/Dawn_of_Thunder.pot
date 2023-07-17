@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-07-16 07:39 UTC\n"
+"POT-Creation-Date: 2023-07-17 02:16 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -6065,7 +6065,7 @@ msgstr ""
 
 #. [unit_type]: id=Grey Mage, race=human
 #: dawn_of_thunder/units/humans/GreyMage.cfg:80
-msgid "These mages have chosen by the Guild of the Silver Mages. Although they can't really teleport yet, they are making great progress into that direction, and given time, they will be able to. They are also more agile than their comrades from other guilds."
+msgid "These mages have been chosen by the Guild of the Silver Mages for special training. Although they can't really teleport yet, they are making great progress into that direction, and given time, they will eventually be able to do so. They are also more agile than their comrades from other guilds."
 msgstr ""
 
 #. [unit_type]: id=Silver Mage of the Moon, race=human
