@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-07-30 14:19 UTC\n"
+"POT-Creation-Date: 2023-07-30 17:54 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -5725,7 +5725,7 @@ msgstr ""
 #: dawn_of_thunder/units/elves/Hunter.cfg:39
 #: dawn_of_thunder/units/elves/Prowler.cfg:44
 #: dawn_of_thunder/units/elves/Trapper.cfg:40
-#: dawn_of_thunder/units/naga/Naga_Marksman.cfg:26
+#: dawn_of_thunder/units/naga/Naga_Marksman.cfg:27
 msgid "sword"
 msgstr ""
 
@@ -6259,12 +6259,13 @@ msgid "Giant Ant"
 msgstr ""
 
 #. [unit_type]: id=Giant Ant, race=monster
-#: dawn_of_thunder/units/monsters/Ant.cfg:20
+#. same description as the mainline Giant Ant:
+#: dawn_of_thunder/units/monsters/Ant.cfg:21
 msgid "Giant Ants are common in almost any environment, from caverns deep under the earth to the tops of tall mountains. Though normally not hostile, they can bite at close range."
 msgstr ""
 
 #. [attack]: type=blade
-#: dawn_of_thunder/units/monsters/Ant.cfg:24
+#: dawn_of_thunder/units/monsters/Ant.cfg:25
 #: dawn_of_thunder/units/monsters/Black_Widow.cfg:28
 #: dawn_of_thunder/units/monsters/Northern_Wolf.cfg:27
 #: dawn_of_thunder/units/monsters/Wyrm.cfg:70
@@ -6277,13 +6278,14 @@ msgid "Baby Sea Turtle"
 msgstr ""
 
 #. [unit_type]: id=Baby Sea Turtle, race=monster
-#: dawn_of_thunder/units/monsters/Baby_Sea_Turtle.cfg:21
-msgid "The bony shell of these turtles are comparable in fortitude to the guardsmen of ancient times. The turtles will bite antagonizing forces in close range, and can fire jets of water at enemies when engaging in long-range combat."
+#. compare with turtles in Ageless Era:
+#: dawn_of_thunder/units/monsters/Baby_Sea_Turtle.cfg:22
+msgid "The bony shell of these turtles are comparable in fortitude to the guardsmen of ancient times. The turtles will bite antagonizing forces at close range, and can fire jets of water at enemies when engaging in long-range combat."
 msgstr ""
 
 #. [attack]: type=pierce
 #. [attack]: type=blade
-#: dawn_of_thunder/units/monsters/Baby_Sea_Turtle.cfg:30
+#: dawn_of_thunder/units/monsters/Baby_Sea_Turtle.cfg:31
 #: dawn_of_thunder/units/monsters/Giant_Sea_Turtle.cfg:38
 #: dawn_of_thunder/units/monsters/Leviathan.cfg:39
 #: dawn_of_thunder/units/monsters/Sea_Turtle.cfg:35
@@ -6291,7 +6293,7 @@ msgid "jaws"
 msgstr ""
 
 #. [attack]: type=impact
-#: dawn_of_thunder/units/monsters/Baby_Sea_Turtle.cfg:40
+#: dawn_of_thunder/units/monsters/Baby_Sea_Turtle.cfg:41
 #: dawn_of_thunder/units/monsters/Giant_Sea_Turtle.cfg:48
 #: dawn_of_thunder/units/monsters/Sea_Turtle.cfg:45
 msgid "water jet"
@@ -6353,7 +6355,7 @@ msgstr ""
 
 #. [unit_type]: id=Giant Sea Turtle, race=monster
 #: dawn_of_thunder/units/monsters/Giant_Sea_Turtle.cfg:21
-msgid "A legend states that once, in the old days of Wesnoth, an island appeared out of nowhere off the coast of a certain wealthy baron. Intrigued, the baron deployed a fleet to investigate the appearing. Three moons later, the humans realized that the Island was getting no closer. When the boats accelerated, the Island turned around and attacked the boats. The one boat that managed to get back to the coast relayed his tale of a huge turtle, apparently millennia old and the size of an island."
+msgid "A legend states that once, in the old days of Wesnoth, an island appeared out of nowhere off the coast of a certain wealthy baron. Intrigued, the baron deployed a fleet to investigate the appearance. Three moons later, the humans realized that the island was getting no closer. When the boats accelerated, the island turned around and attacked the boats. The one boat that managed to get back to the coast relayed his tale of a huge turtle, apparently millennia old and the size of an island."
 msgstr ""
 
 #. [unit_type]: id=Leviathan, race=monster
@@ -6400,7 +6402,7 @@ msgstr ""
 
 #. [unit_type]: id=Mammoth_calf, race=monster
 #: dawn_of_thunder/units/monsters/Mammoth_small.cfg:20
-msgid "Young mammoths aren't nearly as strong and big as their elders, but they are already pretty dangerous. It is not advised to attack one of these, since their parents tend to be very protective."
+msgid "Young mammoths aren't nearly as strong and big as their elders, but they are already pretty dangerous. It is not advisable to attack one such young mammoth, since their parents tend to be very protective."
 msgstr ""
 
 #. [unit_type]: id=Northern wolf, race=wolf
@@ -6426,7 +6428,7 @@ msgstr ""
 
 #. [unit_type]: id=Overgrown Crab, race=monster
 #: dawn_of_thunder/units/monsters/Overgrown_Crab.cfg:21
-msgid "These crabs have begun to exceed the norm size of their cousins, and can move faster and faster than the regular crabs. Most Overgrown Crabs have been trained and used by the navy for long periods of time; through their tenure as beasts of war, they have been trained in the elegant and fine arts of slicing humans in half with sharp pincers. The water-launching capabilities of the crabs have also become more efficient due to experience."
+msgid "These crabs have begun to exceed the normal size of their cousins, and can move faster and farther than the regular crabs. Most Overgrown Crabs have been trained and used by the navy for long periods of time; through their tenure as beasts of war, they have been trained in the elegant and fine arts of slicing humans in half with sharp pincers. The water-launching capabilities of the crabs have also become more efficient due to experience."
 msgstr ""
 
 #. [unit_type]: id=RocBig, race=roc
@@ -6436,7 +6438,7 @@ msgstr ""
 
 #. [unit_type]: id=RocBig, race=roc
 #: dawn_of_thunder/units/monsters/Roc-big.cfg:19
-msgid "Sometimes, for unknown reasons, some Rocs get much bigger and stronger than normal. Those are the leaders of the Rocs."
+msgid "Sometimes, for unknown reasons, some Rocs get much bigger and stronger than normal. Such Rocs are also known as Thunderbirds, and are the leaders of the Rocs."
 msgstr ""
 
 #. [attack]: type=blade
@@ -6460,7 +6462,7 @@ msgstr ""
 
 #. [unit_type]: id=Roc, race=roc
 #: dawn_of_thunder/units/monsters/Roc-mid.cfg:19
-msgid "Rocs a big bird-like animals with an extraordinary intelligence. They are loosely related to the gryphons and very similar to those, being only slightly smaller than these. They still reach an impressive wingspan of 4 to 5 meters once they are mature. Rocs are a proud very race to the point of being arrogant sometimes."
+msgid "Rocs are big bird-like animals with an extraordinary intelligence. They are loosely related to the gryphons and very similar to those, being only slightly smaller than these. They still reach an impressive wingspan of 4 to 5 meters once they are mature. Rocs are a very proud race to the point of being arrogant sometimes."
 msgstr ""
 
 #. [unit_type]: id=RocSmall, race=roc
@@ -6470,7 +6472,7 @@ msgstr ""
 
 #. [unit_type]: id=RocSmall, race=roc
 #: dawn_of_thunder/units/monsters/Roc-small.cfg:18
-msgid "Rocs start hunting at the age of ten month. At this age, the Roc has not yet reached it's full growth. Thus, Young Rocs mostly hunt in groups, often lead by a mature Roc."
+msgid "Rocs start hunting at the age of ten month. At this age, the Roc has not yet reached its full growth. Thus, Young Rocs mostly hunt in groups, often led by a mature Roc."
 msgstr ""
 
 #. [unit_type]: id=Sea Turtle, race=monster
@@ -6480,7 +6482,7 @@ msgstr ""
 
 #. [unit_type]: id=Sea Turtle, race=monster
 #: dawn_of_thunder/units/monsters/Sea_Turtle.cfg:21
-msgid "These turtles, full grown and capable of decapitating a small human in one bite, have proven themselves in battle."
+msgid "These turtles, full-grown and capable of decapitating a small human in one bite, have proven themselves in battle."
 msgstr ""
 
 #. [unit_type]: id=Wyrm, race=monster
@@ -6501,7 +6503,7 @@ msgstr ""
 
 #. [attack]: type=pierce
 #: dawn_of_thunder/units/naga/Naga_Hunter.cfg:27
-#: dawn_of_thunder/units/naga/Naga_Marksman.cfg:35
+#: dawn_of_thunder/units/naga/Naga_Marksman.cfg:36
 msgid "bow"
 msgstr ""
 
@@ -6511,7 +6513,8 @@ msgid "Naga Marksman"
 msgstr ""
 
 #. [unit_type]: id=Naga Marksman, race=naga
-#: dawn_of_thunder/units/naga/Naga_Marksman.cfg:21
+#. FIXME: this description is a placeholder; TODO: complete it
+#: dawn_of_thunder/units/naga/Naga_Marksman.cfg:22
 msgid "This Naga unit is a marksman."
 msgstr ""
 
@@ -6522,7 +6525,7 @@ msgstr ""
 
 #. [unit_type]: id=Giant Troll, race=troll
 #: dawn_of_thunder/units/trolls/giant_troll.cfg:21
-msgid "Giant trolls are one of the tallest and strongest of trolls. Their mighty hammers are able to trigger earthquakes and their foot squash humans as they were rats."
+msgid "Giant Trolls are some of the tallest and strongest trolls. Their mighty hammers are able to trigger earthquakes, and their feet squash humans as if they were rats."
 msgstr ""
 
 #. [unit_type]: id=Elvish Ancestor, race=undead
@@ -6619,11 +6622,11 @@ msgstr ""
 #. [unit_type]: id=Dark Elder Wose, race=wose
 #: dawn_of_thunder/units/woses/dark-wose-elder.cfg:18
 msgid ""
-"Woses have been said to possess many shapes, all of them tree-like in form, and as they age, to increase in size. Tales tell of woses who resemble trees in this respect as well, towering over the creatures who walk beneath them. This is the greater part of why they are so rarely seen — standing in the slumber which they so often do, a wose of that stature appears to be nothing more than an oddly-shaped tree. Even a careless elf can sometimes be fooled.\n"
+"Woses have been said to possess many shapes, all of them tree-like in form, and as they age, they increase in size. Tales tell of woses who resemble trees in this respect as well, towering over the creatures who walk beneath them. This is the greater part of why they are so rarely seen — standing in the slumber which they so often do, a wose of that stature appears to be nothing more than an oddly-shaped tree. Even a careless elf can sometimes be fooled.\n"
 "\n"
 "Woses are not warriors by any means, but their great strength can easily be turned to violence, should someone manage to raise the ire of these creatures.  \n"
 "\n"
-"When these woses become corrupted, they become stronger, faster, and also more aggresive. On the other side their bound to nature becomes weaker, they only regenerate at certain times of the day and their life force is weaker too."
+"When these woses become corrupted, they become stronger, faster, and also more aggresive. On the other hand, their bond with nature becomes weaker, they only regenerate at certain times of the day, and their life force is weaker, too."
 msgstr ""
 
 #. [unit_type]: id=Dark Immemorial Wose, race=wose
@@ -6638,7 +6641,7 @@ msgid ""
 "\n"
 "Such encounters are all that is known of what are presumably the most ancient of woses.\n"
 "\n"
-"When these woses become corrupted, they become stronger, faster, and also more aggresive. On the other side their bound to nature becomes weaker, they only regenerate at certain times of the day and their life force is weaker too. \n"
+"When these woses become corrupted, they become stronger, faster, and also more aggresive. On the other hand, their bond with nature becomes weaker, they only regenerate at certain times of the day, and their life force is weaker, too. \n"
 "\n"
 "The mightiest woses are called Immemorial Woses, and seeing one of them corrupted is perhaps the most terrifying thing that might ever happen to you."
 msgstr ""
@@ -6660,7 +6663,7 @@ msgid ""
 "\n"
 "Woses are utterly unwarlike, but possess a great strength. They are, however, neither used to, nor quick at moving around.\n"
 "\n"
-"When these woses become corrupted, they become stronger, faster, and also more aggresive. On the other side their bound to nature becomes weaker, they only regenerate at certain times of the day and their life force is weaker too."
+"When these woses become corrupted, they become stronger, faster, and also more aggresive. On the other hand, their bond with nature becomes weaker, they only regenerate at certain times of the day, and their life force is weaker, too."
 msgstr ""
 
 #. [unstore_unit]
