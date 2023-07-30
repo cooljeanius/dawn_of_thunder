@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-07-28 01:48 UTC\n"
+"POT-Creation-Date: 2023-07-30 03:38 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -5609,7 +5609,8 @@ msgid "race^Elves"
 msgstr ""
 
 #. [race]: id=elf2
-#: dawn_of_thunder/units/elf2.cfg:11
+#. the mainline race description for the elves has diverged a bit since this was originally written; you might have to look back a couple of versions to find a matching translation:
+#: dawn_of_thunder/units/elf2.cfg:12
 msgid ""
 "Compared to humans, elves are somewhat taller, more agile but less sturdy. They have slightly pointy ears, pale skin and usually blond hair. Few differences between humans and elves are more pronounced than the Elves’ unusually long life — most, unless claimed by illness, accident or war, live a full two and a half centuries. While some elves possessing a high magical aptitude have been known to live an additional full century, most elves begin to grow physically frail at some point between 250 and 300 years of age and pass away rapidly (generally within a year or two) thereafter.\n"
 "\n"
@@ -5628,12 +5629,12 @@ msgid "Elvish Glavier"
 msgstr ""
 
 #. [unit_type]: id=Elvish Glavier, race=elf
-#: dawn_of_thunder/units/elves/ElvishGlavier.cfg:21
-msgid "These elves are the toughest of all elves. In addition they are also better armored. This makes them incredibly resistant to all kinds of damage. They are the guardians of the secrets of the elves."
+#: dawn_of_thunder/units/elves/ElvishGlavier.cfg:22
+msgid "Elvish Glaviers are the toughest of all elves. In addition, they are also better armored. This makes them incredibly resistant to all kinds of damage. They are the guardians of the secrets of the elves."
 msgstr ""
 
 #. [attack]: type=blade
-#: dawn_of_thunder/units/elves/ElvishGlavier.cfg:53
+#: dawn_of_thunder/units/elves/ElvishGlavier.cfg:54
 msgid "glaive"
 msgstr ""
 
@@ -5659,7 +5660,7 @@ msgstr ""
 
 #. [unit_type]: id=Elvish Pikeman, race=elf2
 #: dawn_of_thunder/units/elves/ElvishPikeman.cfg:27
-msgid "These elves were destined to become captains. However, instead of using the sword, they choose to fight with the pike. In addition, they are also better armored. Their appearance on the battlefield brings hope to their fellow elves."
+msgid "Elvish Pikemen were destined to become captains. However, instead of using the sword, they choose to fight with the pike. In addition, they are also better armored. Their appearance on the battlefield brings hope to their fellow elves."
 msgstr ""
 
 #. [attack]: type=pierce
@@ -5672,9 +5673,7 @@ msgid "Elvish Prisoner"
 msgstr ""
 
 #. [unit_type]: id=Elvish Prisoner
-#. [unit_type]: id=Elvish Prisoner Unarmed
 #: dawn_of_thunder/units/elves/ElvishPrisoner.cfg:25
-#: dawn_of_thunder/units/elves/ElvishPrisonerUnarmed.cfg:11
 msgid "These Elves have just been freed and are ready to fight for their lives. Although they are currently weak and only equipped with a shortsword, through rigorous training they might become masters with their weapon of choice."
 msgstr ""
 
@@ -5687,6 +5686,11 @@ msgstr ""
 #: dawn_of_thunder/units/elves/ElvishPrisoner.cfg:87
 #: dawn_of_thunder/units/elves/ElvishPrisonerUnarmed.cfg:16
 msgid "female^Elvish Prisoner"
+msgstr ""
+
+#. [unit_type]: id=Elvish Prisoner Unarmed
+#: dawn_of_thunder/units/elves/ElvishPrisonerUnarmed.cfg:11
+msgid "These Elves have just been freed and are ready to fight for their lives. Although they are currently weak and unarmed, through rigorous training they might become masters with their weapon of choice."
 msgstr ""
 
 #. [unit_type]: id=Elvish Storm Lord, race=elf
@@ -5711,16 +5715,16 @@ msgstr ""
 
 #. [unit_type]: id=Elvish Storm Lord, race=elf
 #: dawn_of_thunder/units/elves/ElvishStormLord.cfg:115
-msgid "These elves have mastered the lightnings which makes them terrible foes on the battlefield. Also they are quite adept with the sword. "
+msgid "Elvish Storm Lords have mastered the ways of lightning, which makes them terrifying foes on the battlefield. Also, they are quite adept with the sword. "
 msgstr ""
 
 #. [attack]: type=blade
 #: dawn_of_thunder/units/elves/ElvishStormLord.cfg:169
 #: dawn_of_thunder/units/elves/ElvishTempest.cfg:100
 #: dawn_of_thunder/units/elves/ElvishThunderer.cfg:97
-#: dawn_of_thunder/units/elves/Hunter.cfg:38
-#: dawn_of_thunder/units/elves/Prowler.cfg:43
-#: dawn_of_thunder/units/elves/Trapper.cfg:39
+#: dawn_of_thunder/units/elves/Hunter.cfg:39
+#: dawn_of_thunder/units/elves/Prowler.cfg:44
+#: dawn_of_thunder/units/elves/Trapper.cfg:40
 #: dawn_of_thunder/units/naga/Naga_Marksman.cfg:26
 msgid "sword"
 msgstr ""
@@ -5769,7 +5773,7 @@ msgstr ""
 
 #. [unit_type]: id=Elvish Thunderer, race=elf
 #: dawn_of_thunder/units/elves/ElvishThunderer.cfg:79
-msgid "Some elves are born with the rare talent to control the weather. These elves have a tight bound to nature, and fight the unnatural."
+msgid "Some elves are born with the rare talent to control the weather. These elves have a tight bond with nature, and fight the unnatural. Their predilection for storms causes them to be known as Thunderers."
 msgstr ""
 
 #. [unit_type]: id=Elvish Hunter, race=elf
@@ -5778,19 +5782,20 @@ msgid "Elvish Hunter"
 msgstr ""
 
 #. [unit_type]: id=Elvish Hunter, race=elf
-#: dawn_of_thunder/units/elves/Hunter.cfg:32
-msgid "The elvish militia is mainly composed of civilians who have dropped their bows in favor of entangling unwary opponents using their bolas and then finishing them off with their swords. They are trained to scour the woods, hills and mountains for prey and enemies."
+#. TODO: compare with description in IftU and see if anything needs to be changed:
+#: dawn_of_thunder/units/elves/Hunter.cfg:33
+msgid "The elvish militia is mainly composed of civilians who have dropped their bows in favor of entangling unwary opponents using their bolas, and then finishing them off with their swords. They are trained to scour the woods, hills, and mountains for prey and enemies."
 msgstr ""
 
 #. [attack]: type=impact
-#: dawn_of_thunder/units/elves/Hunter.cfg:47
-#: dawn_of_thunder/units/elves/Prowler.cfg:52
-#: dawn_of_thunder/units/elves/Trapper.cfg:48
+#: dawn_of_thunder/units/elves/Hunter.cfg:48
+#: dawn_of_thunder/units/elves/Prowler.cfg:53
+#: dawn_of_thunder/units/elves/Trapper.cfg:49
 msgid "bolas"
 msgstr ""
 
 #. [female]
-#: dawn_of_thunder/units/elves/Hunter.cfg:149
+#: dawn_of_thunder/units/elves/Hunter.cfg:150
 msgid "female^Elvish Hunter"
 msgstr ""
 
@@ -5800,7 +5805,8 @@ msgid "Elvish Prowler"
 msgstr ""
 
 #. [unit_type]: id=Elvish Prowler, race=elf
-#: dawn_of_thunder/units/elves/Prowler.cfg:36
+#. TODO: compare with IftU:
+#: dawn_of_thunder/units/elves/Prowler.cfg:37
 msgid ""
 "The best hunters learn to take advantage of their surroundings to attack unwary enemies by surprise. Camouflage is the most frightening ability of these masters of elusive strategies, as an unwary foe could be struck down by them with ease. It has been recorded that entire raiding parties have been decimated by Prowlers in a matter of a few minutes, or even seconds.\n"
 "\n"
@@ -5808,7 +5814,7 @@ msgid ""
 msgstr ""
 
 #. [female]
-#: dawn_of_thunder/units/elves/Prowler.cfg:131
+#: dawn_of_thunder/units/elves/Prowler.cfg:132
 msgid "female^Elvish Prowler"
 msgstr ""
 
@@ -5819,7 +5825,7 @@ msgstr ""
 
 #. [unit_type]: id=Elvish Spearman, race=elf2
 #: dawn_of_thunder/units/elves/Spearman.cfg:23
-msgid "TODO."
+msgid "Elvish Spearmen are elves trained in the art of fighting with spears."
 msgstr ""
 
 #. [attack]: type=pierce
@@ -5834,12 +5840,13 @@ msgid "Elvish Trapper"
 msgstr ""
 
 #. [unit_type]: id=Elvish Trapper, race=elf
-#: dawn_of_thunder/units/elves/Trapper.cfg:34
-msgid "Elvish Trappers have increased their expertise in patrolling and defending their bases, having learned the value of confusing their enemies and backstabbing them. These skirmishers have become more skilled with the short sword, having less need of using their bolas to beat their opponents."
+#. TODO: compare with IftU:
+#: dawn_of_thunder/units/elves/Trapper.cfg:35
+msgid "Elvish Trappers have increased their expertise in patrolling and defending their bases, having learned the value of confusing their enemies and backstabbing them. These skirmishers have become more skilled with the short sword, having less need for using their bolas to beat their opponents."
 msgstr ""
 
 #. [female]
-#: dawn_of_thunder/units/elves/Trapper.cfg:127
+#: dawn_of_thunder/units/elves/Trapper.cfg:121
 msgid "female^Elvish Trapper"
 msgstr ""
 
@@ -5859,7 +5866,8 @@ msgid "race^Faeries"
 msgstr ""
 
 #. [race]: id=fairy
-#: dawn_of_thunder/units/faeries.cfg:8
+#. "propitious" is kind of a rare/archaic way of saying "favorable" or "advantageous" or "auspicious":
+#: dawn_of_thunder/units/faeries.cfg:9
 msgid "Forests, caverns, mountains, and large bodies of water are propitious places to find many kinds of rare and mysterious creatures. Such environments are thus preferred by the remnants of the peoples said to antedate civilized life on Irdya, such as woses and merfolk, and the varied group of beings more commonly known as the true faeries."
 msgstr ""
 
@@ -5870,7 +5878,7 @@ msgstr ""
 
 #. [unit_type]: id=Autumn_faerie, race=fairy
 #: dawn_of_thunder/units/faeries/autumn-faerie.cfg:23
-msgid "Only the mightiest of all faeries become an autumn faerie one day. The autumn faerie has lived for millennia thanks to her faerie powers. She has seen things and witnessed that nobody else remembers and are only legends to others. Her old age has made the autumn faerie even weaker than before but strengthened her control over nature even more. The autumn faerie commands and nature obeys."
+msgid "Only the mightiest of all faeries become an autumn faerie one day. The autumn faerie has lived for millennia thanks to her faerie powers. She has seen and witnessed things that nobody else remembers and are only legends to others. Her old age has made the autumn faerie even weaker than before but strengthened her control over nature even more. The autumn faerie commands and nature obeys."
 msgstr ""
 
 #. [attack]: type=impact
@@ -5920,7 +5928,7 @@ msgstr ""
 
 #. [unit_type]: id=Fallen Sprite, race=fairy
 #: dawn_of_thunder/units/faeries/fallensprite.cfg:40
-msgid "Fallen sprites are mostly found in dark places, such as deep in the heart of a forest. They are formidable enemies who shouldn't be underestimated, even if they have the appearence of airy women."
+msgid "Fallen Sprites are mostly found in dark places, such as deep in the heart of a forest. They are formidable enemies who shouldn't be underestimated, even if they have the appearence of airy women."
 msgstr ""
 
 #. [unit_type]: id=Natures_avatar, race=fairy
@@ -5941,7 +5949,7 @@ msgstr ""
 #. [unit_type]: id=Goblin Cutthroat, race=wolf
 #: dawn_of_thunder/units/goblins/Cutthroat.cfg:20
 msgid ""
-"Goblin Cutthroats have mastered a very unusual weapon, the sickle, which is normally only used by poor peasants, who can't afford real weapons. The Goblin Cutthroats have developed a new technique of fighting from the back of a wolf. Similar to the human riders, they rush to their enemies very fast, and then use the impetus of their wolves, to harm their enemies very hard with their sickle, sometimes even cutting off entire limbs. As wolves are by far more agile than normal horses it allows them to strike more often.\n"
+"Goblin Cutthroats have mastered a very unusual weapon, the sickle, which is normally only used by poor peasants who can't afford real weapons. The Goblin Cutthroats have developed a new technique of fighting from the back of their wolves. Similar to the human riders, they rush at their enemies very quickly, and then use the impetus of their wolves to harm their enemies very hard with their sickle, sometimes even cutting off entire limbs. As wolves are by far more agile than normal horses, it allows them to strike more often.\n"
 "\n"
 "Their net has also changed in its use. Instead of slowing their enemies to flee, these formidable opponents slow their enemies to steal their gold. The Goblin Cutthroats cut the purse of their enemy. "
 msgstr ""
