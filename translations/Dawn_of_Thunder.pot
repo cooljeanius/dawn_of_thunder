@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-07-30 03:38 UTC\n"
+"POT-Creation-Date: 2023-07-30 14:19 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -5969,6 +5969,26 @@ msgstr ""
 msgid "net"
 msgstr ""
 
+#. [race]: id=human-northguard
+#: dawn_of_thunder/units/humans-northguard.cfg:6
+msgid "race^Northguard"
+msgstr ""
+
+#. [race]: id=human-northguard
+#: dawn_of_thunder/units/humans-northguard.cfg:7
+msgid "race+male^Northguard"
+msgstr ""
+
+#. [race]: id=human-northguard
+#: dawn_of_thunder/units/humans-northguard.cfg:8
+msgid "race^Northguards"
+msgstr ""
+
+#. [race]: id=human-northguard
+#: dawn_of_thunder/units/humans-northguard.cfg:9
+msgid "The Northguards are humans who guard the north."
+msgstr ""
+
 #. [unit_type]: id=Northguard Archer, race=human-northguard
 #: dawn_of_thunder/units/humans-northguard/Northguard_Archer.cfg:6
 msgid "Northguard Archer"
@@ -5976,7 +5996,7 @@ msgstr ""
 
 #. [unit_type]: id=Northguard Archer, race=human-northguard
 #: dawn_of_thunder/units/humans-northguard/Northguard_Archer.cfg:19
-msgid "Most northguards prefer fighting with a sword and honor the wolf as greatest predator. The Clan of the bloodrocs differs a bit from that. They praise the roc instead, the largest bird alive. And they seem to gain from it. Instead of the typical strength and wildness they gain an incredible eyesight from their animal totem. As such they prefer to fight with bows. That makes them irreplaceable in any northguard army."
+msgid "Most Northguards prefer fighting with a sword and honor the wolf as greatest predator. The Clan of the Bloodrocs differs a bit from that. They praise the roc instead, the largest bird alive. And they seem to gain from it. Instead of the typical strength and wildness, they gain an incredible eyesight from their animal totem. As such, they prefer to fight with bows. That makes them irreplaceable in any Northguard army."
 msgstr ""
 
 #. [attack]: type=pierce
@@ -5991,15 +6011,17 @@ msgstr ""
 
 #. [unit_type]: id=Northguard Braveheart, race=human-northguard
 #: dawn_of_thunder/units/humans-northguard/Northguard_Braveheart.cfg:19
-msgid "The Bravehearts are the natural born leaders of the Northguards. They distinguish themselves from other Northguards though their inner bond with the wolves, steady companions of the Northguards. They are also naturally gifted with the power of lycanthropy. Bravehearts still have a lot to learn but they have all the requirements to become great leaders to their people."
+msgid "The Bravehearts are the natural born leaders of the Northguards. They distinguish themselves from other Northguards through their inner bond with the wolves, steady companions of the Northguards. They are also naturally gifted with the power of lycanthropy. Bravehearts still have a lot to learn, but they have all the requirements to become great leaders to their people."
 msgstr ""
 
 #. [attack]: type=blade
 #: dawn_of_thunder/units/humans-northguard/Northguard_Braveheart.cfg:29
+#: dawn_of_thunder/units/humans-northguard/Northguard_Nightshaft.cfg:27
 #: dawn_of_thunder/units/humans-northguard/Northguard_Savageheart.cfg:29
+#: dawn_of_thunder/units/humans-northguard/Northguard_Silverbow.cfg:26
 #: dawn_of_thunder/units/humans-northguard/Northguard_Wildheart.cfg:29
 #: dawn_of_thunder/units/humans-northguard/Northguard_Wolfheart.cfg:29
-msgid "weapon^ sword"
+msgid "weapon^sword"
 msgstr ""
 
 #. [unit_type]: id=Northguard Deathblade, race=human-northguard
@@ -6009,7 +6031,7 @@ msgstr ""
 
 #. [unit_type]: id=Northguard Deathblade, race=human-northguard
 #: dawn_of_thunder/units/humans-northguard/Northguard_Deathblade.cfg:28
-msgid "Deathblades are the most experienced northguard warriors. They learned that protection is sometimes more important than attack speed and have thus ditched the second sword for a shield. They are still deadlier than any warrior."
+msgid "Deathblades are the most experienced Northguard warriors. They learned that protection is sometimes more important than attack speed, and have thus ditched the second sword for a shield. They are still deadlier than any warrior."
 msgstr ""
 
 #. [attack]: type=blade
@@ -6024,7 +6046,7 @@ msgstr ""
 
 #. [unit_type]: id=Northguard Fighter, race=human-northguard
 #: dawn_of_thunder/units/humans-northguard/Northguard_Fighter.cfg:19
-msgid "Fighters are the backbone of the northguard army. They are equipped with a short sword and they know how to use it. Northguard Fighters are ruthless and are said to be terrible enemies since they will sack any settlements they come across."
+msgid "Fighters are the backbone of the Northguard army. They are equipped with a short sword, and they know how to use it. Northguard Fighters are ruthless and are said to be terrible enemies, since they will sack any settlements they come across."
 msgstr ""
 
 #. [attack]: type=blade
@@ -6042,12 +6064,6 @@ msgstr ""
 msgid "The Nightshaft are the best of the best archers from the clan of the Bloodrocs. They've gained night vision from their totem animal and operate mostly during the night, killing their enemies from safe distance."
 msgstr ""
 
-#. [attack]: type=blade
-#: dawn_of_thunder/units/humans-northguard/Northguard_Nightshaft.cfg:27
-#: dawn_of_thunder/units/humans-northguard/Northguard_Silverbow.cfg:26
-msgid "weapon^sword"
-msgstr ""
-
 #. [attack]: type=pierce
 #: dawn_of_thunder/units/humans-northguard/Northguard_Nightshaft.cfg:37
 #: dawn_of_thunder/units/humans-northguard/Northguard_Silverbow.cfg:36
@@ -6061,7 +6077,7 @@ msgstr ""
 
 #. [unit_type]: id=Northguard Savageheart, race=human-northguard
 #: dawn_of_thunder/units/humans-northguard/Northguard_Savageheart.cfg:19
-msgid "The Savagehearts are the great leaders of the northguard. They are the clan chieftains They fight masterfully with their sword and command northguard warriors and wild animals alike. When Savagehearts transform, they provoke a primal fear in the hearts of their enemies."
+msgid "The Savagehearts are the great leaders of the Northguard. They are the clan chieftains. They fight masterfully with their sword, and command Northguard warriors and wild animals alike. When Savagehearts transform, they provoke a primal fear in the hearts of their enemies."
 msgstr ""
 
 #. [unit_type]: id=Northguard Silverbow, race=human-northguard
@@ -6071,7 +6087,7 @@ msgstr ""
 
 #. [unit_type]: id=Northguard Silverbow, race=human-northguard
 #: dawn_of_thunder/units/humans-northguard/Northguard_Silverbow.cfg:20
-msgid "The silverbows are northguard archers that have been training for years. Their accuracy is great and the strength they shoot their arrows with is unrivaled."
+msgid "The Silverbows are Northguard archers that have been training for years. Their accuracy is great, and the strength with which they shoot their arrows is unrivaled."
 msgstr ""
 
 #. [unit_type]: id=Northguard Warrior, race=human-northguard
@@ -6096,7 +6112,7 @@ msgstr ""
 
 #. [unit_type]: id=Northguard Wildheart, race=human-northguard
 #: dawn_of_thunder/units/humans-northguard/Northguard_Wildheart.cfg:19
-msgid "Wildhearts are the experienced military leaders of the northguards. They have their worth on the battlefield both in personal combat and strategy. The Wildhearts are tasked with important missions and often lead smaller groups under their command."
+msgid "Wildhearts are the experienced military leaders of the Northguards. They have their worth on the battlefield both in personal combat and strategy. The Wildhearts are tasked with important missions and often lead smaller groups under their command."
 msgstr ""
 
 #. [unit_type]: id=Northguard Wolfheart, race=human-northguard
@@ -6106,7 +6122,7 @@ msgstr ""
 
 #. [unit_type]: id=Northguard Wolfheart, race=human-northguard
 #: dawn_of_thunder/units/humans-northguard/Northguard_Wolfheart.cfg:19
-msgid "The Wolfheart is a legendary figure from northguard mythology. As it is written: ''...and he will come and he will be the end of his enemies. He will be both wolf and human and he will swap between his forms as he likes. ''"
+msgid "The Wolfheart is a legendary figure from Northguard mythology. As it is written: ''...and he will come and he will be the end of his enemies. He will be both wolf and human and he will swap between his forms as he likes. ''"
 msgstr ""
 
 #. [unit_type]: id=Golden Mage of the Sun, race=human
