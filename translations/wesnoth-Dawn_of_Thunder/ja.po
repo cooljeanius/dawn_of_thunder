@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dawn of Thunder\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-08-02 20:26 UTC\n"
-"PO-Revision-Date: 2023-08-03 15:26+0900\n"
+"POT-Creation-Date: 2023-08-03 05:33 UTC\n"
+"PO-Revision-Date: 2023-08-03 15:56+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -899,7 +899,7 @@ msgstr "それに、何かしらあなた方の役に立てるかもしれない
 
 #. [message]: speaker=Harendoion
 #: dawn_of_thunder/scenarios/02_rescue.cfg:819
-msgid "Finally... Rest... "
+msgid "Finally... Rest..."
 msgstr "やっと... 休める..."
 
 #. [message]: speaker=Fiannon
@@ -1813,7 +1813,7 @@ msgstr "仰せのままに、閣下。"
 #: dawn_of_thunder/scenarios/04_royal_court.cfg:537
 msgid ""
 "Silam, you're an experienced fighter and veteran. I count on you to support "
-"Fiannon in his duties as commander and to help him to fulfill his mission. "
+"Fiannon in his duties as commander and to help him to fulfill his mission."
 msgstr ""
 "Silam よ、お前は経験豊富な戦士であり老練でもある。司令官としての Fiannon の責"
 "務が完遂できるよう、しっかり補佐してくれることを期待しているぞ。"
@@ -2323,7 +2323,7 @@ msgstr ""
 msgid ""
 "Silam decided, that it was safest to cross the Great River at Elensefar. "
 "This way, they would avoid passing through the impassable and untamed "
-"Gryphon Mountains. "
+"Gryphon Mountains."
 msgstr ""
 "Silam は心を決めました、Elensefar で大いなる川を渡る方法が一番安全だと。これ"
 "なら、通行不可かつ未開のグリフォンの山を回避できることでしょう。"
@@ -2995,8 +2995,7 @@ msgstr ""
 msgid ""
 "<b>I am a $Naia.type|.</b> I tell you, that these noble Elves have done "
 "nothing wrong! They were merely saving the Woodchoppers that <b>you</b> were "
-"unable to protect. I saw it with my own eyes! You should be thankful to "
-"them. "
+"unable to protect. I saw it with my own eyes! You should be thankful to them."
 msgstr ""
 "<b>私は$Naia.type|です。</b>お教えしましょう、この高貴なエルフたちは悪いこと"
 "は何もしておりません！ 彼らは<b>あなた</b>が守れなかった木こりたちを救った、"
@@ -4042,7 +4041,7 @@ msgstr "..."
 
 #. [message]: speaker=Tehlmar
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:814
-msgid "Yes, let's begin. "
+msgid "Yes, let's begin."
 msgstr "分かった、始めよう。"
 
 #. [message]: speaker=Nyvorlas
@@ -4262,7 +4261,7 @@ msgstr "だが、訓練なら我が方も積んできているからな！男ど
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1332
 msgid ""
 "<span font-style='italic'>... dreams of blood ... nobody will survive ...</"
-"span> "
+"span>"
 msgstr "<span font-style='italic'>... 血の夢... 誰も助からない...</span>"
 
 #. [message]: speaker=Fiannon
@@ -4701,7 +4700,7 @@ msgstr ""
 msgid ""
 "As you carefully speak the words written on the scroll in an ancient "
 "language, you suddenly feel invigorated by nature's strength. You can feel "
-"every living being in your environment. "
+"every living being in your environment."
 msgstr ""
 "古代の言語で書かれた巻物の文章を注意深く声を出して読むと、あなたは突然、自然"
 "の力強さに元気づけられるのを感じました。周囲にある全ての生命体を感じられるよ"
@@ -4940,7 +4939,7 @@ msgstr "この山の地下の主の皆さん、どうか話を聴いてほしい
 #: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:436
 msgid ""
 "Master pointy-ears, please excuse my father, sometimes he gets a little ... "
-"strange ... when he fears for his gold! "
+"strange ... when he fears for his gold!"
 msgstr ""
 "トンガリ耳の旦那、親父のことは許してやってくれ、ときどき、ちょっと...おかしく"
 "なるっていうか... ゴールドが心配なときは、いっつもこうなんだ！"
@@ -4990,7 +4989,7 @@ msgstr "前回、お前らは俺から逃げたが、今日はその残りの仕
 
 #. [message]: speaker=Fiannon
 #: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:582
-msgid "Undead behind us, trolls in front of us, what are we going to do? "
+msgid "Undead behind us, trolls in front of us, what are we going to do?"
 msgstr "アンデッドが背後にいて、前方にはトロルがいる、どうすればいいんだ？"
 
 #. [message]: speaker=Alasar
@@ -5310,7 +5309,7 @@ msgstr ""
 #: dawn_of_thunder/scenarios/11_dwarvish_gratitude.cfg:263
 msgid ""
 "<span size='small'>Did she just say <i>dwarves</i> and <i>greatness</i> in "
-"one sentence? </span> "
+"one sentence? </span>"
 msgstr ""
 "<span size='small'>Naia は今、<i>ドワーフ民族 </i> と <i>偉大さ </i> を、一文"
 "で喋ったのか？ </span>"
@@ -6323,7 +6322,7 @@ msgid ""
 "They've been pestering us for a few weeks already. They can't reach us, and "
 "the few villagers who made it here are inside of our tower, and we're "
 "letting fire rain on them, but that doesn't seem to stop them. There's "
-"always more of them coming, and they're plundering the whole countryside. "
+"always more of them coming, and they're plundering the whole countryside."
 msgstr ""
 "あの者たちには、もう数週間も頭を悩まされておる。ここまでは手を出せぬし、ここ"
 "へ避難してきた村人数名が塔の中にいて、私たちは火の雨を仕掛けてはいるが、あの"
@@ -8566,7 +8565,7 @@ msgstr "幌馬車"
 #: dawn_of_thunder/units/mechanical/Caravan.cfg:19
 msgid ""
 "Caravans are used to carry gold or supplies long distances. Because of the "
-"great weight of its cargo, this caravan moves very slowly. "
+"great weight of its cargo, this caravan moves very slowly."
 msgstr ""
 "幌馬車（Caravan）は gold や食料を遠方に運ぶために使われます。とても重い積み荷"
 "を運ぶため、移動には非常に時間がかかります。"
