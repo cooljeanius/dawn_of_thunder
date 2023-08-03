@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-08-02 20:26 UTC\n"
+"POT-Creation-Date: 2023-08-03 05:33 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -707,7 +707,7 @@ msgstr ""
 
 #. [message]: speaker=Harendoion
 #: dawn_of_thunder/scenarios/02_rescue.cfg:819
-msgid "Finally... Rest... "
+msgid "Finally... Rest..."
 msgstr ""
 
 #. [message]: speaker=Fiannon
@@ -1340,7 +1340,7 @@ msgstr ""
 
 #. [message]: speaker=Eldrim
 #: dawn_of_thunder/scenarios/04_royal_court.cfg:537
-msgid "Silam, you're an experienced fighter and veteran. I count on you to support Fiannon in his duties as commander and to help him to fulfill his mission. "
+msgid "Silam, you're an experienced fighter and veteran. I count on you to support Fiannon in his duties as commander and to help him to fulfill his mission."
 msgstr ""
 
 #. [message]: speaker=Silam
@@ -1705,7 +1705,7 @@ msgstr ""
 
 #. [part]
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:54
-msgid "Silam decided, that it was safest to cross the Great River at Elensefar. This way, they would avoid passing through the impassable and untamed Gryphon Mountains. "
+msgid "Silam decided, that it was safest to cross the Great River at Elensefar. This way, they would avoid passing through the impassable and untamed Gryphon Mountains."
 msgstr ""
 
 #. [part]
@@ -2183,7 +2183,7 @@ msgstr ""
 
 #. [message]: speaker=Naia
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1361
-msgid "<b>I am a $Naia.type|.</b> I tell you, that these noble Elves have done nothing wrong! They were merely saving the Woodchoppers that <b>you</b> were unable to protect. I saw it with my own eyes! You should be thankful to them. "
+msgid "<b>I am a $Naia.type|.</b> I tell you, that these noble Elves have done nothing wrong! They were merely saving the Woodchoppers that <b>you</b> were unable to protect. I saw it with my own eyes! You should be thankful to them."
 msgstr ""
 
 #. [message]: speaker=Raief
@@ -2961,7 +2961,7 @@ msgstr ""
 
 #. [message]: speaker=Tehlmar
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:814
-msgid "Yes, let's begin. "
+msgid "Yes, let's begin."
 msgstr ""
 
 #. [message]: speaker=Nyvorlas
@@ -3138,7 +3138,7 @@ msgstr ""
 
 #. [message]: speaker=Blossomblow
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1332
-msgid "<span font-style='italic'>... dreams of blood ... nobody will survive ...</span> "
+msgid "<span font-style='italic'>... dreams of blood ... nobody will survive ...</span>"
 msgstr ""
 
 #. [message]: speaker=Fiannon
@@ -3485,7 +3485,7 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: dawn_of_thunder/scenarios/09_underground.cfg:494
-msgid "As you carefully speak the words written on the scroll in an ancient language, you suddenly feel invigorated by nature's strength. You can feel every living being in your environment. "
+msgid "As you carefully speak the words written on the scroll in an ancient language, you suddenly feel invigorated by nature's strength. You can feel every living being in your environment."
 msgstr ""
 
 #. [message]: speaker=$unit.id
@@ -3697,7 +3697,7 @@ msgstr ""
 
 #. [message]: speaker=Thindromli
 #: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:436
-msgid "Master pointy-ears, please excuse my father, sometimes he gets a little ... strange ... when he fears for his gold! "
+msgid "Master pointy-ears, please excuse my father, sometimes he gets a little ... strange ... when he fears for his gold!"
 msgstr ""
 
 #. [message]: speaker=Thordrul
@@ -3732,7 +3732,7 @@ msgstr ""
 
 #. [message]: speaker=Fiannon
 #: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:582
-msgid "Undead behind us, trolls in front of us, what are we going to do? "
+msgid "Undead behind us, trolls in front of us, what are we going to do?"
 msgstr ""
 
 #. [message]: speaker=Alasar
@@ -3955,7 +3955,7 @@ msgstr ""
 
 #. [message]: speaker=Alasar
 #: dawn_of_thunder/scenarios/11_dwarvish_gratitude.cfg:263
-msgid "<span size='small'>Did she just say <i>dwarves</i> and <i>greatness</i> in one sentence? </span> "
+msgid "<span size='small'>Did she just say <i>dwarves</i> and <i>greatness</i> in one sentence? </span>"
 msgstr ""
 
 #. [message]: speaker=Thordrul
@@ -4651,7 +4651,7 @@ msgstr ""
 
 #. [message]: speaker=Archmage
 #: dawn_of_thunder/scenarios/16_The_Tower.cfg:251
-msgid "They've been pestering us for a few weeks already. They can't reach us, and the few villagers who made it here are inside of our tower, and we're letting fire rain on them, but that doesn't seem to stop them. There's always more of them coming, and they're plundering the whole countryside. "
+msgid "They've been pestering us for a few weeks already. They can't reach us, and the few villagers who made it here are inside of our tower, and we're letting fire rain on them, but that doesn't seem to stop them. There's always more of them coming, and they're plundering the whole countryside."
 msgstr ""
 
 #. [message]: speaker=Fiannon
@@ -6240,7 +6240,7 @@ msgstr ""
 
 #. [unit_type]: id=Caravan, race=mechanical
 #: dawn_of_thunder/units/mechanical/Caravan.cfg:19
-msgid "Caravans are used to carry gold or supplies long distances. Because of the great weight of its cargo, this caravan moves very slowly. "
+msgid "Caravans are used to carry gold or supplies long distances. Because of the great weight of its cargo, this caravan moves very slowly."
 msgstr ""
 
 #. [unit_type]: id=minecart, race=mechanical
