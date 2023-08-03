@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-08-03 05:33 UTC\n"
+"POT-Creation-Date: 2023-08-03 13:56 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -7142,19 +7142,20 @@ msgid "Huh, Limwen, how could you advance even further? Your XP-Bar was purple!"
 msgstr ""
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/utils/global-events.cfg:61
+#. "easteregg" in the sense of a hidden secret: https://tvtropes.org/pmwiki/pmwiki.php/Main/EasterEgg
+#: dawn_of_thunder/utils/global-events.cfg:62
 msgid "I don't know! Someone must have had too much time on his hands, so he gave me an easteregg."
 msgstr ""
 
 #. [message]: speaker=Alasar
 #. There are a bunch of relevant "fourth wall" tropes that could apply here, but I think this one is "Scolding The Fourth Wall Breaker":
 #. https://tvtropes.org/pmwiki/pmwiki.php/Main/ScoldingTheFourthWallBreaker
-#: dawn_of_thunder/utils/global-events.cfg:67
+#: dawn_of_thunder/utils/global-events.cfg:68
 msgid "Why does she get to break the fourth wall, when all I ever get to do is do stupid comments that aren't even badass?"
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/global-events.cfg:71
+#: dawn_of_thunder/utils/global-events.cfg:72
 msgid "Could you please stop talking and get back to battle?"
 msgstr ""
 
