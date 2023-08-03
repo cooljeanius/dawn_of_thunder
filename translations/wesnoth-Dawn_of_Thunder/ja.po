@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Dawn of Thunder\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-08-02 20:26 UTC\n"
-"PO-Revision-Date: 2023-08-03 15:17+0900\n"
+"PO-Revision-Date: 2023-07-20 06:15+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -333,6 +333,8 @@ msgstr "いよお、せいぜいビビってくれ、森林を<b> 偏愛 </b>す
 
 #. [message]: speaker=Alasar
 #: dawn_of_thunder/scenarios/01_the_outpost.cfg:357
+#, fuzzy
+#| msgid "I won't back up before the last orcish head touches the ground!"
 msgid "I won't back down until the last orcish head touches the ground!"
 msgstr "最後のオークの首が地面に転がるまでは、私は決して引き下がりませんぞ！"
 
@@ -481,8 +483,10 @@ msgstr ""
 
 #. [message]: speaker=Lirak
 #: dawn_of_thunder/scenarios/02_rescue.cfg:89
+#, fuzzy
+#| msgid "Bah, I've got enough of this. "
 msgid "Bah, I've had enough of this."
-msgstr "ふん、いい加減にしろ。"
+msgstr "ふん、いい加減にしろ。 "
 
 #. [message]: speaker=Lirak
 #: dawn_of_thunder/scenarios/02_rescue.cfg:93
@@ -642,12 +646,16 @@ msgstr "Harendoion はまだ戻ってこない。彼の身に何もなければ�
 #. [message]: speaker=Alasar # FIXME: choose someone else for this case where Alasar isn't present
 #: dawn_of_thunder/scenarios/02_rescue.cfg:460
 #: dawn_of_thunder/scenarios/02_rescue.cfg:466
+#, fuzzy
+#| msgid ""
+#| "Fiannon, Look, there's a human coming towards us. He emits the stench of "
+#| "death and decay, it must be a necromancer! "
 msgid ""
 "Fiannon, look, there's a human coming towards us. He emits the stench of "
 "death and decay... he must be a necromancer!"
 msgstr ""
 "Fiannon 殿、見てください、人間がこちらに向かってきます。死臭と腐敗臭をプンプ"
-"ンさせてる... 奴はネクロマンサーに違いありません！"
+"ンさせていて、奴はネクロマンサーに違いありません！ "
 
 #. [message]: speaker=Fiannon
 #: dawn_of_thunder/scenarios/02_rescue.cfg:474
@@ -747,6 +755,11 @@ msgstr ""
 #. [message]: speaker=Naia
 #. "academy's white vest" is figurative language, meant to continue the "stain" metaphor:
 #: dawn_of_thunder/scenarios/02_rescue.cfg:624
+#, fuzzy
+#| msgid ""
+#| "Yes, he was one of the best students of our academy. Summoned an evil "
+#| "spirit, turned to the dark arts, etc... You know the rest of the story. I "
+#| "was send to purge this stain from our academy's white vest."
 msgid ""
 "Yes, he was one of the best students of our academy. Summoned an evil "
 "spirit, turned to the dark arts, etc... You know the rest of the story. I "
@@ -776,6 +789,11 @@ msgstr ""
 
 #. [message]: speaker=Fiannon
 #: dawn_of_thunder/scenarios/02_rescue.cfg:642
+#, fuzzy
+#| msgid ""
+#| "Yes, you seem to know some things about about human magic. Every time "
+#| "someone gets to near enough to attack that Lirak, there's a big flash and "
+#| "that person finds herself pulled back."
 msgid ""
 "Yes, you seem to know some things about human magic. Every time someone gets "
 "near enough to attack that Lirak, there's a big flash and that person finds "
@@ -789,12 +807,16 @@ msgstr ""
 #. technically "$mage.name| and I" would be more grammatically correct than "me and $mage.name|", but I think it's
 #. in-character for Naia to be a bit informal like this:
 #: dawn_of_thunder/scenarios/02_rescue.cfg:648
+#, fuzzy
+#| msgid ""
+#| "Oh, he plays you some of his magic tricks? No problem, me and $mage.name| "
+#| "can repel his teleportation spells."
 msgid ""
 "Oh, he's playing some of his magic tricks on you? No problem, me and $mage."
 "name| can repel his teleportation spells."
 msgstr ""
-"あら、奴はあなたに自分の魔術の技を披露してるの？ 大丈夫、私も、$mage.name|"
-"も、奴の瞬間移動の呪文を阻止できるから。"
+"あら、奴は自分の魔術の技を披露してるの？ 大丈夫、私も、$mage.name|も、奴の瞬"
+"間移動の呪文を阻止できるから。"
 
 #. [message]: speaker=mage
 #: dawn_of_thunder/scenarios/02_rescue.cfg:652
@@ -833,11 +855,17 @@ msgstr "夜が明けるまで生き延びる"
 
 #. [message]: speaker=narrator
 #: dawn_of_thunder/scenarios/02_rescue.cfg:720
+#, fuzzy
+#| msgid "After a long night of fighting the Undead were defeated at last."
 msgid "After a long night of fighting, the Undead were defeated at last."
 msgstr "長い夜の戦闘の末、アンデッドたちは遂に駆逐されました。"
 
 #. [message]: speaker=narrator
 #: dawn_of_thunder/scenarios/02_rescue.cfg:725
+#, fuzzy
+#| msgid ""
+#| "The defenders stood up, and watched how the sun slowly rising behind the "
+#| "horizon."
 msgid ""
 "The defenders stood up, and watched the sun slowly rising behind the horizon."
 msgstr ""
@@ -864,11 +892,17 @@ msgstr ""
 
 #. [message]: speaker=Naia
 #: dawn_of_thunder/scenarios/02_rescue.cfg:738
+#, fuzzy
+#| msgid "How comes that the elvish defenses are so weak?"
 msgid "How come the elvish defenses are so weak?"
 msgstr "どうしてエルフの防御力はこんなに弱いわけ？"
 
 #. [message]: speaker=Fiannon
 #: dawn_of_thunder/scenarios/02_rescue.cfg:742
+#, fuzzy
+#| msgid ""
+#| "Ever since the Wesnothian empire has gained in strength more enemies turn "
+#| "against us instead of the Kingdom, as we are the weaker prey."
 msgid ""
 "Ever since the Wesnothian empire has gained in strength, more enemies turn "
 "against us instead of the Kingdom, as we are the weaker prey."
@@ -900,7 +934,7 @@ msgstr "それに、何かしらあなた方の役に立てるかもしれない
 #. [message]: speaker=Harendoion
 #: dawn_of_thunder/scenarios/02_rescue.cfg:819
 msgid "Finally... Rest... "
-msgstr "やっと... 休める..."
+msgstr "やっと... 休める... "
 
 #. [message]: speaker=Fiannon
 #: dawn_of_thunder/scenarios/02_rescue.cfg:823
@@ -922,6 +956,8 @@ msgstr "ほう、この私に「引っ掻き傷くらいは付けられる」と
 
 #. [message]: speaker=Fiannon
 #: dawn_of_thunder/scenarios/02_rescue.cfg:925
+#, fuzzy
+#| msgid "Whoah, what was that?"
 msgid "Whoa, what was that?"
 msgstr "うわっ、これはどういうことだ？"
 
@@ -1056,15 +1092,17 @@ msgstr "もう、そんな時間だったんですね。"
 
 #. [message]: speaker=Naia
 #: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:231
+#, fuzzy
+#| msgid "But I feel bad, about leaving behind Limwen and her shamans."
 msgid "I feel a bit bad about leaving Limwen and her shamans behind, though."
-msgstr ""
-"でも ちょっと気が引けますわ、Limwen さまや呪術師たちを後方に残していくなん"
-"て、ねえ。"
+msgstr "でも 気が引けますわ、Limwen さまや呪術師たちを後方に残していくなんて。"
 
 #. [message]: speaker=Limwen
 #: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:235
+#, fuzzy
+#| msgid "Don't worry, they'll be fine."
 msgid "Don't worry, the shamans and I will be fine."
-msgstr "心配ご無用です、私も彼女たちも大丈夫ですわ。"
+msgstr "心配ご無用です、彼女たちは大丈夫ですわ。"
 
 #. [message]: speaker=Limwen
 #: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:239
@@ -1089,6 +1127,8 @@ msgstr ""
 
 #. [message]: speaker=second_unit
 #: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:284
+#, fuzzy
+#| msgid "Die, traitor of your own kin!"
 msgid "Die, traitor to your own kin!"
 msgstr "死ね、同じ種族を裏切った者たちめ！"
 
@@ -1113,12 +1153,12 @@ msgstr ""
 
 #. [message]: speaker=Fiannon
 #: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:297
+#, fuzzy
+#| msgid "Is that true? Could he come back? And who is he?"
 msgid ""
 "Is that true? Could this M'Brin really come back? And just who is he, "
 "anyways?"
-msgstr ""
-"あの言葉は真実だろうか？ M'Brin が蘇生するだと？それに、一体あいつは何者なん"
-"だ？"
+msgstr "あの言葉は真実だろうか？蘇生できるだと？それに、あいつは誰なんだ？"
 
 #. [message]: speaker=Limwen
 #: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:301
@@ -1369,6 +1409,15 @@ msgstr "王立裁判所"
 
 #. [part]
 #: dawn_of_thunder/scenarios/04_royal_court.cfg:21
+#, fuzzy
+#| msgid ""
+#| "While walking to Aethen, where the royal family resided, Fiannon thought "
+#| "of the first time he entered this city and met the back then young Lord "
+#| "Eldrim, who had just inherited the throne from his deceased father "
+#| "Merinat who himself was the grand-child of the great Galdrad. He "
+#| "represented the southern forest of the elves at the Ka'lian. The other "
+#| "three lords came from Wesmere itself, The northern Lintanir forest and "
+#| "from the Greenwood, who was situated even more north."
 msgid ""
 "While walking to Aethen, where the royal family resided, Fiannon thought of "
 "the first time he entered this city and met the then-young Lord Eldrim, who "
@@ -1379,15 +1428,23 @@ msgid ""
 "even more to the north."
 msgstr ""
 "王家の住む Aethen へと歩き続けている間 Fiannon は、かつてこの街に入って、当時"
-"の若かりし Eldrim 卿に初めて会ったときのことを思い出していました。卿は、亡く"
-"なった父上 Merinat 様 --- 偉大なる Galdrad の孫に当たるお方 --- から家を継い"
-"だばかりで、Ka'lian --エルフ評議会-- に属するエルフの南方の森の領主として統治"
-"していました。他の3人の領主はそれぞれ、Wesmere の出身、北部 Lintanir の森の出"
-"身、そして、更に北にある Greenwood の出身でした。"
+"まだ若かった Eldrim 卿に初めて会ったときのことを思い出していました。卿は、亡"
+"くなった父上 Merinat 様 --- 偉大なる Galdrad の孫に当たるお方 --- から家を継"
+"いだばかりで、Ka'lian --エルフ評議会-- に属するエルフの南方の森の領主として統"
+"治していました。他の3人の領主はそれぞれ、Wesmere の出身、北部 Lintanir の森の"
+"出身、そして、更に北にある Greenwood の出身でした。"
 
 #. [part]
 #. unused, ok to skip (probably will be removed later):
 #: dawn_of_thunder/scenarios/04_royal_court.cfg:27
+#, fuzzy
+#| msgid ""
+#| "He didn't remember much of his mother, in fact, not more than a whisper "
+#| "in his ear and a face, smiling at him, warm like a summer breath. Later "
+#| "he was told that someone observed, deep in the night, how she appeared in "
+#| "the middle of a clearance, walking straight to the court, laying down the "
+#| "baby, touching the great tree in the middle of the clearance and then she "
+#| "vanished."
 msgid ""
 "Fiannon didn't remember much of his mother, in fact, he couldn't remember "
 "more than a whisper in his ear and a face, smiling at him, warm like a "
@@ -1405,6 +1462,16 @@ msgstr ""
 #. [part]
 #. unused, ok to skip (probably will be removed later):
 #: dawn_of_thunder/scenarios/04_royal_court.cfg:32
+#, fuzzy
+#| msgid ""
+#| "People first thought that the man must have drank too much, but when the "
+#| "first citizens found him in the morning he sparkled with magical energy "
+#| "that didn't resemble at all to the elven inner faerie fire. An elven "
+#| "Sorceress named Syviis was then chosen by the Lord to adopt him and to "
+#| "help him channel this mysterious magic. During his childhood, he was "
+#| "often avoided due to the rumours that covered his sudden appearance at "
+#| "the capital. Even his adopted mother didn't care much about him and as "
+#| "soon as he reached adulthood she threw him out."
 msgid ""
 "People first thought that the person who had observed this must have drank "
 "too much, but when the first citizens found the baby in the morning, he "
@@ -1415,17 +1482,25 @@ msgid ""
 "sudden appearance at the capital. Even his adopted mother didn't care much "
 "about him, and as soon as he reached adulthood, she threw him out."
 msgstr ""
-"人々は、それを見ていた奴は酒を飲み過ぎていたに違いないと最初は考えましたが、"
-"朝、市民が最初に赤ん坊を見つけたとき、エルフの持つ内なる妖精の炎とは似ても似"
-"つかぬ魔法のエネルギーで輝いていました。エルフの魔術師 Syviis は君主によって"
-"養母に選ばれ、その子がその神秘的な魔法を扱う手助けをしました。幼少期は、彼が"
-"都に突然現れたという噂が広がっていたせいで、しばしば避けられていました。養母"
-"でさえ彼にあまり関心を持つことはなく、成人に達するとすぐに彼を家から追い出し"
-"たのです。"
+"人々は、その男は酒を飲み過ぎて酔っていたに違いないと最初は考えましたが、朝、"
+"市民が最初に赤ん坊を見つけたとき、エルフの持つ内なる妖精の炎とは似ても似つか"
+"ぬ魔法のエネルギーで輝いていました。エルフの魔術師 Syviis は君主によって養母"
+"に選ばれ、その子がその神秘的な魔法を扱う手助けをしました。幼少期は、彼が都に"
+"突然現れたという噂のせいで、しばしば避けられていました。養母でさえ彼にあまり"
+"関心を持つことはなく、成人に達するとすぐに彼を家から追い出したのです。"
 
 #. [part]
 #. unused, ok to skip (probably will be removed later):
 #: dawn_of_thunder/scenarios/04_royal_court.cfg:37
+#, fuzzy
+#| msgid ""
+#| "Hoping to leave the forest of this strange folk, that he didn't even "
+#| "fully understand and that treated him so badly, Fiannon joined the "
+#| "military which provided him at least with a warm meal per day and a roof "
+#| "over the head. It was there, that he learned to channel his  magical "
+#| "powers into attacks and that he grew a strong will. Sadly, when the day "
+#| "of his first mission came he wasn't sent onto an expedition out of the "
+#| "forest, but even deeper south into the woods."
 msgid ""
 "Hoping to leave the forest of these strange folk, who he didn't even fully "
 "understand, and who treated him so badly, Fiannon joined the military, which "
@@ -1436,11 +1511,11 @@ msgid ""
 "instead sent even deeper south into the woods."
 msgstr ""
 "この奇妙な人々の森から離れたい... Fiannon 自身でさえ理解できない、ひどい扱い"
-"をしたこの人々たちの許から離れたいと願い、軍隊に加わったのです。あそこなら少"
-"なくとも1日1食の暖かい食事と屋根付きの生活ができると。その軍隊で、Fiannon は"
-"魔法の力を攻撃力として使用することを学び、そして強い意志を育んだ場所も軍隊で"
-"した。しかし、悲しいかな、初めての任務を任された日、彼は森の外への遠征ではな"
-"く、更に南方の森の奥深くへと送られたのでした。"
+"をしたこの人々たちの許から離れたいと願い、少なくとも1日1食の暖かい食事と屋根"
+"付きの生活ができる軍隊に加わったのです。その軍隊で、Fiannon は魔法の力を攻撃"
+"力として使用することを学び、強い意志を育んだのです。ただ悲しいことに、初めて"
+"の任務を任された日、彼は森の外への遠征ではなく、更に南方の森の奥深くへと送ら"
+"れたのでした。"
 
 #. [side]: type=Elvish High Lord, id=Eldrim
 #: dawn_of_thunder/scenarios/04_royal_court.cfg:68
@@ -1510,16 +1585,16 @@ msgid ""
 "I've known you since you were a child, running, beating other children with "
 "sticks."
 msgstr ""
-"私は、あなたが子供時分の頃から知ってるのよ、走り回って、他の子を棒で叩いたり"
-"してたわね。"
+"私はね、あなたが子供時分の頃から知ってるのよ、走り回って、他の子を棒で叩いた"
+"りしてたわね。"
 
 #. [message]: speaker=Limwen
 #: dawn_of_thunder/scenarios/04_royal_court.cfg:340
+#, fuzzy
+#| msgid "You know, I would never bring any harm near the King."
 msgid ""
 "You know that I would never bring any harm to the King, or anyone near him."
-msgstr ""
-"分かってるとは思うけど、王様の身近に危険を持ち込むようなことは、私は絶対にし"
-"ないわ。"
+msgstr "ね、王様の身近に危険を持ち込むようなことは絶対にしないわよ。"
 
 #. [message]: speaker=Silam
 #: dawn_of_thunder/scenarios/04_royal_court.cfg:344
@@ -1570,6 +1645,9 @@ msgstr ""
 
 #. [message]: speaker=Alasar
 #: dawn_of_thunder/scenarios/04_royal_court.cfg:392
+#, fuzzy
+#| msgid ""
+#| "It's like you chop off the head of an orc and two others orcs replace him."
 msgid ""
 "It's like you chop off the head of an orc and two other orcs replace him."
 msgstr ""
@@ -1578,12 +1656,16 @@ msgstr ""
 
 #. [message]: speaker=Fiannon
 #: dawn_of_thunder/scenarios/04_royal_court.cfg:396
+#, fuzzy
+#| msgid ""
+#| "This mage, helped us during our last battle and saved our forest from "
+#| "being overwhelmed by undead monsters."
 msgid ""
 "This mage, Naia, helped us during our last battle and saved our forest from "
 "being overwhelmed by undead monsters."
 msgstr ""
-"この魔術師 Naia は、最後の戦闘を援護してくれて、アンデッドの怪物どもに圧倒さ"
-"れていた我らの森を救ってくれた。"
+"この魔術師は、最後の戦闘を援護してくれて、アンデッドの怪物どもに圧倒されてい"
+"た我らの森を救ってくれた。"
 
 #. [message]: speaker=Naia
 #: dawn_of_thunder/scenarios/04_royal_court.cfg:400
@@ -1649,6 +1731,11 @@ msgstr ""
 #. [message]: speaker=Esyae
 #. the original wording of "grandma" was a bit too informal for an elf to say, so I changed it to "grandmother":
 #: dawn_of_thunder/scenarios/04_royal_court.cfg:463
+#, fuzzy
+#| msgid ""
+#| "Yes, they were some of the few humans that we elves really respected. We "
+#| "hold them in great regards. After all, Konrad spent his entire youth here "
+#| "and even knew my grandmother Chantal."
 msgid ""
 "Yes, they were some of the few humans that we elves truly respected. We hold "
 "them in great regards. After all, Konrad spent his entire youth here and "
@@ -1661,14 +1748,19 @@ msgstr ""
 #. [message]: speaker=Syviis
 #. Syviis is just a bit grumpy, but she isn't a bad person at heart, she just has concern for following traditions:
 #: dawn_of_thunder/scenarios/04_royal_court.cfg:468
+#, fuzzy
+#| msgid ""
+#| "Yes, and they were also the last humans to enter these forests. It was "
+#| "forbidden to all humans to come to these forests ever again because of a "
+#| "certain Knight, who should not be named. You should not be here, girl!"
 msgid ""
 "Yes, and they were also the last humans to enter these forests. All humans "
 "were forbidden from coming to these forests ever again because of a certain "
 "Knight, who should not be named. You should not be here, girl!"
 msgstr ""
 "はい、そして彼らはこの森に立ち入ることのできた最後の人間でした。名前を明かす"
-"べきでない、ある騎士が原因で、いかなる人間もそれ以来この森へ来ることは許され"
-"なかった。あなたはここに居てはいけないのですよ、お譲さん！"
+"べきでない、ある騎士のせいで、いかなる人間も、それ以来この森へ来ることは許さ"
+"れなかった。あなたはここに居てはいけないのですよ、お譲さん！"
 
 #. [message]: speaker=Esyae
 #: dawn_of_thunder/scenarios/04_royal_court.cfg:472
@@ -1680,6 +1772,13 @@ msgstr ""
 
 #. [message]: speaker=Fiannon
 #: dawn_of_thunder/scenarios/04_royal_court.cfg:476
+#, fuzzy
+#| msgid ""
+#| "Excuse me, my Lords. Over the past year we were having always more and "
+#| "more attacks by various foes. I sent you a messenger, but he was "
+#| "intercepted by a necromancer who then attacked us next. We wouldn't have "
+#| "survived if it hadn't been for this human mage who appeared just in time "
+#| "on the battlefield."
 msgid ""
 "Excuse me, my Lords. Over the past year we have always been receiving more "
 "and more attacks from various foes. I sent you a messenger, but he was "
@@ -1694,6 +1793,12 @@ msgstr ""
 
 #. [message]: speaker=Fiannon
 #: dawn_of_thunder/scenarios/04_royal_court.cfg:480
+#, fuzzy
+#| msgid ""
+#| "That's why I decided to tell you yourself of our situation. We wouldn't "
+#| "have been able to hold the fort anyway with our current resources. Also, "
+#| "regarding our situation, I thought it was the best, if Naia and her few "
+#| "soldiers would come with us."
 msgid ""
 "That's why I decided to tell you yourself of our situation. We wouldn't have "
 "been able to hold the fort anyway with our current resources. Also, "
@@ -1717,8 +1822,10 @@ msgstr "落ち着きなさい、Syviis！"
 
 #. [message]: speaker=Syviis
 #: dawn_of_thunder/scenarios/04_royal_court.cfg:493
+#, fuzzy
+#| msgid "Hmrf, fine..."
 msgid "Hrmf, fine..."
-msgstr "はぁ、かまいませんけど..."
+msgstr "別に、かまいませんけど..."
 
 #. [message]: speaker=Eldrim
 #: dawn_of_thunder/scenarios/04_royal_court.cfg:497
@@ -1731,6 +1838,11 @@ msgstr ""
 
 #. [message]: speaker=Kerym
 #: dawn_of_thunder/scenarios/04_royal_court.cfg:501
+#, fuzzy
+#| msgid ""
+#| "Sir, as you surely know the state of the rest of our army isn't much "
+#| "better. But we'll surely find some battalion we could send to reinforce "
+#| "Astelva."
 msgid ""
 "Sir, as you surely know, the state of the rest of our army isn't much "
 "better. But we'll surely find some battalion we could send to reinforce "
@@ -1750,6 +1862,13 @@ msgstr ""
 
 #. [message]: speaker=Eldrim
 #: dawn_of_thunder/scenarios/04_royal_court.cfg:509
+#, fuzzy
+#| msgid ""
+#| "But you, Fiannon will do something else for me. In a few days the Ka'lian "
+#| "will reassemble in Wesmere again. Take my seal and lead your group of "
+#| "soldiers to Wesmere, to represent the southern woods and find a solution "
+#| "to all these enemies. It may be, that all Elves on the great Continent "
+#| "need to unite to counter the numerous threats."
 msgid ""
 "But you, Fiannon, will do something else for me. In a few days, the Ka'lian "
 "will reassemble in Wesmere again. Take my seal and lead your group of "
@@ -1757,7 +1876,7 @@ msgid ""
 "all these enemies. It may be, that all Elves on the great Continent need to "
 "unite to counter the numerous threats."
 msgstr ""
-"さて Fiannon 、君には私のために別のことをしてもらいたい。数日後にはエルフ評議"
+"さて Fiannon 、君には私のために別のことをしてもらいたい。数日間、エルフ評議"
 "会 Ka'lian が Wesmere で再び開催される。我が印章を掲げて Wesmere まで君の兵隊"
 "を率いてくれ。南部の森全体の代表となり、すべての敵への対抗策を見つけなさい。"
 "もしかすると、数々の脅威に抗うためには、偉大なる大陸の全エルフが一致団結する"
@@ -1780,6 +1899,12 @@ msgstr ""
 
 #. [message]: speaker=Eldrim
 #: dawn_of_thunder/scenarios/04_royal_court.cfg:521
+#, fuzzy
+#| msgid ""
+#| "This won't be needed, Syviis. We don't have the military means to escort "
+#| "me to Wesmere at the moment anyway. Also most of the way is through "
+#| "Wesnoth, which is our ally, and also Fiannon won't go alone I think. I "
+#| "believe that mage..."
 msgid ""
 "That won't be necessary, Syviis. We don't have the military means to escort "
 "me to Wesmere at the moment anyway. Also most of the way is through Wesnoth, "
@@ -1797,6 +1922,10 @@ msgstr "Naia と申します、閣下。"
 
 #. [message]: speaker=Eldrim
 #: dawn_of_thunder/scenarios/04_royal_court.cfg:529
+#, fuzzy
+#| msgid ""
+#| "...Naia will accompany him, at least until Wesnoth, and also I'll send "
+#| "Silam with him."
 msgid ""
 "...Naia will accompany him, at least until Wesnoth, and I'll send Silam with "
 "him, too."
@@ -1816,7 +1945,7 @@ msgid ""
 "Fiannon in his duties as commander and to help him to fulfill his mission. "
 msgstr ""
 "Silam よ、お前は経験豊富な戦士であり老練でもある。司令官としての Fiannon の責"
-"務が完遂できるよう、しっかり補佐してくれることを期待しているぞ。"
+"務が完遂できるよう、しっかり補佐してくれることを期待しているぞ。 "
 
 #. [message]: speaker=Silam
 #: dawn_of_thunder/scenarios/04_royal_court.cfg:541
@@ -1853,6 +1982,14 @@ msgstr ""
 #. [part]
 #. FIXME: the background image shows that the "a" is in fact lowercase; but if it's for "athenwood" then that's a misspelling, because that's supposed to be capitalized, so... I'm not sure how to rewrite this:
 #: dawn_of_thunder/scenarios/05_lake_aelin.cfg:28
+#, fuzzy
+#| msgid ""
+#| "It was a stylized, golden a for athenwood with falling stars in the "
+#| "background, an important sign in elvish mythology and history. It was "
+#| "said that the enlightened Eloh once appeared on one of these falling "
+#| "stars, to land on earth. By giving him this persistent sign, Eldrim made "
+#| "him an important person under the Elves, but unknowingly also bound "
+#| "Fiannon's destiny."
 msgid ""
 "It was a stylized, golden <b>a</b> for athenwood with falling stars in the "
 "background, an important sign in elvish mythology and history. It was said "
@@ -2076,6 +2213,8 @@ msgstr ""
 #. Ragziss's last breath; like with most Naga, the "Sssssnake Talk" trope is in effect:
 #. https://tvtropes.org/pmwiki/pmwiki.php/Main/SssssnakeTalk
 #: dawn_of_thunder/scenarios/05_lake_aelin.cfg:561
+#, fuzzy
+#| msgid "Hissssssss, we'll ssssee usssss again!"
 msgid "Hissssssss, you'll ssssee usssss again!"
 msgstr "シシーーーー ま、また お目にかかろうぜ！"
 
@@ -2104,6 +2243,23 @@ msgstr "この指輪は全ての戦士を熟達した剣士にします"
 #. [object]: id=ring_of_swordmanship
 #. As far as I can tell, the "ancient Nagaish language" is just nonsense; I'm not aware of any conlang that has been constructed for them:
 #: dawn_of_thunder/scenarios/05_lake_aelin.cfg:594
+#, fuzzy
+#| msgid ""
+#| "Pressed by the ongoing battle, you put on the ring very hastily, without "
+#| "carefully looking at it. But the ring just slips away from your fingers "
+#| "again. This time you look at it more carefully. Inside is written:\n"
+#| "\t\t\t\t\t\t\t\t\n"
+#| "<span font-style='italic'>has'ben Glacyner nyrsain Subfizitas Celesitomuz "
+#| "as faztnis</span>\n"
+#| "\t\t\t\t\t\t\t\t\n"
+#| "By chance, you know this ancient Nagaish language and can decipher it. It "
+#| "means as much as:\n"
+#| "\t\t\t\t\t\t\t\t\n"
+#| "<span font-style='italic'>Whoever has a sword might gain accuracy, speed "
+#| "and strength</span>\n"
+#| "\t\t\t\t\t\t\t\t\n"
+#| "You look at your weapon of choice, disappointed. Seems like you're not "
+#| "chosen to bear this ring."
 msgid ""
 "Pressed by the ongoing battle, you put on the ring very hastily, without "
 "carefully looking at it. But the ring just slips away from your fingers "
@@ -2186,12 +2342,16 @@ msgstr "野郎ども、オレさ付いてきなって！"
 
 #. [message]: speaker=Orc
 #: dawn_of_thunder/scenarios/05_lake_aelin.cfg:745
+#, fuzzy
+#| msgid ""
+#| "Argh! I dishonored my family just as my brother. Now it's up to our "
+#| "eldest to avenge us!"
 msgid ""
 "Argh! I dishonored my family just as my brother did. Now it's up to our "
 "eldest to avenge us!"
 msgstr ""
-"グワーー！ 俺もウチの家族の名誉を汚しちまった、弟がやったみてえに。あとは、長"
-"男に任せるしかねえ！"
+"グワー―！ 俺もウチの家族の名誉を汚しちまった、兄弟みてえに。あとは、長男に任"
+"せるしかねえ！"
 
 #. [message]: speaker=Nagaguy
 #: dawn_of_thunder/scenarios/05_lake_aelin.cfg:749
@@ -2253,12 +2413,16 @@ msgstr "こだどこ、ちゃっちゃっとズラかった方がいいべ！"
 
 #. [message]: speaker=Orc
 #: dawn_of_thunder/scenarios/05_lake_aelin.cfg:843
+#, fuzzy
+#| msgid ""
+#| "Hmrpf, I should have relied on trolls instead of goblins. Now, as always, "
+#| "I'll have to do it myself!"
 msgid ""
 "Hrmpf, I should have relied on trolls instead of goblins. Now, as always, "
 "I'll have to do it myself!"
 msgstr ""
-"うーむ、ゴブリンなんかじゃなくトロルに頼りゃあよかった。よし、またオレが自分"
-"でやるしかねえ！"
+"クッソー、ゴブリンなんかじゃなくトロルに頼りゃあよかった。よし、またオレが自"
+"分でやるしかねえ！"
 
 #. [message]: speaker=Goblin
 #. In better English, this would be: "No! I was chosen to get the first Goblin leader!"
@@ -2326,7 +2490,7 @@ msgid ""
 "Gryphon Mountains. "
 msgstr ""
 "Silam は心を決めました、Elensefar で大いなる川を渡る方法が一番安全だと。これ"
-"なら、通行不可かつ未開のグリフォンの山を回避できることでしょう。"
+"なら、通行不可かつ未開のグリフォンの山を回避できることでしょう。 "
 
 #. [part]
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:58
@@ -2524,6 +2688,8 @@ msgstr ""
 #. [message]: speaker=narrator
 #. Rhearent speaking (male):
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:567
+#, fuzzy
+#| msgid "Sure sir! Hold out, I'll be back soon!"
 msgid "Sure, sir! Hold out, I'll be back soon!"
 msgstr "承知しました！頑張ってください、すぐ戻りますから！"
 
@@ -2817,13 +2983,17 @@ msgstr ""
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:994
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1053
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1112
+#, fuzzy
+#| msgid ""
+#| "No! Fiannon, you've let them all die, you fool! They'll hunt us, because "
+#| "they will think we killed their tree fellers! "
 msgid ""
 "No! Fiannon, you've let them all die, you fool! They'll hunt us, because "
 "they will think we killed their tree fellers!"
 msgstr ""
 "だめだ！ Fiannon、君は、木こりたちを全員死なせてしまったんだ、なんと愚かな！"
 "彼らは我々を狩猟の獲物にするだろう、なぜなら彼らは、我々が木こりたちを殺した"
-"と考えるからだ！"
+"と考えるからだ！ "
 
 #. [message]: speaker=woodchopper2
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:962
@@ -2838,6 +3008,10 @@ msgstr ""
 #. [message]: speaker=woodchopper1
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1021
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1049
+#, fuzzy
+#| msgid ""
+#| "Argh! Now I will never become the best Bowman in the World! I should have "
+#| "stuck to my affairs as a woodsman."
 msgid ""
 "Argh! Now I will never become the best Bowman in the world! I should have "
 "stuck to my affairs as a woodsman."
@@ -2956,6 +3130,8 @@ msgstr ""
 
 #. [message]: speaker=$talking_peasant.id
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1335
+#, fuzzy
+#| msgid "Hey, no 'tis not what I wanted! It's not them who harassed us!"
 msgid "Hey, no, 'tis not what I wanted! It's not them who harassed us!"
 msgstr ""
 "いえ、そんなんじゃないんです、俺が望んでるのは！ 俺たちに嫌がらせしてきたの"
@@ -3000,7 +3176,7 @@ msgid ""
 msgstr ""
 "<b>私は$Naia.type|です。</b>お教えしましょう、この高貴なエルフたちは悪いこと"
 "は何もしておりません！ 彼らは<b>あなた</b>が守れなかった木こりたちを救った、"
-"ただそれだけのことです。私はこの目で見ましたわ！ 彼らに感謝すべきです。"
+"ただそれだけのことです。私はこの目で見ましたわ！ 彼らに感謝すべきです。 "
 
 #. [message]: speaker=Raief
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1365
@@ -3073,6 +3249,10 @@ msgstr "Raief 司令官殿、剛腕の Duron Bleil をご紹介する。"
 
 #. [message]: speaker=Raief
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1459
+#, fuzzy
+#| msgid ""
+#| "What? But.. But.. I didn't even know that he was in this part of the "
+#| "Kingdom!"
 msgid ""
 "What? But... But... I didn't even know that he was in this part of the "
 "Kingdom!"
@@ -3180,8 +3360,10 @@ msgstr ""
 
 #. [message]: speaker=Maeblie
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1562
+#, fuzzy
+#| msgid "We'll see us again later, grrrrrr"
 msgid "You'll see us again later, grrrrrr..."
-msgstr "ではまたお逢いしましょう、ふん"
+msgstr "ではまたお逢いしましょう、おーっほっほっほ"
 
 #. [message]: speaker=Maeblie
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1680
@@ -3190,6 +3372,10 @@ msgstr "ふん、私をやっつけたつもりかしら？勘違いしてるわ
 
 #. [message]: speaker=warner
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1841
+#, fuzzy
+#| msgid ""
+#| "Remember guys, it is said, that there are bandits roaming the area. Pay "
+#| "attention!"
 msgid ""
 "Remember guys, it is said that there are bandits roaming the area. Pay "
 "attention!"
@@ -3199,12 +3385,16 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1857
+#, fuzzy
+#| msgid ""
+#| "As you near some hills you can suddenly discover some old ruins which you "
+#| "couldn't see before because of the fog."
 msgid ""
 "As you near some hills, you suddenly discover some old ruins, which you "
 "couldn't see before because of the fog."
 msgstr ""
-"いくつかの丘のある場所近づくと、いくつかの古びた廃墟が突如現れました。それま"
-"で霧で見えなかったのです。"
+"いくつかの丘のある場所近づくと、それまで霧で見えなかった、いくつかの古びた廃"
+"墟が突如現れました。"
 
 #. [event]
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1908
@@ -3213,8 +3403,10 @@ msgstr "Orym"
 
 #. [message]: speaker=Bandits_leader
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1923
+#, fuzzy
+#| msgid "Let's see, who do we have here? Some fine elvish gentlemen. "
 msgid "Let's see, who do we have here? Some fine elvish gentlemen."
-msgstr "これはこれは、ここに居るのは誰だ？エルフの紳士方ではないか。"
+msgstr "これはこれは、ここに居るのは誰だ？エルフの紳士方ではないか。 "
 
 #. [message]: speaker=Bandits_assistant
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1927
@@ -3340,6 +3532,12 @@ msgstr "奥深い森"
 
 #. [part]
 #: dawn_of_thunder/scenarios/07_deep_forest.cfg:21
+#, fuzzy
+#| msgid ""
+#| "And so, they entered the forest. It was dark and swampy and even the "
+#| "Elves had a hard time getting through the foliage. There were many dead "
+#| "trees, and sometimes you would get the impression that a shadow was "
+#| "moving."
 msgid ""
 "And so, they entered the forest. It was dark and swampy, and even the Elves "
 "had a hard time getting through the foliage. There were many dead trees, and "
@@ -3351,6 +3549,11 @@ msgstr ""
 
 #. [part]
 #: dawn_of_thunder/scenarios/07_deep_forest.cfg:25
+#, fuzzy
+#| msgid ""
+#| "Sometimes they would see strange creatures in the distance, glancing at "
+#| "them with their creepy eyes and fleeing when they were discovered. This "
+#| "forest was definitely not natural anymore."
 msgid ""
 "Sometimes they would see strange creatures in the distance, glancing at them "
 "with their creepy eyes, and fleeing when they were discovered. This forest "
@@ -4043,7 +4246,7 @@ msgstr "..."
 #. [message]: speaker=Tehlmar
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:814
 msgid "Yes, let's begin. "
-msgstr "分かった、始めよう。"
+msgstr "分かった、始めよう。 "
 
 #. [message]: speaker=Nyvorlas
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:818
@@ -4263,7 +4466,7 @@ msgstr "だが、訓練なら我が方も積んできているからな！男ど
 msgid ""
 "<span font-style='italic'>... dreams of blood ... nobody will survive ...</"
 "span> "
-msgstr "<span font-style='italic'>... 血の夢... 誰も助からない...</span>"
+msgstr "<span font-style='italic'>... 血の夢... 誰も助からない...</span> "
 
 #. [message]: speaker=Fiannon
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1336
@@ -4397,12 +4600,16 @@ msgstr ""
 
 #. [message]: speaker=Riluaneth
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1431
+#, fuzzy
+#| msgid ""
+#| "But you could look for reinforcements! You're young and fast. Please, "
+#| "find help. Return as soon as possible, with allies! "
 msgid ""
 "But you could look for reinforcements! You're young and fast. Please, find "
 "help. Return as soon as possible, with allies!"
 msgstr ""
 "しかし、援軍を探すことができると思いますよ！ あなたは若くて速い。どうか助けを"
-"探してください。できるだけ早く戻ってくるのです、味方たちと共に！"
+"探してください。できるだけ早く戻ってくるのです、味方たちと共に！ "
 
 #. [message]: speaker=Silam
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1435
@@ -4448,20 +4655,29 @@ msgstr "必ず戻るよ、Silam 、約束する！"
 msgid "Hey Fiannon, you should come see this!"
 msgstr "あっ、Fiannon これを見てみて！"
 
+# できれば、男性が喋る場合と女性が喋る場合とで分けてほしい。現在は男女が曖昧中間的な言葉で翻訳しているので問題はない。
 #. [message]: speaker=Tehlmar
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1606
+#, fuzzy
+#| msgid "No, the Ka'lian needs me!"
 msgid "No, the Ka'lian needs me and my Hunters!"
-msgstr "駄目だ、Ka'lian は私や狩人を必要としている！"
+msgstr "そんな、Ka'lian は私を必要としてる！"
 
+# できれば、男性が喋る場合と女性が喋る場合とで分けてほしい。現在は男女が曖昧中間的な言葉で翻訳しているので問題はない。
 #. [message]: speaker=Riluaneth
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1620
+#, fuzzy
+#| msgid "No, the Ka'lian needs me!"
 msgid "No, the Ka'lian needs me and my Shamans!"
-msgstr "駄目よ、Ka'lian は私や呪術師たちを必要としているのに！"
+msgstr "そんな、Ka'lian は私を必要としてる！"
 
+# できれば、男性が喋る場合と女性が喋る場合とで分けてほしい。現在は男女が曖昧中間的な言葉で翻訳しているので問題はない。
 #. [message]: speaker=Nyvorlas
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1634
+#, fuzzy
+#| msgid "No, the Ka'lian needs me!"
 msgid "No, the Ka'lian needs my guidance!"
-msgstr "いけない、Ka'lian には私の導きが必要なのだ！"
+msgstr "そんな、Ka'lian は私を必要としてる！"
 
 #. [message]: speaker=Nyvorlas
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1648
@@ -4573,8 +4789,10 @@ msgstr "あ、見て見て！　ゴールドを見つけた！"
 #. [scenario]: id=09_suddenly_darkness
 #. use of Unicode ellipsis here is due to periods leading to savefiles being unsavable:
 #: dawn_of_thunder/scenarios/09_underground.cfg:53
+#, fuzzy
+#| msgid "Suddenly, Darkness..."
 msgid "Suddenly, Darkness…"
-msgstr "突然の暗闇…"
+msgstr "突然の暗闇に..."
 
 #. [side]: type=Troll, id=Troll1
 #. [side]: type=Troll Shaman, id=Troll2
@@ -4611,7 +4829,7 @@ msgstr "時間切れ"
 #. happens with italicized GUI2 text
 #: dawn_of_thunder/scenarios/09_underground.cfg:261
 msgid "<i>9. Suddenly, Darkness... </i>"
-msgstr "<i>9. 突然の暗闇… </i>"
+msgstr "<i>9. 突然、暗闇が... </i>"
 
 #. [message]: speaker=Fiannon
 #: dawn_of_thunder/scenarios/09_underground.cfg:296
@@ -4705,7 +4923,7 @@ msgid ""
 msgstr ""
 "古代の言語で書かれた巻物の文章を注意深く声を出して読むと、あなたは突然、自然"
 "の力強さに元気づけられるのを感じました。周囲にある全ての生命体を感じられるよ"
-"うになったのです。"
+"うになったのです。 "
 
 #. [message]: speaker=$unit.id
 #. as with the Nagas, the Saurians also make use of the "Sssssnake Talk" trope:
@@ -4736,7 +4954,7 @@ msgstr "ああ、そうあってほしいね。"
 #: dawn_of_thunder/scenarios/09_underground.cfg:624
 msgid ""
 "WARNING: Do not go here if you value your life! Many have died past here!"
-msgstr "警告：命が惜しければ決して立ち入るな！多くの者たちが命を落としてきた！"
+msgstr ""
 
 #. [message]: speaker=unit
 #: dawn_of_thunder/scenarios/09_underground.cfg:641
@@ -4882,8 +5100,10 @@ msgstr "採った石はほっとけ。後でまた取りに来ればいい。そ
 
 #. [message]: speaker=Thordrul
 #: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:393
+#, fuzzy
+#| msgid "Naye, I would rather die than let my ore behind!"
 msgid "Nay, I would rather die than leave my ore behind!"
-msgstr "イヤだ！置きっ放しにするくらいなら死んだほうがマシだ！"
+msgstr "何だと！置きっ放しにするくらいなら死んだほうがマシだ！"
 
 #. [message]: speaker=Fiannon
 #: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:397
@@ -4938,12 +5158,16 @@ msgstr "この山の地下の主の皆さん、どうか話を聴いてほしい
 
 #. [message]: speaker=Thindromli
 #: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:436
+#, fuzzy
+#| msgid ""
+#| "Master pointy-ears, please excuse my father, sometimes he gets a "
+#| "little ... strange ... when he fears about his gold! "
 msgid ""
 "Master pointy-ears, please excuse my father, sometimes he gets a little ... "
 "strange ... when he fears for his gold! "
 msgstr ""
 "トンガリ耳の旦那、親父のことは許してやってくれ、ときどき、ちょっと...おかしく"
-"なるっていうか... ゴールドが心配なときは、いっつもこうなんだ！"
+"なるっていうか... ゴールドが心配なときは、いっつもこうなんだ！ "
 
 #. [message]: speaker=Thordrul
 #: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:440
@@ -4954,12 +5178,17 @@ msgstr ""
 
 #. [message]: speaker=Thindromli
 #: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:444
+#, fuzzy
+#| msgid ""
+#| "See? That's what I was talking about. Anyway, we got a big host of undead "
+#| "in our backs, so I suggest you don't follow the road, but instead come "
+#| "with us."
 msgid ""
 "See? That's what I was talking about. Anyway, we got a big host of undead on "
 "our backs, so I suggest you don't follow the road, but instead come with us."
 msgstr ""
 "な、見ただろ？ これだよ、これ。とにかく、俺たちの後ろにはアンデッドのお客さん"
-"らがどっさり来てる。な、この道は行かない方がいい、俺たちと一緒に来い。"
+"らがどっさり来てる、この道は行かない方がいい、俺たちと一緒に来い。"
 
 #. [message]: speaker=Naia
 #: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:448
@@ -4991,7 +5220,7 @@ msgstr "前回、お前らは俺から逃げたが、今日はその残りの仕
 #. [message]: speaker=Fiannon
 #: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:582
 msgid "Undead behind us, trolls in front of us, what are we going to do? "
-msgstr "アンデッドが背後にいて、前方にはトロルがいる、どうすればいいんだ？"
+msgstr "アンデッドが背後にいて、前方にはトロルがいる、どうすればいいんだ？ "
 
 #. [message]: speaker=Alasar
 #: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:586
@@ -5015,6 +5244,8 @@ msgstr "俺らの鉱夫たちは、塞がってる場所を掘り進めるだろ
 
 #. [message]: speaker=Thordrul
 #: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:606
+#, fuzzy
+#| msgid "Well, pay attention to my ore then."
 msgid "Well, pay attention to my ore, then."
 msgstr "よし、そんじゃ、俺の鉱石に気をつけてくれよな。"
 
@@ -5106,6 +5337,8 @@ msgstr ""
 
 #. [message]: speaker=Limwen
 #: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:700
+#, fuzzy
+#| msgid "We better get started then!"
 msgid "We'd better get started, then!"
 msgstr "なら、始めましょうよ！"
 
@@ -5206,6 +5439,10 @@ msgstr ""
 
 #. [message]: speaker=Limwen
 #: dawn_of_thunder/scenarios/11_dwarvish_gratitude.cfg:216
+#, fuzzy
+#| msgid ""
+#| "Calm down my friend. In this moment he's our only chance to escape the "
+#| "darkness that surrounds us."
 msgid ""
 "Calm down, my friend. In this moment he's our only chance to escape the "
 "darkness that surrounds us."
@@ -5288,6 +5525,10 @@ msgstr "とても光栄なことだ！"
 
 #. [message]: speaker=Thordrul
 #: dawn_of_thunder/scenarios/11_dwarvish_gratitude.cfg:255
+#, fuzzy
+#| msgid ""
+#| "If my son wants to risk his life for these outsiders... So be it! But I "
+#| "won't risk any off my men fo' that!"
 msgid ""
 "If my son wants to risk his life for these outsiders... So be it! But I "
 "won't risk any of my men fo' that!"
@@ -5313,7 +5554,7 @@ msgid ""
 "one sentence? </span> "
 msgstr ""
 "<span size='small'>Naia は今、<i>ドワーフ民族 </i> と <i>偉大さ </i> を、一文"
-"で喋ったのか？ </span>"
+"で喋ったのか？ </span> "
 
 #. [message]: speaker=Thordrul
 #: dawn_of_thunder/scenarios/11_dwarvish_gratitude.cfg:267
@@ -5567,11 +5808,15 @@ msgstr "なんだ？　ドラゴンが韻を踏んでるのか？"
 
 #. [message]: speaker=Thindromli
 #: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:575
+#, fuzzy
+#| msgid ""
+#| "It's a Wyrm actually, similar to dragons in many aspects but not quite as "
+#| "dangerous."
 msgid ""
 "It's a Wyrm, actually, similar to dragons in many aspects, but not quite as "
 "dangerous."
 msgstr ""
-"あいつは、実は Wyrm さ。ドラゴンにとてもよく似てるが、それほど危ないやつじゃ"
+"あいつは本当は Wyrm だ。ドラゴンにとてもよく似てるが、それほど危ないやつじゃ"
 "ねえ。"
 
 #. [message]: speaker=Fiannon
@@ -5610,6 +5855,12 @@ msgstr ""
 
 #. [message]: speaker=Thindromli
 #: dawn_of_thunder/scenarios/13_frozen_ground.cfg:244
+#, fuzzy
+#| msgid ""
+#| "I bet they are already here! They will reveal 'emselves when they want "
+#| "to.\n"
+#| "I suggest that we make a fire... me beard is so frozen, I could break it "
+#| "in a half!"
 msgid ""
 "I bet they are already here! They will reveal 'emselves when they want to.\n"
 "I suggest that we make a fire... me beard is so frozen, I could break it in "
@@ -5621,6 +5872,8 @@ msgstr ""
 
 #. [message]: speaker=Fiannon
 #: dawn_of_thunder/scenarios/13_frozen_ground.cfg:264
+#, fuzzy
+#| msgid "We should set up a camp then."
 msgid "We should set up a camp, then."
 msgstr "ならば、我々が野営の設定をしよう。"
 
@@ -5661,6 +5914,10 @@ msgstr "一体あとどれだけ出てくるのかしら？"
 
 #. [message]: speaker=Smilvolf
 #: dawn_of_thunder/scenarios/13_frozen_ground.cfg:486
+#, fuzzy
+#| msgid ""
+#| "Halt this! Strangers, I give you one chance to explain your presence "
+#| "here! And it better be good, else I will let my pets devour you."
 msgid ""
 "Halt this! Strangers, I give you one chance to explain your presence here! "
 "And it had better be good, or else I will let my pets devour you."
@@ -5691,6 +5948,13 @@ msgstr ""
 
 #. [message]: speaker=Smilvolf
 #: dawn_of_thunder/scenarios/13_frozen_ground.cfg:498
+#, fuzzy
+#| msgid ""
+#| "What do I care for the Elves of Wesmere or the Orcs? We rarely meet any "
+#| "Elves and the Orcs are far too few to pose any threat to us in our "
+#| "hunting grounds.\n"
+#| "Badly prepared as they are against the Cold, the few that actually reach "
+#| "these peaks are already more dead than alive."
 msgid ""
 "What do I care for the Elves of Wesmere or the Orcs? We rarely meet any "
 "Elves, and the Orcs are far too few to pose any threat to us in our hunting "
@@ -5706,18 +5970,34 @@ msgstr ""
 
 #. [message]: speaker=Fiannon
 #: dawn_of_thunder/scenarios/13_frozen_ground.cfg:503
+#, fuzzy
+#| msgid ""
+#| "Please! We fought countless monsters on our way here, just to meet you! "
+#| "You are the only one who can save us. The Dwarves can't leave their "
+#| "Tunnels for they are in a permanent state of War against the Trolls and "
+#| "Undead."
 msgid ""
 "Please! We fought countless monsters on our way here, just to meet you! You "
 "are the only one who can save us. The Dwarves can't leave their tunnels, for "
 "they are in a permanent state of war against the Trolls and Undead."
 msgstr ""
 "頼む！私たちはここに来るまで数しれないモンスターと戦いを繰り返してきた、君た"
-"ちに会うために！君たちしかいないんだ、救ってくれるのは。ドワーフたちは坑道か"
-"ら抜け出せないでいる。なんたって、トロルとアンデッドを無効に回して果てしない"
-"戦闘状態が続いてるからな。"
+"ちに会うために！君たちしかいないんだ、救ってくれるのは。ドワーフたちは、トロ"
+"ルとアンデッドとの果てしない戦闘状態の中で、坑道から抜け出せないでいる。"
 
 #. [message]: speaker=Naia
 #: dawn_of_thunder/scenarios/13_frozen_ground.cfg:507
+#, fuzzy
+#| msgid ""
+#| "Sir, I might not have lived for years in this cold, but I've been taught "
+#| "strategy from some of the cleverest men of Wesnoth. And I can tell you "
+#| "that these Elves are of the uttermost importance to the well-being of "
+#| "your frosty Kingdom. Not only they bundle the attention of the Orcs in "
+#| "the lower plains but also should they fail to defend their forest, the "
+#| "Orcs will have enough ressources to breed and get stronger And they will "
+#| "strive for more and more land, and when they will enter your place they "
+#| "will come in hordes that have not yet been seen on the continent and they "
+#| "will be better prepared than they have ever been!"
 msgid ""
 "Sir, I might not have lived for years in this cold, but I've been taught "
 "strategy from some of the cleverest men of Wesnoth. And I can tell you that "
@@ -5734,7 +6014,7 @@ msgstr ""
 "んです、ここにいるエルフたちはあなた達の凍った王国の幸福のために最も重要なん"
 "です。オークは低地平原にいる仲間の意識を集結させるだけでなく、もしもエルフが"
 "森を守れなくなったらオークは自らの繁殖と、より強くなるための十分な資源を獲得"
-"ｓることでしょう。更なる大地を貪り取ろうとして、この大陸史上、過去に例を見な"
+"し、更なる大地を貪り取ろうとするでしょう、そしてこの大陸史上、過去に例を見な"
 "いほどの大軍団を率いて、あなた達の土地へと侵攻し、かつてないほどの軍事的な準"
 "備を整えることでしょう！"
 
@@ -5749,22 +6029,34 @@ msgstr ""
 
 #. [message]: speaker=Smilvolf
 #: dawn_of_thunder/scenarios/13_frozen_ground.cfg:515
+#, fuzzy
+#| msgid ""
+#| "Invasion of the Orcish Hordes you say? Valiant fighters you say? Well I "
+#| "have seen how you fight, but you will have to prove this to my people if "
+#| "you want them to help you."
 msgid ""
 "An invasion of the Orcish Hordes, you say? Valiant fighters, you say? Well I "
 "have seen how you fight, but you will have to prove this to my people if you "
 "want them to help you."
 msgstr ""
-"オークの大群が攻め寄せるって言いたいのか？勇壮な戦士たち、だと？お前たちの戦"
+"オークの大群が攻め寄せるって言いたいのか？勇壮な戦士たちだって？お前たちの戦"
 "いぶりは見せてもらったが、助けてもらいたかったら、そのことを民衆に証明しなけ"
 "りゃならんな。"
 
 #. [message]: speaker=Fiannon
 #: dawn_of_thunder/scenarios/13_frozen_ground.cfg:519
+#, fuzzy
+#| msgid "How can we prove this to your People?"
 msgid "How can we prove this to your people?"
 msgstr "証明って、どうやればよい？"
 
 #. [message]: speaker=Smilvolf
 #: dawn_of_thunder/scenarios/13_frozen_ground.cfg:523
+#, fuzzy
+#| msgid ""
+#| "Through Trial by Combat of Course! Your leader against one of our "
+#| "strongest fighters until the snow is read from their blood! That is how "
+#| "we do it up here in the North. Follow me, I will lead you to our village!"
 msgid ""
 "Through trial by combat, of course! Your leader against one of our strongest "
 "fighters until the snow is red from their blood! That is how we do it up "
@@ -5786,6 +6078,30 @@ msgstr "信頼か敵対か"
 
 #. [part]
 #: dawn_of_thunder/scenarios/14_Hope_or_Hostility.cfg:20
+#, fuzzy
+#| msgid ""
+#| "And so they followed the stranger who led them through countless valleys "
+#| "always along secret paths, with the howling of a dozen wolves behind them "
+#| "and the cold harsh wind blowing in their faces. On the second day of "
+#| "march, their guide, who didn't say much until now, decided to tell the "
+#| "group a bit more about his people.\n"
+#| "\t\t\t\n"
+#| "The stranger revealed himself as Smilvolf, nephew to the chieftain Ungus, "
+#| "leader of one of the biggest Northguard clans in the Heart mountains. A "
+#| "few decades ago there were various other clans scattered through the "
+#| "mountain ranges, but Ungus united most of the under his banner in a long "
+#| "and bloody war.\n"
+#| "Nearly all clans had pledged allegiance to him and the few who hadn't "
+#| "paid attention to stay on good terms with the Ungus. The Warlord held the "
+#| "clans united through an, although benevolent in good times, harsh and "
+#| "bloody reign in case of disobedience. The community was driven very much "
+#| "by honor and strength and as such most disputes were settled though trial "
+#| "by combat.\n"
+#| "\n"
+#| "That, explained Smilvolf, was exactly what would await Fiannon. If he "
+#| "wanted to convince the Northguard to help him in his reconquest of "
+#| "Wesmere he would have to fight a champion, chosen by Ungus himself, to "
+#| "prove his worthiness."
 msgid ""
 "And so they followed the stranger who led them through countless valleys "
 "always along secret paths, with the howling of a dozen wolves behind them "
@@ -5822,8 +6138,8 @@ msgstr ""
 "ほぼ全ての氏族が Ungus に忠誠を誓い、Ungus と良好な関係を維持するために、彼に"
 "注意を払わない氏族など殆んどありませんでした。将軍は結束を保ち続け、良好な時"
 "は慈悲深く、しかし、服従しないときには厳しい血の制裁をもって対応しました。こ"
-"の共同体は名誉と力とで運用されており、これにより多くの問題は戦闘によって裁断"
-"が下されていました。\n"
+"の共同体は名誉と力とで運用されており、多くの問題は戦闘によって裁断が下されて"
+"いました。\n"
 "\n"
 "Smilvolf は そう説明しましたが、こうした話こそ Fiannon が待っていたものでし"
 "た。Wesmere を奪還するための支援についてノースガードを説得するには最も優秀な"
@@ -5832,6 +6148,17 @@ msgstr ""
 
 #. [part]
 #: dawn_of_thunder/scenarios/14_Hope_or_Hostility.cfg:29
+#, fuzzy
+#| msgid ""
+#| "After a few days of march, after walking through a valley, more elongated "
+#| "than the best elvish scout could ever see, they finally arrived at the "
+#| "home of the Northguards. Protected on two sides from mountain walls on "
+#| "the others from wooden walls, nested into the mountainside there laid "
+#| "something that resembled more a big encampment than a village.\n"
+#| "When they arrived they were greeted generously and offered a safe space "
+#| "to sleep. They would receive an audience with Chieftain Ungus the next "
+#| "morning. While most were happy that they could finally rest, Fiannon "
+#| "couldn't sleep..."
 msgid ""
 "After a few days' march, after walking through a valley, more elongated than "
 "the best elvish scout could ever see, they finally arrived at the home of "
@@ -5844,8 +6171,7 @@ msgid ""
 msgstr ""
 "数日の行軍ののち、ある谷――エルフの斥候がかつて見たことのないほど長い谷を渡っ"
 "て、ついにノースガードの本拠地に到着しました。二方は山岳地に、一方は森に守ら"
-"れていて、村というより野営地に似たものが山腹に包み込まれるように並んでいまし"
-"た。\n"
+"れていて、村というより野営地に似たものが山腹に作られていました。\n"
 "到着すると気前よくもてなされ、安全に休める場所を提供されました。翌朝には族長"
 "の Ungus と謁見することになるでしょう。多くの者たちは、やっと床につけることを"
 "喜んでいましたが、Fiannon だけは眠ることができませんでした..."
@@ -5859,6 +6185,14 @@ msgstr "<i>14. 信頼か敵対か </i>"
 
 #. [message]: speaker=Ungus
 #: dawn_of_thunder/scenarios/14_Hope_or_Hostility.cfg:214
+#, fuzzy
+#| msgid ""
+#| "Greetings Stranger! My nephew reported your request to me. I have to say "
+#| "that I am impressed. Never before an elf has ventured so far into the "
+#| "Heart Mountains.\n"
+#| "Although the way up here is long, it is not enough to prove your "
+#| "worthiness to me. You will have to fight to prove yourself! Because I am "
+#| "Generous though I will let you choose between two of my best Fighters."
 msgid ""
 "Greetings, Stranger! My nephew reported your request to me. I have to say "
 "that I am impressed. Never before has an elf ventured so far into the Heart "
@@ -5872,10 +6206,14 @@ msgstr ""
 "だ。\n"
 "ここまでの道のりは長かっただろう、しかし、お前がワシにとって価値ある者かどう"
 "かを証明するには不十分だ。戦うことで、お前自身が証明せねばならん！私は寛大だ"
-"が、まあ、最も優秀な戦士の２人の中から選ばせてやろう、と思っているんだが...。"
+"から、最も優秀な戦士の２人の中から選ばせてやろう、と思っているんだが...。"
 
 #. [message]: speaker=Ungus
 #: dawn_of_thunder/scenarios/14_Hope_or_Hostility.cfg:230
+#, fuzzy
+#| msgid ""
+#| "...You can either choose to fight Vautheim, from the clan of the "
+#| "Greywolves, one of the most cunning swordsmen i've ever seen..."
 msgid ""
 "...You can either choose to fight Vautheim, from the clan of the Greywolves, "
 "one of the most cunning swordsmen I've ever seen..."
@@ -6080,6 +6418,15 @@ msgstr "立ち去れ、オークの薄汚い奴め！ お前をフルイにか�
 
 #. [message]: speaker=mermen
 #: dawn_of_thunder/scenarios/15_Wild_Steppe.cfg:336
+#, fuzzy
+#| msgid ""
+#| "Wait, you're not orcs...\n"
+#| "Elves, dwarves, humans, Northguards... What are you doing here? Is there "
+#| "a circus in town?\n"
+#| "Anyway, You've got to help me defeat these brutes. They're planning on "
+#| "attacking Jotha, the biggest Mermen haven in existence. If Jotha falls "
+#| "like Wesmere did, there won't be any lawful haven in this part of the "
+#| "Northlands anymore!"
 msgid ""
 "Wait, you're not orcs...\n"
 "Elves, dwarves, humans, Northguards... What are you doing here? Is there a "
@@ -6181,6 +6528,12 @@ msgstr ""
 
 #. [message]: speaker=mermen
 #: dawn_of_thunder/scenarios/15_Wild_Steppe.cfg:460
+#, fuzzy
+#| msgid ""
+#| "I might have an answer for this.\n"
+#| "They're planning on attacking Jotha, the biggest mermen haven in "
+#| "existence. If Jotha falls like Wesmere did, there won't be any lawful "
+#| "haven in this part of the Northlands anymore!"
 msgid ""
 "I might have an answer for this.\n"
 "They're planning on attacking Jotha, the biggest merfolk haven in existence. "
@@ -6194,6 +6547,10 @@ msgstr ""
 
 #. [message]: speaker=mermen
 #: dawn_of_thunder/scenarios/15_Wild_Steppe.cfg:477
+#, fuzzy
+#| msgid ""
+#| "I'm sorry boy. But we must make haste to get to Jotha before it also "
+#| "falls!"
 msgid ""
 "I'm sorry, boy, but we must make haste to get to Jotha before it also falls!"
 msgstr ""
@@ -6278,6 +6635,11 @@ msgstr ""
 
 #. [message]: speaker=Naia
 #: dawn_of_thunder/scenarios/16_The_Tower.cfg:221
+#, fuzzy
+#| msgid ""
+#| "Well... things got a little... complicated.\n"
+#| "This is Fiannon, official messenger of King Eldrim of the Aethenwood and "
+#| "representant in his absence. "
 msgid ""
 "Well... things got a little... complicated.\n"
 "This is Fiannon, official messenger of King Eldrim of the Aethenwood and "
@@ -6285,7 +6647,7 @@ msgid ""
 msgstr ""
 "あのですね... ちょっとばかり... 面倒なことが有りまして。\n"
 "こちらは Fiannon 様です。Aethenwood の Eldrim 王の公式な使者で、王様が不在の"
-"際の代理をされています。"
+"際の代理をされています。 "
 
 #. [message]: speaker=Fiannon
 #: dawn_of_thunder/scenarios/16_The_Tower.cfg:226
@@ -6328,7 +6690,7 @@ msgstr ""
 "あの者たちには、もう数週間も頭を悩まされておる。ここまでは手を出せぬし、ここ"
 "へ避難してきた村人数名が塔の中にいて、私たちは火の雨を仕掛けてはいるが、あの"
 "者たちを止めることができぬようじゃのう。常に大勢でやって来ては、村じゅうで略"
-"奪を続けておる。"
+"奪を続けておる。 "
 
 #. [message]: speaker=Fiannon
 #: dawn_of_thunder/scenarios/16_The_Tower.cfg:255
@@ -6361,12 +6723,16 @@ msgstr "グオゥ"
 
 #. [message]: speaker=Naia
 #: dawn_of_thunder/scenarios/16_The_Tower.cfg:360
+#, fuzzy
+#| msgid ""
+#| "Yeah, we did it!\n"
+#| "Headmaster, may I please continue to Jotha? "
 msgid ""
 "Yeah, we did it!\n"
 "Headmaster, may I please continue to Jotha?"
 msgstr ""
 "イエィ、やったわ！\n"
-"学長、Jotha へも行っていいですよね？"
+"学長、Jotha へも行っていいですよね？ "
 
 #. [message]: speaker=Archmage
 #: dawn_of_thunder/scenarios/16_The_Tower.cfg:365
@@ -6392,6 +6758,9 @@ msgstr "Naia は、火の精霊を雇用することができるようになり�
 
 #. [message]: speaker=Archmage
 #: dawn_of_thunder/scenarios/16_The_Tower.cfg:377
+#, fuzzy
+#| msgid ""
+#| "I wish you guys the best of luck! May you defeat the Horde and her leader!"
 msgid ""
 "I wish you guys the best of luck! May you defeat the Horde and its leader!"
 msgstr "君たちの幸運を祈っておる！敵軍とそのリーダを打ち倒さんことを！"
@@ -6403,6 +6772,11 @@ msgstr "Jotha"
 
 #. [part]
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:23
+#, fuzzy
+#| msgid ""
+#| "They rested only a few hours. Fiannon could nearly hear the clock ticking "
+#| "and Pelagius was pressing them to continue as soon as possible. When they "
+#| "finally arrived at Jotha, the vultures were already circling above it."
 msgid ""
 "They rested only a few hours. Fiannon could nearly hear the clock ticking, "
 "and Pelagius was pressing them to continue as soon as possible. When they "
@@ -6496,6 +6870,11 @@ msgstr ""
 
 #. [message]: speaker=mermenking
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:507
+#, fuzzy
+#| msgid ""
+#| "Pelagius my friend! Greetings friends! I don't know who you are, but your "
+#| "mere presence is great news already. We might have a chance at defending "
+#| "Jotha. We'll talk later, now we fight!"
 msgid ""
 "Pelagius my friend! Greetings, friends! I don't know who you are, but your "
 "mere presence is great news already. We might have a chance at defending "
@@ -6606,6 +6985,13 @@ msgstr ""
 #. [message]: speaker=Lirak
 #. "Long time no see" is an idiomatic way of saying "It's been a long time since I last saw you"
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:839
+#, fuzzy
+#| msgid ""
+#| "Orcs! Nagas! You are taking too long for the Master's taste, so I brought "
+#| "some ghostly support.\n"
+#| "Naia, long time not seen! I see you are still with that elf, I heard you "
+#| "have been pestering M'Brin. Well, I have learned a lot since the last "
+#| "time we met."
 msgid ""
 "Orcs! Nagas! You are taking too long for the Master's taste, so I brought "
 "some ghostly support.\n"
@@ -6757,6 +7143,8 @@ msgstr "Odin の髭によれば、瞬間移動できるのは銀魔術師だけ�
 
 #. [message]: speaker=Naia
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:1067
+#, fuzzy
+#| msgid "I thought as well. His teacher must be really powerful."
 msgid "I thought that as well. His teacher must be really powerful."
 msgstr ""
 "私もそう思ってた。あいつの師匠は、本当に魔術に長けているに違いないわね。"
@@ -6971,6 +7359,13 @@ msgstr "Illuvèn"
 
 #. [part]
 #: dawn_of_thunder/scenarios/18_Illuvèn.cfg:195
+#, fuzzy
+#| msgid ""
+#| "They snuck across the high plains using the Northguard animals as scouts "
+#| "to keep their distance to the wandering orcish hordes. Soon, the "
+#| "vegetation began to be richer and lusher. Within a few weeks they reached "
+#| "the northern outskirts of the Wesmere forest. But when they neared the "
+#| "northernmost settlement, they saw smoke rising on the horizon..."
 msgid ""
 "They snuck across the high plains using the Northguard animals as scouts to "
 "keep their distance from the wandering orcish hordes. Soon, the vegetation "
@@ -7047,18 +7442,23 @@ msgstr ""
 
 #. [message]: speaker=Bandits_leader
 #: dawn_of_thunder/scenarios/18_Illuvèn.cfg:492
+#, fuzzy
+#| msgid ""
+#| "So we finally meet again, commander Fiannon. You will surely recognise "
+#| "me. I am very pleased that you finally decided to join the fight instead "
+#| "of running away. "
 msgid ""
 "So we finally meet again, commander Fiannon. You will surely recognise me. I "
 "am very pleased that you finally decided to join the fight instead of "
 "running away."
 msgstr ""
-"そうか、また会っちまったな、Fiannon 司令官。俺のことはよく知ってるはずだ。ア"
-"ンタが、逃げずに最後には戦闘に加わることを決めたのが本当に嬉しいよ。"
+"そうか、また会っちまったな、Fiannon 司令官。俺のことはよく知ってるはずだ。逃"
+"げずに最後には戦闘にアンタが加わることを決めたのが本当に嬉しいんだ。 "
 
 #. [message]: speaker=Naia
 #: dawn_of_thunder/scenarios/18_Illuvèn.cfg:502
 msgid "Duron Bleil! We captured you near Aldril!"
-msgstr "Duron Bleil ね! あの、Aldril の近くで捕まえた！"
+msgstr "Duron Bleil か! あの、Aldril の近くで捕まえた！"
 
 #. [message]: speaker=Bandits_leader
 #: dawn_of_thunder/scenarios/18_Illuvèn.cfg:506
@@ -7291,6 +7691,30 @@ msgstr "古代ドラゴン"
 
 #. [unit_type]: id=Ancient Dragon, race=monster
 #: dawn_of_thunder/units/dragons/Ancient_Dragon.cfg:25
+#, fuzzy
+#| msgid ""
+#| "A dragon is a legendary creature, normally seen only in fantastic tales. "
+#| "They are very rare, and were it not for the historical events, the "
+#| "singlehanded destruction of cities and towns that these creatures have "
+#| "wrought, they might be dismissed as mere myth. Legends are very specific "
+#| "about the ravages of dragons; noting their great strength, speed, their "
+#| "preternatural cunning, and above all else, the great fire that burns "
+#| "inside of them. The most ancient libraries of Wesnoth  record some "
+#| "details regarding the solitary nature of dragons, impossible to verify in "
+#| "more recent times. They did not appear to suffer the presence of other "
+#| "dragons. On the few occasions they have been observed in pairs, the "
+#| "occasion was a fight to the death, most often between an adult and a "
+#| "juvenile presumably attempting to establish territory. In no case was a "
+#| "juvenile observed to survive these encounters. Though dragons have not "
+#| "been observed to mate, it is known that they lay eggs. These eggs "
+#| "however, are peculiar in that they do not hatch in the presence of the "
+#| "parent. They have been observed to lie in the dragon's lair for hundreds "
+#| "of years, with hatchlings emerging only after the death of the parent or, "
+#| "in some rare but significant cases, removal of the eggs from the lair. It "
+#| "is presumed that these peculiar habits exist by reason of the vast "
+#| "territory required to provide meat, which dragons consume in large "
+#| "quantites. Battling a dragon is said to be the pinnacle of danger itself, "
+#| "fit only for fools or the bravest of knights."
 msgid ""
 "A dragon is a legendary creature, normally seen only in fantastic tales. "
 "They are very rare, and were it not for the historical events, the "
@@ -7655,14 +8079,19 @@ msgstr "エルフの段平刀使い"
 
 #. [unit_type]: id=Elvish Glavier, race=elf
 #: dawn_of_thunder/units/elves/ElvishGlavier.cfg:22
+#, fuzzy
+#| msgid ""
+#| "These elves are the toughest of all elves. In addition they are also "
+#| "better armored. This makes them incredibly resistant to all kinds of "
+#| "damage. They are the guardians of the secrets of the elves."
 msgid ""
 "Elvish Glaviers are the toughest of all elves. In addition, they are also "
 "better armored. This makes them incredibly resistant to all kinds of damage. "
 "They are the guardians of the secrets of the elves."
 msgstr ""
-"エルフの段平刀使い（Elvish Glavier）は、エルフの中で最も強靭な者たちです。加"
-"えて、より優秀な鎧を身に着けています。そのおかげであらゆる攻撃に対して信じら"
-"れないほどの耐性を持っています。彼らはエルフの秘密の守護者なのです。"
+"このエルフ（Elvish Glavier）は、エルフの中で最も強靭な者たちです。加えて、よ"
+"り優秀な鎧を身に着けています。そのおかげであらゆる攻撃に対して信じられないほ"
+"どの耐性を持っています。彼らはエルフの秘密の守護者なのです。"
 
 #. [attack]: type=blade
 #: dawn_of_thunder/units/elves/ElvishGlavier.cfg:54
@@ -7697,15 +8126,21 @@ msgstr "エルフの熟練槍兵"
 
 #. [unit_type]: id=Elvish Pikeman, race=elf2
 #: dawn_of_thunder/units/elves/ElvishPikeman.cfg:27
+#, fuzzy
+#| msgid ""
+#| "These elves were destined to become captains. However, instead of using "
+#| "the sword, they choose to fight with the pike. In addition, they are also "
+#| "better armored. Their appearance on the battlefield brings hope to their "
+#| "fellow elves."
 msgid ""
 "Elvish Pikemen were destined to become captains. However, instead of using "
 "the sword, they choose to fight with the pike. In addition, they are also "
 "better armored. Their appearance on the battlefield brings hope to their "
 "fellow elves."
 msgstr ""
-"エルフの熟練槍兵（Elvish Pikeman）は隊長（Elvish Captain）へ昇格できる者たち"
-"でした。しかし、剣の代わりに武器として槍を選びました。加えて、より優秀な鎧を"
-"身に着けています。戦場に彼らがいることで仲間のエルフに希望が湧くのです。"
+"このエルフ（Elvish Pikeman）は隊長（Elvish Captain）へ昇格できる者たちでし"
+"た。しかし、剣の代わりに武器として槍を選びました。加えて、より優秀な鎧を身に"
+"着けています。戦場に彼らがいることで仲間のエルフに希望が湧くのです。"
 
 #. [attack]: type=pierce
 #: dawn_of_thunder/units/elves/ElvishPikeman.cfg:47
@@ -7724,9 +8159,9 @@ msgid ""
 "through rigorous training they might become masters with their weapon of "
 "choice."
 msgstr ""
-"エルフの囚人（Elvish Prisoner）は敵から解放されたばかりですが、命を賭けて戦う"
-"心の準備はできています。今はまだ弱くて、短剣しか装備していませんが、厳しい訓"
-"練を積めば、ゆくゆくは自分の選んだ武器の達人になるかもしれません。"
+"このエルフ（Elvish Prisoner）は敵から解放されたばかりですが、命を賭けて戦う用"
+"意ができています。今はまだ弱くて、短剣しか装備していませんが、厳しい訓練を積"
+"めば、ゆくゆくは自分の選んだ武器の達人になるかもしれません。"
 
 #. [attack]: type=blade
 #: dawn_of_thunder/units/elves/ElvishPrisoner.cfg:31
@@ -7741,14 +8176,20 @@ msgstr "エルフの囚人"
 
 #. [unit_type]: id=Elvish Prisoner Unarmed
 #: dawn_of_thunder/units/elves/ElvishPrisonerUnarmed.cfg:11
+#, fuzzy
+#| msgid ""
+#| "These Elves have just been freed and are ready to fight for their lives. "
+#| "Although they are currently weak and only equipped with a shortsword, "
+#| "through rigorous training they might become masters with their weapon of "
+#| "choice."
 msgid ""
 "These Elves have just been freed and are ready to fight for their lives. "
 "Although they are currently weak and unarmed, through rigorous training they "
 "might become masters with their weapon of choice."
 msgstr ""
-"エルフの未武装囚人（Elvish Prisoner Unarmed）は敵から解放されたばかりですが、"
-"命を賭けて戦う心の準備はできています。今はまだ弱く、何も武装していませんが、"
-"厳しい訓練を積めば、ゆくゆくは自分の選んだ武器の達人になるかもしれません。"
+"このエルフ（Elvish Prisoner）は敵から解放されたばかりですが、命を賭けて戦う用"
+"意ができています。今はまだ弱くて、短剣しか装備していませんが、厳しい訓練を積"
+"めば、ゆくゆくは自分の選んだ武器の達人になるかもしれません。"
 
 #. [unit_type]: id=Elvish Storm Lord, race=elf
 #: dawn_of_thunder/units/elves/ElvishStormLord.cfg:6
@@ -7772,13 +8213,17 @@ msgstr "統率能力 Lv.0: +100% / Lv.1:+75% / Lv.2:+50% / Lv.3:+25% , 最大XP 
 
 #. [unit_type]: id=Elvish Storm Lord, race=elf
 #: dawn_of_thunder/units/elves/ElvishStormLord.cfg:115
+#, fuzzy
+#| msgid ""
+#| "These elves have mastered the lightnings which makes them terrible foes "
+#| "on the battlefield. Also they are quite adept with the sword. "
 msgid ""
 "Elvish Storm Lords have mastered the ways of lightning, which makes them "
 "terrifying foes on the battlefield. Also, they are quite adept with the "
 "sword. "
 msgstr ""
-"エルフの嵐の貴族（Elvish Storm Lord）は戦場で敵を恐怖に陥れる雷光"
-"（lightning）の技に習熟しています。また、剣の扱いにも非常に長けています。"
+"このエルフ（Elvish Storm Lord）は戦場で敵を恐怖に陥れる雷光（lightning）の技"
+"に習熟しています。また、剣の扱いにも非常に長けています。 "
 
 #. [attack]: type=blade
 #: dawn_of_thunder/units/elves/ElvishStormLord.cfg:169
@@ -7841,14 +8286,17 @@ msgstr "雷光攻撃力の強化 (雷光 +1, MP最大値 +10%)"
 
 #. [unit_type]: id=Elvish Thunderer, race=elf
 #: dawn_of_thunder/units/elves/ElvishThunderer.cfg:79
+#, fuzzy
+#| msgid ""
+#| "Some elves are born with the rare talent to control the weather. These "
+#| "elves have a tight bound to nature, and fight the unnatural."
 msgid ""
 "Some elves are born with the rare talent to control the weather. These elves "
 "have a tight bond with nature, and fight the unnatural. Their predilection "
 "for storms causes them to be known as Thunderers."
 msgstr ""
 "エルフの中には、生来、天候を制御できる稀有な能力を持つ者（Elvish Thunderer）"
-"がいます。そうした者たちは自然と強く結びついており、異様な者と戦います。激し"
-"い雷を好む性格から、\"雷撃兵\"の名で知られています。"
+"がいます。そうした者たちは自然と強く結びついており、異様な者と戦います。"
 
 #. [unit_type]: id=Elvish Hunter, race=elf
 #: dawn_of_thunder/units/elves/Hunter.cfg:6
@@ -7858,6 +8306,12 @@ msgstr "エルフの狩人"
 #. [unit_type]: id=Elvish Hunter, race=elf
 #. TODO: compare with description in IftU and see if anything needs to be changed:
 #: dawn_of_thunder/units/elves/Hunter.cfg:33
+#, fuzzy
+#| msgid ""
+#| "The elvish militia is mainly composed of civilians who have dropped their "
+#| "bows in favor of entangling unwary opponents using their bolas and then "
+#| "finishing them off with their swords. They are trained to scour the "
+#| "woods, hills and mountains for prey and enemies."
 msgid ""
 "The elvish militia is mainly composed of civilians who have dropped their "
 "bows in favor of entangling unwary opponents using their bolas, and then "
@@ -7921,7 +8375,6 @@ msgstr "エルフの槍兵"
 #: dawn_of_thunder/units/elves/Spearman.cfg:23
 msgid "Elvish Spearmen are elves trained in the art of fighting with spears."
 msgstr ""
-"エルフの槍兵（Elvish Spearman）は槍での戦闘の訓練を受けている者たちです。"
 
 #. [attack]: type=pierce
 #: dawn_of_thunder/units/elves/Spearman.cfg:39
@@ -7937,6 +8390,13 @@ msgstr "エルフの罠猟師"
 #. [unit_type]: id=Elvish Trapper, race=elf
 #. TODO: compare with IftU:
 #: dawn_of_thunder/units/elves/Trapper.cfg:35
+#, fuzzy
+#| msgid ""
+#| "Elvish Trappers have increased their expertise in patrolling and "
+#| "defending their bases, having learned the value of confusing their "
+#| "enemies and backstabbing them. These skirmishers have become more skilled "
+#| "with the short sword, having less need of using their bolas to beat their "
+#| "opponents."
 msgid ""
 "Elvish Trappers have increased their expertise in patrolling and defending "
 "their bases, having learned the value of confusing their enemies and "
@@ -7990,6 +8450,14 @@ msgstr "秋の妖精"
 
 #. [unit_type]: id=Autumn_faerie, race=fairy
 #: dawn_of_thunder/units/faeries/autumn-faerie.cfg:23
+#, fuzzy
+#| msgid ""
+#| "Only the mightiest of all faeries become an autumn faerie one day. The "
+#| "autumn faerie has lived for millennia thanks to her faerie powers. She "
+#| "has seen things and witnessed that nobody else remembers and are only "
+#| "legends to others. Her old age has made the autumn faerie even weaker "
+#| "than before but strengthened her control over nature even more. The "
+#| "autumn faerie commands and nature obeys."
 msgid ""
 "Only the mightiest of all faeries become an autumn faerie one day. The "
 "autumn faerie has lived for millennia thanks to her faerie powers. She has "
@@ -8063,6 +8531,11 @@ msgstr "堕ちた小妖精"
 
 #. [unit_type]: id=Fallen Sprite, race=fairy
 #: dawn_of_thunder/units/faeries/fallensprite.cfg:40
+#, fuzzy
+#| msgid ""
+#| "Fallen sprites are mostly found in dark places, such as deep in the heart "
+#| "of a forest. They are formidable enemies who shouldn't be underestimated, "
+#| "even if they have the appearence of airy women."
 msgid ""
 "Fallen Sprites are mostly found in dark places, such as deep in the heart of "
 "a forest. They are formidable enemies who shouldn't be underestimated, even "
@@ -8096,6 +8569,20 @@ msgstr "ゴブリンの殺人鬼"
 
 #. [unit_type]: id=Goblin Cutthroat, race=wolf
 #: dawn_of_thunder/units/goblins/Cutthroat.cfg:20
+#, fuzzy
+#| msgid ""
+#| "Goblin Cutthroats have mastered a very unusual weapon, the sickle, which "
+#| "is normally only used by poor peasants, who can't afford real weapons. "
+#| "The Goblin Cutthroats have developed a new technique of fighting from the "
+#| "back of a wolf. Similar to the human riders, they rush to their enemies "
+#| "very fast, and then use the impetus of their wolves, to harm their "
+#| "enemies very hard with their sickle, sometimes even cutting off entire "
+#| "limbs. As wolves are by far more agile than normal horses it allows them "
+#| "to strike more often.\n"
+#| "\n"
+#| "Their net has also changed in its use. Instead of slowing their enemies "
+#| "to flee, these formidable opponents slow their enemies to steal their "
+#| "gold. The Goblin Cutthroats cut the purse of their enemy. "
 msgid ""
 "Goblin Cutthroats have mastered a very unusual weapon, the sickle, which is "
 "normally only used by poor peasants who can't afford real weapons. The "
@@ -8119,7 +8606,7 @@ msgstr ""
 "\n"
 "彼らの網の使い方も変わりました。敵の逃げ足を鈍らせる代わりに、この手強い敵は"
 "敵の金塊を盗むために敵の動きを鈍らせるのです。ゴブリンの殺人鬼は敵の財布を切"
-"り裂く、そういう者なのです。"
+"り裂く、そういう者なのです。 "
 
 #. [attack]: type=blade
 #: dawn_of_thunder/units/goblins/Cutthroat.cfg:49
@@ -8138,23 +8625,29 @@ msgstr "網"
 
 #. [race]: id=human-northguard
 #: dawn_of_thunder/units/humans-northguard.cfg:6
+#, fuzzy
+#| msgid "Northguards"
 msgid "race^Northguard"
 msgstr "ノースガード"
 
 #. [race]: id=human-northguard
 #: dawn_of_thunder/units/humans-northguard.cfg:7
+#, fuzzy
+#| msgid "race+male^Faerie"
 msgid "race+male^Northguard"
-msgstr "ノースガード"
+msgstr "男妖精族"
 
 #. [race]: id=human-northguard
 #: dawn_of_thunder/units/humans-northguard.cfg:8
+#, fuzzy
+#| msgid "Northguards"
 msgid "race^Northguards"
 msgstr "ノースガード"
 
 #. [race]: id=human-northguard
 #: dawn_of_thunder/units/humans-northguard.cfg:9
 msgid "The Northguards are humans who guard the north."
-msgstr "ノースガード（NorthGuard）は北方地域を警護している人間族です。"
+msgstr ""
 
 #. [unit_type]: id=Northguard Archer, race=human-northguard
 #: dawn_of_thunder/units/humans-northguard/Northguard_Archer.cfg:6
@@ -8163,6 +8656,14 @@ msgstr "ノースガードの弓兵"
 
 #. [unit_type]: id=Northguard Archer, race=human-northguard
 #: dawn_of_thunder/units/humans-northguard/Northguard_Archer.cfg:19
+#, fuzzy
+#| msgid ""
+#| "Most northguards prefer fighting with a sword and honor the wolf as "
+#| "greatest predator. The Clan of the bloodrocs differs a bit from that. "
+#| "They praise the roc instead, the largest bird alive. And they seem to "
+#| "gain from it. Instead of the typical strength and wildness they gain an "
+#| "incredible eyesight from their animal totem. As such they prefer to fight "
+#| "with bows. That makes them irreplaceable in any northguard army."
 msgid ""
 "Most Northguards prefer fighting with a sword and honor the wolf as greatest "
 "predator. The Clan of the Bloodrocs differs a bit from that. They praise the "
@@ -8191,6 +8692,14 @@ msgstr "ノースガードの勇者"
 
 #. [unit_type]: id=Northguard Braveheart, race=human-northguard
 #: dawn_of_thunder/units/humans-northguard/Northguard_Braveheart.cfg:19
+#, fuzzy
+#| msgid ""
+#| "The Bravehearts are the natural born leaders of the Northguards. They "
+#| "distinguish themselves from other Northguards though their inner bond "
+#| "with the wolves, steady companions of the Northguards. They are also "
+#| "naturally gifted with the power of lycanthropy. Bravehearts still have a "
+#| "lot to learn but they have all the requirements to become great leaders "
+#| "to their people."
 msgid ""
 "The Bravehearts are the natural born leaders of the Northguards. They "
 "distinguish themselves from other Northguards through their inner bond with "
@@ -8199,7 +8708,7 @@ msgid ""
 "but they have all the requirements to become great leaders to their people."
 msgstr ""
 "ノースガードの勇者（Northguard Braveheart）は生来のノースガードのリーダーで"
-"す。ノースガードと強い仲間意識のある狼とは心の内からの絆をがあることで、他の"
+"す。ノースガードと強い仲間意識のある狼とは心の内から絆を持っていますが、他の"
 "ノースガードたちとは一線を画しています。また、狼への変身能力も自然と備わって"
 "います。まだ学ぶべきことの多い勇者ですが、民衆たちの偉大なリーダーに必要な素"
 "養は全て持っています。"
@@ -8221,6 +8730,12 @@ msgstr "ノースガードの必殺剣士"
 
 #. [unit_type]: id=Northguard Deathblade, race=human-northguard
 #: dawn_of_thunder/units/humans-northguard/Northguard_Deathblade.cfg:28
+#, fuzzy
+#| msgid ""
+#| "Deathblades are the most experienced northguard warriors. They learned "
+#| "that protection is sometimes more important than attack speed and have "
+#| "thus ditched the second sword for a shield. They are still deadlier than "
+#| "any warrior."
 msgid ""
 "Deathblades are the most experienced Northguard warriors. They learned that "
 "protection is sometimes more important than attack speed, and have thus "
@@ -8243,6 +8758,12 @@ msgstr "ノースガードの戦士"
 
 #. [unit_type]: id=Northguard Fighter, race=human-northguard
 #: dawn_of_thunder/units/humans-northguard/Northguard_Fighter.cfg:19
+#, fuzzy
+#| msgid ""
+#| "Fighters are the backbone of the northguard army. They are equipped with "
+#| "a short sword and they know how to use it. Northguard Fighters are "
+#| "ruthless and are said to be terrible enemies since they will sack any "
+#| "settlements they come across."
 msgid ""
 "Fighters are the backbone of the Northguard army. They are equipped with a "
 "short sword, and they know how to use it. Northguard Fighters are ruthless "
@@ -8250,8 +8771,9 @@ msgid ""
 "they come across."
 msgstr ""
 "ノースガードの戦士（Northguard Fighter）は、ノースガード軍の屋台骨です。彼ら"
-"は短剣を装備し、その使い方も心得ています。ノースガードの戦士は冷酷で、敵から"
-"は恐ろしい奴と言われていますが、それは見つけた集落はすべて強奪するからです。"
+"は短剣を装備し、その使い方も心得ています。ノースガードの戦士は冷酷で、出くわ"
+"した集落はすべて略奪するため、恐ろしい敵だと言われている。見つけた集落を強奪"
+"するため、敵からは恐ろしい奴と言われています。"
 
 #. [attack]: type=blade
 #: dawn_of_thunder/units/humans-northguard/Northguard_Fighter.cfg:24
@@ -8287,6 +8809,12 @@ msgstr "ノースガードの冷血兵"
 
 #. [unit_type]: id=Northguard Savageheart, race=human-northguard
 #: dawn_of_thunder/units/humans-northguard/Northguard_Savageheart.cfg:19
+#, fuzzy
+#| msgid ""
+#| "The Savagehearts are the great leaders of the northguard. They are the "
+#| "clan chieftains They fight masterfully with their sword and command "
+#| "northguard warriors and wild animals alike. When Savagehearts transform, "
+#| "they provoke a primal fear in the hearts of their enemies."
 msgid ""
 "The Savagehearts are the great leaders of the Northguard. They are the clan "
 "chieftains. They fight masterfully with their sword, and command Northguard "
@@ -8305,6 +8833,11 @@ msgstr "ノースガードの銀弓兵"
 
 #. [unit_type]: id=Northguard Silverbow, race=human-northguard
 #: dawn_of_thunder/units/humans-northguard/Northguard_Silverbow.cfg:20
+#, fuzzy
+#| msgid ""
+#| "The silverbows are northguard archers that have been training for years. "
+#| "Their accuracy is great and the strength they shoot their arrows with is "
+#| "unrivaled."
 msgid ""
 "The Silverbows are Northguard archers that have been training for years. "
 "Their accuracy is great, and the strength with which they shoot their arrows "
@@ -8341,6 +8874,12 @@ msgstr "ノースガードの野生兵"
 
 #. [unit_type]: id=Northguard Wildheart, race=human-northguard
 #: dawn_of_thunder/units/humans-northguard/Northguard_Wildheart.cfg:19
+#, fuzzy
+#| msgid ""
+#| "Wildhearts are the experienced military leaders of the northguards. They "
+#| "have their worth on the battlefield both in personal combat and strategy. "
+#| "The Wildhearts are tasked with important missions and often lead smaller "
+#| "groups under their command."
 msgid ""
 "Wildhearts are the experienced military leaders of the Northguards. They "
 "have their worth on the battlefield both in personal combat and strategy. "
@@ -8358,6 +8897,12 @@ msgstr "ノースガードの狼戦士"
 
 #. [unit_type]: id=Northguard Wolfheart, race=human-northguard
 #: dawn_of_thunder/units/humans-northguard/Northguard_Wolfheart.cfg:19
+#, fuzzy
+#| msgid ""
+#| "The Wolfheart is a legendary figure from northguard mythology. As it is "
+#| "written: ''...and he will come and he will be the end of his enemies. He "
+#| "will be both wolf and human and he will swap between his forms as he "
+#| "likes. ''"
 msgid ""
 "The Wolfheart is a legendary figure from Northguard mythology. As it is "
 "written: ''...and he will come and he will be the end of his enemies. He "
@@ -8569,7 +9114,7 @@ msgid ""
 "great weight of its cargo, this caravan moves very slowly. "
 msgstr ""
 "幌馬車（Caravan）は gold や食料を遠方に運ぶために使われます。とても重い積み荷"
-"を運ぶため、移動には非常に時間がかかります。"
+"を運ぶため、移動には非常に時間がかかります。 "
 
 #. [unit_type]: id=minecart, race=mechanical
 #: dawn_of_thunder/units/mechanical/minecart.cfg:7
@@ -8617,6 +9162,12 @@ msgstr "ウミガメの赤ん坊"
 #. [unit_type]: id=Baby Sea Turtle, race=monster
 #. compare with turtles in Ageless Era:
 #: dawn_of_thunder/units/monsters/Baby_Sea_Turtle.cfg:22
+#, fuzzy
+#| msgid ""
+#| "The bony shell of these turtles are comparable in fortitude to the "
+#| "guardsmen of ancient times. The turtles will bite antagonizing forces in "
+#| "close range, and can fire jets of water at enemies when engaging in long-"
+#| "range combat."
 msgid ""
 "The bony shell of these turtles are comparable in fortitude to the guardsmen "
 "of ancient times. The turtles will bite antagonizing forces at close range, "
@@ -8720,6 +9271,15 @@ msgstr "巨大ウミガメ"
 
 #. [unit_type]: id=Giant Sea Turtle, race=monster
 #: dawn_of_thunder/units/monsters/Giant_Sea_Turtle.cfg:21
+#, fuzzy
+#| msgid ""
+#| "A legend states that once, in the old days of Wesnoth, an island appeared "
+#| "out of nowhere off the coast of a certain wealthy baron. Intrigued, the "
+#| "baron deployed a fleet to investigate the appearing. Three moons later, "
+#| "the humans realized that the Island was getting no closer. When the boats "
+#| "accelerated, the Island turned around and attacked the boats. The one "
+#| "boat that managed to get back to the coast relayed his tale of a huge "
+#| "turtle, apparently millennia old and the size of an island."
 msgid ""
 "A legend states that once, in the old days of Wesnoth, an island appeared "
 "out of nowhere off the coast of a certain wealthy baron. Intrigued, the "
@@ -8820,6 +9380,11 @@ msgstr "マンモスの子ども"
 
 #. [unit_type]: id=Mammoth_calf, race=monster
 #: dawn_of_thunder/units/monsters/Mammoth_small.cfg:20
+#, fuzzy
+#| msgid ""
+#| "Young mammoths aren't nearly as strong and big as their elders, but they "
+#| "are already pretty dangerous. It is not advised to attack one of these, "
+#| "since their parents tend to be very protective."
 msgid ""
 "Young mammoths aren't nearly as strong and big as their elders, but they are "
 "already pretty dangerous. It is not advisable to attack one such young "
@@ -8857,6 +9422,15 @@ msgstr "育ち過ぎのカニ"
 
 #. [unit_type]: id=Overgrown Crab, race=monster
 #: dawn_of_thunder/units/monsters/Overgrown_Crab.cfg:21
+#, fuzzy
+#| msgid ""
+#| "These crabs have begun to exceed the norm size of their cousins, and can "
+#| "move faster and faster than the regular crabs. Most Overgrown Crabs have "
+#| "been trained and used by the navy for long periods of time; through their "
+#| "tenure as beasts of war, they have been trained in the elegant and fine "
+#| "arts of slicing humans in half with sharp pincers. The water-launching "
+#| "capabilities of the crabs have also become more efficient due to "
+#| "experience."
 msgid ""
 "These crabs have begun to exceed the normal size of their cousins, and can "
 "move faster and farther than the regular crabs. Most Overgrown Crabs have "
@@ -8866,11 +9440,11 @@ msgid ""
 "capabilities of the crabs have also become more efficient due to experience."
 msgstr ""
 "このカニ（Overgrown Crab）は仲間の普通のサイズより大きく育ちだして、しかも通"
-"常よりも高速かつ広範囲に移動ができるようになります。最も育ちすぎたカニは長年"
-"に渡って軍隊から訓練を受け、利用されてきました。戦闘用動物としての職務期間中"
-"はずっと、その鋭いハサミで人間を真っ二つに切り裂くという優雅で繊細な技の訓練"
-"を受けていました。カニが水を発射する能力は、経験によって更に効率的なものにな"
-"りました。"
+"常よりも非常に高速な移動ができるようになります。最も育ちすぎたカニは長年に"
+"渡って軍隊から訓練を受け、利用されてきました。戦闘用動物としての職務期間中は"
+"ずっと、その鋭いハサミで人間を真っ二つに切り裂くという優雅で繊細な技の訓練を"
+"受けていました。カニが水を発射する能力は、経験によって更に効率的なものになり"
+"ました。"
 
 #. [unit_type]: id=RocBig, race=roc
 #: dawn_of_thunder/units/monsters/Roc-big.cfg:6
@@ -8879,6 +9453,10 @@ msgstr "雷神鳥"
 
 #. [unit_type]: id=RocBig, race=roc
 #: dawn_of_thunder/units/monsters/Roc-big.cfg:19
+#, fuzzy
+#| msgid ""
+#| "Sometimes, for unknown reasons, some Rocs get much bigger and stronger "
+#| "than normal. Those are the leaders of the Rocs."
 msgid ""
 "Sometimes, for unknown reasons, some Rocs get much bigger and stronger than "
 "normal. Such Rocs are also known as Thunderbirds, and are the leaders of the "
@@ -8908,6 +9486,13 @@ msgstr "Roc"
 
 #. [unit_type]: id=Roc, race=roc
 #: dawn_of_thunder/units/monsters/Roc-mid.cfg:19
+#, fuzzy
+#| msgid ""
+#| "Rocs a big bird-like animals with an extraordinary intelligence. They are "
+#| "loosely related to the gryphons and very similar to those, being only "
+#| "slightly smaller than these. They still reach an impressive wingspan of 4 "
+#| "to 5 meters once they are mature. Rocs are a proud very race to the point "
+#| "of being arrogant sometimes."
 msgid ""
 "Rocs are big bird-like animals with an extraordinary intelligence. They are "
 "loosely related to the gryphons and very similar to those, being only "
@@ -8917,7 +9502,7 @@ msgid ""
 msgstr ""
 "極めて高い知性を持った、鳥のような動物、それが Roc です。グリフォンとやや近い"
 "関係にあってとてもよく似ており、体長は若干小さめです。成鳥になると翼の幅は４"
-"m から５ｍほどの見事なものになります。Roc は非常に誇り高い種族で、ときには傲"
+"m から５ｍほどの見事なものになります。Roc はまさに誇り高い種族で、ときには傲"
 "慢になることもあります。"
 
 #. [unit_type]: id=RocSmall, race=roc
@@ -8927,6 +9512,11 @@ msgstr "若い Roc"
 
 #. [unit_type]: id=RocSmall, race=roc
 #: dawn_of_thunder/units/monsters/Roc-small.cfg:18
+#, fuzzy
+#| msgid ""
+#| "Rocs start hunting at the age of ten month. At this age, the Roc has not "
+#| "yet reached it's full growth. Thus, Young Rocs mostly hunt in groups, "
+#| "often lead by a mature Roc."
 msgid ""
 "Rocs start hunting at the age of ten month. At this age, the Roc has not yet "
 "reached its full growth. Thus, Young Rocs mostly hunt in groups, often led "
@@ -8943,6 +9533,10 @@ msgstr "ウミガメ"
 
 #. [unit_type]: id=Sea Turtle, race=monster
 #: dawn_of_thunder/units/monsters/Sea_Turtle.cfg:21
+#, fuzzy
+#| msgid ""
+#| "These turtles, full grown and capable of decapitating a small human in "
+#| "one bite, have proven themselves in battle."
 msgid ""
 "These turtles, full-grown and capable of decapitating a small human in one "
 "bite, have proven themselves in battle."
@@ -9007,14 +9601,18 @@ msgstr "ジャイアント・トロル"
 
 #. [unit_type]: id=Giant Troll, race=troll
 #: dawn_of_thunder/units/trolls/giant_troll.cfg:21
+#, fuzzy
+#| msgid ""
+#| "Giant trolls are one of the tallest and strongest of trolls. Their mighty "
+#| "hammers are able to trigger earthquakes and their foot squash humans as "
+#| "they were rats."
 msgid ""
 "Giant Trolls are some of the tallest and strongest trolls. Their mighty "
 "hammers are able to trigger earthquakes, and their feet squash humans as if "
 "they were rats."
 msgstr ""
 "ジャイアント・トロルはトロルの中で最も背が高く最も力の強い者たちです。強力な"
-"ハンマーで地震を起こせるし、まるでネズミを扱うように人間を足で踏み潰すので"
-"す。"
+"ハンマーで地震を起こせるし、人間をネズミのように足で踏み潰すのです。"
 
 #. [unit_type]: id=Elvish Ancestor, race=undead
 #: dawn_of_thunder/units/undead/Elvish_Spirit_Ancestor.cfg:5
@@ -9166,6 +9764,24 @@ msgstr "暗黒の老ウーズ"
 
 #. [unit_type]: id=Dark Elder Wose, race=wose
 #: dawn_of_thunder/units/woses/dark-wose-elder.cfg:18
+#, fuzzy
+#| msgid ""
+#| "Woses have been said to possess many shapes, all of them tree-like in "
+#| "form, and as they age, to increase in size. Tales tell of woses who "
+#| "resemble trees in this respect as well, towering over the creatures who "
+#| "walk beneath them. This is the greater part of why they are so rarely "
+#| "seen — standing in the slumber which they so often do, a wose of that "
+#| "stature appears to be nothing more than an oddly-shaped tree. Even a "
+#| "careless elf can sometimes be fooled.\n"
+#| "\n"
+#| "Woses are not warriors by any means, but their great strength can easily "
+#| "be turned to violence, should someone manage to raise the ire of these "
+#| "creatures.  \n"
+#| "\n"
+#| "When these woses become corrupted, they become stronger, faster, and also "
+#| "more aggresive. On the other side their bound to nature becomes weaker, "
+#| "they only regenerate at certain times of the day and their life force is "
+#| "weaker too."
 msgid ""
 "Woses have been said to possess many shapes, all of them tree-like in form, "
 "and as they age, they increase in size. Tales tell of woses who resemble "
@@ -9194,9 +9810,9 @@ msgstr ""
 "ウーズは決して戦士ではありません。しかしその偉大な強さがいとも簡単に恐怖と変"
 "わるのです、この生き物の怒りが誰かによって掻き立てられれば。\n"
 "\n"
-"このウーズが堕落したとき、彼らはより強く、速く、攻撃的になります。その一方"
-"で、自然との絆は弱まり、再生能力は一日のうちの特定の時間帯のみのものとなっ"
-"て、生命力もまた弱くなります。"
+"このウーズが堕落したとき、彼らはより強く、速く、攻撃的になります。一方で、自"
+"然との絆は弱まり、再生能力は一日のうちの特定の時間帯のみのものとなって、生命"
+"力もまた弱くなります。"
 
 #. [unit_type]: id=Dark Immemorial Wose, race=wose
 #: dawn_of_thunder/units/woses/dark-wose-immermorial.cfg:5
@@ -9205,6 +9821,25 @@ msgstr "暗黒の太古ウーズ"
 
 #. [unit_type]: id=Dark Immemorial Wose, race=wose
 #: dawn_of_thunder/units/woses/dark-wose-immermorial.cfg:19
+#, fuzzy
+#| msgid ""
+#| "There is a curious story of a farmer who had a great oak in his lawn, a "
+#| "tree which had stood when his father first broke the soil on that land, "
+#| "and under which his family had many memories. It was thus a shock to him, "
+#| "one morning, when he awoke to find it somehow spirited away, with nothing "
+#| "but a bare patch of earth where it once stood.\n"
+#| "\n"
+#| "Such encounters are all that is known of what are presumably the most "
+#| "ancient of woses.\n"
+#| "\n"
+#| "When these woses become corrupted, they become stronger, faster, and also "
+#| "more aggresive. On the other side their bound to nature becomes weaker, "
+#| "they only regenerate at certain times of the day and their life force is "
+#| "weaker too. \n"
+#| "\n"
+#| "The mightiest woses are called Immemorial Woses, and seeing one of them "
+#| "corrupted is perhaps the most terrifying thing that might ever happen to "
+#| "you."
 msgid ""
 "There is a curious story of a farmer who had a great oak in his lawn, a tree "
 "which had stood when his father first broke the soil on that land, and under "
@@ -9251,6 +9886,24 @@ msgstr "暗黒のウーズ"
 
 #. [unit_type]: id=Dark Wose, race=wose
 #: dawn_of_thunder/units/woses/dark-wose.cfg:18
+#, fuzzy
+#| msgid ""
+#| "Rarely seen even by elves, the Wose is an order of creature about which "
+#| "little is known. The elves are the source of most of this knowledge; they "
+#| "know that these beings are not descended from trees, despite the "
+#| "similarity in form, and they know that a wose is more closely tied to the "
+#| "faerie world than the elves themselves, though in a different way. The "
+#| "motives and workings of their kind are unknown, though most subscribe to "
+#| "the obvious theory that woses are dedicated wardens of the natural "
+#| "world.\n"
+#| "\n"
+#| "Woses are utterly unwarlike, but possess a great strength. They are, "
+#| "however, neither used to, nor quick at moving around.\n"
+#| "\n"
+#| "When these woses become corrupted, they become stronger, faster, and also "
+#| "more aggresive. On the other side their bound to nature becomes weaker, "
+#| "they only regenerate at certain times of the day and their life force is "
+#| "weaker too."
 msgid ""
 "Rarely seen even by elves, the Wose is an order of creature about which "
 "little is known. The elves are the source of most of this knowledge; they "
@@ -9511,11 +10164,15 @@ msgstr ""
 "なく、対象に隣接する全てのユニットが高い確率で同じ攻撃を受けてしまいます。"
 
 #: dawn_of_thunder/utils/abilities_redone.cfg:4
+#, fuzzy
+#| msgid ""
+#| " This unit is at home on the beach, and can move undetected in any sandy "
+#| "area or oasis."
 msgid ""
 "This unit is at home on the beach, and can move undetected in any sandy area "
 "or oasis."
 msgstr ""
-"このユニットは浜辺に棲家があり、どんな砂地やオアシスにでも発見されずに移動で"
+" このユニットは浜辺に棲家があり、どんな砂地やオアシスにでも発見されずに移動で"
 "きます。"
 
 #. [hides]: id=Beach Home
@@ -9534,11 +10191,15 @@ msgstr ""
 "ありませんし、どんな砂地やオアシスにでも隠れることが可能です。"
 
 #: dawn_of_thunder/utils/abilities_redone.cfg:22
+#, fuzzy
+#| msgid ""
+#| " This unit can move unseen in shallow and deep water, requiring little "
+#| "air from the surface."
 msgid ""
 "This unit can move unseen in shallow and deep water, requiring little air "
 "from the surface."
 msgstr ""
-"このユニットは浅瀬や深水を目に触れることなく移動できます。水面から空気を得る"
+" このユニットは浅瀬や深水を目に触れることなく移動できます。水面から空気を得る"
 "必要もありません。"
 
 #. [hides]: id=AE_shallow_submerge
@@ -9569,14 +10230,19 @@ msgstr ""
 "ターン毎に 8HP 回復します。"
 
 #: dawn_of_thunder/utils/abilities_redone.cfg:57
+#, fuzzy
+#| msgid ""
+#| " This unit regenerates 8 HP per turn by absorbing energy from burning "
+#| "forests. Any time this unit starts a turn on a dry forest (non-snow), it "
+#| "burns the trees, leaving none left."
 msgid ""
 "This unit regenerates 8 HP per turn by absorbing energy from burning "
 "forests. Any time this unit starts a turn on a dry forest (non-snow), it "
 "burns the trees, leaving none left."
 msgstr ""
-"このユニットは、森を燃やした熱を吸収することで毎ターン 8HP 再生する能力を持ち"
-"ます。乾燥した森（雪山以外）でターンを開始すると木々を燃やし、後には何も残り"
-"ません。"
+" このユニットは、森を燃やした熱を吸収することで毎ターン 8HP 再生する能力を持"
+"ちます。乾燥した森（雪山以外）でターンを開始すると木々を燃やし、後には何も残"
+"りません。"
 
 #. [regenerate]
 #: dawn_of_thunder/utils/abilities_redone.cfg:131
@@ -9592,8 +10258,10 @@ msgstr ""
 "HP はユニットごとに異なります）。"
 
 #: dawn_of_thunder/utils/abilities_redone.cfg:137
+#, fuzzy
+#| msgid " This unit regenerates {HP} HP per turn when on lava terrain."
 msgid "This unit regenerates {HP} HP per turn when on lava terrain."
-msgstr "このユニットは、溶岩地形にいると毎ターン {HP} HP 回復します。"
+msgstr " このユニットは、溶岩地形にいると毎ターン {HP} HP 回復します。"
 
 #. [heals]: id=healing
 #: dawn_of_thunder/utils/abilities_redone.cfg:144
@@ -9930,6 +10598,8 @@ msgstr ""
 
 #. [message]: speaker=Fiannon
 #: dawn_of_thunder/utils/deaths.cfg:223
+#, fuzzy
+#| msgid "Rest in piece, loyal soldier!"
 msgid "Rest in peace, loyal soldier!"
 msgstr "安らかに...、誠忠の戦士よ！"
 
@@ -9956,15 +10626,18 @@ msgstr ""
 "あっ、Limwen さま、どうやってレベルアップされたのですか？ XP bar が紫色でした"
 "わ！"
 
-# "Easter egg"  はキリスト教の習慣です。
 #. [message]: speaker=Limwen
 #: dawn_of_thunder/utils/global-events.cfg:61
+#, fuzzy
+#| msgid ""
+#| "I don't know! Someone must have had too much time so he made me an "
+#| "easteregg."
 msgid ""
 "I don't know! Someone must have had too much time on his hands, so he gave "
 "me an easteregg."
 msgstr ""
-"あら、どうしたのかしら！時間が掛かりすぎちゃったから、誰かが何か素敵な仕掛け"
-"でもしてくれたのかしらね。"
+"あら、どうしたのかしら！時間が掛かりすぎちゃったから、誰かが何か仕掛けでもし"
+"てくれたのかしらね。"
 
 #. [message]: speaker=Alasar
 #. There are a bunch of relevant "fourth wall" tropes that could apply here, but I think this one is "Scolding The Fourth Wall Breaker":
