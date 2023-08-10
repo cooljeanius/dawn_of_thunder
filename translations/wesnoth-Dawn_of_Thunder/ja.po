@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Dawn of Thunder\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-08-08 21:06 UTC\n"
-"PO-Revision-Date: 2023-08-03 15:56+0900\n"
+"PO-Revision-Date: 2023-08-10 16:55+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -901,14 +901,12 @@ msgstr "それに、何かしらあなた方の役に立てるかもしれない
 #. [message]: speaker=Lirak
 #: dawn_of_thunder/scenarios/02_rescue.cfg:776
 msgid "Argh!"
-msgstr ""
+msgstr "グワーー！"
 
 #. [message]: speaker=Fiannon
 #: dawn_of_thunder/scenarios/02_rescue.cfg:791
-#, fuzzy
-#| msgid "It seems that my time has come."
 msgid "It seems that we have survived!"
-msgstr "どうやら私の、その時が来たようね。"
+msgstr "どうやら我々は生き延びたみたいだ！"
 
 #. [message]: speaker=Harendoion
 #: dawn_of_thunder/scenarios/02_rescue.cfg:831
@@ -3193,7 +3191,7 @@ msgstr ""
 #. [message]: speaker=Maeblie
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1563
 msgid "You'll see us again later, grrrrrr..."
-msgstr "ではまたお逢いしましょう、ふん"
+msgstr "ではまたお逢いしましょう、ふん..."
 
 #. [message]: speaker=Maeblie
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1681
@@ -4852,21 +4850,15 @@ msgstr "司令官、もう３日もこの坑道を歩き続けていますよ！
 #. [message]: role=crybaby
 #. "continue that way" could also be "keep going like that":
 #: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:325
-#, fuzzy
-#| msgid ""
-#| "The scarce supplies that we took with us are running low, and it's been 2 "
-#| "days ago that we found water. Also, it's cold and dark and half of your "
-#| "army suffers from claustrophobia! We can't continue that way; your troops "
-#| "won't hold long."
 msgid ""
 "The scarce supplies that we took with us are running low, and it's been two "
 "days since we last found water. Also, it's cold and dark and half of your "
 "army suffers from claustrophobia! We can't continue that way; your troops "
 "won't hold long."
 msgstr ""
-"手持ちの食料はそろそろ底をつきそうで、最後に水を見つけたのは２日前でした。し"
-"かも周囲は冷たく暗く、兵たちはまるで閉所恐怖症に罹っているような感じです。こ"
-"の状況が続いたら、限界が来ちゃいますよ。"
+"手持ちの食料はそろそろ底をつきそうで、最後に水を見つけてから２日経っていまし"
+"た。しかも周囲は冷たく暗く、兵たちはまるで閉所恐怖症に罹っているような感じで"
+"す。この状況が続いたら、限界が来ちゃいますよ。"
 
 #. [message]: speaker=Fiannon
 #: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:329
@@ -5194,10 +5186,8 @@ msgstr "<i>11. ドワーフなりの謝意 </i>"
 #. [message]: speaker=Fiannon
 #. change of "Thanks" to "Thank you" is because "Thank you" is a bit more formal than just "Thanks":
 #: dawn_of_thunder/scenarios/11_dwarvish_gratitude.cfg:189
-#, fuzzy
-#| msgid "Thanks for receiving us, great lord under the mountain!"
 msgid "Thank you for receiving us, great lord under the mountain!"
-msgstr "私達を迎え入れていただき、感謝します、偉大なるこの山の地下の王様！"
+msgstr "私達を迎え入れていただき、感謝します、この山の地下の偉大なる王様！"
 
 #. [message]: speaker=Thindromli
 #: dawn_of_thunder/scenarios/11_dwarvish_gratitude.cfg:193
@@ -5762,16 +5752,12 @@ msgstr ""
 
 #. [message]: speaker=Thindromli
 #: dawn_of_thunder/scenarios/13_frozen_ground.cfg:511
-#, fuzzy
-#| msgid ""
-#| "Aye, I can confirm that those are brave men who fight valiantly. Worthy "
-#| "to fight alongside."
 msgid ""
 "Aye, I can confirm that these are brave Elves and Humans who fight "
 "valiantly. Worthy to fight alongside."
 msgstr ""
-"そうともよ、俺が保証する。コイツらは勇敢で、勇壮に戦う連中だってことをな。と"
-"もに戦うに値する奴らだぜ。"
+"そうともよ、俺が保証する。コイツらは勇敢なエルフと人間族で、勇壮に戦う連中"
+"だってことをな。ともに戦うに値する奴らだぜ。"
 
 #. [message]: speaker=Smilvolf
 #: dawn_of_thunder/scenarios/13_frozen_ground.cfg:515
@@ -5812,30 +5798,6 @@ msgstr "信頼か敵対か"
 
 #. [part]
 #: dawn_of_thunder/scenarios/14_Hope_or_Hostility.cfg:20
-#, fuzzy
-#| msgid ""
-#| "And so they followed the stranger who led them through countless valleys "
-#| "always along secret paths, with the howling of a dozen wolves behind them "
-#| "and the cold harsh wind blowing in their faces. On the second day of "
-#| "march, their guide, who didn't say much until now, decided to tell the "
-#| "group a bit more about his people.\n"
-#| "\t\t\t\n"
-#| "The stranger revealed himself as Smilvolf, nephew to the chieftain Ungus, "
-#| "leader of one of the biggest Northguard clans in the Heart Mountains. A "
-#| "few decades ago there were various other clans scattered through the "
-#| "mountain ranges, but Ungus united most of the under his banner in a long "
-#| "and bloody war.\n"
-#| "Nearly all clans had pledged allegiance to him, and the few who hadn't "
-#| "paid attention to stay on good terms with the Ungus. The Warlord held the "
-#| "clans united through an, although benevolent in good times, harsh and "
-#| "bloody reign in case of disobedience. The community was driven very much "
-#| "by honor and strength, and as such, most disputes were settled though "
-#| "trial by combat.\n"
-#| "\n"
-#| "That, explained Smilvolf, was exactly what would await Fiannon. If he "
-#| "wanted to convince the Northguard to help him in his reconquest of "
-#| "Wesmere, he would have to fight a champion, chosen by Ungus himself, to "
-#| "prove his worthiness."
 msgid ""
 "And so they followed the stranger who led them through countless valleys "
 "always along secret paths, with the howling of a dozen wolves behind them "
@@ -5862,8 +5824,8 @@ msgid ""
 msgstr ""
 "そうして、秘密の道に沿って数え切れないほどの谷を渡って、名も知らぬ男の後を付"
 "いていきました。背後からの何匹もの狼の遠吠えと、冷たく顔に当たる過酷な風を感"
-"じながら。行軍２日目、案内人はそれまで口をきかなかったのですが、彼らの民族に"
-"ついてもう少し話しておこうと思い立ちました。\n"
+"じながら。行軍の２日目、案内人はそれまで口をきかずじまいでしたが、彼らの民族"
+"についてもう少し話しておこうと思い立ちました。\n"
 "\t\t\t\n"
 "そして名も知らぬ男は口を開いたのです。彼の名前は Smilvolf といい、Heart 山地"
 "最大氏族の一つ、ノースガード族のリーダー Ungus の甥であることを明かしました。"
@@ -6564,16 +6526,11 @@ msgstr "Kai Kaspius または Queen eruadne の死"
 
 #. [message]: speaker=mermenking
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:559
-#, fuzzy
-#| msgid ""
-#| "Pelagius! The people Jotha want to help in its defense. I trust you with "
-#| "their command."
 msgid ""
 "Pelagius! The people of Jotha want to help in its defense. I trust you with "
 "their command."
 msgstr ""
-"Pelagius ！ Jotha の民衆が防衛に手を貸したがっているのだ。彼らの指揮は君に任"
-"せよう。"
+"Pelagius！ Jotha の民衆が防衛に手を貸したがっている。彼らの指揮は君に託そう。"
 
 #. [message]: speaker=mermenking
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:563
@@ -10011,7 +9968,6 @@ msgstr ""
 "あっ、Limwen さま、どうやってレベルアップされたのですか？ XP bar が紫色でした"
 "わ！"
 
-# "Easter egg"  はキリスト教の習慣です。
 #. [message]: speaker=Limwen
 #. "easteregg" in the sense of a hidden secret: https://tvtropes.org/pmwiki/pmwiki.php/Main/EasterEgg
 #: dawn_of_thunder/utils/global-events.cfg:62
