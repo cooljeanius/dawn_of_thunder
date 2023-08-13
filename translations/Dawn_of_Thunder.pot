@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-08-13 02:38 UTC\n"
+"POT-Creation-Date: 2023-08-13 02:47 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -5393,7 +5393,7 @@ msgstr ""
 
 #. [part]
 #: dawn_of_thunder/scenarios/Epilogue.cfg:12
-msgid "Hey, thank you for playing my campaign. Sadly it isn't finished. If you want to help me with this task or have any suggestions, come to the forums and report your bugs at r.wesnoth.org/t39512."
+msgid "Hey, thank you for playing this campaign. Sadly it isn't finished. If you want to help out with this task or have any suggestions, come to the forums and post in the development thread at r.wesnoth.org/t39512, or report your bugs on GitHub at https://github.com/cooljeanius/dawn_of_thunder/issues."
 msgstr ""
 
 #. [scenario]: id=test
