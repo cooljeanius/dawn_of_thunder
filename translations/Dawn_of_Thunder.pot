@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-08-08 21:06 UTC\n"
+"POT-Creation-Date: 2023-08-13 02:38 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -938,7 +938,7 @@ msgstr ""
 #: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:366
 msgid ""
 "Pah! He was a vile traitor, who turned to necromancy!\n"
-"<span size='small'>(spits on the stone)</span>\n"
+"<span size='small'>(*<i>spits on the stone</i>*)</span>\n"
 "Good riddance!"
 msgstr ""
 
@@ -980,78 +980,82 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:474
+#. https://en.wikipedia.org/wiki/Fight-or-flight_response
+#. (but capitalized to indicate that the options represent a gameplay decision)
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:476
 msgid ""
 "Their first wave is coming.\n"
 "You need to decide now, Fight or Flight?"
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:506
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:508
 msgid "These should have been the last. It was a pleasure fighting for you, milady, but we must continue to the royal court now."
 msgstr ""
 
 #. [message]: speaker=Limwen
 #. Naia isn't ACTUALLY twelve years old, Limwen is just saying that as an insult to her youth. Naia is actually a young adult,
 #. with an age in the range of 25 to 30 years old.
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:512
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:514
 msgid "Yes, and I think that I'll come with you. You and your magic look promising, but you'll need guidance from a mage who isn't twelve years old."
 msgstr ""
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:540
-msgid "$speakerunit.name, take my place while I'm gone."
+#. to explain why all her units don't come along with her:
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:543
+msgid "$speakerunit.name, take my place watching over my remaining apprentices while I'm gone."
 msgstr ""
 
 #. [message]: id=$speakerunit.id
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:550
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:553
 msgid "Sure mistress, I'll do my best!"
 msgstr ""
 
 #. [message]: speaker=shaman
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:570
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:573
 msgid "Look, mistress! There are people on the horizon! Do you think they are the danger you've been feeling for the last few days?"
 msgstr ""
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:574
-msgid "Neria, open your mind. Be the forest. Can't you feel they are elves? The danger has yet to come..."
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:577
+msgid "Neria, open your mind. <i>Be</i> the forest. Can't you feel they are elves? The danger has yet to come..."
 msgstr ""
 
 #. [message]: speaker=shaman
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:578
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:581
 msgid "I'm sorry, mistress."
 msgstr ""
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:582
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:585
 msgid "Welcome travelers, to the Vale of Tears."
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:587
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:590
 msgid ""
 "Greetings, Lady Druid. It's good to see some elvish faces. We are coming from the edge of the Southwood and are going to Aethen.\n"
 "Our feet are hurting and our legs are tired. May we rest here for a while?"
 msgstr ""
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:593
-msgid "You may stay, but I fear that you won't be able to rest. I can feel the walking dead as they are surrounding us in this very moment. You could try to break through to the northeast; we will slow them down while you flee."
+#. part about the villages is a bit of a gameplay hint to reassure the player that Limwen won't mind if you steal villages from her:
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:597
+msgid "You may stay in our villages, but I fear that you won't have much time to rest here, though. I can feel the walking dead as they are surrounding us in this very moment. You could try to break through to the northeast; we will slow them down while you flee."
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:597
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:601
 msgid "But what about you and your apprentices?"
 msgstr ""
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:601
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:605
 msgid "Don't worry, the Order of the Vale always finds a way."
 msgstr ""
 
 #. [message]: speaker=Naia
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:605
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:609
 msgid "We shouldn't let these shamans fight the undead alone. By what's moral we're bound to help them defend, but it's up to you to decide."
 msgstr ""
 
@@ -7004,137 +7008,162 @@ msgid "Max HP bonus +3, Max XP +20%"
 msgstr ""
 
 #. [message]: speaker=Naia
-#. TODO: Naia should only say this if she hasn't advanced past Grey Mage yet:
-#: dawn_of_thunder/utils/deaths.cfg:12
-msgid "Nooo! I didn't even manage to learn how to teleport!"
+#. Naia should only say this as a Grey Mage:
+#: dawn_of_thunder/utils/deaths.cfg:13
+msgid "Nooo! I didn't even manage to learn how to teleport yet!"
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:16
+#: dawn_of_thunder/utils/deaths.cfg:17
+#: dawn_of_thunder/utils/deaths.cfg:38
+#: dawn_of_thunder/utils/deaths.cfg:59
 msgid "Curses! Without her, we'll never learn more about the orc menace!"
 msgstr ""
 
+#. [message]: speaker=Naia
+#. Naia should only say this as a Silver Mage:
+#: dawn_of_thunder/utils/deaths.cfg:34
+msgid "Nooo! I didn't even manage to learn how to photoregenerate yet! Or how to illuminate, either, for that matter!"
+msgstr ""
+
+#. [message]: speaker=Naia
+#. WIP: Naia should only say this as a Golden Mage, before she becomes able to recruit:
+#: dawn_of_thunder/utils/deaths.cfg:55
+msgid "Nooo! I didn't even manage to learn how to recruit more troops yet! Or summon anything, either, for that matter!"
+msgstr ""
+
+#. [message]: speaker=Naia
+#. WIP: Naia should only say this as a Golden Mage that can recruit:
+#: dawn_of_thunder/utils/deaths.cfg:76
+msgid "Nooo! I didn't even manage to tell Fiannon I loved him yet!"
+msgstr ""
+
+#. [message]: speaker=Fiannon
+#: dawn_of_thunder/utils/deaths.cfg:80
+msgid "Curses! Without her... wait, Naia, did you just say you loved me?! Nooo!!!"
+msgstr ""
+
 #. [message]: speaker=Smilfvolf
-#: dawn_of_thunder/utils/deaths.cfg:30
+#: dawn_of_thunder/utils/deaths.cfg:94
 msgid "Death on the battlefield is a noble death. I'll join my ancestors now!"
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:34
+#: dawn_of_thunder/utils/deaths.cfg:98
 msgid "Damn! Without him, the Northguards will stop supporting us!"
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:48
+#: dawn_of_thunder/utils/deaths.cfg:112
 msgid "Noooo, I'm not ready to die this soon!"
 msgstr ""
 
 #. [message]: id=Naia
-#: dawn_of_thunder/utils/deaths.cfg:52
+#: dawn_of_thunder/utils/deaths.cfg:116
 msgid "Please don't leave us now; we still need you!"
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:56
+#: dawn_of_thunder/utils/deaths.cfg:120
 msgid "Continue...ugh...without...ugh...me."
 msgstr ""
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/utils/deaths.cfg:70
+#: dawn_of_thunder/utils/deaths.cfg:134
 msgid "Must ... accomplish ... mission!"
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:74
+#: dawn_of_thunder/utils/deaths.cfg:138
 msgid "Without him we are lost."
 msgstr ""
 
 #. [message]: speaker=Thordrul
-#: dawn_of_thunder/utils/deaths.cfg:88
+#: dawn_of_thunder/utils/deaths.cfg:152
 msgid "Someone protect my gold!"
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:92
+#: dawn_of_thunder/utils/deaths.cfg:156
 msgid "Without him, we'll never get to the surface again!"
 msgstr ""
 
 #. [message]: speaker=Thindromli
-#: dawn_of_thunder/utils/deaths.cfg:106
+#: dawn_of_thunder/utils/deaths.cfg:170
 msgid "Argh, I..."
 msgstr ""
 
 #. [message]: speaker=Thordrul
-#: dawn_of_thunder/utils/deaths.cfg:110
+#: dawn_of_thunder/utils/deaths.cfg:174
 msgid "My son! I see now that I've cared too much about my gold, and not enough about you!"
 msgstr ""
 
 #. [message]: speaker=Thordrul
-#: dawn_of_thunder/utils/deaths.cfg:124
+#: dawn_of_thunder/utils/deaths.cfg:188
 msgid "My Gold! Damn elves, this is all your fault!"
 msgstr ""
 
 #. [message]: speaker=Alasar
-#: dawn_of_thunder/utils/deaths.cfg:138
+#: dawn_of_thunder/utils/deaths.cfg:202
 msgid "No! Me? Overwhelmed... Can't be..."
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:142
+#: dawn_of_thunder/utils/deaths.cfg:206
 msgid "Goodbye Alasar. We will miss you."
 msgstr ""
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/utils/deaths.cfg:153
+#: dawn_of_thunder/utils/deaths.cfg:217
 msgid "I'm too old for this."
 msgstr ""
 
 #. [message]: speaker=Naia
-#: dawn_of_thunder/utils/deaths.cfg:157
+#: dawn_of_thunder/utils/deaths.cfg:221
 msgid "What a shame, she had to die! I could have learned so much from her!"
 msgstr ""
 
 #. [message]: speaker=rider
 #. TODO: vary this based on how far he's advanced:
-#: dawn_of_thunder/utils/deaths.cfg:171
+#: dawn_of_thunder/utils/deaths.cfg:235
 msgid "I can't believe that I died! I just wanted to become a noble knight with a shining armor one day."
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:175
+#: dawn_of_thunder/utils/deaths.cfg:239
 msgid "It was a honor fighting with you."
 msgstr ""
 
 #. [message]: speaker=woodchopper1
 #. TODO: vary this based on how far he's advanced:
-#: dawn_of_thunder/utils/deaths.cfg:187
+#: dawn_of_thunder/utils/deaths.cfg:251
 msgid "Argh! Now I will never become the best Bowman in the world! I should have stuck to my affairs as a Woodsman."
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:191
+#: dawn_of_thunder/utils/deaths.cfg:255
 msgid "Your loyal services will not be forgotten."
 msgstr ""
 
 #. [message]: speaker=woodchopper2
 #. TODO: vary this based on how far he's advanced:
-#: dawn_of_thunder/utils/deaths.cfg:203
+#: dawn_of_thunder/utils/deaths.cfg:267
 msgid "No! I'll never see my family again! I should have stuck to my affairs as a Peasant."
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:207
+#: dawn_of_thunder/utils/deaths.cfg:271
 msgid "We will not forget you, loyal fighter."
 msgstr ""
 
 #. [message]: speaker=woodchopper3
 #. TODO: vary this based on how far he's advanced:
-#: dawn_of_thunder/utils/deaths.cfg:219
+#: dawn_of_thunder/utils/deaths.cfg:283
 msgid "And I just wanted to gain some fair money! I should have stuck to my affairs as a Ruffian."
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:223
+#: dawn_of_thunder/utils/deaths.cfg:287
 msgid "Rest in peace, loyal soldier!"
 msgstr ""
 

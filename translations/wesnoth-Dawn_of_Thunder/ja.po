@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dawn of Thunder\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-08-08 21:06 UTC\n"
+"POT-Creation-Date: 2023-08-13 02:38 UTC\n"
 "PO-Revision-Date: 2023-08-10 16:55+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
@@ -1199,9 +1199,14 @@ msgstr "我らが偉大なる賢者の一人 M'Brin を偲ぶ　安らかに眠�
 
 #. [message]: speaker=unit
 #: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:366
+#, fuzzy
+#| msgid ""
+#| "Pah! He was a vile traitor, who turned to necromancy!\n"
+#| "<span size='small'>(spits on the stone)</span>\n"
+#| "Good riddance!"
 msgid ""
 "Pah! He was a vile traitor, who turned to necromancy!\n"
-"<span size='small'>(spits on the stone)</span>\n"
+"<span size='small'>(*<i>spits on the stone</i>*)</span>\n"
 "Good riddance!"
 msgstr ""
 "ふざけるな！ あいつは下劣な裏切り者だ、黒魔術に手を染めやがったんだ！\n"
@@ -1262,7 +1267,9 @@ msgstr ""
 "font_style='italic'>人間たちのためにな!</span>"
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:474
+#. https://en.wikipedia.org/wiki/Fight-or-flight_response
+#. (but capitalized to indicate that the options represent a gameplay decision)
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:476
 msgid ""
 "Their first wave is coming.\n"
 "You need to decide now, Fight or Flight?"
@@ -1271,7 +1278,7 @@ msgstr ""
 "すぐにも決断してください、応戦するの？ 逃げるの？"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:506
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:508
 msgid ""
 "These should have been the last. It was a pleasure fighting for you, milady, "
 "but we must continue to the royal court now."
@@ -1282,7 +1289,7 @@ msgstr ""
 #. [message]: speaker=Limwen
 #. Naia isn't ACTUALLY twelve years old, Limwen is just saying that as an insult to her youth. Naia is actually a young adult,
 #. with an age in the range of 25 to 30 years old.
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:512
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:514
 msgid ""
 "Yes, and I think that I'll come with you. You and your magic look promising, "
 "but you'll need guidance from a mage who isn't twelve years old."
@@ -1291,18 +1298,23 @@ msgstr ""
 "ど、12歳の魔術師に、その指導をさせるわけにはいきませんからね。"
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:540
-msgid "$speakerunit.name, take my place while I'm gone."
+#. to explain why all her units don't come along with her:
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:543
+#, fuzzy
+#| msgid "$speakerunit.name, take my place while I'm gone."
+msgid ""
+"$speakerunit.name, take my place watching over my remaining apprentices "
+"while I'm gone."
 msgstr ""
 "$speakerunit.name 、私が離れてる間、あなたが私の代わりを努めてちょうだい。"
 
 #. [message]: id=$speakerunit.id
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:550
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:553
 msgid "Sure mistress, I'll do my best!"
 msgstr "分かりました、先生。最善を尽くします！"
 
 #. [message]: speaker=shaman
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:570
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:573
 msgid ""
 "Look, mistress! There are people on the horizon! Do you think they are the "
 "danger you've been feeling for the last few days?"
@@ -1311,26 +1323,30 @@ msgstr ""
 "た危険とは、彼らのことではありませんか？"
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:574
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:577
+#, fuzzy
+#| msgid ""
+#| "Neria, open your mind. Be the forest. Can't you feel they are elves? The "
+#| "danger has yet to come..."
 msgid ""
-"Neria, open your mind. Be the forest. Can't you feel they are elves? The "
-"danger has yet to come..."
+"Neria, open your mind. <i>Be</i> the forest. Can't you feel they are elves? "
+"The danger has yet to come..."
 msgstr ""
 "Neria、しっかり心を開いて。森になるの。彼らがエルフだと感じられないかしら？ "
 "危険はまだ来ていないわ..."
 
 #. [message]: speaker=shaman
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:578
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:581
 msgid "I'm sorry, mistress."
 msgstr "すみません、先生。"
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:582
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:585
 msgid "Welcome travelers, to the Vale of Tears."
 msgstr "ようこそ、旅人の皆さん、涙の谷へ。"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:587
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:590
 msgid ""
 "Greetings, Lady Druid. It's good to see some elvish faces. We are coming "
 "from the edge of the Southwood and are going to Aethen.\n"
@@ -1342,28 +1358,36 @@ msgstr ""
 "らってよろしいかな？"
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:593
+#. part about the villages is a bit of a gameplay hint to reassure the player that Limwen won't mind if you steal villages from her:
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:597
+#, fuzzy
+#| msgid ""
+#| "You may stay, but I fear that you won't be able to rest. I can feel the "
+#| "walking dead as they are surrounding us in this very moment. You could "
+#| "try to break through to the northeast; we will slow them down while you "
+#| "flee."
 msgid ""
-"You may stay, but I fear that you won't be able to rest. I can feel the "
-"walking dead as they are surrounding us in this very moment. You could try "
-"to break through to the northeast; we will slow them down while you flee."
+"You may stay in our villages, but I fear that you won't have much time to "
+"rest here, though. I can feel the walking dead as they are surrounding us in "
+"this very moment. You could try to break through to the northeast; we will "
+"slow them down while you flee."
 msgstr ""
 "私はかまいませんが、休む時間は取れないかもしれません。歩く死人たちが、この瞬"
 "間にも私たちを取り囲んでいるのが感じられるのです。北東方向なら突破を試みても"
 "よいかと。あなた方が抜け出す時間を私たちが稼ぎましょう。"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:597
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:601
 msgid "But what about you and your apprentices?"
 msgstr "だが、君や君の弟子たちはどうするつもりだ？"
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:601
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:605
 msgid "Don't worry, the Order of the Vale always finds a way."
 msgstr "ご心配なく。この谷の修道会は、いつも方策を見つけ出していますから。"
 
 #. [message]: speaker=Naia
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:605
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:609
 msgid ""
 "We shouldn't let these shamans fight the undead alone. By what's moral we're "
 "bound to help them defend, but it's up to you to decide."
@@ -9789,68 +9813,105 @@ msgid "Max HP bonus +3, Max XP +20%"
 msgstr "最大 HP ボーナス +3、最大 XP +20%"
 
 #. [message]: speaker=Naia
-#. TODO: Naia should only say this if she hasn't advanced past Grey Mage yet:
-#: dawn_of_thunder/utils/deaths.cfg:12
-msgid "Nooo! I didn't even manage to learn how to teleport!"
+#. Naia should only say this as a Grey Mage:
+#: dawn_of_thunder/utils/deaths.cfg:13
+#, fuzzy
+#| msgid "Nooo! I didn't even manage to learn how to teleport!"
+msgid "Nooo! I didn't even manage to learn how to teleport yet!"
 msgstr "駄目だわー！　瞬間移動の習得方法すら分からなかったわ！"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:16
+#: dawn_of_thunder/utils/deaths.cfg:17 dawn_of_thunder/utils/deaths.cfg:38
+#: dawn_of_thunder/utils/deaths.cfg:59
 msgid "Curses! Without her, we'll never learn more about the orc menace!"
 msgstr "呪われてる！彼女なしでは、オークの脅威をもっと知ることはできない！"
 
+#. [message]: speaker=Naia
+#. Naia should only say this as a Silver Mage:
+#: dawn_of_thunder/utils/deaths.cfg:34
+#, fuzzy
+#| msgid "Nooo! I didn't even manage to learn how to teleport!"
+msgid ""
+"Nooo! I didn't even manage to learn how to photoregenerate yet! Or how to "
+"illuminate, either, for that matter!"
+msgstr "駄目だわー！　瞬間移動の習得方法すら分からなかったわ！"
+
+#. [message]: speaker=Naia
+#. WIP: Naia should only say this as a Golden Mage, before she becomes able to recruit:
+#: dawn_of_thunder/utils/deaths.cfg:55
+#, fuzzy
+#| msgid "Nooo! I didn't even manage to learn how to teleport!"
+msgid ""
+"Nooo! I didn't even manage to learn how to recruit more troops yet! Or "
+"summon anything, either, for that matter!"
+msgstr "駄目だわー！　瞬間移動の習得方法すら分からなかったわ！"
+
+#. [message]: speaker=Naia
+#. WIP: Naia should only say this as a Golden Mage that can recruit:
+#: dawn_of_thunder/utils/deaths.cfg:76
+#, fuzzy
+#| msgid "Nooo! I didn't even manage to learn how to teleport!"
+msgid "Nooo! I didn't even manage to tell Fiannon I loved him yet!"
+msgstr "駄目だわー！　瞬間移動の習得方法すら分からなかったわ！"
+
+#. [message]: speaker=Fiannon
+#: dawn_of_thunder/utils/deaths.cfg:80
+msgid ""
+"Curses! Without her... wait, Naia, did you just say you loved me?! Nooo!!!"
+msgstr ""
+
 #. [message]: speaker=Smilfvolf
-#: dawn_of_thunder/utils/deaths.cfg:30
+#: dawn_of_thunder/utils/deaths.cfg:94
 msgid "Death on the battlefield is a noble death. I'll join my ancestors now!"
 msgstr "戦場での死は尊い死だよ。私は今、先祖の仲間入りをするのだ！"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:34
+#: dawn_of_thunder/utils/deaths.cfg:98
 msgid "Damn! Without him, the Northguards will stop supporting us!"
 msgstr "クソッ！彼なしではノースガードは私たちを支援してくれない！"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:48
+#: dawn_of_thunder/utils/deaths.cfg:112
 msgid "Noooo, I'm not ready to die this soon!"
 msgstr "駄目だ、私が死ぬなんて、心の準備ができていない！"
 
 #. [message]: id=Naia
-#: dawn_of_thunder/utils/deaths.cfg:52
+#: dawn_of_thunder/utils/deaths.cfg:116
 msgid "Please don't leave us now; we still need you!"
 msgstr "私たちを置いて行かないで。まだあなたが必要なの！"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:56
+#: dawn_of_thunder/utils/deaths.cfg:120
 msgid "Continue...ugh...without...ugh...me."
 msgstr "続けるんだ... アゥ.. 私... ウッ... 無しでも。"
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/utils/deaths.cfg:70
+#: dawn_of_thunder/utils/deaths.cfg:134
 msgid "Must ... accomplish ... mission!"
 msgstr "やらねばならぬ... 任務は... 絶対だ！"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:74
+#: dawn_of_thunder/utils/deaths.cfg:138
 msgid "Without him we are lost."
 msgstr "彼がいなければ、我々に進む道は無いも同然だ。"
 
 #. [message]: speaker=Thordrul
-#: dawn_of_thunder/utils/deaths.cfg:88
+#: dawn_of_thunder/utils/deaths.cfg:152
 msgid "Someone protect my gold!"
 msgstr "誰か私の金塊を守ってくれ！"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:92
+#: dawn_of_thunder/utils/deaths.cfg:156
 msgid "Without him, we'll never get to the surface again!"
 msgstr "彼なしでは、我々は二度と地上へは戻れない！"
 
 #. [message]: speaker=Thindromli
-#: dawn_of_thunder/utils/deaths.cfg:106
+#: dawn_of_thunder/utils/deaths.cfg:170
 msgid "Argh, I..."
 msgstr "ぐあぁ！　私が..."
 
 #. [message]: speaker=Thordrul
-#: dawn_of_thunder/utils/deaths.cfg:110
+#: dawn_of_thunder/utils/deaths.cfg:174
 msgid ""
 "My son! I see now that I've cared too much about my gold, and not enough "
 "about you!"
@@ -9859,27 +9920,27 @@ msgstr ""
 "気に掛けてこなかった、すまん！"
 
 #. [message]: speaker=Thordrul
-#: dawn_of_thunder/utils/deaths.cfg:124
+#: dawn_of_thunder/utils/deaths.cfg:188
 msgid "My Gold! Damn elves, this is all your fault!"
 msgstr "俺のゴールドが！ クッソー、エルフめ、全部お前らのせいだ！"
 
 #. [message]: speaker=Alasar
-#: dawn_of_thunder/utils/deaths.cfg:138
+#: dawn_of_thunder/utils/deaths.cfg:202
 msgid "No! Me? Overwhelmed... Can't be..."
 msgstr "いやだ！ 私が打ちのめされる...？ あり得ない..."
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:142
+#: dawn_of_thunder/utils/deaths.cfg:206
 msgid "Goodbye Alasar. We will miss you."
 msgstr "さようなら、Alasar 、寂しくなるよ。"
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/utils/deaths.cfg:153
+#: dawn_of_thunder/utils/deaths.cfg:217
 msgid "I'm too old for this."
 msgstr "私はもう、年を取りすぎたわね。"
 
 #. [message]: speaker=Naia
-#: dawn_of_thunder/utils/deaths.cfg:157
+#: dawn_of_thunder/utils/deaths.cfg:221
 msgid "What a shame, she had to die! I could have learned so much from her!"
 msgstr ""
 "何て残念なの、死ななければならないなんて！ もっといろんなことを教えてもらいた"
@@ -9887,7 +9948,7 @@ msgstr ""
 
 #. [message]: speaker=rider
 #. TODO: vary this based on how far he's advanced:
-#: dawn_of_thunder/utils/deaths.cfg:171
+#: dawn_of_thunder/utils/deaths.cfg:235
 msgid ""
 "I can't believe that I died! I just wanted to become a noble knight with a "
 "shining armor one day."
@@ -9896,13 +9957,13 @@ msgstr ""
 "かっただけなのに。"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:175
+#: dawn_of_thunder/utils/deaths.cfg:239
 msgid "It was a honor fighting with you."
 msgstr "君と一緒に戦えて光栄だったよ。"
 
 #. [message]: speaker=woodchopper1
 #. TODO: vary this based on how far he's advanced:
-#: dawn_of_thunder/utils/deaths.cfg:187
+#: dawn_of_thunder/utils/deaths.cfg:251
 msgid ""
 "Argh! Now I will never become the best Bowman in the world! I should have "
 "stuck to my affairs as a Woodsman."
@@ -9911,13 +9972,13 @@ msgstr ""
 "たよ。"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:191
+#: dawn_of_thunder/utils/deaths.cfg:255
 msgid "Your loyal services will not be forgotten."
 msgstr "君の忠心溢れる行いは、決して忘れない。"
 
 #. [message]: speaker=woodchopper2
 #. TODO: vary this based on how far he's advanced:
-#: dawn_of_thunder/utils/deaths.cfg:203
+#: dawn_of_thunder/utils/deaths.cfg:267
 msgid ""
 "No! I'll never see my family again! I should have stuck to my affairs as a "
 "Peasant."
@@ -9926,13 +9987,13 @@ msgstr ""
 "ばよかった。"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:207
+#: dawn_of_thunder/utils/deaths.cfg:271
 msgid "We will not forget you, loyal fighter."
 msgstr "君のことは忘れないぞ、忠義ある戦士よ。"
 
 #. [message]: speaker=woodchopper3
 #. TODO: vary this based on how far he's advanced:
-#: dawn_of_thunder/utils/deaths.cfg:219
+#: dawn_of_thunder/utils/deaths.cfg:283
 msgid ""
 "And I just wanted to gain some fair money! I should have stuck to my affairs "
 "as a Ruffian."
@@ -9941,7 +10002,7 @@ msgstr ""
 "よ。"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:223
+#: dawn_of_thunder/utils/deaths.cfg:287
 msgid "Rest in peace, loyal soldier!"
 msgstr "安らかに...、誠忠の戦士よ！"
 
