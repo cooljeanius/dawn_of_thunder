@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-08-13 06:24 UTC\n"
+"POT-Creation-Date: 2023-08-15 03:56 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4282,6 +4282,11 @@ msgstr ""
 #. [message]: speaker=Naia
 #: dawn_of_thunder/scenarios/13_frozen_ground.cfg:432
 msgid "How many more of them will come?"
+msgstr ""
+
+#. [unit]: type=Northguard Braveheart, id=Smilvolf
+#: dawn_of_thunder/scenarios/13_frozen_ground.cfg:470
+msgid "Smilvolf"
 msgstr ""
 
 #. [message]: speaker=Smilvolf
