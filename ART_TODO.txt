@@ -5,6 +5,7 @@ PORTRAITS
 ---------
 * Naia's 3 portraits are currently all frankenportraits
 * Silam's portrait is currently a frankenportrait
+* Unique Duron Bleil portrait (currently just uses generic Shadow Mage)
 
 STORY IMAGES
 ------------
