@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dawn of Thunder\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-08-13 06:23 UTC\n"
+"POT-Creation-Date: 2023-08-23 07:27 UTC\n"
 "PO-Revision-Date: 2023-08-10 16:55+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
@@ -112,12 +112,12 @@ msgstr "両方の敵リーダーを倒す"
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:676
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:838
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1956
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2148
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2252
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2153
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2265
 #: dawn_of_thunder/scenarios/07_deep_forest.cfg:173
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:946
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:949
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1240
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1455
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1459
 #: dawn_of_thunder/scenarios/09_underground.cfg:186
 #: dawn_of_thunder/scenarios/09_underground.cfg:412
 #: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:263
@@ -545,12 +545,12 @@ msgstr "Mal Lirak の手下の残党を倒す"
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:680
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:842
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1960
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2152
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2256
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2157
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2269
 #: dawn_of_thunder/scenarios/07_deep_forest.cfg:177
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:950
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:953
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1244
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1459
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1463
 #: dawn_of_thunder/scenarios/09_underground.cfg:190
 #: dawn_of_thunder/scenarios/09_underground.cfg:416
 #: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:267
@@ -2033,12 +2033,12 @@ msgstr "ナーガを倒す（ボーナス）"
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:684
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:846
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1964
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2156
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2260
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2161
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2273
 #: dawn_of_thunder/scenarios/07_deep_forest.cfg:181
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:954
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:957
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1248
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1463
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1467
 msgid "Death of Silam"
 msgstr "Silam の死"
 
@@ -3036,15 +3036,27 @@ msgstr ""
 
 #. [message]: speaker=Raief
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1275
+#, fuzzy
+#| msgid ""
+#| "Damn Treehugger! I knew we should have never allied with those "
+#| "treehuggers! Until now, we had no proof, that they are the one's who are "
+#| "always harassing us from the forest. Burning our crops, killing our "
+#| "cattle and destroying our bridges! Sure, as long as nobody saw them, I "
+#| "couldn't do anything, the king wouldn't have listened. But now they have "
+#| "failed to kill all witnesses! And they are here in my reach! I won't let "
+#| "them escape, and the king will reward me greatly for clearing the plague "
+#| "that has been bothering Aldril for a few months now! Guards! Catch those "
+#| "beardless monsters!"
 msgid ""
-"Damn Treehugger! I knew we should have never allied with those treehuggers! "
-"Until now, we had no proof, that they are the one's who are always harassing "
-"us from the forest. Burning our crops, killing our cattle and destroying our "
-"bridges! Sure, as long as nobody saw them, I couldn't do anything, the king "
-"wouldn't have listened. But now they have failed to kill all witnesses! And "
-"they are here in my reach! I won't let them escape, and the king will reward "
-"me greatly for clearing the plague that has been bothering Aldril for a few "
-"months now! Guards! Catch those beardless monsters!"
+"Damn treehugger! I knew we should have never allied with those treehuggers! "
+"Until now, we've had no proof, that they have been the ones who have always "
+"been harassing us from the forest.... burning our crops, killing our cattle, "
+"and destroying our bridges! Sure, as long as nobody saw them, I couldn't do "
+"anything, the king wouldn't have listened. But now they have failed to kill "
+"all witnesses! And they are here in my reach! I won't let them escape, and "
+"the king will reward me greatly for clearing the plague that has been "
+"bothering Aldril for a few months now! Guards! Catch those beardless "
+"monsters!"
 msgstr ""
 "クッソー、あの、森抱っこ野郎め！俺はな、木に抱っこする奴らと同盟を組むなんて"
 "絶対すべきじゃなかったって思ってたんだよ！これまで証拠は無かったが、奴らに違"
@@ -3375,21 +3387,23 @@ msgstr "Duron Bleil を倒す"
 
 #. [objective]: condition=win
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1952
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2144
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2248
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2149
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2261
 msgid "(special bonus)"
 msgstr "(スペシャルボーナス)"
 
 #. [objective]: condition=lose
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1968
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2160
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2264
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2165
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2277
 msgid "Death of all peasants"
 msgstr "農民全員の死"
 
 #. [message]: speaker=Bandits_leader
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2002
-msgid "Alright, alright I give up. Please show mercy!"
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1987
+#, fuzzy
+#| msgid "Alright, alright I give up. Please show mercy!"
+msgid "Alright, alright, I give up. Please show mercy!"
 msgstr "わ、分かった、降参する、どうか助けてくれ！"
 
 #. [message]: speaker=Fiannon
@@ -3404,14 +3418,14 @@ msgstr ""
 #. [message]: speaker=$killing_unit.id
 #. [message]: speaker=$killing_unit_id
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2085
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2194
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2199
 msgid "Of course!"
 msgstr "承知しました！"
 
 #. [message]: speaker=$killing_unit.id
 #. [message]: speaker=$killing_unit_id
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2098
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2207
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2212
 msgid ""
 "Hey, look what they had in their caravan! 200 Gold! They must have stolen "
 "from many travellers."
@@ -3421,47 +3435,61 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2107
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2216
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2221
 msgid "You get 200 gold coins!"
 msgstr "200 gold を手に入れました！"
 
+#. [message]: speaker=narrator
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2122
+msgid ""
+"$killing_unit.name is now driving the caravan, and will rejoin your party "
+"upon delivery of the prisoner."
+msgstr ""
+
 #. [unit]: id=Caravan, type=Caravan
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2124
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2129
 msgid "Prisoners transport"
 msgstr "囚人移送"
 
 #. [objective]: condition=win
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2140
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2244
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2145
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2257
 msgid "Move at least one of the treefellers to Aldril at (15/16)"
 msgstr "一人以上の木こりを Aldril へ移動させる（ 座標(15,16) ）"
 
 #. [objective]: condition=win
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2144
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2248
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2149
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2261
 msgid "Protect the caravan with Duron Bleil until you can serve him to justice"
 msgstr "法の下で裁けるときまで Duron Bleil の乗った幌馬車を守る"
 
 #. [message]: speaker=$killing_unit_id
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2181
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2186
 msgid "Should I kill him?"
 msgstr "こいつは殺すべきですか？"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2185
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2190
 msgid ""
 "No, we'll leave it to the Commander of Aldril's to decide what to do with "
 "him."
 msgstr "いや、こいつをどう処分するかの決定は Aldril の司令官に任せよう。"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2189
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2194
 msgid ""
 "$killing_unit_name, enchain Duron Bleil and bring him to Aldril. Look, "
 "there's even a cart you can use for this."
 msgstr ""
 "$killing_unit_name 、Duron Bleil に縄をかけて Aldril に連れてきてくれ。ほら、"
 "幌馬車もあるから使うといい。"
+
+#. [message]: speaker=narrator
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2236
+msgid ""
+"$killing_unit_name is now driving the caravan, and will rejoin your party "
+"upon delivery of the prisoner."
+msgstr ""
 
 #. [scenario]: id=07_deep_forest
 #: dawn_of_thunder/scenarios/07_deep_forest.cfg:7
@@ -3497,13 +3525,13 @@ msgstr "邪悪な者を見つける"
 
 #. [objective]: condition=lose
 #: dawn_of_thunder/scenarios/07_deep_forest.cfg:185
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:958
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:961
 msgid "Death of Commander Raief"
 msgstr "Raief 司令官の死"
 
 #. [note]
 #: dawn_of_thunder/scenarios/07_deep_forest.cfg:194
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:967
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:970
 msgid ""
 "Fiannon and his allies are in a hurry, so their starting keeps will be "
 "dismantled after two turns."
@@ -3589,7 +3617,7 @@ msgstr ""
 "動させましょう。"
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:636
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:639
 msgid ""
 "Fiannon, remember that we don't have endless time. The Elven Council won't "
 "be waiting for us. We should recruit quickly and then go deeper."
@@ -3599,42 +3627,42 @@ msgstr ""
 
 #. [message]: speaker=Maeblie
 #. nonsense incantation words:
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:689
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:692
 msgid "Mar'jev Qu'al suare si'kah!"
 msgstr "マイジェ・ツアル・スエレ・サイカ！"
 
 #. [message]: speaker=Maeblie
 #. more nonsense incantation words:
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:706
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:709
 msgid "Ir da'l folcor Ty'rurn!"
 msgstr "イル・ダル・フォーカー・タイラーン！"
 
 #. [message]: speaker=Ronur
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:722
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:725
 msgid "Please! Don't!"
 msgstr "お願いだ！やめてくれ！"
 
 #. [message]: speaker=Maeblie
 #. continuing the incantation, although notice that Oenoch's name is now included,
 #. so that part shouldn't be treated as nonsense:
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:728
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:731
 msgid "Eydazahr Oenoch!"
 msgstr "イダザール Oenoch！"
 
 #. [unit]: id=Oenoch, type=Dark Immemorial Wose
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:761
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:764
 msgid "Oenoch the Giant"
 msgstr "巨大ウーズ Oenoch"
 
 #. [floating_text]
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:782
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:842
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:876
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:785
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:845
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:879
 msgid "BOOM!"
 msgstr "ブオーーーン！"
 
 #. [message]: speaker=Oenoch
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:798
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:801
 msgid ""
 "<b>I AM OENOCH!\n"
 "WHO DARES TO SUMMON ME?</b>"
@@ -3643,13 +3671,13 @@ msgstr ""
 "吾を呼び出した生意気な者は、誰だ！？</b>"
 
 #. [message]: speaker=Maeblie
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:803
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:806
 msgid "Oh master of the forest, we, your loyal servants need your help!"
 msgstr ""
 "あぁ、この森の主よ、私たち、あなたの忠実な僕は、お力を必要としています！"
 
 #. [message]: speaker=Maeblie
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:807
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:810
 msgid ""
 "Enemies of the forest are approaching! They are your enemies too! They "
 "destroy the forest to burn it!"
@@ -3658,57 +3686,57 @@ msgstr ""
 "この森を燃やし破壊します！"
 
 #. [message]: speaker=Oenoch
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:811
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:814
 msgid "<b>NO ONE HAS THE RIGHT TO DESTROY THE FOREST TO BURN IT!</b>"
 msgstr "<b>森を破壊し燃やす権利など、誰にもない！</b>"
 
 #. [message]: speaker=Maeblie
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:815
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:818
 msgid "You must kill them!"
 msgstr "あなた様はその者たちを殺すべきです！"
 
 #. [message]: speaker=Oenoch
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:819
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:822
 msgid "<b>I WILL KILL THEM!</b>"
 msgstr "<b>吾は、その者たちを殺すであろう！</b>"
 
 #. [message]: speaker=Oenoch
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:823
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:826
 msgid "<b>WAKE UP FOREST!!</b>"
 msgstr "<b>森よ、目覚めよ！！</b>"
 
 #. [message]: speaker=Oenoch
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:896
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:899
 msgid "<b>CRUSH!</b>"
 msgstr "<b>押し潰されるがよい！</b>"
 
 #. [message]: speaker=wose1
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:904
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:907
 msgid "Kill!"
 msgstr "殺せ！"
 
 #. [message]: speaker=wose2
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:912
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:915
 msgid "Destroy!"
 msgstr "破壊しろ！"
 
 #. [message]: speaker=Naia
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:920
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:923
 msgid "Uhhhh ohhh..."
 msgstr "うぅわわわぁ..."
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:924
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:927
 msgid "Ohhh no! The entire forest wakes up and wants to kill us!"
 msgstr "うわ、何てことだ！ 森全体が目覚め、我々を殺したがっている！"
 
 #. [message]: speaker=Raief
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:928
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:931
 msgid "Chop that thing down, soldiers!"
 msgstr "あのモノを切り倒すんだ、兵士たち！"
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:932
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:935
 msgid ""
 "Oh no, it's an immemorial wose. We can't kill him! We need to appease him!"
 msgstr ""
@@ -3716,7 +3744,7 @@ msgstr ""
 "なければ！"
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:936
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:939
 msgid ""
 "This thing is called Oenoch and we need to destroy him! There's no other "
 "possibility! Once a wose is corrupted, he will never become normal again! If "
@@ -3727,28 +3755,28 @@ msgstr ""
 "ば、他のウーズも、永遠の眠りへと戻ることだろう。"
 
 #. [objective]: condition=win
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:942
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:945
 msgid "Destroy Oenoch the Giant"
 msgstr "巨大ウーズ Oenoch を破壊する"
 
 #. [message]: speaker=wose_speaker
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:1077
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:1080
 msgid "CRUSH!"
 msgstr "押し潰せ！"
 
 #. [message]: speaker=unit
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:1081
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:1084
 msgid ""
 "I can't believe it! It seems as if the entire forest became completely mad!"
 msgstr "信じられない！まるで森全体が完全に狂ってしまったかのようだ！"
 
 #. [message]: speaker=Oenoch
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:1127
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:1130
 msgid "<b>WHO DARES TO ATTACK ME, THE GREAT OENOCH?!</b>"
 msgstr "<b>この私、偉大なる Oenoch を攻撃する勇気があるのか？</b>"
 
 #. [message]: speaker=Oenoch
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:1138
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:1141
 msgid ""
 "<b>NOOOOOOO!\n"
 "I JUST WOKE UP FROM MY SLUMBER!\n"
@@ -3759,7 +3787,7 @@ msgstr ""
 "Fiannon とかいう取るに足らぬエルフを呪ってやる！</b>"
 
 #. [message]: speaker=Oenoch
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:1144
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:1147
 msgid ""
 "<b>I CURSE YOU, NEVER AGAIN WILL A FOREST RECEIVE YOU IN A FRIENDLY MANNER!</"
 "b>"
@@ -3767,24 +3795,24 @@ msgstr ""
 "<b>呪ってやる、森がお前を友好的に迎え入れることなど二度とないと思え！</b>"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:1148
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:1151
 msgid "Ugh!"
 msgstr "ウオッ！"
 
 #. [interim_text]
 #. Trailing space is needed at the end to prevent the cutoff that
 #. happens with italicized GUI2 text
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:1164
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:1167
 msgid "<i>End of Chapter I </i>"
 msgstr "<i>第Ⅰ部  完 </i>"
 
 #. [message]: speaker=Raief
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:1181
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:1184
 msgid "Hah, I knew I couldn't trust you! You led me into a trap!"
 msgstr "けっ！ お前ら、信用できねえって分かってたよ！俺を罠に嵌めたんだ！"
 
 #. [message]: speaker=Maeblie
-#: dawn_of_thunder/scenarios/07_deep_forest.cfg:1195
+#: dawn_of_thunder/scenarios/07_deep_forest.cfg:1198
 msgid "It matters not that you have defeated me! The evil has awoken already!"
 msgstr ""
 "私を倒したことなど、大したことではありません！邪悪な者は、すでに目覚めたわ！"
@@ -4013,10 +4041,10 @@ msgstr ""
 "曲歌ってあげますわ。"
 
 #. [message]: speaker=Riluaneth
-#. these are supposed to be music notes; unfortunately they don't render on some platforms, so I'm going to have to change them:
+#. was formerly "♩♪♫♬", but the music note symbols don't render properly on all platforms:
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:603
-msgid "♩♪♫♬"
-msgstr "♩♪♬♬ ...♩♪♬♬"
+msgid "(*<i>plays him some music</i>*)"
+msgstr ""
 
 #. [message]: speaker=Blossomblow
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:610
@@ -4308,13 +4336,13 @@ msgstr "生き残る"
 
 #. [objective]: condition=lose
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1252
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1467
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1471
 msgid "Death of any Council member"
 msgstr "いずれかの評議委員の死"
 
 #. [objective]: condition=lose
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1256
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1471
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1475
 msgid "Death of Blossomblow the Wose"
 msgstr "ウーズ Blossomblow の死"
 
@@ -4474,7 +4502,7 @@ msgid "As you wish, Milady!"
 msgstr "仰せのままに、奥様！"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1407
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1411
 msgid ""
 "<span size='small'>(to himself)</span> This will be our death! They just "
 "keep on recruiting!"
@@ -4483,12 +4511,12 @@ msgstr ""
 "兵士を雇い続けているのだ！"
 
 #. [message]: speaker=Blossomblow
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1411
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1415
 msgid "<span font-style='italic'>... Flee you must ... </span>"
 msgstr "<span font-style='italic'>...逃げなければなりません... </span>"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1415
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1419
 msgid ""
 "<span size='small' font-style='italic'> I see, there is no other way. Oh "
 "ancient one, please tell me, where should I go?</span>"
@@ -4497,7 +4525,7 @@ msgstr ""
 "教えてほしい。私はどこに行けばよいのだろう？</span>"
 
 #. [message]: speaker=Blossomblow
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1419
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1423
 msgid ""
 "<span font-style='italic'>... south, tunnels ... secret they are ... our "
 "roots can feel them ...</span>"
@@ -4506,7 +4534,7 @@ msgstr ""
 "じている...</span>"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1423
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1427
 msgid ""
 "Mi-lords, the Blossomblow the Ancient has talked to me! In my head! He told "
 "me to flee, and that there were tunnels somewhere in the south of here!"
@@ -4515,7 +4543,7 @@ msgstr ""
 "さいと、そして、この南の方角の何処かに坑道があると！"
 
 #. [message]: speaker=Nyvorlas
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1427
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1431
 msgid ""
 "We can't leave! The Ka'lian was never abandoned before! I can remember some "
 "rumors a few years ago about some tunnels west of Katyr's Valley and south "
@@ -4526,7 +4554,7 @@ msgstr ""
 "道があるという噂があったのは覚えている。しかし、確かな話ではない。"
 
 #. [message]: speaker=Riluaneth
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1431
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1435
 msgid ""
 "But you could look for reinforcements! You're young and fast. Please, find "
 "help. Return as soon as possible, with allies!"
@@ -4535,17 +4563,17 @@ msgstr ""
 "探してください。できるだけ早く戻ってくるのです、味方たちと共に！"
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1435
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1439
 msgid "I'll stay here, to help the council."
 msgstr "私はここに残る、評議会を救うために。"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1439
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1443
 msgid "But Silam! I'm not ready to command an army myself."
 msgstr "しかし、Silam！ 私はまだ軍隊を指揮する心の準備ができていないのだ。"
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1443
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1447
 msgid ""
 "You must Fiannon! Remember what I taught you. You will succeed, I know it."
 msgstr ""
@@ -4553,13 +4581,13 @@ msgstr ""
 "には分かる。"
 
 #. [objective]: condition=win
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1451
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1455
 msgid "Find the tunnels and flee with Fiannon"
 msgstr "坑道を見つけて Fiannon と逃げる"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1548
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1578
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1552
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1582
 msgid ""
 "I don't know where this tunnel is leading, but I guess anything is better "
 "than this bloodbath."
@@ -4568,38 +4596,38 @@ msgstr ""
 "違いない。"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1552
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1582
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1556
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1586
 msgid "I'll be back, Silam, I promise!"
 msgstr "必ず戻るよ、Silam 、約束する！"
 
 #. [message]: speaker=unit
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1568
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1572
 msgid "Hey Fiannon, you should come see this!"
 msgstr "あっ、Fiannon これを見てみて！"
 
 #. [message]: speaker=Tehlmar
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1606
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1610
 msgid "No, the Ka'lian needs me and my Hunters!"
 msgstr "駄目だ、Ka'lian は私や狩人を必要としている！"
 
 #. [message]: speaker=Riluaneth
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1620
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1624
 msgid "No, the Ka'lian needs me and my Shamans!"
 msgstr "駄目よ、Ka'lian は私や呪術師たちを必要としているのに！"
 
 #. [message]: speaker=Nyvorlas
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1634
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1638
 msgid "No, the Ka'lian needs my guidance!"
 msgstr "いけない、Ka'lian には私の導きが必要なのだ！"
 
 #. [message]: speaker=Nyvorlas
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1648
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1652
 msgid "No, without his protecting soul this forest will surely die!"
 msgstr "駄目だ、彼の守護する魂なしでは、この森はきっと死に絶えてしまう！"
 
 #. [message]: speaker=narrator
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1659
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1663
 msgid ""
 "At first glance, you can't see anything in this ruin. Just dusty pieces of "
 "furniture. It seems like no one has lived here for quite some time. But just "
@@ -4612,12 +4640,12 @@ msgstr ""
 "は坑道を見つけたようです..."
 
 #. [message]: speaker=Orc
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1736
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1740
 msgid "Burn this entire place down and leave nobody alive!"
 msgstr "ここをそっくり燃やしちまえ、誰一人として逃すんじゃねえぞ！"
 
 #. [message]: speaker=Nyvorlas
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1740
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1744
 msgid ""
 "They are burning our villages! Fiannon, I give you permission to take "
 "whatever measures might be necessary to save our villages! Even if that "
@@ -4628,70 +4656,70 @@ msgstr ""
 "になっても！"
 
 #. [message]: speaker=Bodo
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1751
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1755
 msgid "Oh no! Notta again!"
 msgstr "くっそー！ もう駄目だ！"
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1762
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1766
 msgid "Damnit, he escaped again!"
 msgstr "何てことだ、あいつ、また逃げてしまった！"
 
 #. [message]: speaker=Orc
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1766
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1770
 msgid "Don't worry, I'll punish him for his insolence!"
 msgstr "心配いらねえよ、あいつの態度の悪さは、おれがお仕置きしてやるからよ！"
 
 #. [message]: speaker=Orc
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1770
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1774
 msgid "But you won't be there to see it anymore."
 msgstr "と言っても、お前さんはもう、それを見られねえがな。"
 
 #. [message]: speaker=Urhuga
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1796
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1800
 msgid "Still not the last time we have seen each other!"
 msgstr "これが最後だと思うなよ、また相手をしてやるぜ！"
 
 #. [message]: speaker=Orc
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1807
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1811
 msgid "Weakling!"
 msgstr "弱虫ヤロウめ！"
 
 #. [message]: speaker=Orc
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1855
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1859
 msgid "Don't you dare! SLAP!"
 msgstr "テメエ、よくもそんなことが！　パシッ！"
 
 #. [message]: speaker=Orc
 #. M.C. Hammer reference:
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1863
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1867
 msgid "Can't touch this!"
 msgstr "これは触わっちゃいけねえ！"
 
 #. [message]: speaker=Orc
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1871
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1875
 msgid "Eeeek! Don't touch me you swine!"
 msgstr "おい、コラ！ 俺に触るんじゃねえ、ブタ野郎！"
 
 #. [message]: speaker=Orc
 #. as with case 5, this dialogue pretends that Olaugh-Gahn and the unit he's pushing are a couple sharing a bed:
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1879
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1883
 msgid "Brrr, your feet are cold!"
 msgstr "ブルブル、オメエの足、冷てえよ！"
 
 #. [message]: speaker=Orc
 #. they aren't ACTUALLY in bed together; this is just figurative language:
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1887
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1891
 msgid "Stay on your side of the bed!"
 msgstr "ベッドで横になってろ！"
 
 #. [message]: speaker=Orc
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1894
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1898
 msgid "Go away!"
 msgstr "あっちに行け！"
 
 #. [message]: speaker=$push.id
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1915
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1919
 msgid "Pay attention, he hits hard!"
 msgstr "気をつけろ、あいつ、力いっぱい叩いてくるぞ！"
 
@@ -5790,6 +5818,13 @@ msgstr "ノースガードが現れるまで生き残る"
 #: dawn_of_thunder/scenarios/13_frozen_ground.cfg:432
 msgid "How many more of them will come?"
 msgstr "一体あとどれだけ出てくるのかしら？"
+
+#. [unit]: type=Northguard Braveheart, id=Smilvolf
+#: dawn_of_thunder/scenarios/13_frozen_ground.cfg:470
+#, fuzzy
+#| msgid "Death of Smilvolf"
+msgid "Smilvolf"
+msgstr "Smilvolf の死"
 
 #. [message]: speaker=Smilvolf
 #: dawn_of_thunder/scenarios/13_frozen_ground.cfg:486
@@ -10440,6 +10475,9 @@ msgstr "集中"
 #: dawn_of_thunder/utils/weapon_specials.cfg:204
 msgid "This attack always has at least a 80% chance to hit."
 msgstr "この攻撃は常に80％以上の的中率を備えます。"
+
+#~ msgid "♩♪♫♬"
+#~ msgstr "♩♪♬♬ ...♩♪♬♬"
 
 #~ msgid "WARNING: Do not go here!"
 #~ msgstr "警告：ここは立ち入り禁止！"
