@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-08-23 07:27 UTC\n"
+"POT-Creation-Date: 2023-08-26 03:59 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3465,6 +3465,11 @@ msgstr ""
 msgid "Vekuzz"
 msgstr ""
 
+#. [side]: type=Troll Shaman, id=Troll2
+#: dawn_of_thunder/scenarios/09_underground.cfg:129
+msgid "Napokue"
+msgstr ""
+
 #. [side]
 #: dawn_of_thunder/scenarios/09_underground.cfg:163
 msgid "Cave Monsters"
@@ -3710,6 +3715,11 @@ msgstr ""
 msgid "As if we had another option..."
 msgstr ""
 
+#. [unit]: id=undeadleader2, type=Death Knight
+#: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:355
+msgid "Skarrag"
+msgstr ""
+
 #. [message]: speaker=Thindromli
 #: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:387
 msgid "Father, we must make haste! The walking dead are nearly onto us!"
@@ -3788,6 +3798,11 @@ msgstr ""
 #. [message]: speaker=Naia
 #: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:450
 msgid "That sounds reasonable, Mr. Dwarf. But as far as I can see, the only other way would be backwards!"
+msgstr ""
+
+#. [unit]: id=M'Brin, type=Elvish Forefather
+#: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:494
+msgid "M'Brin"
 msgstr ""
 
 #. [message]: speaker=M'Brin
@@ -3909,6 +3924,11 @@ msgstr ""
 #. [objective]: condition=lose
 #: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:728
 msgid "Destruction of the minecart containing the ore"
+msgstr ""
+
+#. [unit]: type=Troll Warrior, id=Troll2
+#: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:971
+msgid "Zunabar"
 msgstr ""
 
 #. [message]: speaker=M'Brin
@@ -4181,23 +4201,23 @@ msgid "Ah, I was on my way to seek the Northguards myself! I heard that they are
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:466
+#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:471
 msgid "Thank you! Now, onwards to The Vast Peak!"
 msgstr ""
 
 #. [message]: speaker=mammoth
-#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:492
+#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:497
 msgid "<span size='large'>*trumpets*</span>"
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:496
+#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:501
 msgid "Uhhhh... that one looks big. And dangerous."
 msgstr ""
 
 #. [message]: speaker=Wyrm
 #. Please try to preserve the rhymes upon translation, so that if Alasar is present, his follow-up response makes sense:
-#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:559
+#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:568
 msgid ""
 "Did you guyssss just ssssslay,\n"
 "Whom I have chosssssen asssss my prey?\n"
@@ -4206,17 +4226,17 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Alasar
-#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:572
+#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:581
 msgid "Really? A rhyming dragon?"
 msgstr ""
 
 #. [message]: speaker=Thindromli
-#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:576
+#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:585
 msgid "It's a Wyrm, actually, similar to dragons in many aspects, but not quite as dangerous."
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:649
+#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:658
 msgid "Now where are those so-called Northguards?"
 msgstr ""
 
