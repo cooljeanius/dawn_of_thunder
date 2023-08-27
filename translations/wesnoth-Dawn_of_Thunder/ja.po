@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dawn of Thunder\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-08-27 07:07 UTC\n"
+"POT-Creation-Date: 2023-08-27 07:27 UTC\n"
 "PO-Revision-Date: 2023-08-10 16:55+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
@@ -132,7 +132,7 @@ msgstr "両方の敵リーダーを倒す"
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:520
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:870
 #: dawn_of_thunder/scenarios/18_Illuvèn.cfg:438
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:590
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:591
 msgid "Death of Fiannon"
 msgstr "Fiannon の死"
 
@@ -563,7 +563,7 @@ msgstr "Mal Lirak の手下の残党を倒す"
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:524
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:874
 #: dawn_of_thunder/scenarios/18_Illuvèn.cfg:442
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:594
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:595
 msgid "Death of Naia"
 msgstr "Naia の死"
 
@@ -4193,8 +4193,8 @@ msgstr ""
 #. [message]: speaker=orc2
 #. [message]: speaker=mini_leader
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:810
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:536
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:544
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:537
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:545
 msgid "..."
 msgstr "..."
 
@@ -5214,7 +5214,7 @@ msgstr "Thordrul の死"
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:528
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:878
 #: dawn_of_thunder/scenarios/18_Illuvèn.cfg:446
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:598
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:599
 msgid "Death of Thindromli"
 msgstr "Thindromli の死"
 
@@ -6263,7 +6263,7 @@ msgstr "オークだわ！戦闘の準備をして！"
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:532
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:882
 #: dawn_of_thunder/scenarios/18_Illuvèn.cfg:450
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:602
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:603
 msgid "Death of Smilvolf"
 msgstr "Smilvolf の死"
 
@@ -7248,7 +7248,7 @@ msgstr "Illuvèn 市内で何が起きているかを確認する"
 
 #. [objectives]
 #: dawn_of_thunder/scenarios/18_Illuvèn.cfg:458
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:610
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:611
 msgid ""
 "Due to this campaign being incomplete, this is the final scenario for now. "
 "The intention is to develop more scenarios to go after it, though. So, "
@@ -7271,7 +7271,8 @@ msgid "Elves! And they carry weapons! Sound the Alarm!"
 msgstr "エルフがいるぞ！ しかも武装してる！ 警報を鳴らせ！"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:480
+#. FIXME: $unit.race won't be translated:
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:481
 msgid ""
 "Identify yourself $unit.race|! I am Fiannon, defender of Wesmere and the "
 "Ka'lian!"
@@ -7279,7 +7280,7 @@ msgstr ""
 "どこの何者だ $unit.race|！ 私は Fiannon 、Wesmere の Ka'lian の防衛隊の者だ！"
 
 #. [message]: speaker=Bandits_leader
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:499
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:500
 msgid ""
 "So we finally meet again, commander Fiannon. You will surely recognise me. I "
 "am very pleased that you finally decided to join the fight instead of "
@@ -7289,12 +7290,12 @@ msgstr ""
 "ンタが、逃げずに最後には戦闘に加わることを決めたのが本当に嬉しいよ。"
 
 #. [message]: speaker=Naia
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:509
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:510
 msgid "Duron Bleil! We captured you near Aldril!"
 msgstr "Duron Bleil ね! あの、Aldril の近くで捕まえた！"
 
 #. [message]: speaker=Bandits_leader
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:513
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:514
 msgid ""
 "Well, how the tides have turned... Ironic, isn't it?\n"
 "Indeed, you captured me, but the city commander was a moron. He couldn't do "
@@ -7311,12 +7312,12 @@ msgstr ""
 "が思ってたより本当におマヌケだったがな。"
 
 #. [message]: speaker=Naia
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:521
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:522
 msgid "Duron Bleil! We fought you near Aldril!"
 msgstr "Duron Bleil か! あの、Aldril の近くで戦った！"
 
 #. [message]: speaker=Bandits_leader
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:525
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:526
 msgid ""
 "Indeed, we have already fought before. You thought the fact that I was a "
 "bandit was a legitimate reason to attack my camp! Your attack badly damaged "
@@ -7335,12 +7336,12 @@ msgstr ""
 "マヌケな奴もいたがな。"
 
 #. [message]: speaker=orc1
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:532
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:533
 msgid "Do you think he's talking about us?"
 msgstr "俺たちのことを話してると思うか？"
 
 #. [message]: speaker=Bandits_leader
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:540
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:541
 msgid ""
 "But this is even better! Now I can get my personal revenge, and I do not "
 "even have to search for you myself! Isn't that great, Chad?"
@@ -7349,22 +7350,22 @@ msgstr ""
 "間もない！こいつは最高だぜ、なあ Chad、だろ？"
 
 #. [message]: speaker=Bandits_leader
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:548
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:549
 msgid "Anyway, my friend taught me a few things. This time, you die!"
 msgstr "とにかく、友だちが俺にいくつか助言してくれた。今度こそ、死にやがれ！"
 
 #. [message]: speaker=Thindromli
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:565
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:566
 msgid "What is that?"
 msgstr "ありゃ何だ？"
 
 #. [message]: speaker=Bandits_leader
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:569
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:570
 msgid "This, my friend, is a portal to the land of the dead!"
 msgstr "こいつは...　おい聞けよ、死者の国への入り口だ！"
 
 #. [message]: speaker=Naia
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:573
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:574
 msgid ""
 "Interesting. The barrier between the worlds is a lot weaker there. I think I "
 "can close it, but the process might need some time, and I must be near it."
@@ -7373,39 +7374,39 @@ msgstr ""
 "とはできると思うけど、それまでには時間がかかりそうだし、近づいてみないと。"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:577
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:578
 msgid "We will show you that you're not the only one who got stronger!"
 msgstr "強くなったのはあなただけではないことをお見せしよう！"
 
 #. [objective]: condition=win
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:582
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:583
 msgid "Defeat the Bandits"
 msgstr "山賊を倒す"
 
 #. [objective]: condition=win
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:586
-msgid "Close the Portal"
-msgstr "Naia が死者の国への出入り口を閉じる"
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:587
+msgid "Move Naia to the Portal in order to close it"
+msgstr ""
 
 #. [message]: speaker=$unit.id
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:680
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:681
 msgid ""
 "I can't believe it! They enchained our brethren! Wait a moment, I'll free "
 "you!"
 msgstr "信じられない！奴ら、同胞を拘束している！少し待って！解放するから！"
 
 #. [message]: speaker=narrator
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:685
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:686
 msgid "<i>breaks the chains with one strong blow of his sword </i>"
 msgstr "<i>彼の剣の一撃で鎖を壊します </i>"
 
 #. [message]: speaker=$unit.id
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:689
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:690
 msgid "Tell me, what happened here?"
 msgstr "教えてほしい、ここで何が起きている？"
 
 #. [message]: speaker=$temp.id
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:694
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:695
 msgid ""
 "Thank you, sir! Our village was overrun. Hordes of orcs, undead, and bandits "
 "have been attacking us for weeks. For everyone of us dead we killed five of "
@@ -7418,23 +7419,23 @@ msgstr ""
 "残った者は奴隷にされました。アイツらをやっつける手助けをします！"
 
 #. [message]: speaker=Thindromli
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:739
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:740
 msgid "We still have to kill those pesky mages!"
 msgstr "我々は、まだあの厄介な魔術師どもを殺さなければならない！"
 
 #. [message]: speaker=Thindromli
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:745
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:746
 msgid "We still have to kill that pesky mage!"
 msgstr "我々は、まだあの厄介な魔術師を殺さなければならない！"
 
 #. [message]: speaker=Thindromli
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:757
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:758
 msgid "We still have to kill that other pesky mage!"
 msgstr "我々は、まだ他にいる厄介な魔術師を殺さなければならない！"
 
 #. [message]: speaker=Thindromli
 #. probably unreachable; handler for unhandled cases:
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:765
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:766
 msgid "We still have to... do <i>something</i> here? I'm not quite sure..."
 msgstr "我々は、まだやることが... <i>何か </i> ここで？ 何かある...かな..."
 
@@ -7442,36 +7443,36 @@ msgstr "我々は、まだやることが... <i>何か </i> ここで？ 何か�
 #. [message]: speaker=second_unit
 #. [message]: speaker=unit
 #. [message]: speaker=Thindromli
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:786
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:810
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:862
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:890
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:926
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:787
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:811
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:863
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:891
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:927
 msgid "That's $victory_conditions down so far!"
 msgstr "ここまでで第 $victory_conditions 段階よ！"
 
 #. [message]: speaker=Smilvolf
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:831
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:832
 msgid "We should not leave that portal open like this..."
 msgstr "この出入り口を開けたまま放っておくたらマズイだろ、こんな風に..."
 
 #. [message]: speaker=Thindromli
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:835
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:836
 msgid "...and that other mage behind our back!"
 msgstr "...それと俺たちの背後に隠れてる、もう一人の魔術師も！"
 
 #. [message]: speaker=Smilvolf
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:841
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:842
 msgid "We should not leave that portal open like this!"
 msgstr "この出入り口を開けたまま放っておいたらマズイだろ、あんな風に！"
 
 #. [message]: speaker=Naia
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:894
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:895
 msgid "We're not quite done here yet, though!"
 msgstr "でもまだ、ここは終わってないわよ！"
 
 #. [message]: speaker=second_unit
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:922
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:923
 msgid ""
 "That takes care of <i>those</i> bandits! We're not quite done here yet, "
 "though!"
@@ -7479,12 +7480,12 @@ msgstr ""
 "これで<i> あそこの </i>山賊どもは片付いた！でもまだ、ここは終わっていない！"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:936
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:937
 msgid "Great, we freed Illuvèn."
 msgstr "素晴らしい、Illuvèn を解放した。"
 
 #. [message]: speaker=Naia
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:940
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:941
 msgid ""
 "I feel like this was only the beginning. Far darker forces are awaiting us."
 msgstr ""
@@ -10499,6 +10500,9 @@ msgstr "集中"
 #: dawn_of_thunder/utils/weapon_specials.cfg:204
 msgid "This attack always has at least a 80% chance to hit."
 msgstr "この攻撃は常に80％以上の的中率を備えます。"
+
+#~ msgid "Close the Portal"
+#~ msgstr "Naia が死者の国への出入り口を閉じる"
 
 #~ msgid "Capture Mal Lirak"
 #~ msgstr "Mal Lirak を捕まえる"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-08-27 07:07 UTC\n"
+"POT-Creation-Date: 2023-08-27 07:27 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -121,7 +121,7 @@ msgstr ""
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:520
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:870
 #: dawn_of_thunder/scenarios/18_Illuvèn.cfg:438
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:590
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:591
 msgid "Death of Fiannon"
 msgstr ""
 
@@ -466,7 +466,7 @@ msgstr ""
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:524
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:874
 #: dawn_of_thunder/scenarios/18_Illuvèn.cfg:442
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:594
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:595
 msgid "Death of Naia"
 msgstr ""
 
@@ -3028,8 +3028,8 @@ msgstr ""
 #. [message]: speaker=orc2
 #. [message]: speaker=mini_leader
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:810
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:536
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:544
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:537
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:545
 msgid "..."
 msgstr ""
 
@@ -3872,7 +3872,7 @@ msgstr ""
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:528
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:878
 #: dawn_of_thunder/scenarios/18_Illuvèn.cfg:446
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:598
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:599
 msgid "Death of Thindromli"
 msgstr ""
 
@@ -4580,7 +4580,7 @@ msgstr ""
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:532
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:882
 #: dawn_of_thunder/scenarios/18_Illuvèn.cfg:450
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:602
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:603
 msgid "Death of Smilvolf"
 msgstr ""
 
@@ -5319,7 +5319,7 @@ msgstr ""
 
 #. [objectives]
 #: dawn_of_thunder/scenarios/18_Illuvèn.cfg:458
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:610
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:611
 msgid "Due to this campaign being incomplete, this is the final scenario for now. The intention is to develop more scenarios to go after it, though. So, eventually it won't be the final scenario anymore!"
 msgstr ""
 
@@ -5334,22 +5334,23 @@ msgid "Elves! And they carry weapons! Sound the Alarm!"
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:480
+#. FIXME: $unit.race won't be translated:
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:481
 msgid "Identify yourself $unit.race|! I am Fiannon, defender of Wesmere and the Ka'lian!"
 msgstr ""
 
 #. [message]: speaker=Bandits_leader
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:499
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:500
 msgid "So we finally meet again, commander Fiannon. You will surely recognise me. I am very pleased that you finally decided to join the fight instead of running away."
 msgstr ""
 
 #. [message]: speaker=Naia
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:509
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:510
 msgid "Duron Bleil! We captured you near Aldril!"
 msgstr ""
 
 #. [message]: speaker=Bandits_leader
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:513
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:514
 msgid ""
 "Well, how the tides have turned... Ironic, isn't it?\n"
 "Indeed, you captured me, but the city commander was a moron. He couldn't do much when an old friend of mine freed me and asked if I wanted to join his little... adventure. An offer that, of course, I couldn't refuse.\n"
@@ -5357,100 +5358,100 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Naia
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:521
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:522
 msgid "Duron Bleil! We fought you near Aldril!"
 msgstr ""
 
 #. [message]: speaker=Bandits_leader
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:525
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:526
 msgid ""
 "Indeed, we have already fought before. You thought the fact that I was a bandit was a legitimate reason to attack my camp! Your attack badly damaged my business! But you should be proud of me! I gave up the banditry when an old friend of mine asked if I wanted to join his little... adventure. An offer that, of course, I couldn't refuse.\n"
 "Especially if I could get my revenge on some elves! Although some of his friends are really dumber than I thought."
 msgstr ""
 
 #. [message]: speaker=orc1
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:532
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:533
 msgid "Do you think he's talking about us?"
 msgstr ""
 
 #. [message]: speaker=Bandits_leader
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:540
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:541
 msgid "But this is even better! Now I can get my personal revenge, and I do not even have to search for you myself! Isn't that great, Chad?"
 msgstr ""
 
 #. [message]: speaker=Bandits_leader
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:548
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:549
 msgid "Anyway, my friend taught me a few things. This time, you die!"
 msgstr ""
 
 #. [message]: speaker=Thindromli
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:565
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:566
 msgid "What is that?"
 msgstr ""
 
 #. [message]: speaker=Bandits_leader
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:569
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:570
 msgid "This, my friend, is a portal to the land of the dead!"
 msgstr ""
 
 #. [message]: speaker=Naia
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:573
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:574
 msgid "Interesting. The barrier between the worlds is a lot weaker there. I think I can close it, but the process might need some time, and I must be near it."
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:577
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:578
 msgid "We will show you that you're not the only one who got stronger!"
 msgstr ""
 
 #. [objective]: condition=win
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:582
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:583
 msgid "Defeat the Bandits"
 msgstr ""
 
 #. [objective]: condition=win
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:586
-msgid "Close the Portal"
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:587
+msgid "Move Naia to the Portal in order to close it"
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:680
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:681
 msgid "I can't believe it! They enchained our brethren! Wait a moment, I'll free you!"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:685
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:686
 msgid "<i>breaks the chains with one strong blow of his sword </i>"
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:689
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:690
 msgid "Tell me, what happened here?"
 msgstr ""
 
 #. [message]: speaker=$temp.id
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:694
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:695
 msgid "Thank you, sir! Our village was overrun. Hordes of orcs, undead, and bandits have been attacking us for weeks. For everyone of us dead we killed five of them, but it wasn't enough. Half of our village is dead; the rest was enslaved. We will help you rout the invaders out!"
 msgstr ""
 
 #. [message]: speaker=Thindromli
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:739
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:740
 msgid "We still have to kill those pesky mages!"
 msgstr ""
 
 #. [message]: speaker=Thindromli
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:745
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:746
 msgid "We still have to kill that pesky mage!"
 msgstr ""
 
 #. [message]: speaker=Thindromli
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:757
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:758
 msgid "We still have to kill that other pesky mage!"
 msgstr ""
 
 #. [message]: speaker=Thindromli
 #. probably unreachable; handler for unhandled cases:
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:765
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:766
 msgid "We still have to... do <i>something</i> here? I'm not quite sure..."
 msgstr ""
 
@@ -5458,46 +5459,46 @@ msgstr ""
 #. [message]: speaker=second_unit
 #. [message]: speaker=unit
 #. [message]: speaker=Thindromli
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:786
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:810
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:862
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:890
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:926
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:787
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:811
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:863
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:891
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:927
 msgid "That's $victory_conditions down so far!"
 msgstr ""
 
 #. [message]: speaker=Smilvolf
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:831
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:832
 msgid "We should not leave that portal open like this..."
 msgstr ""
 
 #. [message]: speaker=Thindromli
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:835
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:836
 msgid "...and that other mage behind our back!"
 msgstr ""
 
 #. [message]: speaker=Smilvolf
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:841
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:842
 msgid "We should not leave that portal open like this!"
 msgstr ""
 
 #. [message]: speaker=Naia
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:894
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:895
 msgid "We're not quite done here yet, though!"
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:922
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:923
 msgid "That takes care of <i>those</i> bandits! We're not quite done here yet, though!"
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:936
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:937
 msgid "Great, we freed Illuvèn."
 msgstr ""
 
 #. [message]: speaker=Naia
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:940
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:941
 msgid "I feel like this was only the beginning. Far darker forces are awaiting us."
 msgstr ""
 
