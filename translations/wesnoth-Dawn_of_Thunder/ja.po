@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dawn of Thunder\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-08-23 07:27 UTC\n"
+"POT-Creation-Date: 2023-08-27 06:33 UTC\n"
 "PO-Revision-Date: 2023-08-10 16:55+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
@@ -4748,6 +4748,11 @@ msgstr "トロル"
 msgid "Vekuzz"
 msgstr "Vekuzz"
 
+#. [side]: type=Troll Shaman, id=Troll2
+#: dawn_of_thunder/scenarios/09_underground.cfg:129
+msgid "Napokue"
+msgstr ""
+
 #. [side]
 #: dawn_of_thunder/scenarios/09_underground.cfg:163
 msgid "Cave Monsters"
@@ -5027,6 +5032,11 @@ msgstr "もう少し先へ進んでみよう！"
 msgid "As if we had another option..."
 msgstr "他に手立てが無いかしら..."
 
+#. [unit]: id=undeadleader2, type=Death Knight
+#: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:355
+msgid "Skarrag"
+msgstr ""
+
 #. [message]: speaker=Thindromli
 #: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:387
 msgid "Father, we must make haste! The walking dead are nearly onto us!"
@@ -5128,6 +5138,11 @@ msgid ""
 msgstr ""
 "もっともな話ですわ。ドワーフさん。でも、見たところ、後戻りするしか道は無いみ"
 "たいですけど！"
+
+#. [unit]: id=M'Brin, type=Elvish Forefather
+#: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:494
+msgid "M'Brin"
+msgstr ""
 
 #. [message]: speaker=M'Brin
 #: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:562
@@ -5277,6 +5292,11 @@ msgstr "線路の終点まで鉱石用荷車を移動する"
 #: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:728
 msgid "Destruction of the minecart containing the ore"
 msgstr "鉱石を積載した鉱石用荷車の破壊"
+
+#. [unit]: type=Troll Warrior, id=Troll2
+#: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:971
+msgid "Zunabar"
+msgstr ""
 
 #. [message]: speaker=M'Brin
 #: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:1007
@@ -5692,23 +5712,23 @@ msgstr ""
 "きましょ。どうせ、この辺りの野生動物たちから身の安全を守りたかったし。"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:466
+#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:471
 msgid "Thank you! Now, onwards to The Vast Peak!"
 msgstr "ありがとう！じゃあ、Vast Peak へ向かおう！"
 
 #. [message]: speaker=mammoth
-#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:492
+#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:497
 msgid "<span size='large'>*trumpets*</span>"
 msgstr "<span size='large'>（トランペットのような鳴き声！！）</span>"
 
 #. [message]: speaker=$unit.id
-#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:496
+#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:501
 msgid "Uhhhh... that one looks big. And dangerous."
 msgstr "うわぁ... でかそうだ。危険な感じだし。"
 
 #. [message]: speaker=Wyrm
 #. Please try to preserve the rhymes upon translation, so that if Alasar is present, his follow-up response makes sense:
-#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:559
+#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:568
 msgid ""
 "Did you guyssss just ssssslay,\n"
 "Whom I have chosssssen asssss my prey?\n"
@@ -5721,12 +5741,12 @@ msgstr ""
 "お前は我が夜食となる！ "
 
 #. [message]: speaker=Alasar
-#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:572
+#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:581
 msgid "Really? A rhyming dragon?"
 msgstr "なんだ？　ドラゴンが韻を踏んでるのか？"
 
 #. [message]: speaker=Thindromli
-#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:576
+#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:585
 msgid ""
 "It's a Wyrm, actually, similar to dragons in many aspects, but not quite as "
 "dangerous."
@@ -5735,7 +5755,7 @@ msgstr ""
 "ねえ。"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:649
+#: dawn_of_thunder/scenarios/12_Frost-_and_wolfbites.cfg:658
 msgid "Now where are those so-called Northguards?"
 msgstr "それで、ノースガードというのは何処に居るんだ？"
 
@@ -10155,7 +10175,7 @@ msgid ""
 "Curses! Without her... wait, Naia, did you just say you loved me?! Nooo!!!"
 msgstr ""
 
-#. [message]: speaker=Smilfvolf
+#. [message]: speaker=Smilvolf
 #: dawn_of_thunder/utils/deaths.cfg:94
 msgid "Death on the battlefield is a noble death. I'll join my ancestors now!"
 msgstr "戦場での死は尊い死だよ。私は今、先祖の仲間入りをするのだ！"
@@ -10206,7 +10226,7 @@ msgid "Argh, I..."
 msgstr "ぐあぁ！　私が..."
 
 #. [message]: speaker=Thordrul
-#: dawn_of_thunder/utils/deaths.cfg:174
+#: dawn_of_thunder/utils/deaths.cfg:175
 msgid ""
 "My son! I see now that I've cared too much about my gold, and not enough "
 "about you!"
@@ -10215,27 +10235,27 @@ msgstr ""
 "気に掛けてこなかった、すまん！"
 
 #. [message]: speaker=Thordrul
-#: dawn_of_thunder/utils/deaths.cfg:188
+#: dawn_of_thunder/utils/deaths.cfg:189
 msgid "My Gold! Damn elves, this is all your fault!"
 msgstr "俺のゴールドが！ クッソー、エルフめ、全部お前らのせいだ！"
 
 #. [message]: speaker=Alasar
-#: dawn_of_thunder/utils/deaths.cfg:202
+#: dawn_of_thunder/utils/deaths.cfg:203
 msgid "No! Me? Overwhelmed... Can't be..."
 msgstr "いやだ！ 私が打ちのめされる...？ あり得ない..."
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:206
+#: dawn_of_thunder/utils/deaths.cfg:207
 msgid "Goodbye Alasar. We will miss you."
 msgstr "さようなら、Alasar 、寂しくなるよ。"
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/utils/deaths.cfg:217
+#: dawn_of_thunder/utils/deaths.cfg:218
 msgid "I'm too old for this."
 msgstr "私はもう、年を取りすぎたわね。"
 
 #. [message]: speaker=Naia
-#: dawn_of_thunder/utils/deaths.cfg:221
+#: dawn_of_thunder/utils/deaths.cfg:222
 msgid "What a shame, she had to die! I could have learned so much from her!"
 msgstr ""
 "何て残念なの、死ななければならないなんて！ もっといろんなことを教えてもらいた"
@@ -10243,7 +10263,7 @@ msgstr ""
 
 #. [message]: speaker=rider
 #. TODO: vary this based on how far he's advanced:
-#: dawn_of_thunder/utils/deaths.cfg:235
+#: dawn_of_thunder/utils/deaths.cfg:236
 msgid ""
 "I can't believe that I died! I just wanted to become a noble knight with a "
 "shining armor one day."
@@ -10252,13 +10272,13 @@ msgstr ""
 "かっただけなのに。"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:239
+#: dawn_of_thunder/utils/deaths.cfg:240
 msgid "It was a honor fighting with you."
 msgstr "君と一緒に戦えて光栄だったよ。"
 
 #. [message]: speaker=woodchopper1
 #. TODO: vary this based on how far he's advanced:
-#: dawn_of_thunder/utils/deaths.cfg:251
+#: dawn_of_thunder/utils/deaths.cfg:252
 msgid ""
 "Argh! Now I will never become the best Bowman in the world! I should have "
 "stuck to my affairs as a Woodsman."
@@ -10267,13 +10287,13 @@ msgstr ""
 "たよ。"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:255
+#: dawn_of_thunder/utils/deaths.cfg:256
 msgid "Your loyal services will not be forgotten."
 msgstr "君の忠心溢れる行いは、決して忘れない。"
 
 #. [message]: speaker=woodchopper2
 #. TODO: vary this based on how far he's advanced:
-#: dawn_of_thunder/utils/deaths.cfg:267
+#: dawn_of_thunder/utils/deaths.cfg:268
 msgid ""
 "No! I'll never see my family again! I should have stuck to my affairs as a "
 "Peasant."
@@ -10282,13 +10302,13 @@ msgstr ""
 "ばよかった。"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:271
+#: dawn_of_thunder/utils/deaths.cfg:272
 msgid "We will not forget you, loyal fighter."
 msgstr "君のことは忘れないぞ、忠義ある戦士よ。"
 
 #. [message]: speaker=woodchopper3
 #. TODO: vary this based on how far he's advanced:
-#: dawn_of_thunder/utils/deaths.cfg:283
+#: dawn_of_thunder/utils/deaths.cfg:284
 msgid ""
 "And I just wanted to gain some fair money! I should have stuck to my affairs "
 "as a Ruffian."
@@ -10297,7 +10317,7 @@ msgstr ""
 "よ。"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:287
+#: dawn_of_thunder/utils/deaths.cfg:288
 msgid "Rest in peace, loyal soldier!"
 msgstr "安らかに...、誠忠の戦士よ！"
 

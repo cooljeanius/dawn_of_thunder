@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-08-26 03:59 UTC\n"
+"POT-Creation-Date: 2023-08-27 06:33 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -7262,7 +7262,7 @@ msgstr ""
 msgid "Curses! Without her... wait, Naia, did you just say you loved me?! Nooo!!!"
 msgstr ""
 
-#. [message]: speaker=Smilfvolf
+#. [message]: speaker=Smilvolf
 #: dawn_of_thunder/utils/deaths.cfg:94
 msgid "Death on the battlefield is a noble death. I'll join my ancestors now!"
 msgstr ""
@@ -7313,76 +7313,76 @@ msgid "Argh, I..."
 msgstr ""
 
 #. [message]: speaker=Thordrul
-#: dawn_of_thunder/utils/deaths.cfg:174
+#: dawn_of_thunder/utils/deaths.cfg:175
 msgid "My son! I see now that I've cared too much about my gold, and not enough about you!"
 msgstr ""
 
 #. [message]: speaker=Thordrul
-#: dawn_of_thunder/utils/deaths.cfg:188
+#: dawn_of_thunder/utils/deaths.cfg:189
 msgid "My Gold! Damn elves, this is all your fault!"
 msgstr ""
 
 #. [message]: speaker=Alasar
-#: dawn_of_thunder/utils/deaths.cfg:202
+#: dawn_of_thunder/utils/deaths.cfg:203
 msgid "No! Me? Overwhelmed... Can't be..."
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:206
+#: dawn_of_thunder/utils/deaths.cfg:207
 msgid "Goodbye Alasar. We will miss you."
 msgstr ""
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/utils/deaths.cfg:217
+#: dawn_of_thunder/utils/deaths.cfg:218
 msgid "I'm too old for this."
 msgstr ""
 
 #. [message]: speaker=Naia
-#: dawn_of_thunder/utils/deaths.cfg:221
+#: dawn_of_thunder/utils/deaths.cfg:222
 msgid "What a shame, she had to die! I could have learned so much from her!"
 msgstr ""
 
 #. [message]: speaker=rider
 #. TODO: vary this based on how far he's advanced:
-#: dawn_of_thunder/utils/deaths.cfg:235
+#: dawn_of_thunder/utils/deaths.cfg:236
 msgid "I can't believe that I died! I just wanted to become a noble knight with a shining armor one day."
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:239
+#: dawn_of_thunder/utils/deaths.cfg:240
 msgid "It was a honor fighting with you."
 msgstr ""
 
 #. [message]: speaker=woodchopper1
 #. TODO: vary this based on how far he's advanced:
-#: dawn_of_thunder/utils/deaths.cfg:251
+#: dawn_of_thunder/utils/deaths.cfg:252
 msgid "Argh! Now I will never become the best Bowman in the world! I should have stuck to my affairs as a Woodsman."
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:255
+#: dawn_of_thunder/utils/deaths.cfg:256
 msgid "Your loyal services will not be forgotten."
 msgstr ""
 
 #. [message]: speaker=woodchopper2
 #. TODO: vary this based on how far he's advanced:
-#: dawn_of_thunder/utils/deaths.cfg:267
+#: dawn_of_thunder/utils/deaths.cfg:268
 msgid "No! I'll never see my family again! I should have stuck to my affairs as a Peasant."
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:271
+#: dawn_of_thunder/utils/deaths.cfg:272
 msgid "We will not forget you, loyal fighter."
 msgstr ""
 
 #. [message]: speaker=woodchopper3
 #. TODO: vary this based on how far he's advanced:
-#: dawn_of_thunder/utils/deaths.cfg:283
+#: dawn_of_thunder/utils/deaths.cfg:284
 msgid "And I just wanted to gain some fair money! I should have stuck to my affairs as a Ruffian."
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/utils/deaths.cfg:287
+#: dawn_of_thunder/utils/deaths.cfg:288
 msgid "Rest in peace, loyal soldier!"
 msgstr ""
 
