@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dawn of Thunder\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-08-27 06:33 UTC\n"
+"POT-Creation-Date: 2023-08-27 07:07 UTC\n"
 "PO-Revision-Date: 2023-08-10 16:55+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
@@ -6855,12 +6855,16 @@ msgstr "敵のリーダーを全員倒して"
 
 #. [objective]: condition=win
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:866
-msgid "Capture Mal Lirak"
-msgstr "Mal Lirak を捕まえる"
+msgid "Surround Mal Lirak to try to capture him"
+msgstr ""
 
 #. [note]
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:899
-msgid "Mal Lirak can be captured by surrounding him from at least 3 sides."
+#, fuzzy
+#| msgid "Mal Lirak can be captured by surrounding him from at least 3 sides."
+msgid ""
+"Your troops assume that they can capture Mal Lirak by surrounding him from "
+"at least 3 sides."
 msgstr "Mal Lirak は最低３方向から囲めば捕獲できます。"
 
 #. [message]: speaker=mermaid
@@ -10495,6 +10499,9 @@ msgstr "集中"
 #: dawn_of_thunder/utils/weapon_specials.cfg:204
 msgid "This attack always has at least a 80% chance to hit."
 msgstr "この攻撃は常に80％以上の的中率を備えます。"
+
+#~ msgid "Capture Mal Lirak"
+#~ msgstr "Mal Lirak を捕まえる"
 
 #~ msgid "♩♪♫♬"
 #~ msgstr "♩♪♬♬ ...♩♪♬♬"

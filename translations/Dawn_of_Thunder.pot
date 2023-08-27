@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-08-27 06:33 UTC\n"
+"POT-Creation-Date: 2023-08-27 07:07 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -5016,12 +5016,12 @@ msgstr ""
 
 #. [objective]: condition=win
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:866
-msgid "Capture Mal Lirak"
+msgid "Surround Mal Lirak to try to capture him"
 msgstr ""
 
 #. [note]
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:899
-msgid "Mal Lirak can be captured by surrounding him from at least 3 sides."
+msgid "Your troops assume that they can capture Mal Lirak by surrounding him from at least 3 sides."
 msgstr ""
 
 #. [message]: speaker=mermaid
