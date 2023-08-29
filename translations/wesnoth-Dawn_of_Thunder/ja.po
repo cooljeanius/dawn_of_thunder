@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dawn of Thunder\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-08-29 07:15 UTC\n"
+"POT-Creation-Date: 2023-08-29 07:25 UTC\n"
 "PO-Revision-Date: 2023-08-10 16:55+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
@@ -89,6 +89,12 @@ msgstr "動作テストと WML help"
 #: dawn_of_thunder/_main.cfg:63
 msgid "Artwork"
 msgstr "アートワーク"
+
+#. [about]
+#. credits entry:
+#: dawn_of_thunder/_main.cfg:83
+msgid "Japanese Translation"
+msgstr ""
 
 #. [scenario]: id=01_the_outpost
 #: dawn_of_thunder/scenarios/01_the_outpost.cfg:7
