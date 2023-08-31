@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dawn of Thunder\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-08-29 07:25 UTC\n"
+"POT-Creation-Date: 2023-08-31 22:24 UTC\n"
 "PO-Revision-Date: 2023-08-10 16:55+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
@@ -25,12 +25,22 @@ msgstr "DoT"
 
 #. [campaign]: id=dawn_of_thunder
 #: dawn_of_thunder/_main.cfg:15
+#, fuzzy
+#| msgid ""
+#| "Follow Fiannon on a quest that will lead him farer than any elf has ever "
+#| "been.\n"
+#| "<span color='#808080'><small>Intermediate campaign, unfinished 18 of ??? "
+#| "scenarios, 2 dialogue only.\n"
+#| "visit the forum thread! r.wesnoth.org/t39512\n"
+#| "version: 0.2.3</small></span>"
 msgid ""
-"Follow Fiannon on a quest that will lead him farer than any elf has ever "
+"Follow Fiannon on a quest that will lead him farther than any elf has ever "
 "been.\n"
 "<span color='#808080'><small>Intermediate campaign, unfinished 18 of ??? "
 "scenarios, 2 dialogue only.\n"
-"visit the forum thread! r.wesnoth.org/t39512\n"
+"visit the forum thread! https://r.wesnoth.org/t39512\n"
+"...or report any issues encountered on Github: https://github.com/"
+"cooljeanius/dawn_of_thunder/issues\n"
 "version: 0.2.3</small></span>"
 msgstr ""
 "Fiannon とともにエルフの誰よりも遠く冒険の旅に出ましょう。\n"
@@ -41,58 +51,58 @@ msgstr ""
 "Version: 0.2.3</small></span>"
 
 #. [campaign]: id=dawn_of_thunder
-#: dawn_of_thunder/_main.cfg:38
+#: dawn_of_thunder/_main.cfg:39
 msgid "Thunderer"
 msgstr "雷撃兵"
 
 #. [campaign]: id=dawn_of_thunder
-#: dawn_of_thunder/_main.cfg:38
+#: dawn_of_thunder/_main.cfg:39
 msgid "Easy"
 msgstr "簡単"
 
 #. [campaign]: id=dawn_of_thunder
-#: dawn_of_thunder/_main.cfg:39
+#: dawn_of_thunder/_main.cfg:40
 msgid "Tempest"
 msgstr "嵐兵"
 
 #. [campaign]: id=dawn_of_thunder
-#: dawn_of_thunder/_main.cfg:39
+#: dawn_of_thunder/_main.cfg:40
 msgid "Normal"
 msgstr "普通"
 
 #. [campaign]: id=dawn_of_thunder
-#: dawn_of_thunder/_main.cfg:40
+#: dawn_of_thunder/_main.cfg:41
 msgid "Storm Lord"
 msgstr "嵐の貴族"
 
 #. [campaign]: id=dawn_of_thunder
-#: dawn_of_thunder/_main.cfg:40
+#: dawn_of_thunder/_main.cfg:41
 msgid "Challenging"
 msgstr "挑戦的"
 
 #. [about]
-#: dawn_of_thunder/_main.cfg:45
+#: dawn_of_thunder/_main.cfg:46
 msgid "Original Developer"
 msgstr "原作開発者"
 
 #. [about]
-#: dawn_of_thunder/_main.cfg:51
+#: dawn_of_thunder/_main.cfg:52
 msgid "Current Maintainer"
 msgstr "保守"
 
 #. [about]
-#: dawn_of_thunder/_main.cfg:57
+#: dawn_of_thunder/_main.cfg:58
 msgid "Playtesting and  WML help"
 msgstr "動作テストと WML help"
 
 #. [about]
-#: dawn_of_thunder/_main.cfg:63
+#: dawn_of_thunder/_main.cfg:64
 msgid "Artwork"
 msgstr "アートワーク"
 
 #. [about]
 #. credits entry:
-#: dawn_of_thunder/_main.cfg:83
+#: dawn_of_thunder/_main.cfg:84
 msgid "Japanese Translation"
 msgstr ""
 
@@ -242,6 +252,7 @@ msgstr "Astelva 砦"
 #: dawn_of_thunder/scenarios/16_The_Tower.cfg:66
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:37
 #: dawn_of_thunder/scenarios/18_Illuvèn.cfg:213
+#: dawn_of_thunder/scenarios/19_Return_to_the_Kalian.cfg:32
 #: dawn_of_thunder/scenarios/Epilogue.cfg:32
 #: dawn_of_thunder/scenarios/test.cfg:23
 msgid "Fiannon"
@@ -1957,6 +1968,7 @@ msgstr ""
 #: dawn_of_thunder/scenarios/16_The_Tower.cfg:62
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:33
 #: dawn_of_thunder/scenarios/18_Illuvèn.cfg:209
+#: dawn_of_thunder/scenarios/19_Return_to_the_Kalian.cfg:28
 #: dawn_of_thunder/scenarios/Epilogue.cfg:28
 #: dawn_of_thunder/scenarios/test.cfg:19
 msgid "Aethen's representants"
@@ -7525,6 +7537,24 @@ msgstr ""
 "これは始まりに過ぎないような気がするのよ。遥かに暗い力が私たちを待ち受けてい"
 "るわ。"
 
+#. [scenario]: id=19_Return_to_the_Kalian
+#: dawn_of_thunder/scenarios/19_Return_to_the_Kalian.cfg:5
+msgid "Return_to_the_Kalian"
+msgstr ""
+
+#. [part]
+#: dawn_of_thunder/scenarios/19_Return_to_the_Kalian.cfg:12
+#, fuzzy
+#| msgid ""
+#| "Fiannon and his allies are hurrying, so their starting keeps will be "
+#| "dismantled after two turns."
+msgid ""
+"When Fiannon and his allies returned to the Kalian, they were shocked by "
+"what they saw."
+msgstr ""
+"Fiannon と一行は急いでいるため、開始地点の砦は<b>2ターン</b>経過すると解体さ"
+"れます。"
+
 #. [scenario]: id=Epilogue
 #: dawn_of_thunder/scenarios/Epilogue.cfg:5
 msgid "Epilogue"
@@ -10551,13 +10581,6 @@ msgstr "この攻撃は常に80％以上の的中率を備えます。"
 
 #~ msgid "weapon^ sword"
 #~ msgstr "剣"
-
-#~ msgid ""
-#~ "Fiannon and his allies are hurrying, so their starting keeps will be "
-#~ "dismantled after two turns."
-#~ msgstr ""
-#~ "Fiannon と一行は急いでいるため、開始地点の砦は<b>2ターン</b>経過すると解体"
-#~ "されます。"
 
 #~ msgid "TODO"
 #~ msgstr "TODO"

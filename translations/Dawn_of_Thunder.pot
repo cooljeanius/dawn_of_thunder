@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-08-29 07:25 UTC\n"
+"POT-Creation-Date: 2023-08-31 22:24 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,65 +23,66 @@ msgstr ""
 #. [campaign]: id=dawn_of_thunder
 #: dawn_of_thunder/_main.cfg:15
 msgid ""
-"Follow Fiannon on a quest that will lead him farer than any elf has ever been.\n"
+"Follow Fiannon on a quest that will lead him farther than any elf has ever been.\n"
 "<span color='#808080'><small>Intermediate campaign, unfinished 18 of ??? scenarios, 2 dialogue only.\n"
-"visit the forum thread! r.wesnoth.org/t39512\n"
+"visit the forum thread! https://r.wesnoth.org/t39512\n"
+"...or report any issues encountered on Github: https://github.com/cooljeanius/dawn_of_thunder/issues\n"
 "version: 0.2.3</small></span>"
 msgstr ""
 
 #. [campaign]: id=dawn_of_thunder
-#: dawn_of_thunder/_main.cfg:38
+#: dawn_of_thunder/_main.cfg:39
 msgid "Thunderer"
 msgstr ""
 
 #. [campaign]: id=dawn_of_thunder
-#: dawn_of_thunder/_main.cfg:38
+#: dawn_of_thunder/_main.cfg:39
 msgid "Easy"
 msgstr ""
 
 #. [campaign]: id=dawn_of_thunder
-#: dawn_of_thunder/_main.cfg:39
+#: dawn_of_thunder/_main.cfg:40
 msgid "Tempest"
 msgstr ""
 
 #. [campaign]: id=dawn_of_thunder
-#: dawn_of_thunder/_main.cfg:39
+#: dawn_of_thunder/_main.cfg:40
 msgid "Normal"
 msgstr ""
 
 #. [campaign]: id=dawn_of_thunder
-#: dawn_of_thunder/_main.cfg:40
+#: dawn_of_thunder/_main.cfg:41
 msgid "Storm Lord"
 msgstr ""
 
 #. [campaign]: id=dawn_of_thunder
-#: dawn_of_thunder/_main.cfg:40
+#: dawn_of_thunder/_main.cfg:41
 msgid "Challenging"
 msgstr ""
 
 #. [about]
-#: dawn_of_thunder/_main.cfg:45
+#: dawn_of_thunder/_main.cfg:46
 msgid "Original Developer"
 msgstr ""
 
 #. [about]
-#: dawn_of_thunder/_main.cfg:51
+#: dawn_of_thunder/_main.cfg:52
 msgid "Current Maintainer"
 msgstr ""
 
 #. [about]
-#: dawn_of_thunder/_main.cfg:57
+#: dawn_of_thunder/_main.cfg:58
 msgid "Playtesting and  WML help"
 msgstr ""
 
 #. [about]
-#: dawn_of_thunder/_main.cfg:63
+#: dawn_of_thunder/_main.cfg:64
 msgid "Artwork"
 msgstr ""
 
 #. [about]
 #. credits entry:
-#: dawn_of_thunder/_main.cfg:83
+#: dawn_of_thunder/_main.cfg:84
 msgid "Japanese Translation"
 msgstr ""
 
@@ -193,6 +194,7 @@ msgstr ""
 #: dawn_of_thunder/scenarios/16_The_Tower.cfg:66
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:37
 #: dawn_of_thunder/scenarios/18_Illuvèn.cfg:213
+#: dawn_of_thunder/scenarios/19_Return_to_the_Kalian.cfg:32
 #: dawn_of_thunder/scenarios/Epilogue.cfg:32
 #: dawn_of_thunder/scenarios/test.cfg:23
 msgid "Fiannon"
@@ -1422,6 +1424,7 @@ msgstr ""
 #: dawn_of_thunder/scenarios/16_The_Tower.cfg:62
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:33
 #: dawn_of_thunder/scenarios/18_Illuvèn.cfg:209
+#: dawn_of_thunder/scenarios/19_Return_to_the_Kalian.cfg:28
 #: dawn_of_thunder/scenarios/Epilogue.cfg:28
 #: dawn_of_thunder/scenarios/test.cfg:19
 msgid "Aethen's representants"
@@ -5527,6 +5530,16 @@ msgstr ""
 #. [message]: speaker=Naia
 #: dawn_of_thunder/scenarios/18_Illuvèn.cfg:990
 msgid "I feel like this was only the beginning. Far darker forces are awaiting us."
+msgstr ""
+
+#. [scenario]: id=19_Return_to_the_Kalian
+#: dawn_of_thunder/scenarios/19_Return_to_the_Kalian.cfg:5
+msgid "Return_to_the_Kalian"
+msgstr ""
+
+#. [part]
+#: dawn_of_thunder/scenarios/19_Return_to_the_Kalian.cfg:12
+msgid "When Fiannon and his allies returned to the Kalian, they were shocked by what they saw."
 msgstr ""
 
 #. [scenario]: id=Epilogue
