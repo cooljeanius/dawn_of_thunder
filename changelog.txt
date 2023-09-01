@@ -17,27 +17,27 @@ Image: attacks/blank-attack.png.
 Modifications: ~CROP(2,2,56,56)~SCALE(72,72)~BLIT(halo/lightning-bolt-1-2.png~O(2.5)~CROP(17,121,66,66),3,3)~BLIT(halo/illuminates-aura.png~dawn_of_thunder(72,72)~O(2.1),0,0)~BLIT(units/huma
 
 scenario 1:
--event missing name field -error
+-event missing name field -error (might be fixed?)
 
 scenario 2:
 -terrain changes for Naia's arrival
 -reduce tomato-ness of Lirak's appearing minions upon his death
 
 scenario 4: 
--[event] is missing name field
--[items] are visible through shroud
+-[event] is missing name field (might be fixed?)
+-[items] are visible through shroud (check to see if still true?)
 
 scenario 5:
--item images?
--remove naga going away
+-item images? (not sure what this means?)
+-remove naga going away (or not? Ragziss needs to come back for S17...)
 
 scenario 6:
 -non-elf message reformulating (start)
--first peasant message
+-first peasant message (idk what this means?)
 -improve "peasantish accent"
 
 scenario 7:
--[item] visible through shroud
+-[item] visible through shroud (check to see if still true?)
 -redo ending dialogue
 -make fight hard(er). Boss pushback + wosespawn ability
 
@@ -47,12 +47,15 @@ scenario 8:
 scenario 12:
 -make more interesting and less of a slog
 
--scenario 14:
+scenario 14:
 -adjust difficulty according to advancements?
 
-Scenario 17:
--only number left message doesn't work
+scenario 17:
+-only number left message has been known to be flaky
 -last of Smilvolf's message is overdose(?) when Lirak's the last enemy
+
+scenario 19:
+-create
 
 Chapter names:
 3. Reconquest
@@ -60,7 +63,7 @@ Chapter names:
 	16_The_Tower
 	17_Jotha
 	18_Illuvèn
-	19_Reinforcing_the_Kalian
+	19_Return_to_the_Kalian
 	20
 	21
 4. Banishing the Dark
@@ -90,6 +93,48 @@ English via Google Translate:
 "Arrange the whole scenario file. All events are wildly mixed up. A little
 structure would be nice. It's very difficult to read as it is now. Very hard to
 find anything there."
+
+0.2.4
+-------------------------------------------------------------------------------
+general:
+-added file listing art needed (ART_TODO.txt)
+-updated rank
+-new Japanese translation from chee / konami,k
+-copy over combined hero/leader ellipse images for wesnoth/wesnoth#6258
+-sorted out crab images
+-additional translation comments
+-copyediting
+-use {TURNS_OUT_MACRO} in scenarios where time over results in defeat
+-fix some errors/warnings issued by the validator
+-rename some macros
+-vary Naia's death messages by how far she's advanced
+
+scenario 1:
+-bonus is now properly applied, as per objectives
+
+scenario 2:
+-minor map tweaks; see issue #8
+-fix message for case when Alasar isn't present
+
+scenario 5:
+-received hunters are all now properly loyal; since this represents a reduction
+in their total number of traits, you may now pick their additional traits
+
+scenario 6:
+-add some clarity to some message displays
+
+scenario 7:
+-minor map tweaks; see issue #8
+-AI updates
+-clarify Naia's peasant recruitment
+
+scenario 17:
+-bonus is now for all difficulties, to match objectives
+-clarification of objectives regarding surrounding Mal Lirak
+
+scenario 18:
+-scenario no longer ends when all enemies are defeated, requiring players to
+actually close the portal, as per the objectives
 
 0.2.3
 -------------------------------------------------------------------------------
