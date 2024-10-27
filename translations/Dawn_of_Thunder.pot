@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2024-10-27 04:31 UTC\n"
+"POT-Creation-Date: 2024-10-27 05:18 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -6004,7 +6004,7 @@ msgstr ""
 
 #. [attack]: type=pierce
 #: dawn_of_thunder/units/elves/Spearman.cfg:39
-#: dawn_of_thunder/units/humans/squire.cfg:37
+#: dawn_of_thunder/units/humans/squire.cfg:25
 msgid "spear"
 msgstr ""
 
@@ -6129,17 +6129,17 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=blade
-#: dawn_of_thunder/units/goblins/Cutthroat.cfg:49
+#: dawn_of_thunder/units/goblins/Cutthroat.cfg:37
 msgid "sickle"
 msgstr ""
 
 #. [attack]: type=fire
-#: dawn_of_thunder/units/goblins/Cutthroat.cfg:61
+#: dawn_of_thunder/units/goblins/Cutthroat.cfg:49
 msgid "torch"
 msgstr ""
 
 #. [attack]: type=impact
-#: dawn_of_thunder/units/goblins/Cutthroat.cfg:70
+#: dawn_of_thunder/units/goblins/Cutthroat.cfg:58
 msgid "net"
 msgstr ""
 
