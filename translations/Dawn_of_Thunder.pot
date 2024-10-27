@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-09-01 00:51 UTC\n"
+"POT-Creation-Date: 2024-10-27 04:31 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,63 +26,64 @@ msgid ""
 "Follow Fiannon on a quest that will lead him farther than any elf has ever been.\n"
 "<span color='#808080'><small>Intermediate campaign, unfinished 18 of ??? scenarios, 2 dialogue only.\n"
 "visit the forum thread! https://r.wesnoth.org/t39512\n"
-"...or report any issues encountered on Github: https://github.com/cooljeanius/dawn_of_thunder/issues\n"
+"...or report any issues encountered on Github:\n"
+"https://github.com/cooljeanius/dawn_of_thunder/issues\n"
 "version: 0.2.4</small></span>"
 msgstr ""
 
 #. [campaign]: id=dawn_of_thunder
-#: dawn_of_thunder/_main.cfg:39
+#: dawn_of_thunder/_main.cfg:40
 msgid "Thunderer"
 msgstr ""
 
 #. [campaign]: id=dawn_of_thunder
-#: dawn_of_thunder/_main.cfg:39
+#: dawn_of_thunder/_main.cfg:40
 msgid "Easy"
 msgstr ""
 
 #. [campaign]: id=dawn_of_thunder
-#: dawn_of_thunder/_main.cfg:40
+#: dawn_of_thunder/_main.cfg:41
 msgid "Tempest"
 msgstr ""
 
 #. [campaign]: id=dawn_of_thunder
-#: dawn_of_thunder/_main.cfg:40
+#: dawn_of_thunder/_main.cfg:41
 msgid "Normal"
 msgstr ""
 
 #. [campaign]: id=dawn_of_thunder
-#: dawn_of_thunder/_main.cfg:41
+#: dawn_of_thunder/_main.cfg:42
 msgid "Storm Lord"
 msgstr ""
 
 #. [campaign]: id=dawn_of_thunder
-#: dawn_of_thunder/_main.cfg:41
+#: dawn_of_thunder/_main.cfg:42
 msgid "Challenging"
 msgstr ""
 
 #. [about]
-#: dawn_of_thunder/_main.cfg:46
+#: dawn_of_thunder/_main.cfg:47
 msgid "Original Developer"
 msgstr ""
 
 #. [about]
-#: dawn_of_thunder/_main.cfg:52
+#: dawn_of_thunder/_main.cfg:53
 msgid "Current Maintainer"
 msgstr ""
 
 #. [about]
-#: dawn_of_thunder/_main.cfg:58
+#: dawn_of_thunder/_main.cfg:59
 msgid "Playtesting and  WML help"
 msgstr ""
 
 #. [about]
-#: dawn_of_thunder/_main.cfg:64
+#: dawn_of_thunder/_main.cfg:65
 msgid "Artwork"
 msgstr ""
 
 #. [about]
 #. credits entry:
-#: dawn_of_thunder/_main.cfg:84
+#: dawn_of_thunder/_main.cfg:85
 msgid "Japanese Translation"
 msgstr ""
 
@@ -580,7 +581,7 @@ msgstr ""
 msgid "You have selected Naia, one of your heroes. She is a special unit with a different way of advancing than other units. Every time she reaches her experience limit you may choose between various upgrades or advancing her to the next level. You will always be able to advance to the next level, but improvements are unique to the level and lost if they are not taken."
 msgstr ""
 
-#. [unit]: id=Naia, type=Grey Mage
+#. [unit]: id=Naia, type=Grey Mage, gender=female
 #: dawn_of_thunder/scenarios/02_rescue.cfg:540
 msgid "Naia"
 msgstr ""
@@ -822,7 +823,7 @@ msgstr ""
 msgid "They quickly made their way through the forest, as they knew of its hidden paths. After marching for a few days, they arrived at the Vale of Tears. Although they only wanted to rest for the night, fate had it otherwise."
 msgstr ""
 
-#. [side]: type=Elvish Druid, id=Limwen
+#. [side]: type=Elvish Druid, id=Limwen, gender=female
 #. [side]: type=Elvish Captain, id=elf_leader
 #: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:115
 #: dawn_of_thunder/scenarios/05_lake_aelin.cfg:172
@@ -5811,12 +5812,12 @@ msgstr ""
 msgid "glaive"
 msgstr ""
 
-#. [unit_type]: id=Elvish Halberdier, race=elf2
+#. [unit_type]: id=Elvish Halberdier, race=elf2, gender=male
 #: dawn_of_thunder/units/elves/ElvishHalberdier.cfg:6
 msgid "Elvish Halberdier"
 msgstr ""
 
-#. [unit_type]: id=Elvish Halberdier, race=elf2
+#. [unit_type]: id=Elvish Halberdier, race=elf2, gender=male
 #: dawn_of_thunder/units/elves/ElvishHalberdier.cfg:32
 msgid "Elvish Halberdiers have been trained from a young age in the art of how to use the halberd correctly, and no one equals them in this field. Their appearance on the battlefield brings hope to all of their allies."
 msgstr ""
@@ -5855,7 +5856,7 @@ msgstr ""
 msgid "shortsword"
 msgstr ""
 
-#. [female]
+#. [female]: gender=female
 #: dawn_of_thunder/units/elves/ElvishPrisoner.cfg:87
 #: dawn_of_thunder/units/elves/ElvishPrisonerUnarmed.cfg:16
 msgid "female^Elvish Prisoner"
@@ -5949,12 +5950,12 @@ msgstr ""
 msgid "Some elves are born with the rare talent to control the weather. These elves have a tight bond with nature, and fight the unnatural. Their predilection for storms causes them to be known as Thunderers."
 msgstr ""
 
-#. [unit_type]: id=Elvish Hunter, race=elf
+#. [unit_type]: id=Elvish Hunter, race=elf, gender=male,female
 #: dawn_of_thunder/units/elves/Hunter.cfg:6
 msgid "Elvish Hunter"
 msgstr ""
 
-#. [unit_type]: id=Elvish Hunter, race=elf
+#. [unit_type]: id=Elvish Hunter, race=elf, gender=male,female
 #. TODO: compare with description in IftU and see if anything needs to be changed:
 #: dawn_of_thunder/units/elves/Hunter.cfg:33
 msgid "The elvish militia is mainly composed of civilians who have dropped their bows in favor of entangling unwary opponents using their bolas, and then finishing them off with their swords. They are trained to scour the woods, hills, and mountains for prey and enemies."
@@ -5967,17 +5968,17 @@ msgstr ""
 msgid "bolas"
 msgstr ""
 
-#. [female]
+#. [female]: gender=female
 #: dawn_of_thunder/units/elves/Hunter.cfg:150
 msgid "female^Elvish Hunter"
 msgstr ""
 
-#. [unit_type]: id=Elvish Prowler, race=elf
+#. [unit_type]: id=Elvish Prowler, race=elf, gender=male,female
 #: dawn_of_thunder/units/elves/Prowler.cfg:6
 msgid "Elvish Prowler"
 msgstr ""
 
-#. [unit_type]: id=Elvish Prowler, race=elf
+#. [unit_type]: id=Elvish Prowler, race=elf, gender=male,female
 #. TODO: compare with IftU:
 #: dawn_of_thunder/units/elves/Prowler.cfg:37
 msgid ""
@@ -5986,17 +5987,17 @@ msgid ""
 "This is one of the various reasons that the wood elves are respected and feared by most races."
 msgstr ""
 
-#. [female]
+#. [female]: gender=female
 #: dawn_of_thunder/units/elves/Prowler.cfg:132
 msgid "female^Elvish Prowler"
 msgstr ""
 
-#. [unit_type]: id=Elvish Spearman, race=elf2
+#. [unit_type]: id=Elvish Spearman, race=elf2, gender=male
 #: dawn_of_thunder/units/elves/Spearman.cfg:6
 msgid "Elvish Spearman"
 msgstr ""
 
-#. [unit_type]: id=Elvish Spearman, race=elf2
+#. [unit_type]: id=Elvish Spearman, race=elf2, gender=male
 #: dawn_of_thunder/units/elves/Spearman.cfg:23
 msgid "Elvish Spearmen are elves trained in the art of fighting with spears."
 msgstr ""
@@ -6007,18 +6008,18 @@ msgstr ""
 msgid "spear"
 msgstr ""
 
-#. [unit_type]: id=Elvish Trapper, race=elf
+#. [unit_type]: id=Elvish Trapper, race=elf, gender=male,female
 #: dawn_of_thunder/units/elves/Trapper.cfg:6
 msgid "Elvish Trapper"
 msgstr ""
 
-#. [unit_type]: id=Elvish Trapper, race=elf
+#. [unit_type]: id=Elvish Trapper, race=elf, gender=male,female
 #. TODO: compare with IftU:
 #: dawn_of_thunder/units/elves/Trapper.cfg:35
 msgid "Elvish Trappers have increased their expertise in patrolling and defending their bases, having learned the value of confusing their enemies and backstabbing them. These skirmishers have become more skilled with the short sword, having less need for using their bolas to beat their opponents."
 msgstr ""
 
-#. [female]
+#. [female]: gender=female
 #: dawn_of_thunder/units/elves/Trapper.cfg:121
 msgid "female^Elvish Trapper"
 msgstr ""
@@ -6044,12 +6045,12 @@ msgstr ""
 msgid "Forests, caverns, mountains, and large bodies of water are propitious places to find many kinds of rare and mysterious creatures. Such environments are thus preferred by the remnants of the peoples said to antedate civilized life on Irdya, such as woses and merfolk, and the varied group of beings more commonly known as the true faeries."
 msgstr ""
 
-#. [unit_type]: id=Autumn_faerie, race=fairy
+#. [unit_type]: id=Autumn_faerie, race=fairy, gender=female
 #: dawn_of_thunder/units/faeries/autumn-faerie.cfg:6
 msgid "female^Autumn Faerie"
 msgstr ""
 
-#. [unit_type]: id=Autumn_faerie, race=fairy
+#. [unit_type]: id=Autumn_faerie, race=fairy, gender=female
 #: dawn_of_thunder/units/faeries/autumn-faerie.cfg:23
 msgid "Only the mightiest of all faeries become an autumn faerie one day. The autumn faerie has lived for millennia thanks to her faerie powers. She has seen and witnessed things that nobody else remembers and are only legends to others. Her old age has made the autumn faerie even weaker than before but strengthened her control over nature even more. The autumn faerie commands and nature obeys."
 msgstr ""
@@ -6072,12 +6073,12 @@ msgstr ""
 msgid "thorns"
 msgstr ""
 
-#. [unit_type]: id=Fallen Faerie, race=fairy
+#. [unit_type]: id=Fallen Faerie, race=fairy, gender=female
 #: dawn_of_thunder/units/faeries/fallenfaerie.cfg:5
 msgid "Fallen Faerie"
 msgstr ""
 
-#. [unit_type]: id=Fallen Faerie, race=fairy
+#. [unit_type]: id=Fallen Faerie, race=fairy, gender=female
 #: dawn_of_thunder/units/faeries/fallenfaerie.cfg:41
 msgid "Faeries are closely bound to the forest they usually live in. If the forest is corrupted, either by pollution or dark magic, these beings are the result. Fallen faeries are quite the contrary of the beings they once were, and are highly agressive. They are not only found in forests, but also in caves, as they prefer the endless darkness. One should not try to fight a fallen faerie, epecially if the fallen faeries are in their own territory, and it is during the night."
 msgstr ""
@@ -6094,22 +6095,22 @@ msgstr ""
 msgid "dark wave"
 msgstr ""
 
-#. [unit_type]: id=Fallen Sprite, race=fairy
+#. [unit_type]: id=Fallen Sprite, race=fairy, gender=female
 #: dawn_of_thunder/units/faeries/fallensprite.cfg:5
 msgid "Fallen Sprite"
 msgstr ""
 
-#. [unit_type]: id=Fallen Sprite, race=fairy
+#. [unit_type]: id=Fallen Sprite, race=fairy, gender=female
 #: dawn_of_thunder/units/faeries/fallensprite.cfg:40
 msgid "Fallen Sprites are mostly found in dark places, such as deep in the heart of a forest. They are formidable enemies who shouldn't be underestimated, even if they have the appearence of airy women."
 msgstr ""
 
-#. [unit_type]: id=Natures_avatar, race=fairy
+#. [unit_type]: id=Natures_avatar, race=fairy, gender=female
 #: dawn_of_thunder/units/faeries/natures-avatar.cfg:6
 msgid "female^Nature's Avatar"
 msgstr ""
 
-#. [unit_type]: id=Natures_avatar, race=fairy
+#. [unit_type]: id=Natures_avatar, race=fairy, gender=female
 #: dawn_of_thunder/units/faeries/natures-avatar.cfg:22
 msgid "The Nature's Avatar has now fully embraced the faerie world. While this has improved her magical powers and she is now able to draw strength from the forest, it also weakened her connection to this world and her ability to fight back."
 msgstr ""
@@ -6298,7 +6299,7 @@ msgstr ""
 msgid "The Wolfheart is a legendary figure from Northguard mythology. As it is written: ''...and he will come and he will be the end of his enemies. He will be both wolf and human and he will swap between his forms as he likes. ''"
 msgstr ""
 
-#. [unit_type]: id=Golden Mage of the Sun, race=human
+#. [unit_type]: id=Golden Mage of the Sun, race=human, gender=female
 #: dawn_of_thunder/units/humans/GoldenMage.cfg:6
 msgid "Golden Mage of the Sun"
 msgstr ""
@@ -6318,7 +6319,7 @@ msgstr ""
 msgid "Photoregenerates, +30% Max XP"
 msgstr ""
 
-#. [unit_type]: id=Golden Mage of the Sun, race=human
+#. [unit_type]: id=Golden Mage of the Sun, race=human, gender=female
 #: dawn_of_thunder/units/humans/GoldenMage.cfg:120
 msgid ""
 "The order of the Silver Mages is certainly one of the most enigmatic. The Golden Mages are the secret leaders of this Order. Only the best Silver Mages could aspire to become Gold Magi, and being one of them is perhaps an even greater honor than being a Great Mage.\n"
@@ -6327,7 +6328,7 @@ msgid ""
 "Gold magi are often more physically adept than other magi, and their skills are of undeniable use on the battlefield, if one can manage to induce the mage to apply them."
 msgstr ""
 
-#. [unit_type]: id=Golden Mage of the Sun, race=human
+#. [unit_type]: id=Golden Mage of the Sun, race=human, gender=female
 #: dawn_of_thunder/units/humans/GoldenMage.cfg:123
 msgid "SPECIAL_NOTE^ Gold Magi are well-attuned to their magical natures and are highly resistant to non-physical damage."
 msgstr ""
@@ -6346,7 +6347,7 @@ msgstr ""
 msgid "missile"
 msgstr ""
 
-#. [unit_type]: id=Grey Mage, race=human
+#. [unit_type]: id=Grey Mage, race=human, gender=female
 #: dawn_of_thunder/units/humans/GreyMage.cfg:6
 msgid "Grey Mage"
 msgstr ""
@@ -6361,12 +6362,12 @@ msgstr ""
 msgid "Stronger with magic (magic +2 damage, Max XP +20%)"
 msgstr ""
 
-#. [unit_type]: id=Grey Mage, race=human
+#. [unit_type]: id=Grey Mage, race=human, gender=female
 #: dawn_of_thunder/units/humans/GreyMage.cfg:80
 msgid "These mages have been chosen by the Guild of the Silver Mages for special training. Although they can't really teleport yet, they are making great progress into that direction, and given time, they will eventually be able to do so. They are also more agile than their comrades from other guilds."
 msgstr ""
 
-#. [unit_type]: id=Silver Mage of the Moon, race=human
+#. [unit_type]: id=Silver Mage of the Moon, race=human, gender=female
 #: dawn_of_thunder/units/humans/SilverMage.cfg:6
 msgid "Silver Mage of the Moon"
 msgstr ""
@@ -6381,7 +6382,7 @@ msgstr ""
 msgid "Magic shield (resistances pierce, impact and blade +25% , Max XP +20%)"
 msgstr ""
 
-#. [unit_type]: id=Silver Mage of the Moon, race=human
+#. [unit_type]: id=Silver Mage of the Moon, race=human, gender=female
 #: dawn_of_thunder/units/humans/SilverMage.cfg:83
 msgid ""
 "The many paths that a mage can take in study lead to strikingly different ends. Often viewed as sages, or wandering mystics, silver magi act under an agenda which is obscure even to their own colleagues. Though helpful to the magisteriums which often employ them in the field, they remain somewhat aloof.\n"
@@ -6391,7 +6392,7 @@ msgid ""
 "Silver magi are often more physically adept than other magi, and their skills are of undeniable use on the battlefield, if one can manage to induce the mage to apply them."
 msgstr ""
 
-#. [unit_type]: id=Silver Mage of the Moon, race=human
+#. [unit_type]: id=Silver Mage of the Moon, race=human, gender=female
 #: dawn_of_thunder/units/humans/SilverMage.cfg:87
 msgid "SPECIAL_NOTE^ Silver Magi are well-attuned to their magical natures and are highly resistant to non-physical damage."
 msgstr ""
@@ -6472,12 +6473,12 @@ msgstr ""
 msgid "water jet"
 msgstr ""
 
-#. [unit_type]: id=Black Widow, race=monster
+#. [unit_type]: id=Black Widow, race=monster, gender=female
 #: dawn_of_thunder/units/monsters/Black_Widow.cfg:6
 msgid "Black Widow"
 msgstr ""
 
-#. [unit_type]: id=Black Widow, race=monster
+#. [unit_type]: id=Black Widow, race=monster, gender=female
 #: dawn_of_thunder/units/monsters/Black_Widow.cfg:23
 msgid "Having a venomous bite and capable of immobilizing their prey in webs, Black Widows are rarely seen by surface dwellers. Queens among spiders, these massive beasts should be avoided when encountered."
 msgstr ""

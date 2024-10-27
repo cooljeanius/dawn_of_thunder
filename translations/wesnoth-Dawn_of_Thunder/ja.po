@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dawn of Thunder\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-09-01 00:51 UTC\n"
+"POT-Creation-Date: 2024-10-27 04:31 UTC\n"
 "PO-Revision-Date: 2023-08-31 20:53-0400\n"
 "Last-Translator: Eric Gallager <egall@gwmail.gwu.edu>\n"
 "Language-Team: \n"
@@ -25,14 +25,24 @@ msgstr "DoT"
 
 #. [campaign]: id=dawn_of_thunder
 #: dawn_of_thunder/_main.cfg:15
+#, fuzzy
+#| msgid ""
+#| "Follow Fiannon on a quest that will lead him farther than any elf has "
+#| "ever been.\n"
+#| "<span color='#808080'><small>Intermediate campaign, unfinished 18 of ??? "
+#| "scenarios, 2 dialogue only.\n"
+#| "visit the forum thread! https://r.wesnoth.org/t39512\n"
+#| "...or report any issues encountered on Github: https://github.com/"
+#| "cooljeanius/dawn_of_thunder/issues\n"
+#| "version: 0.2.4</small></span>"
 msgid ""
 "Follow Fiannon on a quest that will lead him farther than any elf has ever "
 "been.\n"
 "<span color='#808080'><small>Intermediate campaign, unfinished 18 of ??? "
 "scenarios, 2 dialogue only.\n"
 "visit the forum thread! https://r.wesnoth.org/t39512\n"
-"...or report any issues encountered on Github: https://github.com/"
-"cooljeanius/dawn_of_thunder/issues\n"
+"...or report any issues encountered on Github:\n"
+"https://github.com/cooljeanius/dawn_of_thunder/issues\n"
 "version: 0.2.4</small></span>"
 msgstr ""
 "Fiannon とともにエルフの誰よりも遠く冒険の旅に出ましょう。\n"
@@ -44,58 +54,58 @@ msgstr ""
 "Version: 0.2.4</small></span>"
 
 #. [campaign]: id=dawn_of_thunder
-#: dawn_of_thunder/_main.cfg:39
+#: dawn_of_thunder/_main.cfg:40
 msgid "Thunderer"
 msgstr "雷撃兵"
 
 #. [campaign]: id=dawn_of_thunder
-#: dawn_of_thunder/_main.cfg:39
+#: dawn_of_thunder/_main.cfg:40
 msgid "Easy"
 msgstr "簡単"
 
 #. [campaign]: id=dawn_of_thunder
-#: dawn_of_thunder/_main.cfg:40
+#: dawn_of_thunder/_main.cfg:41
 msgid "Tempest"
 msgstr "嵐兵"
 
 #. [campaign]: id=dawn_of_thunder
-#: dawn_of_thunder/_main.cfg:40
+#: dawn_of_thunder/_main.cfg:41
 msgid "Normal"
 msgstr "普通"
 
 #. [campaign]: id=dawn_of_thunder
-#: dawn_of_thunder/_main.cfg:41
+#: dawn_of_thunder/_main.cfg:42
 msgid "Storm Lord"
 msgstr "嵐の貴族"
 
 #. [campaign]: id=dawn_of_thunder
-#: dawn_of_thunder/_main.cfg:41
+#: dawn_of_thunder/_main.cfg:42
 msgid "Challenging"
 msgstr "挑戦的"
 
 #. [about]
-#: dawn_of_thunder/_main.cfg:46
+#: dawn_of_thunder/_main.cfg:47
 msgid "Original Developer"
 msgstr "原作開発者"
 
 #. [about]
-#: dawn_of_thunder/_main.cfg:52
+#: dawn_of_thunder/_main.cfg:53
 msgid "Current Maintainer"
 msgstr "保守"
 
 #. [about]
-#: dawn_of_thunder/_main.cfg:58
+#: dawn_of_thunder/_main.cfg:59
 msgid "Playtesting and  WML help"
 msgstr "動作テストと WML help"
 
 #. [about]
-#: dawn_of_thunder/_main.cfg:64
+#: dawn_of_thunder/_main.cfg:65
 msgid "Artwork"
 msgstr "アートワーク"
 
 #. [about]
 #. credits entry:
-#: dawn_of_thunder/_main.cfg:84
+#: dawn_of_thunder/_main.cfg:85
 msgid "Japanese Translation"
 msgstr "日本語翻訳"
 
@@ -719,7 +729,7 @@ msgstr ""
 "アップを選択することはできますが、アップグレードは各レベルで固有のもので、そ"
 "の時々の機会を逃すと得られないものです。"
 
-#. [unit]: id=Naia, type=Grey Mage
+#. [unit]: id=Naia, type=Grey Mage, gender=female
 #: dawn_of_thunder/scenarios/02_rescue.cfg:540
 msgid "Naia"
 msgstr "Naia"
@@ -1041,7 +1051,7 @@ msgstr ""
 "す。数日の行軍のあと、<b>涙の谷 </b>に到着しました。一晩休息を取りたかったの"
 "ですが、運命はそれを許しませんでした。"
 
-#. [side]: type=Elvish Druid, id=Limwen
+#. [side]: type=Elvish Druid, id=Limwen, gender=female
 #. [side]: type=Elvish Captain, id=elf_leader
 #: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:115
 #: dawn_of_thunder/scenarios/05_lake_aelin.cfg:172
@@ -7883,12 +7893,12 @@ msgstr ""
 msgid "glaive"
 msgstr "段平刀"
 
-#. [unit_type]: id=Elvish Halberdier, race=elf2
+#. [unit_type]: id=Elvish Halberdier, race=elf2, gender=male
 #: dawn_of_thunder/units/elves/ElvishHalberdier.cfg:6
 msgid "Elvish Halberdier"
 msgstr "エルフの斧槍兵"
 
-#. [unit_type]: id=Elvish Halberdier, race=elf2
+#. [unit_type]: id=Elvish Halberdier, race=elf2, gender=male
 #: dawn_of_thunder/units/elves/ElvishHalberdier.cfg:32
 msgid ""
 "Elvish Halberdiers have been trained from a young age in the art of how to "
@@ -7947,7 +7957,7 @@ msgstr ""
 msgid "shortsword"
 msgstr "短剣"
 
-#. [female]
+#. [female]: gender=female
 #: dawn_of_thunder/units/elves/ElvishPrisoner.cfg:87
 #: dawn_of_thunder/units/elves/ElvishPrisonerUnarmed.cfg:16
 msgid "female^Elvish Prisoner"
@@ -8064,12 +8074,12 @@ msgstr ""
 "がいます。そうした者たちは自然と強く結びついており、異様な者と戦います。激し"
 "い雷を好む性格から、\"雷撃兵\"の名で知られています。"
 
-#. [unit_type]: id=Elvish Hunter, race=elf
+#. [unit_type]: id=Elvish Hunter, race=elf, gender=male,female
 #: dawn_of_thunder/units/elves/Hunter.cfg:6
 msgid "Elvish Hunter"
 msgstr "エルフの狩人"
 
-#. [unit_type]: id=Elvish Hunter, race=elf
+#. [unit_type]: id=Elvish Hunter, race=elf, gender=male,female
 #. TODO: compare with description in IftU and see if anything needs to be changed:
 #: dawn_of_thunder/units/elves/Hunter.cfg:33
 msgid ""
@@ -8089,17 +8099,17 @@ msgstr ""
 msgid "bolas"
 msgstr "投げ縄"
 
-#. [female]
+#. [female]: gender=female
 #: dawn_of_thunder/units/elves/Hunter.cfg:150
 msgid "female^Elvish Hunter"
 msgstr "エルフの女狩人"
 
-#. [unit_type]: id=Elvish Prowler, race=elf
+#. [unit_type]: id=Elvish Prowler, race=elf, gender=male,female
 #: dawn_of_thunder/units/elves/Prowler.cfg:6
 msgid "Elvish Prowler"
 msgstr "エルフの狩猟者"
 
-#. [unit_type]: id=Elvish Prowler, race=elf
+#. [unit_type]: id=Elvish Prowler, race=elf, gender=male,female
 #. TODO: compare with IftU:
 #: dawn_of_thunder/units/elves/Prowler.cfg:37
 msgid ""
@@ -8121,17 +8131,17 @@ msgstr ""
 "このことは、森林のエルフが多くの種族から尊敬され恐れられている様々な要因のう"
 "ちの一つです。"
 
-#. [female]
+#. [female]: gender=female
 #: dawn_of_thunder/units/elves/Prowler.cfg:132
 msgid "female^Elvish Prowler"
 msgstr "エルフの女狩猟者"
 
-#. [unit_type]: id=Elvish Spearman, race=elf2
+#. [unit_type]: id=Elvish Spearman, race=elf2, gender=male
 #: dawn_of_thunder/units/elves/Spearman.cfg:6
 msgid "Elvish Spearman"
 msgstr "エルフの槍兵"
 
-#. [unit_type]: id=Elvish Spearman, race=elf2
+#. [unit_type]: id=Elvish Spearman, race=elf2, gender=male
 #: dawn_of_thunder/units/elves/Spearman.cfg:23
 msgid "Elvish Spearmen are elves trained in the art of fighting with spears."
 msgstr ""
@@ -8143,12 +8153,12 @@ msgstr ""
 msgid "spear"
 msgstr "槍"
 
-#. [unit_type]: id=Elvish Trapper, race=elf
+#. [unit_type]: id=Elvish Trapper, race=elf, gender=male,female
 #: dawn_of_thunder/units/elves/Trapper.cfg:6
 msgid "Elvish Trapper"
 msgstr "エルフの罠猟師"
 
-#. [unit_type]: id=Elvish Trapper, race=elf
+#. [unit_type]: id=Elvish Trapper, race=elf, gender=male,female
 #. TODO: compare with IftU:
 #: dawn_of_thunder/units/elves/Trapper.cfg:35
 msgid ""
@@ -8162,7 +8172,7 @@ msgstr ""
 "ラスで相手を倒す必要性が少なくなった。こうした小兵たちは次第に短剣を使いこな"
 "せるようになり、敵を倒すために投げ縄を使う必要がなくなった者たちです。"
 
-#. [female]
+#. [female]: gender=female
 #: dawn_of_thunder/units/elves/Trapper.cfg:121
 msgid "female^Elvish Trapper"
 msgstr "エルフの女罠猟師"
@@ -8197,12 +8207,12 @@ msgstr ""
 "に知られる生き物のさまざまな集団のような、Irdya が文明化する以前から生息する"
 "者たちの生き残りが好むものです。"
 
-#. [unit_type]: id=Autumn_faerie, race=fairy
+#. [unit_type]: id=Autumn_faerie, race=fairy, gender=female
 #: dawn_of_thunder/units/faeries/autumn-faerie.cfg:6
 msgid "female^Autumn Faerie"
 msgstr "秋の妖精"
 
-#. [unit_type]: id=Autumn_faerie, race=fairy
+#. [unit_type]: id=Autumn_faerie, race=fairy, gender=female
 #: dawn_of_thunder/units/faeries/autumn-faerie.cfg:23
 msgid ""
 "Only the mightiest of all faeries become an autumn faerie one day. The "
@@ -8236,12 +8246,12 @@ msgstr "誘惑"
 msgid "thorns"
 msgstr "とげ"
 
-#. [unit_type]: id=Fallen Faerie, race=fairy
+#. [unit_type]: id=Fallen Faerie, race=fairy, gender=female
 #: dawn_of_thunder/units/faeries/fallenfaerie.cfg:5
 msgid "Fallen Faerie"
 msgstr "堕ちた妖精"
 
-#. [unit_type]: id=Fallen Faerie, race=fairy
+#. [unit_type]: id=Fallen Faerie, race=fairy, gender=female
 #: dawn_of_thunder/units/faeries/fallenfaerie.cfg:41
 msgid ""
 "Faeries are closely bound to the forest they usually live in. If the forest "
@@ -8270,12 +8280,12 @@ msgstr "暗黒の接触"
 msgid "dark wave"
 msgstr "暗黒の波動"
 
-#. [unit_type]: id=Fallen Sprite, race=fairy
+#. [unit_type]: id=Fallen Sprite, race=fairy, gender=female
 #: dawn_of_thunder/units/faeries/fallensprite.cfg:5
 msgid "Fallen Sprite"
 msgstr "堕ちた小妖精"
 
-#. [unit_type]: id=Fallen Sprite, race=fairy
+#. [unit_type]: id=Fallen Sprite, race=fairy, gender=female
 #: dawn_of_thunder/units/faeries/fallensprite.cfg:40
 msgid ""
 "Fallen Sprites are mostly found in dark places, such as deep in the heart of "
@@ -8286,12 +8296,12 @@ msgstr ""
 "す。たとえ彼女たちが空気のような姿をしていても、侮ってはいけないほどの強敵で"
 "す。"
 
-#. [unit_type]: id=Natures_avatar, race=fairy
+#. [unit_type]: id=Natures_avatar, race=fairy, gender=female
 #: dawn_of_thunder/units/faeries/natures-avatar.cfg:6
 msgid "female^Nature's Avatar"
 msgstr "自然の化身"
 
-#. [unit_type]: id=Natures_avatar, race=fairy
+#. [unit_type]: id=Natures_avatar, race=fairy, gender=female
 #: dawn_of_thunder/units/faeries/natures-avatar.cfg:22
 msgid ""
 "The Nature's Avatar has now fully embraced the faerie world. While this has "
@@ -8582,7 +8592,7 @@ msgstr ""
 "の人物である。こう書かれている： \"......そして彼はやって来て、敵の最後を飾る"
 "だろう。彼は狼であり人間であり、好きなようにその姿を入れ替えるだろう。\""
 
-#. [unit_type]: id=Golden Mage of the Sun, race=human
+#. [unit_type]: id=Golden Mage of the Sun, race=human, gender=female
 #: dawn_of_thunder/units/humans/GoldenMage.cfg:6
 msgid "Golden Mage of the Sun"
 msgstr "太陽の金魔術師"
@@ -8602,7 +8612,7 @@ msgstr "照明 +30% , 最大 XP +25%"
 msgid "Photoregenerates, +30% Max XP"
 msgstr "光再生能力 ,　最大 XP +30%"
 
-#. [unit_type]: id=Golden Mage of the Sun, race=human
+#. [unit_type]: id=Golden Mage of the Sun, race=human, gender=female
 #: dawn_of_thunder/units/humans/GoldenMage.cfg:120
 msgid ""
 "The order of the Silver Mages is certainly one of the most enigmatic. The "
@@ -8640,7 +8650,7 @@ msgstr ""
 "金魔術師は他の魔術師より身体的に優れていて、彼らの技能は戦場で明らかに役立ち"
 "ます。もしも彼らを説得できれば、の話ですが。"
 
-#. [unit_type]: id=Golden Mage of the Sun, race=human
+#. [unit_type]: id=Golden Mage of the Sun, race=human, gender=female
 #: dawn_of_thunder/units/humans/GoldenMage.cfg:123
 msgid ""
 "SPECIAL_NOTE^ Gold Magi are well-attuned to their magical natures and are "
@@ -8663,7 +8673,7 @@ msgstr "杖"
 msgid "missile"
 msgstr "矢玉"
 
-#. [unit_type]: id=Grey Mage, race=human
+#. [unit_type]: id=Grey Mage, race=human, gender=female
 #: dawn_of_thunder/units/humans/GreyMage.cfg:6
 msgid "Grey Mage"
 msgstr "灰色魔術師"
@@ -8678,7 +8688,7 @@ msgstr "杖の操作が速くなります（杖の攻撃力＋1、最大XP＋20�
 msgid "Stronger with magic (magic +2 damage, Max XP +20%)"
 msgstr "魔法によって強くなります（魔法の攻撃力＋2、最大XP＋20％）。"
 
-#. [unit_type]: id=Grey Mage, race=human
+#. [unit_type]: id=Grey Mage, race=human, gender=female
 #: dawn_of_thunder/units/humans/GreyMage.cfg:80
 msgid ""
 "These mages have been chosen by the Guild of the Silver Mages for special "
@@ -8690,7 +8700,7 @@ msgstr ""
 "です。本来の瞬間移動はできませんが、その素質は芽生え始めており、いずれ可能に"
 "なるでしょう。また、他のギルドの者より敏捷さに優れています。"
 
-#. [unit_type]: id=Silver Mage of the Moon, race=human
+#. [unit_type]: id=Silver Mage of the Moon, race=human, gender=female
 #: dawn_of_thunder/units/humans/SilverMage.cfg:6
 msgid "Silver Mage of the Moon"
 msgstr "月の銀魔術師"
@@ -8705,7 +8715,7 @@ msgstr "光速（MP +2, 最大XP +20% ）"
 msgid "Magic shield (resistances pierce, impact and blade +25% , Max XP +20%)"
 msgstr "魔法の盾（刺突/打撃/斬撃 への耐性 +25%、最大XP +20%）"
 
-#. [unit_type]: id=Silver Mage of the Moon, race=human
+#. [unit_type]: id=Silver Mage of the Moon, race=human, gender=female
 #: dawn_of_thunder/units/humans/SilverMage.cfg:83
 msgid ""
 "The many paths that a mage can take in study lead to strikingly different "
@@ -8742,7 +8752,7 @@ msgstr ""
 "銀魔術師は他の魔術師より身体能力が高いことが多く、そうした能力は戦場において"
 "紛れもなく役に立ちます、もしも彼らを説得できれば、の話ですが。"
 
-#. [unit_type]: id=Silver Mage of the Moon, race=human
+#. [unit_type]: id=Silver Mage of the Moon, race=human, gender=female
 #: dawn_of_thunder/units/humans/SilverMage.cfg:87
 msgid ""
 "SPECIAL_NOTE^ Silver Magi are well-attuned to their magical natures and are "
@@ -8855,12 +8865,12 @@ msgstr "噛みつき"
 msgid "water jet"
 msgstr "水噴射"
 
-#. [unit_type]: id=Black Widow, race=monster
+#. [unit_type]: id=Black Widow, race=monster, gender=female
 #: dawn_of_thunder/units/monsters/Black_Widow.cfg:6
 msgid "Black Widow"
 msgstr "暗黒の未亡人"
 
-#. [unit_type]: id=Black Widow, race=monster
+#. [unit_type]: id=Black Widow, race=monster, gender=female
 #: dawn_of_thunder/units/monsters/Black_Widow.cfg:23
 msgid ""
 "Having a venomous bite and capable of immobilizing their prey in webs, Black "
