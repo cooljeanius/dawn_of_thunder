@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2024-11-09 19:34 UTC\n"
+"POT-Creation-Date: 2024-11-09 19:52 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -265,142 +265,142 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Alasar
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:342
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:345
 msgid "Alarm! There's smoke and fire on the horizon, made by orcs! I think I can see them, and there seem to be more of them than usual!"
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:347
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:350
 msgid "There must be twice as many of them as us!"
 msgstr ""
 
 #. [message]: speaker=Harendoion
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:351
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:354
 msgid "Can you see those hooded orcs over there, Fiannon? They're assassins. Take care, their knives are deadly!"
 msgstr ""
 
 #. [message]: speaker=orc2
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:355
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:358
 msgid "Yeah, fear me, treehuggers!"
 msgstr ""
 
 #. [message]: speaker=Alasar
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:359
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:362
 msgid "I won't back down until the last orcish head touches the ground!"
 msgstr ""
 
 #. [message]: speaker=orc1
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:364
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:367
 msgid ""
 "<b>Today is the day you die!</b>\n"
 "We'll crush you and then we'll plunder your homes and burn your precious forest!"
 msgstr ""
 
 #. [message]: speaker=orc1
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:370
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:373
 msgid "Urhuga! Any news from the trolls?"
 msgstr ""
 
 #. [message]: speaker=orc2
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:374
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:377
 msgid "They're making progress, but you know how stupid they are..."
 msgstr ""
 
 #. [message]: speaker=orc1
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:378
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:381
 msgid "Doesn't matter! We have more than enough of us to do this!"
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:382
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:385
 msgid "Harendoion, you are our fastest scout. Ride to Aethen and call for reinforcements. I have a feeling that we'll need them!"
 msgstr ""
 
 #. [message]: speaker=Harendoion
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:386
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:389
 msgid "Sure, you can count on me, Fiannon!"
 msgstr ""
 
 #. [message]: speaker=Harendoion
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:395
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:398
 msgid "Stand strong, brothers! I am coming back soon!"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:414
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:417
 msgid "You have selected Fiannon, your leader. He is a special unit with a different way of advancing than other units. Every time he reaches his experience limit you may choose between various upgrades or advancing him to the next level. You will always be able to advance to the next level, but improvements are unique to the level and lost if they are not taken."
 msgstr ""
 
 #. [message]: speaker=Alasar
 #. [message]: speaker=Advisor
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:428
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:438
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:431
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:441
 msgid "Victory! Great win, commander!"
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:444
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:447
 msgid "That was a tough battle. I just wonder why we didn't get any news from Harendoion?"
 msgstr ""
 
 #. [unit]: id=Grelok, type=Goblin Knight
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:465
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:468
 msgid "Grelok"
 msgstr ""
 
 #. [message]: speaker=Grelok
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:484
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:487
 msgid "Master, the trolls are nearly there! They'll join us soon."
 msgstr ""
 
 #. [message]: speaker=orc1
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:488
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:491
 msgid "Very good!"
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:492
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:495
 msgid "I wished we could say the same about our reinforcements."
 msgstr ""
 
 #. [unit]: id=Ekon, type=Troll
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:517
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:520
 msgid "Ekon"
 msgstr ""
 
 #. [message]: speaker=Ekon
 #. similar to The Incredible Hulk saying "HULK SMASH!"
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:616
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:619
 msgid "EKON SMASH!"
 msgstr ""
 
 #. [message]: speaker=orc2
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:623
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:626
 msgid "Hahahaha!"
 msgstr ""
 
 #. [message]: speaker=orc1
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:630
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:633
 msgid "We'll crush you like bugs under our feet!"
 msgstr ""
 
 #. [message]: speaker=Alasar
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:635
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:638
 msgid "The more he talks, the more my blade lusts for his blood."
 msgstr ""
 
 #. [message]: speaker=unit
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:662
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:665
 msgid "This is where the trolls came from. The tunnel goes very deep, and I can't see anything down there. We better not go down there."
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:666
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:669
 msgid "You are right. We elves are truly not made for caves."
 msgstr ""
 
 #. [message]: speaker=unit
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:672
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:675
 msgid "The entry to this old mine has collapsed. But wait, I can hear something hammering against it!"
 msgstr ""
 
@@ -5619,8 +5619,8 @@ msgstr ""
 
 #. [attack]: type=fire
 #: dawn_of_thunder/units/dragons/Ancient_Dragon.cfg:50
-#: dawn_of_thunder/units/elementals/Fire_Elemental.cfg:45
-#: dawn_of_thunder/units/elementals/Fire_Wisp.cfg:48
+#: dawn_of_thunder/units/elementals/Fire_Elemental.cfg:33
+#: dawn_of_thunder/units/elementals/Fire_Wisp.cfg:36
 msgid "fire breath"
 msgstr ""
 
@@ -5752,22 +5752,22 @@ msgid "Fire Elementals are the living essence of fire. They typically reside in 
 msgstr ""
 
 #. [attack]: type=fire
-#: dawn_of_thunder/units/elementals/Fire_Elemental.cfg:36
+#: dawn_of_thunder/units/elementals/Fire_Elemental.cfg:24
 msgid "fire claws"
 msgstr ""
 
 #. [advancement]: id=marksmanattack
-#: dawn_of_thunder/units/elementals/Fire_Elemental.cfg:56
+#: dawn_of_thunder/units/elementals/Fire_Elemental.cfg:44
 msgid "Marksman, +20% Max XP"
 msgstr ""
 
 #. [advancement]: id=addranged
-#: dawn_of_thunder/units/elementals/Fire_Elemental.cfg:87
+#: dawn_of_thunder/units/elementals/Fire_Elemental.cfg:75
 msgid "+1 strike to ranged attack, +1 HP, +50% Max XP"
 msgstr ""
 
 #. [advancement]: id=addrangeddmg
-#: dawn_of_thunder/units/elementals/Fire_Elemental.cfg:116
+#: dawn_of_thunder/units/elementals/Fire_Elemental.cfg:104
 msgid "+1 damage to ranged attacks, +1 HP, +20% Max XP"
 msgstr ""
 
@@ -5782,7 +5782,7 @@ msgid "Fire Wisps are minor elementals of flame. They like to frolic in pools of
 msgstr ""
 
 #. [attack]: type=fire
-#: dawn_of_thunder/units/elementals/Fire_Wisp.cfg:39
+#: dawn_of_thunder/units/elementals/Fire_Wisp.cfg:27
 msgid "fire claw"
 msgstr ""
 
@@ -5842,7 +5842,7 @@ msgid "Elvish Glaviers are the toughest of all elves. In addition, they are also
 msgstr ""
 
 #. [attack]: type=blade
-#: dawn_of_thunder/units/elves/ElvishGlavier.cfg:54
+#: dawn_of_thunder/units/elves/ElvishGlavier.cfg:42
 msgid "glaive"
 msgstr ""
 
@@ -5872,7 +5872,7 @@ msgid "Elvish Pikemen were destined to become captains. However, instead of usin
 msgstr ""
 
 #. [attack]: type=pierce
-#: dawn_of_thunder/units/elves/ElvishPikeman.cfg:47
+#: dawn_of_thunder/units/elves/ElvishPikeman.cfg:35
 msgid "pike"
 msgstr ""
 
@@ -5927,9 +5927,9 @@ msgid "Elvish Storm Lords have mastered the ways of lightning, which makes them 
 msgstr ""
 
 #. [attack]: type=blade
-#: dawn_of_thunder/units/elves/ElvishStormLord.cfg:169
-#: dawn_of_thunder/units/elves/ElvishTempest.cfg:100
-#: dawn_of_thunder/units/elves/ElvishThunderer.cfg:97
+#: dawn_of_thunder/units/elves/ElvishStormLord.cfg:157
+#: dawn_of_thunder/units/elves/ElvishTempest.cfg:88
+#: dawn_of_thunder/units/elves/ElvishThunderer.cfg:85
 #: dawn_of_thunder/units/elves/Hunter.cfg:39
 #: dawn_of_thunder/units/elves/Prowler.cfg:44
 #: dawn_of_thunder/units/elves/Trapper.cfg:40
@@ -5938,9 +5938,9 @@ msgid "sword"
 msgstr ""
 
 #. [attack]: type=fire
-#: dawn_of_thunder/units/elves/ElvishStormLord.cfg:178
-#: dawn_of_thunder/units/elves/ElvishTempest.cfg:109
-#: dawn_of_thunder/units/elves/ElvishThunderer.cfg:106
+#: dawn_of_thunder/units/elves/ElvishStormLord.cfg:166
+#: dawn_of_thunder/units/elves/ElvishTempest.cfg:97
+#: dawn_of_thunder/units/elves/ElvishThunderer.cfg:94
 msgid "lightning"
 msgstr ""
 
@@ -6037,7 +6037,7 @@ msgid "Elvish Spearmen are elves trained in the art of fighting with spears."
 msgstr ""
 
 #. [attack]: type=pierce
-#: dawn_of_thunder/units/elves/Spearman.cfg:39
+#: dawn_of_thunder/units/elves/Spearman.cfg:27
 #: dawn_of_thunder/units/humans/squire.cfg:25
 msgid "spear"
 msgstr ""
@@ -6090,20 +6090,20 @@ msgid "Only the mightiest of all faeries become an autumn faerie one day. The au
 msgstr ""
 
 #. [attack]: type=impact
-#: dawn_of_thunder/units/faeries/autumn-faerie.cfg:43
-#: dawn_of_thunder/units/faeries/natures-avatar.cfg:42
+#: dawn_of_thunder/units/faeries/autumn-faerie.cfg:31
+#: dawn_of_thunder/units/faeries/natures-avatar.cfg:30
 msgid "faerie touch"
 msgstr ""
 
 #. [attack]: type=impact
-#: dawn_of_thunder/units/faeries/autumn-faerie.cfg:56
-#: dawn_of_thunder/units/faeries/natures-avatar.cfg:55
+#: dawn_of_thunder/units/faeries/autumn-faerie.cfg:44
+#: dawn_of_thunder/units/faeries/natures-avatar.cfg:43
 msgid "ensnare"
 msgstr ""
 
 #. [attack]: type=pierce
-#: dawn_of_thunder/units/faeries/autumn-faerie.cfg:69
-#: dawn_of_thunder/units/faeries/natures-avatar.cfg:67
+#: dawn_of_thunder/units/faeries/autumn-faerie.cfg:57
+#: dawn_of_thunder/units/faeries/natures-avatar.cfg:55
 msgid "thorns"
 msgstr ""
 
@@ -6368,15 +6368,15 @@ msgid "SPECIAL_NOTE^ Gold Magi are well-attuned to their magical natures and are
 msgstr ""
 
 #. [attack]: type=impact
-#: dawn_of_thunder/units/humans/GoldenMage.cfg:147
-#: dawn_of_thunder/units/humans/GreyMage.cfg:101
+#: dawn_of_thunder/units/humans/GoldenMage.cfg:135
+#: dawn_of_thunder/units/humans/GreyMage.cfg:89
 #: dawn_of_thunder/units/humans/SilverMage.cfg:99
 msgid "staff"
 msgstr ""
 
 #. [attack]: type=fire
-#: dawn_of_thunder/units/humans/GoldenMage.cfg:159
-#: dawn_of_thunder/units/humans/GreyMage.cfg:110
+#: dawn_of_thunder/units/humans/GoldenMage.cfg:147
+#: dawn_of_thunder/units/humans/GreyMage.cfg:98
 #: dawn_of_thunder/units/humans/SilverMage.cfg:108
 msgid "missile"
 msgstr ""
@@ -7164,17 +7164,17 @@ msgid "transform"
 msgstr ""
 
 #. [leadership]: id=sylvan_strength
-#: dawn_of_thunder/utils/abilities_redone.cfg:639
+#: dawn_of_thunder/utils/abilities_redone.cfg:640
 msgid "sylvan strength"
 msgstr ""
 
 #. [leadership]: id=sylvan_strength
-#: dawn_of_thunder/utils/abilities_redone.cfg:640
+#: dawn_of_thunder/utils/abilities_redone.cfg:641
 msgid "female^sylvan strength"
 msgstr ""
 
 #. [leadership]: id=sylvan_strength
-#: dawn_of_thunder/utils/abilities_redone.cfg:641
+#: dawn_of_thunder/utils/abilities_redone.cfg:642
 msgid ""
 "This presence of this unit on the battlefield strengthens all units that are deeply connected with the faerie world.\n"
 "\n"
@@ -7182,17 +7182,17 @@ msgid ""
 msgstr ""
 
 #. [dummy]: id=dig
-#: dawn_of_thunder/utils/abilities_redone.cfg:657
+#: dawn_of_thunder/utils/abilities_redone.cfg:658
 msgid "dig"
 msgstr ""
 
 #. [dummy]: id=dig
-#: dawn_of_thunder/utils/abilities_redone.cfg:658
+#: dawn_of_thunder/utils/abilities_redone.cfg:659
 msgid "This unit is able to dig itself through cave walls. For the cost of four mp it can change the terrain of an adjacent cave wall to cave ground."
 msgstr ""
 
 #. [set_menu_item]: id=dig_cavewall
-#: dawn_of_thunder/utils/abilities_redone.cfg:720
+#: dawn_of_thunder/utils/abilities_redone.cfg:721
 msgid "dig into this cave wall"
 msgstr ""
 
