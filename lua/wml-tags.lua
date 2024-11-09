@@ -51,6 +51,8 @@ function wml_actions.interim_text(cfg)
 	end
 
 	wesnoth.interface.delay(310)
+
+	wml_actions.redraw({})
 end
 
 function wml_actions.clear_print()
