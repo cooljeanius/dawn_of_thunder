@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2024-11-09 19:03 UTC\n"
+"POT-Creation-Date: 2024-11-09 19:12 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,9 +109,9 @@ msgstr ""
 #: dawn_of_thunder/scenarios/05_lake_aelin.cfg:283
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:677
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:839
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1957
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2154
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2266
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1958
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2155
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2267
 #: dawn_of_thunder/scenarios/07_deep_forest.cfg:173
 #: dawn_of_thunder/scenarios/07_deep_forest.cfg:948
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1240
@@ -457,9 +457,9 @@ msgstr ""
 #: dawn_of_thunder/scenarios/05_lake_aelin.cfg:287
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:681
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:843
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1961
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2158
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2270
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1962
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2159
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2271
 #: dawn_of_thunder/scenarios/07_deep_forest.cfg:177
 #: dawn_of_thunder/scenarios/07_deep_forest.cfg:952
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1244
@@ -1508,9 +1508,9 @@ msgstr ""
 #: dawn_of_thunder/scenarios/05_lake_aelin.cfg:291
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:685
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:847
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1965
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2162
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2274
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1966
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2163
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2275
 #: dawn_of_thunder/scenarios/07_deep_forest.cfg:181
 #: dawn_of_thunder/scenarios/07_deep_forest.cfg:956
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1248
@@ -2111,7 +2111,7 @@ msgstr ""
 
 #. [objective]: condition=win
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:835
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1949
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1950
 msgid "Move at least one of the tree fellers to Aldril at (15/16)"
 msgstr ""
 
@@ -2391,129 +2391,142 @@ msgstr ""
 msgid "Ha, you thought you could get me? Well, you thought wrong!"
 msgstr ""
 
+#. [then]
+#. message only for developers; ok to skip translating:
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1717
+msgid "Debug message: Maeblie is already on a Great Tree; skipping additional animation"
+msgstr ""
+
 #. [message]: role=warner
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1850
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1851
 msgid "Remember guys, it is said that there are bandits roaming the area. Pay attention!"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1866
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1867
 msgid "As you near some hills, you suddenly discover some old ruins, which you couldn't see before because of the fog."
 msgstr ""
 
+#. [unit]: id=Bandits_leader, type=Shadow Lord
+#. [side]: id=Bandits_leader, type=Shadow Lord
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1901
+#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:237
+msgid "Duron Bleil"
+msgstr ""
+
 #. [event]
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1917
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1918
 msgid "Orym"
 msgstr ""
 
 #. [message]: speaker=Bandits_leader
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1932
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1933
 msgid "Let's see, who do we have here? Some fine elvish gentlemen."
 msgstr ""
 
 #. [message]: speaker=Bandits_assistant
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1936
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1937
 msgid "They're said to always have much gold! Let's get them!"
 msgstr ""
 
 #. [message]: speaker=Naia
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1940
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1941
 msgid "Hey, those are members of the Shadow mages guild! They've escaped our inspectors for hundreds of years!"
 msgstr ""
 
 #. [message]: speaker=Naia
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1944
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1945
 msgid "And this is their leader, Duron Bleil. There's a huge bounty waiting for the one who gets him."
 msgstr ""
 
 #. [objective]: condition=win
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1953
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1954
 msgid "Defeat Duron Bleil"
 msgstr ""
 
 #. [objective]: condition=win
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1953
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2150
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2262
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1954
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2151
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2263
 msgid "(special bonus)"
 msgstr ""
 
 #. [objective]: condition=lose
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1969
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2166
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2278
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1970
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2167
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2279
 msgid "Death of all peasants"
 msgstr ""
 
 #. [message]: speaker=Bandits_leader
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1988
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1989
 msgid "Alright, alright, I give up. Please show mercy!"
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2081
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2082
 msgid "$killing_unit.name, enchain Duron Bleil and bring him to Aldril. Look, there's even a cart you can use for this."
 msgstr ""
 
 #. [message]: speaker=$killing_unit.id
 #. [message]: speaker=$killing_unit_id
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2086
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2200
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2087
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2201
 msgid "Of course!"
 msgstr ""
 
 #. [message]: speaker=$killing_unit.id
 #. [message]: speaker=$killing_unit_id
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2099
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2213
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2100
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2214
 msgid "Hey, look what they had in their caravan! 200 Gold! They must have stolen from many travellers."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2108
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2222
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2109
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2223
 msgid "You get 200 gold coins!"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2123
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2124
 msgid "$killing_unit.name is now driving the caravan, and will rejoin your party upon delivery of the prisoner."
 msgstr ""
 
 #. [unit]: id=Caravan, type=Caravan
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2130
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2131
 msgid "Prisoners transport"
 msgstr ""
 
 #. [objective]: condition=win
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2146
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2258
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2147
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2259
 msgid "Move at least one of the treefellers to Aldril at (15/16)"
 msgstr ""
 
 #. [objective]: condition=win
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2150
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2262
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2151
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2263
 msgid "Protect the caravan with Duron Bleil until you can serve him to justice"
 msgstr ""
 
 #. [message]: speaker=$killing_unit_id
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2187
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2188
 msgid "Should I kill him?"
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2191
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2192
 msgid "No, we'll leave it to the Commander of Aldril's to decide what to do with him."
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2195
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2196
 msgid "$killing_unit_name, enchain Duron Bleil and bring him to Aldril. Look, there's even a cart you can use for this."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2237
+#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2238
 msgid "$killing_unit_name is now driving the caravan, and will rejoin your party upon delivery of the prisoner."
 msgstr ""
 
@@ -5304,11 +5317,6 @@ msgstr ""
 #. [part]
 #: dawn_of_thunder/scenarios/18_Illuvèn.cfg:199
 msgid "They snuck across the high plains using the Northguard animals as scouts to keep their distance from the wandering orcish hordes. Soon, the vegetation began to be richer and lusher. Within a few weeks they reached the northern outskirts of the Wesmere forest. But when they neared the northernmost settlement, they saw smoke rising on the horizon..."
-msgstr ""
-
-#. [side]: id=Bandits_leader, type=Shadow Lord
-#: dawn_of_thunder/scenarios/18_Illuvèn.cfg:237
-msgid "Duron Bleil"
 msgstr ""
 
 #. [side]: type=Shadow Lord, id=mini_leader
