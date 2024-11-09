@@ -1,11 +1,11 @@
 --- /Users/ericgallager/Downloads/Dawn_of_Thunder_old.pot	2023-08-23 04:00:57.000000000 -0400
-+++ Dawn_of_Thunder.pot	2024-11-09 13:24:11.000000000 -0500
++++ Dawn_of_Thunder.pot	2024-11-09 14:03:21.000000000 -0500
 @@ -2,7 +2,7 @@
  msgstr ""
  "Project-Id-Version: PACKAGE VERSION\n"
  "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 -"POT-Creation-Date: 2022-06-14 03:40 UTC\n"
-+"POT-Creation-Date: 2024-11-09 18:24 UTC\n"
++"POT-Creation-Date: 2024-11-09 19:03 UTC\n"
  "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
  "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
  "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -7616,7 +7616,7 @@
  msgstr ""
  
  #. [unit_type]: id=minecart, race=mechanical
-@@ -5220,6 +6428,271 @@
+@@ -5220,6 +6428,274 @@
  msgid "minecart"
  msgstr ""
  
@@ -7654,7 +7654,7 @@
 +#. [attack]: type=blade
 +#: dawn_of_thunder/units/monsters/Baby_Sea_Turtle.cfg:31
 +#: dawn_of_thunder/units/monsters/Giant_Sea_Turtle.cfg:38
-+#: dawn_of_thunder/units/monsters/Leviathan.cfg:39
++#: dawn_of_thunder/units/monsters/Leviathan.cfg:42
 +#: dawn_of_thunder/units/monsters/Sea_Turtle.cfg:35
 +msgid "jaws"
 +msgstr ""
@@ -7731,12 +7731,15 @@
 +msgstr ""
 +
 +#. [unit_type]: id=Leviathan, race=monster
-+#: dawn_of_thunder/units/monsters/Leviathan.cfg:22
++#. FIXME: "antediluvians" means "creatures from before The Flood", referring to the flood story from Genesis in the Bible,
++#. and/or the Epic of Gilgamesh. As far as I'm familiar with the lore, no such flood has happened in Irdya. I'm unsure whether
++#. to replace the word here or not...
++#: dawn_of_thunder/units/monsters/Leviathan.cfg:25
 +msgid "Most ancient creatures are eldritch horrors, ancient antediluvians, the culminations of legends. Monsters that stalk the night. Behemoths whom no sane being has ever encountered, and survived mentally intact to relate his story. Avatars of destruction, older than time itself, living only for the chaos it creates. Mysterious creatures whose origins and motivations are alike unknown. The Leviathan is not any one of the above categories. Leviathans, despite their imposing size, power, and name, are quite a gentle and trustworthy caste of turtles. The Leviathan's has an imposing, nigh-impenetrable shell to all of its ancient, slow considerations floating through its cranium. Leviathans, though extremely difficult to care for due to their size, are deadly on the battlefield, as one would probably expect from a siege engine of their size. Their flippers, though admittedly not of much use propelling them on land, can shatter the strongest of fortifications with one sweeping blow, the armored plates that compose its shell can withstand the strongest of physical and magical attacks. They are a sight to be feared by all who would dare to stand in the path of such a behemoth. The creature, when at sea, is easily mistaken for an island, this attribute gives them a useful advantage in stealth, for they have been known to ferry thousands of their stout masters across an unforgiving sea, to vanquish all enemies before them."
 +msgstr ""
 +
 +#. [attack]: type=impact
-+#: dawn_of_thunder/units/monsters/Leviathan.cfg:49
++#: dawn_of_thunder/units/monsters/Leviathan.cfg:52
 +msgid "aqua blast"
 +msgstr ""
 +
@@ -7888,7 +7891,7 @@
  #. [unit_type]: id=Giant Troll, race=troll
  #: dawn_of_thunder/units/trolls/giant_troll.cfg:5
  msgid "Giant Troll"
-@@ -5227,12 +6700,7 @@
+@@ -5227,12 +6703,7 @@
  
  #. [unit_type]: id=Giant Troll, race=troll
  #: dawn_of_thunder/units/trolls/giant_troll.cfg:21
@@ -7902,7 +7905,7 @@
  msgstr ""
  
  #. [unit_type]: id=Elvish Ancestor, race=undead
-@@ -5247,14 +6715,57 @@
+@@ -5247,14 +6718,57 @@
  
  #. [attack]: type=arcane
  #: dawn_of_thunder/units/undead/Elvish_Spirit_Ancestor.cfg:33
@@ -7960,7 +7963,7 @@
  #. [unit_type]: id=Dark Ancient Wose, race=wose
  #: dawn_of_thunder/units/woses/dark-wose-ancient.cfg:5
  msgid "Dark Ancient Wose"
-@@ -5267,7 +6778,7 @@
+@@ -5267,7 +6781,7 @@
  "\n"
  "Such encounters are all that is known of what are presumably the most ancient of woses.\n"
  "\n"
@@ -7969,7 +7972,7 @@
  msgstr ""
  
  #. [attack]: type=impact
-@@ -5286,11 +6797,11 @@
+@@ -5286,11 +6800,11 @@
  #. [unit_type]: id=Dark Elder Wose, race=wose
  #: dawn_of_thunder/units/woses/dark-wose-elder.cfg:18
  msgid ""
@@ -7983,7 +7986,7 @@
  msgstr ""
  
  #. [unit_type]: id=Dark Immemorial Wose, race=wose
-@@ -5305,7 +6816,7 @@
+@@ -5305,7 +6819,7 @@
  "\n"
  "Such encounters are all that is known of what are presumably the most ancient of woses.\n"
  "\n"
@@ -7992,7 +7995,7 @@
  "\n"
  "The mightiest woses are called Immemorial Woses, and seeing one of them corrupted is perhaps the most terrifying thing that might ever happen to you."
  msgstr ""
-@@ -5327,7 +6838,7 @@
+@@ -5327,7 +6841,7 @@
  "\n"
  "Woses are utterly unwarlike, but possess a great strength. They are, however, neither used to, nor quick at moving around.\n"
  "\n"
@@ -8001,7 +8004,7 @@
  msgstr ""
  
  #. [unstore_unit]
-@@ -5346,22 +6857,22 @@
+@@ -5346,22 +6860,22 @@
  msgstr ""
  
  #. [message]: speaker=Limwen
@@ -8028,7 +8031,7 @@
  msgid "Still $waves_to_go more waves to defeat!"
  msgstr ""
  
-@@ -5406,7 +6917,7 @@
+@@ -5406,7 +6920,7 @@
  msgid "Through hard work and dedication, one day, while in vegetated terrains, the unit will heal itself 5 hp per turn. If it is poisoned, it will be able to remove the poison instead of healing."
  msgstr ""
  
@@ -8037,7 +8040,7 @@
  #: dawn_of_thunder/utils/Special_notes.cfg:33
  #: dawn_of_thunder/utils/abilities_redone.cfg:438
  msgid "This unit will heal itself 24 HP per turn. If it is poisoned, it will remove the poison instead of healing."
-@@ -5415,7 +6926,7 @@
+@@ -5415,7 +6929,7 @@
  #. [dummy]: id=lycanthropy
  #: dawn_of_thunder/utils/Special_notes.cfg:36
  #: dawn_of_thunder/utils/abilities_redone.cfg:448
@@ -8046,7 +8049,7 @@
  msgstr ""
  
  #: dawn_of_thunder/utils/Special_notes.cfg:39
-@@ -5438,7 +6949,7 @@
+@@ -5438,7 +6952,7 @@
  #: dawn_of_thunder/utils/Special_notes.cfg:53
  #: dawn_of_thunder/utils/weapon_specials.cfg:15
  #: dawn_of_thunder/utils/weapon_specials.cfg:16
@@ -8055,7 +8058,7 @@
  msgstr ""
  
  #: dawn_of_thunder/utils/Special_notes.cfg:56
-@@ -5458,13 +6969,13 @@
+@@ -5458,13 +6972,13 @@
  msgstr ""
  
  #: dawn_of_thunder/utils/abilities_redone.cfg:4
@@ -8071,7 +8074,7 @@
  msgstr ""
  
  #. [hides]: id=Beach Home
-@@ -5473,13 +6984,13 @@
+@@ -5473,13 +6987,13 @@
  msgstr ""
  
  #: dawn_of_thunder/utils/abilities_redone.cfg:22
@@ -8087,7 +8090,7 @@
  msgstr ""
  
  #. [hides]: id=AE_shallow_submerge
-@@ -5498,7 +7009,7 @@
+@@ -5498,7 +7012,7 @@
  msgstr ""
  
  #: dawn_of_thunder/utils/abilities_redone.cfg:57
@@ -8096,7 +8099,7 @@
  msgstr ""
  
  #. [regenerate]
-@@ -5512,7 +7023,7 @@
+@@ -5512,7 +7026,7 @@
  msgstr ""
  
  #: dawn_of_thunder/utils/abilities_redone.cfg:137
@@ -8105,7 +8108,7 @@
  msgstr ""
  
  #. [heals]: id=healing
-@@ -5550,12 +7061,12 @@
+@@ -5550,12 +7064,12 @@
  
  #. [regenerate]: id=regenerates_day
  #: dawn_of_thunder/utils/abilities_redone.cfg:192
@@ -8120,7 +8123,7 @@
  msgstr ""
  
  #. [regenerate]: id=regenerates_night
-@@ -5596,12 +7107,12 @@
+@@ -5596,12 +7110,12 @@
  msgid "sylvan spark"
  msgstr ""
  
@@ -8135,7 +8138,7 @@
  #: dawn_of_thunder/utils/abilities_redone.cfg:437
  msgid "female^regenerates"
  msgstr ""
-@@ -5617,17 +7128,17 @@
+@@ -5617,17 +7131,17 @@
  msgstr ""
  
  #. [leadership]: id=sylvan_strength
@@ -8156,7 +8159,7 @@
  msgid ""
  "This presence of this unit on the battlefield strengthens all units that are deeply connected with the faerie world.\n"
  "\n"
-@@ -5635,172 +7146,320 @@
+@@ -5635,172 +7149,320 @@
  msgstr ""
  
  #. [dummy]: id=dig
@@ -8526,7 +8529,7 @@
  msgid "Could you please stop talking and get back to battle?"
  msgstr ""
  
-@@ -5831,7 +7490,7 @@
+@@ -5831,7 +7493,7 @@
  
  #. [trait]: id=nimble
  #: dawn_of_thunder/utils/traits.cfg:28
@@ -8535,7 +8538,7 @@
  msgstr ""
  
  #. [trait]: id=tough
-@@ -5882,27 +7541,27 @@
+@@ -5882,27 +7544,27 @@
  
  #. [unstore_unit]
  #: dawn_of_thunder/utils/weapon_specials.cfg:91

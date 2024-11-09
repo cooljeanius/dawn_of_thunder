@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2024-11-09 18:24 UTC\n"
+"POT-Creation-Date: 2024-11-09 19:03 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -6462,7 +6462,7 @@ msgstr ""
 #. [attack]: type=blade
 #: dawn_of_thunder/units/monsters/Baby_Sea_Turtle.cfg:31
 #: dawn_of_thunder/units/monsters/Giant_Sea_Turtle.cfg:38
-#: dawn_of_thunder/units/monsters/Leviathan.cfg:39
+#: dawn_of_thunder/units/monsters/Leviathan.cfg:42
 #: dawn_of_thunder/units/monsters/Sea_Turtle.cfg:35
 msgid "jaws"
 msgstr ""
@@ -6539,12 +6539,15 @@ msgid "Leviathan"
 msgstr ""
 
 #. [unit_type]: id=Leviathan, race=monster
-#: dawn_of_thunder/units/monsters/Leviathan.cfg:22
+#. FIXME: "antediluvians" means "creatures from before The Flood", referring to the flood story from Genesis in the Bible,
+#. and/or the Epic of Gilgamesh. As far as I'm familiar with the lore, no such flood has happened in Irdya. I'm unsure whether
+#. to replace the word here or not...
+#: dawn_of_thunder/units/monsters/Leviathan.cfg:25
 msgid "Most ancient creatures are eldritch horrors, ancient antediluvians, the culminations of legends. Monsters that stalk the night. Behemoths whom no sane being has ever encountered, and survived mentally intact to relate his story. Avatars of destruction, older than time itself, living only for the chaos it creates. Mysterious creatures whose origins and motivations are alike unknown. The Leviathan is not any one of the above categories. Leviathans, despite their imposing size, power, and name, are quite a gentle and trustworthy caste of turtles. The Leviathan's has an imposing, nigh-impenetrable shell to all of its ancient, slow considerations floating through its cranium. Leviathans, though extremely difficult to care for due to their size, are deadly on the battlefield, as one would probably expect from a siege engine of their size. Their flippers, though admittedly not of much use propelling them on land, can shatter the strongest of fortifications with one sweeping blow, the armored plates that compose its shell can withstand the strongest of physical and magical attacks. They are a sight to be feared by all who would dare to stand in the path of such a behemoth. The creature, when at sea, is easily mistaken for an island, this attribute gives them a useful advantage in stealth, for they have been known to ferry thousands of their stout masters across an unforgiving sea, to vanquish all enemies before them."
 msgstr ""
 
 #. [attack]: type=impact
-#: dawn_of_thunder/units/monsters/Leviathan.cfg:49
+#: dawn_of_thunder/units/monsters/Leviathan.cfg:52
 msgid "aqua blast"
 msgstr ""
 
