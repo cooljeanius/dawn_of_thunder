@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dawn of Thunder\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2024-12-02 22:55 UTC\n"
+"POT-Creation-Date: 2024-12-02 23:49 UTC\n"
 "PO-Revision-Date: 2023-08-31 20:53-0400\n"
 "Last-Translator: Eric Gallager <egall@gwmail.gwu.edu>\n"
 "Language-Team: \n"
@@ -439,48 +439,55 @@ msgid "Grelok"
 msgstr "Grelok"
 
 #. [message]: speaker=Grelok
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:487
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:493
+msgid ""
+"What?! The trolls beat me here?! They must have been faster at getting here "
+"than I realized!"
+msgstr ""
+
+#. [message]: speaker=Grelok
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:499
 msgid "Master, the trolls are nearly there! They'll join us soon."
 msgstr "親分、トロルの奴ら、すぐそこまで来てる。そろそろ合流しますぜ。"
 
 #. [message]: speaker=orc1
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:491
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:505
 msgid "Very good!"
 msgstr "よっしゃよっしゃ！"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:495
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:509
 msgid "I wished we could say the same about our reinforcements."
 msgstr "私も、我が方の援軍に同じことを言いたかったのだが。"
 
 #. [unit]: id=Ekon, type=Troll
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:520
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:534
 msgid "Ekon"
 msgstr "Ekon"
 
 #. [message]: speaker=Ekon
 #. similar to The Incredible Hulk saying "HULK SMASH!"
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:619
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:633
 msgid "EKON SMASH!"
 msgstr "EKON参上、ぶっ潰す！"
 
 #. [message]: speaker=orc2
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:626
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:640
 msgid "Hahahaha!"
 msgstr "ハッハッハッハ！"
 
 #. [message]: speaker=orc1
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:633
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:647
 msgid "We'll crush you like bugs under our feet!"
 msgstr "お前ら、俺たちの足元に、虫のように踏んづけて潰してやるぜ！"
 
 #. [message]: speaker=Alasar
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:638
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:652
 msgid "The more he talks, the more my blade lusts for his blood."
 msgstr "あいつが喋れば喋るほど、私の剣はあいつの血を欲するのだ。"
 
 #. [message]: speaker=unit
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:665
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:679
 msgid ""
 "This is where the trolls came from. The tunnel goes very deep, and I can't "
 "see anything down there. We better not go down there."
@@ -489,12 +496,12 @@ msgstr ""
 "い。降りていかない方がよさそうです。"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:669
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:683
 msgid "You are right. We elves are truly not made for caves."
 msgstr "まったくだな。我々エルフは洞窟にはまったく不向きな種族だ。"
 
 #. [message]: speaker=unit
-#: dawn_of_thunder/scenarios/01_the_outpost.cfg:675
+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:689
 msgid ""
 "The entry to this old mine has collapsed. But wait, I can hear something "
 "hammering against it!"

@@ -1,15 +1,15 @@
 --- /Users/ericgallager/Downloads/Dawn_of_Thunder_old.pot	2023-08-23 04:00:57.000000000 -0400
-+++ Dawn_of_Thunder.pot	2024-12-02 17:55:45.000000000 -0500
++++ Dawn_of_Thunder.pot	2024-12-02 18:49:16.000000000 -0500
 @@ -2,7 +2,7 @@
  msgstr ""
  "Project-Id-Version: PACKAGE VERSION\n"
  "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 -"POT-Creation-Date: 2022-06-14 03:40 UTC\n"
-+"POT-Creation-Date: 2024-12-02 22:55 UTC\n"
++"POT-Creation-Date: 2024-12-02 23:49 UTC\n"
  "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
  "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
  "Language-Team: LANGUAGE <LL@li.org>\n"
-@@ -21,1290 +21,1380 @@
+@@ -21,1290 +21,1385 @@
  msgstr ""
  
  #. [campaign]: id=dawn_of_thunder
@@ -447,69 +447,74 @@
  
  #. [message]: speaker=Grelok
 -#: dawn_of_thunder/scenarios/01_the_outpost.cfg:454
-+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:487
++#: dawn_of_thunder/scenarios/01_the_outpost.cfg:493
++msgid "What?! The trolls beat me here?! They must have been faster at getting here than I realized!"
++msgstr ""
++
++#. [message]: speaker=Grelok
++#: dawn_of_thunder/scenarios/01_the_outpost.cfg:499
  msgid "Master, the trolls are nearly there! They'll join us soon."
  msgstr ""
  
  #. [message]: speaker=orc1
 -#: dawn_of_thunder/scenarios/01_the_outpost.cfg:458
-+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:491
++#: dawn_of_thunder/scenarios/01_the_outpost.cfg:505
  msgid "Very good!"
  msgstr ""
  
  #. [message]: speaker=Fiannon
 -#: dawn_of_thunder/scenarios/01_the_outpost.cfg:462
-+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:495
++#: dawn_of_thunder/scenarios/01_the_outpost.cfg:509
  msgid "I wished we could say the same about our reinforcements."
  msgstr ""
  
  #. [unit]: id=Ekon, type=Troll
 -#: dawn_of_thunder/scenarios/01_the_outpost.cfg:487
-+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:520
++#: dawn_of_thunder/scenarios/01_the_outpost.cfg:534
  msgid "Ekon"
  msgstr ""
  
  #. [message]: speaker=Ekon
 -#: dawn_of_thunder/scenarios/01_the_outpost.cfg:534
 +#. similar to The Incredible Hulk saying "HULK SMASH!"
-+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:619
++#: dawn_of_thunder/scenarios/01_the_outpost.cfg:633
  msgid "EKON SMASH!"
  msgstr ""
  
 -#. [message]: speaker=orc1
 -#: dawn_of_thunder/scenarios/01_the_outpost.cfg:538
 +#. [message]: speaker=orc2
-+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:626
++#: dawn_of_thunder/scenarios/01_the_outpost.cfg:640
  msgid "Hahahaha!"
  msgstr ""
  
  #. [message]: speaker=orc1
 -#: dawn_of_thunder/scenarios/01_the_outpost.cfg:542
-+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:633
++#: dawn_of_thunder/scenarios/01_the_outpost.cfg:647
  msgid "We'll crush you like bugs under our feet!"
  msgstr ""
  
  #. [message]: speaker=Alasar
 -#: dawn_of_thunder/scenarios/01_the_outpost.cfg:546
-+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:638
++#: dawn_of_thunder/scenarios/01_the_outpost.cfg:652
  msgid "The more he talks, the more my blade lusts for his blood."
  msgstr ""
  
  #. [message]: speaker=unit
 -#: dawn_of_thunder/scenarios/01_the_outpost.cfg:570
-+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:665
++#: dawn_of_thunder/scenarios/01_the_outpost.cfg:679
  msgid "This is where the trolls came from. The tunnel goes very deep, and I can't see anything down there. We better not go down there."
  msgstr ""
  
  #. [message]: speaker=Fiannon
 -#: dawn_of_thunder/scenarios/01_the_outpost.cfg:574
-+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:669
++#: dawn_of_thunder/scenarios/01_the_outpost.cfg:683
  msgid "You are right. We elves are truly not made for caves."
  msgstr ""
  
  #. [message]: speaker=unit
 -#: dawn_of_thunder/scenarios/01_the_outpost.cfg:580
-+#: dawn_of_thunder/scenarios/01_the_outpost.cfg:675
++#: dawn_of_thunder/scenarios/01_the_outpost.cfg:689
  msgid "The entry to this old mine has collapsed. But wait, I can hear something hammering against it!"
  msgstr ""
  
@@ -1767,7 +1772,7 @@
  msgid "I wish you luck, young Fiannon. May Eloh guide you and her light follow every one of you steps."
  msgstr ""
  
-@@ -1315,12 +1405,13 @@
+@@ -1315,12 +1410,13 @@
  
  #. [part]
  #: dawn_of_thunder/scenarios/05_lake_aelin.cfg:23
@@ -1783,7 +1788,7 @@
  msgstr ""
  
  #. [part]
-@@ -1343,16 +1434,17 @@
+@@ -1343,16 +1439,17 @@
  #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:68
  #: dawn_of_thunder/scenarios/07_deep_forest.cfg:60
  #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:92
@@ -1810,7 +1815,7 @@
  #: dawn_of_thunder/scenarios/Epilogue.cfg:28
  #: dawn_of_thunder/scenarios/test.cfg:19
  msgid "Aethen's representants"
-@@ -1366,7 +1458,7 @@
+@@ -1366,7 +1463,7 @@
  #. [side]: type=Naga Warrior, id=Nagaguy
  #. [side]: type=Naga Myrmidon, id=naga
  #: dawn_of_thunder/scenarios/05_lake_aelin.cfg:75
@@ -1819,7 +1824,7 @@
  msgid "Ragziss"
  msgstr ""
  
-@@ -1380,12 +1472,12 @@
+@@ -1380,12 +1477,12 @@
  #. [side]: type=Orcish Sovereign, id=orc
  #: dawn_of_thunder/scenarios/05_lake_aelin.cfg:111
  #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:113
@@ -1838,7 +1843,7 @@
  msgid "Orcs"
  msgstr ""
  
-@@ -1397,125 +1489,182 @@
+@@ -1397,125 +1494,182 @@
  #. [side]: type=Goblin Pillager, id=Goblin
  #. [side]: type=Goblin Cutthroat, id=Bodo
  #: dawn_of_thunder/scenarios/05_lake_aelin.cfg:150
@@ -2057,7 +2062,7 @@
  msgid ""
  "Pressed by the ongoing battle, you put on the ring very hastily, without carefully looking at it. But the ring just slips away from your fingers again. This time you look at it more carefully. Inside is written:\n"
  "								\n"
-@@ -1525,112 +1674,115 @@
+@@ -1525,112 +1679,115 @@
  "								\n"
  "<span font-style='italic'>Whoever has a sword might gain accuracy, speed and strength</span>\n"
  "								\n"
@@ -2200,7 +2205,7 @@
  msgid "Castle Aelin's gaze is lost without me."
  msgstr ""
  
-@@ -1641,336 +1793,365 @@
+@@ -1641,336 +1798,365 @@
  
  #. [part]
  #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:46
@@ -2639,7 +2644,7 @@
  msgid ""
  "Direction NE: Aldril\n"
  "Direction NW: woodchoppers lodge\n"
-@@ -1978,586 +2159,631 @@
+@@ -1978,586 +2164,631 @@
  msgstr ""
  
  #. [message]: speaker=woodchopper3
@@ -3426,7 +3431,7 @@
  msgid ""
  "<b>NOOOOOOO!\n"
  "I JUST WOKE UP FROM MY SLUMBER!\n"
-@@ -2565,27 +2791,29 @@
+@@ -2565,27 +2796,29 @@
  msgstr ""
  
  #. [message]: speaker=Oenoch
@@ -3461,7 +3466,7 @@
  msgid "It matters not that you have defeated me! The evil has awoken already!"
  msgstr ""
  
-@@ -2620,606 +2848,662 @@
+@@ -2620,606 +2853,662 @@
  msgstr ""
  
  #. [side]: type=Elvish High Lord, id=Nyvorlas
@@ -4183,15 +4188,17 @@
  msgid "Burn this entire place down and leave nobody alive!"
  msgstr ""
  
+-#. [message]: speaker=Bodo
+-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1537
+-msgid "Oh no! Notta again!"
 +#. [message]: speaker=Nyvorlas
 +#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1747
 +msgid "They are burning our villages! Fiannon, I give you permission to take whatever measures might be necessary to save our villages! Even if that means you taking over control of them from us yourself!"
 +msgstr ""
 +
- #. [message]: speaker=Bodo
--#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1537
++#. [message]: speaker=Bodo
 +#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1758
- msgid "Oh no! Notta again!"
++msgid "Oh no! Notta again!"
  msgstr ""
  
  #. [message]: speaker=Silam
@@ -4257,19 +4264,18 @@
  msgid "Stay on your side of the bed!"
  msgstr ""
  
--#. [message]: speaker=$push.id
--#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1680
 +#. [message]: speaker=Orc
 +#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1901
 +msgid "Go away!"
 +msgstr ""
 +
-+#. [message]: speaker=$push.id
+ #. [message]: speaker=$push.id
+-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1680
 +#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1922
  msgid "Pay attention, he hits hard!"
  msgstr ""
  
-@@ -3229,177 +3513,192 @@
+@@ -3229,177 +3518,192 @@
  msgstr ""
  
  #. [scenario]: id=09_suddenly_darkness
@@ -4507,7 +4513,7 @@
  msgid "Subterranean Crossfire"
  msgstr ""
  
-@@ -3407,287 +3706,300 @@
+@@ -3407,287 +3711,300 @@
  #. [side]
  #. [side]: type=Dwarvish Lord, id=Lord
  #. [side]: type=Dwarvish Dragonguard, id=Dragonguard
@@ -4885,7 +4891,7 @@
  msgid "HAHAHAHAHA"
  msgstr ""
  
-@@ -3697,213 +4009,277 @@
+@@ -3697,213 +4014,277 @@
  msgstr ""
  
  #. [part]
@@ -5216,7 +5222,7 @@
  msgid ""
  "Did you guyssss just ssssslay,\n"
  "Whom I have chosssssen asssss my prey?\n"
-@@ -3912,17 +4288,17 @@
+@@ -3912,17 +4293,17 @@
  msgstr ""
  
  #. [message]: speaker=Alasar
@@ -5238,7 +5244,7 @@
  msgid "Now where are those so-called Northguards?"
  msgstr ""
  
-@@ -3933,125 +4309,132 @@
+@@ -3933,125 +4314,132 @@
  
  #. [side]
  #. [side]: id=Ungus, type=Northguard Savageheart
@@ -5407,7 +5413,7 @@
  msgid "Gulp!"
  msgstr ""
  
-@@ -4061,112 +4444,136 @@
+@@ -4061,112 +4449,136 @@
  msgstr ""
  
  #. [part]
@@ -5572,7 +5578,7 @@
  msgid "<i>End of Chapter II </i>"
  msgstr ""
  
-@@ -4176,298 +4583,308 @@
+@@ -4176,298 +4588,308 @@
  msgstr ""
  
  #. [part]
@@ -5959,7 +5965,7 @@
  msgstr ""
  
  #. [scenario]: id=17_Jotha
-@@ -4476,67 +4893,72 @@
+@@ -4476,67 +4898,72 @@
  msgstr ""
  
  #. [part]
@@ -6046,7 +6052,7 @@
  msgid ""
  "Soldiers of Jotha!\n"
  "The day will come where the dark will triumph over the light!\n"
-@@ -4545,279 +4967,296 @@
+@@ -4545,279 +4972,296 @@
  msgstr ""
  
  #. [message]: speaker=mermen
@@ -6415,7 +6421,7 @@
  msgstr ""
  
  #. [message]: speaker=Naia
-@@ -4832,7 +5271,7 @@
+@@ -4832,7 +5276,7 @@
  
  #. [message]: speaker=Naia
  #: dawn_of_thunder/scenarios/18_Illuvèn.cfg:46
@@ -6424,7 +6430,7 @@
  msgid "ZÍRX SKRA URVATHAN..."
  msgstr ""
  
-@@ -4842,124 +5281,133 @@
+@@ -4842,124 +5286,133 @@
  msgstr ""
  
  #. [message]: speaker=Naia
@@ -6588,7 +6594,7 @@
  msgid ""
  "Well, how the tides have turned... Ironic, isn't it?\n"
  "Indeed, you captured me, but the city commander was a moron. He couldn't do much when an old friend of mine freed me and asked if I wanted to join his little... adventure. An offer that, of course, I couldn't refuse.\n"
-@@ -4967,117 +5415,171 @@
+@@ -4967,117 +5420,171 @@
  msgstr ""
  
  #. [message]: speaker=Naia
@@ -6783,7 +6789,7 @@
  #. [scenario]: id=Epilogue
  #: dawn_of_thunder/scenarios/Epilogue.cfg:5
  msgid "Epilogue"
-@@ -5085,7 +5587,7 @@
+@@ -5085,7 +5592,7 @@
  
  #. [part]
  #: dawn_of_thunder/scenarios/Epilogue.cfg:12
@@ -6792,7 +6798,7 @@
  msgstr ""
  
  #. [scenario]: id=test
-@@ -5098,6 +5600,115 @@
+@@ -5098,6 +5605,115 @@
  msgid "Elvish Watchtower"
  msgstr ""
  
@@ -6908,7 +6914,7 @@
  #. [trait]: id=elemental
  #: dawn_of_thunder/units/elementals.cfg:10
  msgid "elemental"
-@@ -5133,73 +5744,706 @@
+@@ -5133,56 +5749,694 @@
  msgid "Elementals are manifestations from the essence of nature that have been animated to life by magic."
  msgstr ""
  
@@ -6979,32 +6985,21 @@
  msgstr ""
  
 -#. [unit_type]: id=Fallen Sprite, race=fairy
--#: dawn_of_thunder/units/faeries/fallensprite.cfg:5
--msgid "Fallen Sprite"
 +#. [attack]: type=fire
 +#: dawn_of_thunder/units/elementals/Fire_Wisp.cfg:27
 +msgid "fire claw"
- msgstr ""
- 
--#. [unit_type]: id=Fallen Sprite, race=fairy
--#: dawn_of_thunder/units/faeries/fallensprite.cfg:40
--msgid "Fallen sprites are mostly found in dark places, such as deep in the heart of a forest. They are formidable enemies who shouldn't be underestimated, even if they have the appearence of airy women."
++msgstr ""
++
 +#. [unit_type]: id=Ice_ghost, race=elemental
 +#: dawn_of_thunder/units/elementals/ice.cfg:6
 +msgid "Ice ghost"
- msgstr ""
- 
--#. [unit_type]: id=Squire, race=human
--#: dawn_of_thunder/units/humans/squire.cfg:5
--msgid "Squire"
++msgstr ""
++
 +#. [unit_type]: id=Ice_ghost, race=elemental
 +#: dawn_of_thunder/units/elementals/ice.cfg:20
 +msgid "Ice ghosts are manifestations of magical energies that appear in cold and icy regions of Wesnoth. They are harmed by fire."
- msgstr ""
- 
--#. [unit_type]: id=Squire, race=human
--#: dawn_of_thunder/units/humans/squire.cfg:21
--msgid "Knights often take young boys under their apprenticeship and train them to be squires. They equip these with a rough spear, and a donkey. Squires have to follow their Knight around and help them with various tasks, like carrying their armour. In exchange, the Knight teaches the squire how to fight. A Squire who has proven his worth in combat may become an independent Horseman."
++msgstr ""
++
 +#. [attack]: type=cold
 +#: dawn_of_thunder/units/elementals/ice.cfg:33
 +msgid "frost claws"
@@ -7243,15 +7238,14 @@
 +#. [unit_type]: id=Elvish Spearman, race=elf2, gender=male
 +#: dawn_of_thunder/units/elves/Spearman.cfg:23
 +msgid "Elvish Spearmen are elves trained in the art of fighting with spears."
- msgstr ""
- 
- #. [attack]: type=pierce
--#: dawn_of_thunder/units/humans/squire.cfg:37
++msgstr ""
++
++#. [attack]: type=pierce
 +#: dawn_of_thunder/units/elves/Spearman.cfg:27
 +#: dawn_of_thunder/units/humans/squire.cfg:25
- msgid "spear"
- msgstr ""
- 
++msgid "spear"
++msgstr ""
++
 +#. [unit_type]: id=Elvish Trapper, race=elf, gender=male,female
 +#: dawn_of_thunder/units/elves/Trapper.cfg:6
 +msgid "Elvish Trapper"
@@ -7340,12 +7334,14 @@
 +msgstr ""
 +
 +#. [unit_type]: id=Fallen Sprite, race=fairy, gender=female
-+#: dawn_of_thunder/units/faeries/fallensprite.cfg:5
-+msgid "Fallen Sprite"
-+msgstr ""
-+
+ #: dawn_of_thunder/units/faeries/fallensprite.cfg:5
+ msgid "Fallen Sprite"
+ msgstr ""
+ 
+-#. [unit_type]: id=Fallen Sprite, race=fairy
 +#. [unit_type]: id=Fallen Sprite, race=fairy, gender=female
-+#: dawn_of_thunder/units/faeries/fallensprite.cfg:40
+ #: dawn_of_thunder/units/faeries/fallensprite.cfg:40
+-msgid "Fallen sprites are mostly found in dark places, such as deep in the heart of a forest. They are formidable enemies who shouldn't be underestimated, even if they have the appearence of airy women."
 +msgid "Fallen Sprites are mostly found in dark places, such as deep in the heart of a forest. They are formidable enemies who shouldn't be underestimated, even if they have the appearence of airy women."
 +msgstr ""
 +
@@ -7639,22 +7635,22 @@
 +#. [unit_type]: id=Silver Mage of the Moon, race=human, gender=female
 +#: dawn_of_thunder/units/humans/SilverMage.cfg:87
 +msgid "SPECIAL_NOTE^ Silver Magi are well-attuned to their magical natures and are highly resistant to non-physical damage."
-+msgstr ""
-+
-+#. [unit_type]: id=Squire, race=human
-+#: dawn_of_thunder/units/humans/squire.cfg:5
-+msgid "Squire"
-+msgstr ""
-+
-+#. [unit_type]: id=Squire, race=human
-+#: dawn_of_thunder/units/humans/squire.cfg:21
-+msgid "Knights often take young boys under their apprenticeship and train them to be squires. They equip these with a rough spear, and a donkey. Squires have to follow their Knight around and help them with various tasks, like carrying their armour. In exchange, the Knight teaches the squire how to fight. A Squire who has proven his worth in combat may become an independent Horseman."
-+msgstr ""
-+
+ msgstr ""
+ 
+ #. [unit_type]: id=Squire, race=human
+@@ -5195,11 +6449,6 @@
+ msgid "Knights often take young boys under their apprenticeship and train them to be squires. They equip these with a rough spear, and a donkey. Squires have to follow their Knight around and help them with various tasks, like carrying their armour. In exchange, the Knight teaches the squire how to fight. A Squire who has proven his worth in combat may become an independent Horseman."
+ msgstr ""
+ 
+-#. [attack]: type=pierce
+-#: dawn_of_thunder/units/humans/squire.cfg:37
+-msgid "spear"
+-msgstr ""
+-
  #. [unit_type]: id=Caravan, race=mechanical
  #: dawn_of_thunder/units/mechanical/Caravan.cfg:5
  msgid "Caravan"
-@@ -5207,7 +6451,7 @@
+@@ -5207,7 +6456,7 @@
  
  #. [unit_type]: id=Caravan, race=mechanical
  #: dawn_of_thunder/units/mechanical/Caravan.cfg:19
@@ -7663,7 +7659,7 @@
  msgstr ""
  
  #. [unit_type]: id=minecart, race=mechanical
-@@ -5220,6 +6464,274 @@
+@@ -5220,6 +6469,274 @@
  msgid "minecart"
  msgstr ""
  
@@ -7938,7 +7934,7 @@
  #. [unit_type]: id=Giant Troll, race=troll
  #: dawn_of_thunder/units/trolls/giant_troll.cfg:5
  msgid "Giant Troll"
-@@ -5227,12 +6739,7 @@
+@@ -5227,12 +6744,7 @@
  
  #. [unit_type]: id=Giant Troll, race=troll
  #: dawn_of_thunder/units/trolls/giant_troll.cfg:21
@@ -7952,7 +7948,7 @@
  msgstr ""
  
  #. [unit_type]: id=Elvish Ancestor, race=undead
-@@ -5247,14 +6754,57 @@
+@@ -5247,14 +6759,57 @@
  
  #. [attack]: type=arcane
  #: dawn_of_thunder/units/undead/Elvish_Spirit_Ancestor.cfg:33
@@ -8010,7 +8006,7 @@
  #. [unit_type]: id=Dark Ancient Wose, race=wose
  #: dawn_of_thunder/units/woses/dark-wose-ancient.cfg:5
  msgid "Dark Ancient Wose"
-@@ -5267,7 +6817,7 @@
+@@ -5267,7 +6822,7 @@
  "\n"
  "Such encounters are all that is known of what are presumably the most ancient of woses.\n"
  "\n"
@@ -8019,7 +8015,7 @@
  msgstr ""
  
  #. [attack]: type=impact
-@@ -5286,11 +6836,11 @@
+@@ -5286,11 +6841,11 @@
  #. [unit_type]: id=Dark Elder Wose, race=wose
  #: dawn_of_thunder/units/woses/dark-wose-elder.cfg:18
  msgid ""
@@ -8033,7 +8029,7 @@
  msgstr ""
  
  #. [unit_type]: id=Dark Immemorial Wose, race=wose
-@@ -5305,7 +6855,7 @@
+@@ -5305,7 +6860,7 @@
  "\n"
  "Such encounters are all that is known of what are presumably the most ancient of woses.\n"
  "\n"
@@ -8042,7 +8038,7 @@
  "\n"
  "The mightiest woses are called Immemorial Woses, and seeing one of them corrupted is perhaps the most terrifying thing that might ever happen to you."
  msgstr ""
-@@ -5327,7 +6877,7 @@
+@@ -5327,7 +6882,7 @@
  "\n"
  "Woses are utterly unwarlike, but possess a great strength. They are, however, neither used to, nor quick at moving around.\n"
  "\n"
@@ -8051,7 +8047,7 @@
  msgstr ""
  
  #. [unstore_unit]
-@@ -5346,22 +6896,22 @@
+@@ -5346,22 +6901,22 @@
  msgstr ""
  
  #. [message]: speaker=Limwen
@@ -8078,7 +8074,7 @@
  msgid "Still $waves_to_go more waves to defeat!"
  msgstr ""
  
-@@ -5406,7 +6956,7 @@
+@@ -5406,7 +6961,7 @@
  msgid "Through hard work and dedication, one day, while in vegetated terrains, the unit will heal itself 5 hp per turn. If it is poisoned, it will be able to remove the poison instead of healing."
  msgstr ""
  
@@ -8087,7 +8083,7 @@
  #: dawn_of_thunder/utils/Special_notes.cfg:33
  #: dawn_of_thunder/utils/abilities_redone.cfg:438
  msgid "This unit will heal itself 24 HP per turn. If it is poisoned, it will remove the poison instead of healing."
-@@ -5415,7 +6965,7 @@
+@@ -5415,7 +6970,7 @@
  #. [dummy]: id=lycanthropy
  #: dawn_of_thunder/utils/Special_notes.cfg:36
  #: dawn_of_thunder/utils/abilities_redone.cfg:448
@@ -8096,7 +8092,7 @@
  msgstr ""
  
  #: dawn_of_thunder/utils/Special_notes.cfg:39
-@@ -5438,7 +6988,7 @@
+@@ -5438,7 +6993,7 @@
  #: dawn_of_thunder/utils/Special_notes.cfg:53
  #: dawn_of_thunder/utils/weapon_specials.cfg:15
  #: dawn_of_thunder/utils/weapon_specials.cfg:16
@@ -8105,7 +8101,7 @@
  msgstr ""
  
  #: dawn_of_thunder/utils/Special_notes.cfg:56
-@@ -5458,13 +7008,13 @@
+@@ -5458,13 +7013,13 @@
  msgstr ""
  
  #: dawn_of_thunder/utils/abilities_redone.cfg:4
@@ -8121,7 +8117,7 @@
  msgstr ""
  
  #. [hides]: id=Beach Home
-@@ -5473,13 +7023,13 @@
+@@ -5473,13 +7028,13 @@
  msgstr ""
  
  #: dawn_of_thunder/utils/abilities_redone.cfg:22
@@ -8137,7 +8133,7 @@
  msgstr ""
  
  #. [hides]: id=AE_shallow_submerge
-@@ -5498,7 +7048,7 @@
+@@ -5498,7 +7053,7 @@
  msgstr ""
  
  #: dawn_of_thunder/utils/abilities_redone.cfg:57
@@ -8146,7 +8142,7 @@
  msgstr ""
  
  #. [regenerate]
-@@ -5512,7 +7062,7 @@
+@@ -5512,7 +7067,7 @@
  msgstr ""
  
  #: dawn_of_thunder/utils/abilities_redone.cfg:137
@@ -8155,7 +8151,7 @@
  msgstr ""
  
  #. [heals]: id=healing
-@@ -5550,12 +7100,12 @@
+@@ -5550,12 +7105,12 @@
  
  #. [regenerate]: id=regenerates_day
  #: dawn_of_thunder/utils/abilities_redone.cfg:192
@@ -8170,7 +8166,7 @@
  msgstr ""
  
  #. [regenerate]: id=regenerates_night
-@@ -5596,12 +7146,12 @@
+@@ -5596,12 +7151,12 @@
  msgid "sylvan spark"
  msgstr ""
  
@@ -8185,7 +8181,7 @@
  #: dawn_of_thunder/utils/abilities_redone.cfg:437
  msgid "female^regenerates"
  msgstr ""
-@@ -5617,17 +7167,17 @@
+@@ -5617,17 +7172,17 @@
  msgstr ""
  
  #. [leadership]: id=sylvan_strength
@@ -8206,7 +8202,7 @@
  msgid ""
  "This presence of this unit on the battlefield strengthens all units that are deeply connected with the faerie world.\n"
  "\n"
-@@ -5635,172 +7185,320 @@
+@@ -5635,172 +7190,320 @@
  msgstr ""
  
  #. [dummy]: id=dig
@@ -8576,7 +8572,7 @@
  msgid "Could you please stop talking and get back to battle?"
  msgstr ""
  
-@@ -5831,7 +7529,7 @@
+@@ -5831,7 +7534,7 @@
  
  #. [trait]: id=nimble
  #: dawn_of_thunder/utils/traits.cfg:28
@@ -8585,7 +8581,7 @@
  msgstr ""
  
  #. [trait]: id=tough
-@@ -5882,27 +7580,27 @@
+@@ -5882,27 +7585,27 @@
  
  #. [unstore_unit]
  #: dawn_of_thunder/utils/weapon_specials.cfg:91
