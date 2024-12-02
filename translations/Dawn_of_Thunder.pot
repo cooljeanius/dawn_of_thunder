@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2024-11-09 19:52 UTC\n"
+"POT-Creation-Date: 2024-12-02 22:55 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -114,8 +114,8 @@ msgstr ""
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2266
 #: dawn_of_thunder/scenarios/07_deep_forest.cfg:173
 #: dawn_of_thunder/scenarios/07_deep_forest.cfg:948
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1240
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1459
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1243
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1462
 #: dawn_of_thunder/scenarios/09_underground.cfg:186
 #: dawn_of_thunder/scenarios/09_underground.cfg:412
 #: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:263
@@ -464,8 +464,8 @@ msgstr ""
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2270
 #: dawn_of_thunder/scenarios/07_deep_forest.cfg:177
 #: dawn_of_thunder/scenarios/07_deep_forest.cfg:952
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1244
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1463
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1247
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1466
 #: dawn_of_thunder/scenarios/09_underground.cfg:190
 #: dawn_of_thunder/scenarios/09_underground.cfg:416
 #: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:267
@@ -1536,8 +1536,8 @@ msgstr ""
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:2274
 #: dawn_of_thunder/scenarios/07_deep_forest.cfg:181
 #: dawn_of_thunder/scenarios/07_deep_forest.cfg:956
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1248
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1467
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1251
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1470
 msgid "Death of Silam"
 msgstr ""
 
@@ -2917,590 +2917,593 @@ msgid "We're still waiting for Eldrim to arrive, Tehlmar, and you know it!"
 msgstr ""
 
 #. [message]: speaker=Tehlmar
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:540
+#. Hm, I wonder who Tehlmar's mentor could be? A bit of foreshadowing...
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:541
 msgid "I may be new to the Council, and I may have never seen Eldrim personally, but after the impression I got from him, and the things my mentor told me, can't you see that he obviously isn't interested in our meetings anymore? I say we begin now."
 msgstr ""
 
 #. [message]: speaker=Nyvorlas
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:544
+#. More foreshadowing about Tehlmar's mentor:
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:546
 msgid "You know that your mentor was never completely sane, even though he was one of our wisest. That was one of the reasons why you replaced him. Give Eldrim a bit of time, Tehlmar. You know that the way is long and dangerous in these times."
 msgstr ""
 
 #. [message]: speaker=Tehlmar
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:548
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:550
 msgid "Nobody ever told me why he had to leave. That's only another reason not to waste our time!"
 msgstr ""
 
 #. [message]: speaker=Riluaneth
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:552
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:554
 msgid "And you are not ready to hear the reasons. Give Eldrim a bit of time, Tehlmar. You know that the way is long and dangerous in these times."
 msgstr ""
 
 #. [message]: speaker=Tehlmar
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:556
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:558
 msgid "That too is only another reason not to waste our time!"
 msgstr ""
 
 #. [message]: speaker=Tehlmar
 #. Greenwood is a location in the Far North:
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:562
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:564
 msgid "Don't you think the way is long from the Greenwood to here, too? It's nearly twice as long. Not to speak of the Heart Mountains you have to cross. And the Surghan Clan of the dwarves don't let us use their tunnels anymore."
 msgstr ""
 
 #. [message]: speaker=Riluaneth
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:566
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:568
 msgid "Really? That's bad news!"
 msgstr ""
 
 #. [message]: speaker=Tehlmar
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:570
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:572
 msgid "Yes, that's one of the things I wanted to warn you about."
 msgstr ""
 
 #. [message]: speaker=Nyvorlas
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:574
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:576
 msgid "I'm going to say it again! Wait until Eldrim arrives to discuss that sort of things."
 msgstr ""
 
 #. [message]: speaker=Blossomblow
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:585
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:587
 msgid "Arrghhh, noooo! ... brother ... darkness ... danger ... AAARGH ... coming ..."
 msgstr ""
 
 #. [message]: speaker=Tehlmar
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:589
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:591
 msgid "What is going on? What does he have?"
 msgstr ""
 
 #. [message]: speaker=Riluaneth
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:593
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:595
 msgid "Seems like a bad dream during his endless sleep. I'm going to play him a tune to calm him down."
 msgstr ""
 
 #. [message]: speaker=Riluaneth
 #. was formerly "♩♪♫♬", but the music note symbols don't render properly on all platforms:
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:603
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:605
 msgid "(*<i>plays him some music</i>*)"
 msgstr ""
 
 #. [message]: speaker=Blossomblow
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:610
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:612
 msgid "hmmmm ... goodbye ... strong one ..."
 msgstr ""
 
 #. [message]: speaker=championguard
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:614
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:616
 msgid "Milords, milady, I can see some travelers in the distance!"
 msgstr ""
 
 #. [message]: speaker=Riluaneth
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:618
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:620
 msgid "I'm sure this is Eldrim! See, everyone? They bear his flag!"
 msgstr ""
 
 #. [message]: speaker=championguard
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:622
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:624
 msgid "Milady, the group is too little for Lord Eldrim."
 msgstr ""
 
 #. [message]: speaker=Nyvorlas
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:626
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:628
 msgid "Perhaps something has happened to him?"
 msgstr ""
 
 #. [message]: speaker=Tehlmar
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:630
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:632
 msgid "I hope not. Guard, let them pass through."
 msgstr ""
 
 #. [message]: speaker=Nyvorlas
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:634
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:636
 msgid "May I remind you, that I'm the host?"
 msgstr ""
 
 #. [message]: speaker=Riluaneth
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:638
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:640
 msgid "Calm down, you two, now! Let's greet our brethren."
 msgstr ""
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:673
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:675
 msgid "Fiannon, let me talk to them first."
 msgstr ""
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:703
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:705
 msgid "Hail..."
 msgstr ""
 
 #. [message]: speaker=championguard
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:707
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:709
 msgid "Please pass through, they are already waiting for you."
 msgstr ""
 
 #. [message]: speaker=Nyvorlas
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:737
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:739
 msgid "Good day, travellers! We were eager to meet you when we saw Eldrim's flag. Why isn't he with you? Did something bad happen to him?"
 msgstr ""
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:741
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:743
 msgid "Hail! Unfortunately High Lord Eldrim was unable to take part in this honourable meeting, as he is facing pressure from all sides on his territory. We came here on his request, not only to take the seat reserved for the southern Elves, but also to ask for military aid."
 msgstr ""
 
 #. [message]: speaker=Nyvorlas
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:745
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:747
 msgid "And aid he will receive! The Ka'lian will, as always, secure the fate of the Elves!"
 msgstr ""
 
 #. [message]: speaker=Nyvorlas
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:749
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:751
 msgid "Master of Arms, leave immediately with our finest troops!"
 msgstr ""
 
 #. [message]: speaker=Tehlmar
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:753
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:755
 msgid "Nyvorlas! That will leave Wesmere without the protection of their best! You don't even have a proof that Eldrim sends him."
 msgstr ""
 
 #. [message]: speaker=Riluaneth
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:757
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:759
 msgid "Don't be foolish, Tehlmar, the Ka'lian hasn't been attacked in ages. No one other than Elvenkind even knows where it is."
 msgstr ""
 
 #. [message]: speaker=Nyvorlas
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:761
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:763
 msgid "Also, can't you see the emblem of Aethen on the shoulder of the other one? Eldrim must really trust him. Now go, Master of Arms."
 msgstr ""
 
 #. [message]: speaker=championguard
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:765
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:767
 msgid "Yes sir, as you command!"
 msgstr ""
 
 #. [message]: speaker=Tehlmar
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:802
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:804
 msgid "<span size='small'>I believe the question is if we can trust Eldrim, rather than this young one.</span>"
 msgstr ""
 
 #. [message]: speaker=Riluaneth
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:806
+#. Hm, what indeed could cause Tehlmar to believe such a thing? Some more foreshadowing here:
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:809
 msgid "Enough of this! What even makes you believe that there could be elvish traitors? Rather, let's start the council!"
 msgstr ""
 
 #. [message]: speaker=Tehlmar
 #. [message]: speaker=orc2
 #. [message]: speaker=mini_leader
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:810
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:813
 #: dawn_of_thunder/scenarios/18_Illuvèn.cfg:545
 #: dawn_of_thunder/scenarios/18_Illuvèn.cfg:553
 msgid "..."
 msgstr ""
 
 #. [message]: speaker=Tehlmar
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:814
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:817
 msgid "Yes, let's begin."
 msgstr ""
 
 #. [message]: speaker=Nyvorlas
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:818
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:821
 msgid "I hereby open the grand meeting, the Ka'lian! Everyone who isn't part of the Council, or here as a representative, please leave the court. Everyone get seated."
 msgstr ""
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:822
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:825
 msgid "Naia, I must ask you to leave."
 msgstr ""
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:836
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:839
 msgid "Limwen and Alasar, you both too please."
 msgstr ""
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:842
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:845
 msgid "Limwen, you too please."
 msgstr ""
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:850
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:853
 msgid "Alasar, you too please."
 msgstr ""
 
 #. [message]: speaker=Naia
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:856
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:859
 msgid "Oh no, I was so excited..."
 msgstr ""
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:860
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:863
 msgid "Poor thing!"
 msgstr ""
 
 #. [message]: speaker=Alasar
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:864
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:867
 msgid "Bah, let these idiots talk instead of doing something useful."
 msgstr ""
 
 #. [message]: speaker=Nyvorlas
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:895
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:898
 msgid "I will now cast a spell <span size='small'>to prevent all persons</span> <span size='x-small'>outside from</span> <span size='xx-small'>listening in...</span>"
 msgstr ""
 
 #. [message]: speaker=Naia
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:909
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:912
 msgid "Hmmmmm, I really wonder what they are talking about..."
 msgstr ""
 
 #. [message]: speaker=Naia
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:935
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:938
 msgid "Hey, what?"
 msgstr ""
 
 #. [message]: speaker=Naia
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:966
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:969
 msgid "Ughh, help! We're getting attacked!"
 msgstr ""
 
 #. [message]: speaker=Urhuga
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:970
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:973
 msgid "Hahaha, silly Humans and Elves, not even paying attention..."
 msgstr ""
 
 #. [message]: speaker=Urhuga
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:978
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:981
 msgid "Go guys!"
 msgstr ""
 
 #. [message]: speaker=someguy
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1063
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1066
 msgid "Hey!"
 msgstr ""
 
 #. [message]: speaker=Orc
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1135
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1138
 msgid "This is our time, orcs! Now, we kill them!"
 msgstr ""
 
 #. [message]: type=Elvish Archer
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1139
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1142
 msgid "My lords, we're under heavy attack! You need to call our soldiers!"
 msgstr ""
 
 #. [message]: speaker=Nyvorlas
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1143
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1146
 msgid "Elves, stand strong! Our Capital has never fallen before, and it certainly won't fall today!"
 msgstr ""
 
 #. [message]: speaker=Tehlmar
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1147
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1150
 msgid "<span size='small'>...and this idiot got us rid of our best troops...</span>"
 msgstr ""
 
 #. [message]: speaker=Nyvorlas
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1152
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1155
 msgid "Outpost watchers, prepare your rally points for recruiting new troops!"
 msgstr ""
 
 #. [message]: speaker=someguy
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1162
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1165
 msgid "As you wish!"
 msgstr ""
 
 #. [objective]: condition=win
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1236
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1239
 msgid "Survive"
 msgstr ""
 
 #. [objective]: condition=lose
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1252
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1471
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1255
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1474
 msgid "Death of any Council member"
 msgstr ""
 
 #. [objective]: condition=lose
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1256
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1475
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1259
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1478
 msgid "Death of Blossomblow the Wose"
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1280
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1283
 msgid "Hey wait, Silam, didn't you say that Elvish Hunters were only trained at Lake Aelin?"
 msgstr ""
 
 #. [message]: speaker=Tehlmar
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1284
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1287
 msgid "Hmpf. Clearly he is not aware of my hunting prowess, or my proficiency in training others in the hunting arts."
 msgstr ""
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1288
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1291
 msgid "My apologies. Rothilion was the only trainer of hunters of which I was aware previously."
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1296
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1299
 msgid "Hey, I think we know two of these guys!"
 msgstr ""
 
 #. [message]: speaker=Alasar
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1300
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1303
 msgid "Yeah, we kicked their butts!"
 msgstr ""
 
 #. [message]: speaker=Orc
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1304
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1307
 msgid "Haha, yes I found these two sidekicks after you murdered my brothers! Typical for them to rely on these weaklings... and it cost them their life!"
 msgstr ""
 
 #. [message]: speaker=Orc
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1308
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1311
 msgid "They were weaklings, too, but honour requires me to slaughter you down. And those two rats will help me with it!"
 msgstr ""
 
 #. [message]: speaker=Urhuga
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1312
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1315
 msgid "Yes, and we have trained!"
 msgstr ""
 
 #. [message]: speaker=Bodo
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1316
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1319
 msgid "Dis time we kil you!"
 msgstr ""
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1320
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1323
 msgid "But we got better too! Charge, men!"
 msgstr ""
 
 #. [message]: speaker=Blossomblow
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1332
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1335
 msgid "<span font-style='italic'>... dreams of blood ... nobody will survive ...</span>"
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1336
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1339
 msgid "<span size='small'>Hey, Silam can you hear it? This tree is talking!</span>"
 msgstr ""
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1340
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1343
 msgid "<span size='small' font-style='italic'>Open your eyes Fiannon, that's a wose! I don't hear him talking though.</span>"
 msgstr ""
 
 #. [message]: speaker=Blossomblow
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1344
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1347
 msgid "<span font-style='italic'>... Young one ... shining you are on the ethereal plane ... survive ... you have been betrayed! ...</span>"
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1348
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1351
 msgid "<span size='small' font-style='italic'>How? Why am I the only one to hear you?</span>"
 msgstr ""
 
 #. [message]: speaker=Blossomblow
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1352
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1355
 msgid "<span font-style='italic'>... Mind connection ... nature is strong with you ... flee ... Tehlmar has left you all alone ... I saw ... won't survive ... massacre ...</span>"
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1356
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1359
 msgid "<span size='small' font-style='italic'>I can't flee! I must protect the Ka'lian.</span>"
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1364
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1367
 msgid "Guys, Tehlmar is gone!"
 msgstr ""
 
 #. [message]: speaker=Nyvorlas
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1368
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1371
 msgid "Really?! Where is he? Anyone has seen where he went?"
 msgstr ""
 
 #. [message]: speaker=Riluaneth
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1372
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1375
 msgid "I fear that he has fled! Silam, you are the next-ranking officer! Please, take his place!"
 msgstr ""
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1376
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1379
 msgid "As you wish, Milady!"
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1411
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1414
 msgid "<span size='small'>(to himself)</span> This will be our death! They just keep on recruiting!"
 msgstr ""
 
 #. [message]: speaker=Blossomblow
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1415
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1418
 msgid "<span font-style='italic'>... Flee you must ... </span>"
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1419
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1422
 msgid "<span size='small' font-style='italic'> I see, there is no other way. Oh ancient one, please tell me, where should I go?</span>"
 msgstr ""
 
 #. [message]: speaker=Blossomblow
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1423
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1426
 msgid "<span font-style='italic'>... south, tunnels ... secret they are ... our roots can feel them ...</span>"
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1427
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1430
 msgid "Mi-lords, the Blossomblow the Ancient has talked to me! In my head! He told me to flee, and that there were tunnels somewhere in the south of here!"
 msgstr ""
 
 #. [message]: speaker=Nyvorlas
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1431
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1434
 msgid "We can't leave! The Ka'lian was never abandoned before! I can remember some rumors a few years ago about some tunnels west of Katyr's Valley and south of Sinaht's Crossing, but I'm not sure."
 msgstr ""
 
 #. [message]: speaker=Riluaneth
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1435
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1438
 msgid "But you could look for reinforcements! You're young and fast. Please, find help. Return as soon as possible, with allies!"
 msgstr ""
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1439
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1442
 msgid "I'll stay here, to help the council."
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1443
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1446
 msgid "But Silam! I'm not ready to command an army myself."
 msgstr ""
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1447
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1450
 msgid "You must Fiannon! Remember what I taught you. You will succeed, I know it."
 msgstr ""
 
 #. [objective]: condition=win
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1455
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1458
 msgid "Find the tunnels and flee with Fiannon"
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1552
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1582
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1555
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1585
 msgid "I don't know where this tunnel is leading, but I guess anything is better than this bloodbath."
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1556
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1586
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1559
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1589
 msgid "I'll be back, Silam, I promise!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1572
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1575
 msgid "Hey Fiannon, you should come see this!"
 msgstr ""
 
 #. [message]: speaker=Tehlmar
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1610
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1613
 msgid "No, the Ka'lian needs me and my Hunters!"
 msgstr ""
 
 #. [message]: speaker=Riluaneth
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1624
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1627
 msgid "No, the Ka'lian needs me and my Shamans!"
 msgstr ""
 
 #. [message]: speaker=Nyvorlas
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1638
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1641
 msgid "No, the Ka'lian needs my guidance!"
 msgstr ""
 
 #. [message]: speaker=Nyvorlas
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1652
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1655
 msgid "No, without his protecting soul this forest will surely die!"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1663
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1666
 msgid "At first glance, you can't see anything in this ruin. Just dusty pieces of furniture. It seems like no one has lived here for quite some time. But just as you want to go out, the floor breaks under your feet. You land four feet deeper. It seems like you have found the tunnels..."
 msgstr ""
 
 #. [message]: speaker=Orc
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1740
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1743
 msgid "Burn this entire place down and leave nobody alive!"
 msgstr ""
 
 #. [message]: speaker=Nyvorlas
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1744
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1747
 msgid "They are burning our villages! Fiannon, I give you permission to take whatever measures might be necessary to save our villages! Even if that means you taking over control of them from us yourself!"
 msgstr ""
 
 #. [message]: speaker=Bodo
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1755
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1758
 msgid "Oh no! Notta again!"
 msgstr ""
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1766
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1769
 msgid "Damnit, he escaped again!"
 msgstr ""
 
 #. [message]: speaker=Orc
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1770
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1773
 msgid "Don't worry, I'll punish him for his insolence!"
 msgstr ""
 
 #. [message]: speaker=Orc
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1774
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1777
 msgid "But you won't be there to see it anymore."
 msgstr ""
 
 #. [message]: speaker=Urhuga
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1800
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1803
 msgid "Still not the last time we have seen each other!"
 msgstr ""
 
 #. [message]: speaker=Orc
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1811
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1814
 msgid "Weakling!"
 msgstr ""
 
 #. [message]: speaker=Orc
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1859
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1862
 msgid "Don't you dare! SLAP!"
 msgstr ""
 
 #. [message]: speaker=Orc
 #. M.C. Hammer reference:
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1867
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1870
 msgid "Can't touch this!"
 msgstr ""
 
 #. [message]: speaker=Orc
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1875
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1878
 msgid "Eeeek! Don't touch me you swine!"
 msgstr ""
 
 #. [message]: speaker=Orc
 #. as with case 5, this dialogue pretends that Olaugh-Gahn and the unit he's pushing are a couple sharing a bed:
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1883
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1886
 msgid "Brrr, your feet are cold!"
 msgstr ""
 
 #. [message]: speaker=Orc
 #. they aren't ACTUALLY in bed together; this is just figurative language:
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1891
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1894
 msgid "Stay on your side of the bed!"
 msgstr ""
 
 #. [message]: speaker=Orc
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1898
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1901
 msgid "Go away!"
 msgstr ""
 
 #. [message]: speaker=$push.id
-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1919
+#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1922
 msgid "Pay attention, he hits hard!"
 msgstr ""
 
