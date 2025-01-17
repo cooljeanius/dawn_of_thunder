@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2024-12-08 01:45 UTC\n"
+"POT-Creation-Date: 2025-01-17 06:50 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -106,7 +106,7 @@ msgstr ""
 #: dawn_of_thunder/scenarios/02_rescue.cfg:708
 #: dawn_of_thunder/scenarios/02_rescue.cfg:979
 #: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:41
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:283
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:295
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:676
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:838
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1957
@@ -461,7 +461,7 @@ msgstr ""
 #: dawn_of_thunder/scenarios/02_rescue.cfg:712
 #: dawn_of_thunder/scenarios/02_rescue.cfg:983
 #: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:45
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:287
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:299
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:680
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:842
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1961
@@ -834,7 +834,7 @@ msgstr ""
 #. [side]: type=Elvish Druid, id=Limwen, gender=female
 #. [side]: type=Elvish Captain, id=elf_leader
 #: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:115
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:172
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:184
 msgid "Elves"
 msgstr ""
 
@@ -1475,7 +1475,7 @@ msgstr ""
 #. [side]: type=Orcish Warlord, id=bigbadguy
 #. [side]: type=Orcish Nightblade, id=smallbadguy
 #. [side]: type=Orcish Sovereign, id=orc
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:111
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:115
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:113
 #: dawn_of_thunder/scenarios/15_Wild_Steppe.cfg:49
 #: dawn_of_thunder/scenarios/15_Wild_Steppe.cfg:73
@@ -1487,53 +1487,53 @@ msgid "Orcs"
 msgstr ""
 
 #. [side]: type=Orcish Warlord, id=Orc
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:116
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:120
 msgid "Waruk-Gahn"
 msgstr ""
 
 #. [side]: type=Goblin Pillager, id=Goblin
 #. [side]: type=Goblin Cutthroat, id=Bodo
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:150
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:158
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:209
 msgid "Goblins"
 msgstr ""
 
 #. [side]: type=Goblin Pillager, id=Goblin
 #. [side]: type=Goblin Cutthroat, id=Bodo
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:154
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:162
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:213
 msgid "Bodo"
 msgstr ""
 
 #. [side]: type=Elvish Captain, id=elf_leader
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:177
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:189
 msgid "Rothilion"
 msgstr ""
 
 #. [interim_text]
 #. Trailing space is needed at the end to prevent the cutoff that
 #. happens with italicized GUI2 text
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:257
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:269
 msgid "<i>5. Lake Aelin </i>"
 msgstr ""
 
 #. [label]
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:266
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:278
 msgid "Aelin's Glance"
 msgstr ""
 
 #. [objective]: condition=win
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:275
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:287
 msgid "Defeat the Goblins and the Orcs"
 msgstr ""
 
 #. [objective]: condition=win
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:279
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:291
 msgid "Defeat the Naga (Bonus)"
 msgstr ""
 
 #. [objective]: condition=lose
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:291
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:303
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:684
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:846
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1965
@@ -1547,129 +1547,129 @@ msgid "Death of Silam"
 msgstr ""
 
 #. [objective]: condition=lose
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:295
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:307
 msgid "Death of Rothilion"
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:481
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:493
 msgid "Look, this Outpost is under attack!"
 msgstr ""
 
 #. [message]: speaker=elf_leader
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:485
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:497
 msgid "Finally, some Elves! Are you reinforcements from Aethen?"
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:489
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:501
 msgid "I fear we are not. We are only passing through."
 msgstr ""
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:493
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:505
 msgid "Nevertheless, we need to help! Commander, how bad is the situation?"
 msgstr ""
 
 #. [message]: speaker=elf_leader
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:497
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:509
 msgid "Quite bad. The Nagas have always been a threat in this region, but since they allied with the Orcs it has become far worse. Last moon they attacked us together, and since then we have been under a siege, unable to call for reinforcements."
 msgstr ""
 
 #. [message]: speaker=elf_leader
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:501
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:513
 msgid "You would help us enormously if you took out the Goblins and the Orcs. You won't be able to rout the Nagas definitively, they will just come back next spring, to lay their eggs here. But without their allies, they aren't much of a threat."
 msgstr ""
 
 #. [message]: speaker=elf_leader
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:505
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:517
 msgid "If you want, take these Hunters. They'll help you."
 msgstr ""
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:528
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:540
 msgid "These hunters are as good as our fighters in melee combat. But their speciality lies in their ranged attack. It may not be especially strong, but they are able to entangle our enemies with their bolas, similar to how our shamans can entangle foes."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. EASY difficulty; loyal + 2:
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:534
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:546
 msgid "These hunters are loyal, but beyond that, you may also choose two additional traits for each of them."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. NORMAL and HARD difficulties; loyal + 1:
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:541
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:553
 msgid "These hunters are loyal, but beyond that, you may also choose an additional trait for each of them."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:551
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:563
 msgid "Choose an additional trait for your first hunter."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:558
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:570
 msgid "Choose another additional trait for your first hunter."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:569
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:581
 msgid "Choose an additional trait for your second hunter."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:576
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:588
 msgid "Choose another additional trait for your second hunter."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:587
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:599
 msgid "Choose an additional trait for your third hunter."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:594
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:606
 msgid "Choose another additional trait for your third hunter."
 msgstr ""
 
 #. [message]: id=Silam
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:605
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:617
 msgid "All right, I think the hunters are ready to serve you now!"
 msgstr ""
 
 #. [message]: speaker=Nagaguy
 #. Ragziss's last breath; like with most Naga, the "Sssssnake Talk" trope is in effect:
 #. https://tvtropes.org/pmwiki/pmwiki.php/Main/SssssnakeTalk
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:628
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:640
 msgid "Hissssssss, you'll ssssee usssss again!"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:649
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:661
 msgid "Do you want this unit to pick up the ring?"
 msgstr ""
 
 #. [option]
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:651
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:663
 #: dawn_of_thunder/scenarios/09_underground.cfg:476
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:730
 msgid "Yes"
 msgstr ""
 
 #. [object]: id=ring_of_swordmanship
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:655
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:667
 msgid "Ring of Swordmanship"
 msgstr ""
 
 #. [object]: id=ring_of_swordmanship
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:658
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:670
 msgid "This ring makes a cunning Swordsman out of every Fighter"
 msgstr ""
 
 #. [object]: id=ring_of_swordmanship
 #. As far as I can tell, the "ancient Nagaish language" is just nonsense; I'm not aware of any conlang that has been constructed for them:
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:661
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:673
 msgid ""
 "Pressed by the ongoing battle, you put on the ring very hastily, without carefully looking at it. But the ring just slips away from your fingers again. This time you look at it more carefully. Inside is written:\n"
 "								\n"
@@ -1683,111 +1683,116 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=narrator
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:683
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:695
 msgid "As you put the shining ring on your finger, the weight of your sword is reduced to nearly nothing. Your mind is suddenly infused with different techniques and styles of swordfighting."
 msgstr ""
 
 #. [option]
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:708
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:720
 #: dawn_of_thunder/scenarios/09_underground.cfg:568
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:808
 msgid "No"
 msgstr ""
 
 #. [message]: speaker=Naia
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:757
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:769
 msgid "Look, he dropped something!"
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:777
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:789
 msgid "Boss, I recognize these reinforcements. These are the Elves who have slain your Brother!"
 msgstr ""
 
 #. [message]: speaker=Orc
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:781
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:793
 msgid "Very good! I will avenge my brother and slaughter them!"
+msgstr ""
+
+#. [message]: speaker=Orc
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:813
+msgid "The elves attack me! I need to defend myself!"
 msgstr ""
 
 #. [message]: speaker=Goblin
 #. In better English, this would be: "Ha, that's my chance to get boss!"
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:800
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:843
 msgid "Ha, dat's ma chanz to get bozz!"
 msgstr ""
 
 #. [message]: speaker=Goblin
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:804
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:847
 msgid "Follow me, guys!"
 msgstr ""
 
 #. [message]: speaker=Orc
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:812
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:855
 msgid "Argh! I dishonored my family just as my brother did. Now it's up to our eldest to avenge us!"
 msgstr ""
 
 #. [message]: speaker=Nagaguy
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:816
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:941
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:859
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:1007
 msgid "Retreat, Nagas! Without our allies, we won't be able to secure our nesting site today."
 msgstr ""
 
 #. [message]: speaker=elf_leader
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:846
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:889
 msgid "Thank you for your brave help, travellers. Be sure that it won't be forgotten."
 msgstr ""
 
 #. [message]: speaker=Alasar
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:850
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:975
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:893
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:1041
 msgid "Killing orcs? It was a pleasure."
 msgstr ""
 
 #. [message]: speaker=elf_leader
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:860
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:979
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:903
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:1045
 msgid "The Hunters who were under your command have decided that they will follow you from now on."
 msgstr ""
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:864
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:907
 msgid "Pay attention to them, Fiannon. They are extremely rare, as they are trained nowhere else besides here. You won't be able to replace them if they die. Also, they fight for you because you impressed them, so they won't cost upkeep."
 msgstr ""
 
 #. [message]: speaker=Goblin
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:892
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:935
 msgid "Oh!"
 msgstr ""
 
 #. [message]: speaker=Goblin
 #. In better English, this would be: "I'd better get out of here!"
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:897
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:929
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:940
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:995
 msgid "Betta getta ouda here!"
 msgstr ""
 
 #. [message]: speaker=Orc
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:910
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:953
 msgid "Hrmpf, I should have relied on trolls instead of goblins. Now, as always, I'll have to do it myself!"
 msgstr ""
 
 #. [message]: speaker=Goblin
 #. In better English, this would be: "No! I was chosen to get the first Goblin leader!"
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:925
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:991
 msgid "No! I was chosen to get da first Goblin leada!"
 msgstr ""
 
 #. [message]: speaker=elf_leader
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:971
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:1037
 msgid "Thank you for your brave help, travellers. Be sure that it will not be forgotten."
 msgstr ""
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:983
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:1049
 msgid "Pay attention to them, Fiannon. They are extremely rare, as they are trained nowhere else than here. You won't be able to replace them if they die."
 msgstr ""
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:1004
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:1070
 msgid "Castle Aelin's gaze is lost without me."
 msgstr ""
 

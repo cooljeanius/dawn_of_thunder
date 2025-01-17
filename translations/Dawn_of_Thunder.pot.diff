@@ -1,11 +1,11 @@
 --- /Users/ericgallager/Downloads/Dawn_of_Thunder_old.pot	2023-08-23 04:00:57.000000000 -0400
-+++ Dawn_of_Thunder.pot	2024-12-02 18:49:16.000000000 -0500
++++ Dawn_of_Thunder.pot	2025-01-17 01:50:09.000000000 -0500
 @@ -2,7 +2,7 @@
  msgstr ""
  "Project-Id-Version: PACKAGE VERSION\n"
  "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 -"POT-Creation-Date: 2022-06-14 03:40 UTC\n"
-+"POT-Creation-Date: 2024-12-02 23:49 UTC\n"
++"POT-Creation-Date: 2025-01-17 06:50 UTC\n"
  "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
  "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
  "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -144,7 +144,7 @@
 +#: dawn_of_thunder/scenarios/02_rescue.cfg:708
 +#: dawn_of_thunder/scenarios/02_rescue.cfg:979
 +#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:41
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:283
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:295
 +#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:676
 +#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:838
 +#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1957
@@ -607,7 +607,7 @@
 +#: dawn_of_thunder/scenarios/02_rescue.cfg:712
 +#: dawn_of_thunder/scenarios/02_rescue.cfg:983
 +#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:45
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:287
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:299
 +#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:680
 +#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:842
 +#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1961
@@ -1069,8 +1069,9 @@
 +#. [side]: type=Elvish Druid, id=Limwen, gender=female
  #. [side]: type=Elvish Captain, id=elf_leader
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:109
+-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:172
 +#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:115
- #: dawn_of_thunder/scenarios/05_lake_aelin.cfg:172
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:184
  msgid "Elves"
  msgstr ""
  
@@ -1080,13 +1081,13 @@
 +msgstr ""
 +
 +#. [unit]: type=Elvish Shaman, id=shaman
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:133
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:136
 +msgid "Neria"
 +msgstr ""
 +
  #. [side]
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:154
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:160
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:163
  msgid "Elvish Ghosts"
  msgstr ""
  
@@ -1095,7 +1096,7 @@
 -msgid "<i>3. Enemies of old </i>"
 +#. Trailing space is needed at the end to prevent the cutoff that
 +#. happens with italicized GUI2 text
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:189
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:192
 +msgid "<i>3. Enemies of Old </i>"
  msgstr ""
  
@@ -1103,133 +1104,133 @@
  #. [message]
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:210
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:262
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:217
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:269
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:221
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:273
  msgid "Direction N: Aethen"
  msgstr ""
  
  #. [message]: speaker=Fiannon
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:216
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:223
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:227
  msgid "Onwards; we need to continue to Aethen!"
  msgstr ""
  
  #. [message]: speaker=Naia
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:220
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:227
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:231
  msgid "That was about time."
  msgstr ""
  
  #. [message]: speaker=Naia
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:224
 -msgid "But I feel bad, about leaving behind Limwen and her shamans."
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:231
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:235
 +msgid "I feel a bit bad about leaving Limwen and her shamans behind, though."
  msgstr ""
  
  #. [message]: speaker=Limwen
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:228
 -msgid "Don't worry, they'll be fine."
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:235
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:239
 +msgid "Don't worry, the shamans and I will be fine."
  msgstr ""
  
  #. [message]: speaker=Limwen
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:232
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:239
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:243
  msgid "Goodbye, young warrior. I will stay here and buy you as much time as possible."
  msgstr ""
  
  #. [message]: speaker=Limwen
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:236
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:243
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:247
  msgid "I hope we'll see each other again in better times."
  msgstr ""
  
  #. [message]: speaker=M'Brin
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:241
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:248
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:252
  msgid "Ha, flee, fool! You may escape me now, but I'll find you, and then you won't be able to flee!"
  msgstr ""
  
  #. [message]: speaker=second_unit
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:277
 -msgid "Die, traitor of your own kin!"
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:284
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:288
 +msgid "Die, traitor to your own kin!"
  msgstr ""
  
  #. [message]: speaker=M'Brin
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:281
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:288
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:292
  msgid "You, calling yourself Elves, are the real traitors. You killed your wisest sage! You don't deserve to be called elves!"
  msgstr ""
  
  #. [message]: speaker=M'Brin
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:285
 +#. the "Dark Lord" in question will be revealed later:
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:293
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:297
  msgid "I'll rise again. There's no way you could banish me forever! The Dark Lord will bring me back!"
  msgstr ""
  
  #. [message]: speaker=Fiannon
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:289
 -msgid "Is that true? Could he come back? And who is he?"
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:297
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:301
 +msgid "Is that true? Could this M'Brin really come back? And just who is he, anyways?"
  msgstr ""
  
  #. [message]: speaker=Limwen
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:293
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:301
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:305
  msgid "Yes, he can, as long as he finds a necromancer willing to do it. He's an incredibly powerful and old soul. He was born two millennia ago, and during his first lifetime he was one of our wisest sages."
  msgstr ""
  
  #. [message]: speaker=Limwen
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:297
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:305
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:309
  msgid "He saw the betrayal of humans against the elves when they were a young race, that still had much to learn."
  msgstr ""
  
  #. [message]: speaker=Limwen
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:301
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:309
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:313
  msgid "And when he was killed for the first time by human outlaws, he became so mad, that he came back to unlife and swore to kill all men..."
  msgstr ""
  
  #. [message]: speaker=Limwen
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:305
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:313
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:317
  msgid "...some elves were with him, but most followed one of our shydes named Ethiliel, who worked together with a young human knight to defeat M'Brin."
  msgstr ""
  
  #. [message]: speaker=Limwen
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:309
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:317
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:321
  msgid "Even today one can see the remnants of his bad influence. The plants at place where he lived will never flourish, and the trees won't hold any leaves, no matter what we try to do."
  msgstr ""
  
  #. [message]: speaker=Limwen
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:313
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:321
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:325
  msgid "Apparently M'Brin has risen again. And this time he was out for vengeance."
  msgstr ""
  
  #. [message]: speaker=Limwen
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:328
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:336
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:340
  msgid "It seems that my time has come."
  msgstr ""
  
  #. [message]: speaker=narrator
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:353
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:361
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:365
  msgid "In Memory of one of our greatest sages, M'Brin, may he rest in peace."
  msgstr ""
  
  #. [message]: speaker=unit
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:358
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:366
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:370
  msgid ""
  "Pah! He was a vile traitor, who turned to necromancy!\n"
 -"<span size='small'>(spits on the stone)</span>\n"
@@ -1239,49 +1240,49 @@
  
  #. [message]: speaker=M'Brin
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:369
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:377
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:381
  msgid "<span size='large'>What is this?</span>"
  msgstr ""
  
  #. [message]: speaker=M'Brin
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:373
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:381
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:385
  msgid "I can feel that there are <span font_style='italic'>humans in my valley!</span>"
  msgstr ""
  
  #. [message]: speaker=M'Brin
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:377
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:385
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:389
  msgid "Tarnishing the holy ground of my old home with their dirty human feet?<span size='large'> You will suffer for that!</span>"
  msgstr ""
  
 +#. [unit]: id=M'Brin, type=Elvish Forefather
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:401
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:405
 +#: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:494
 +msgid "M'Brin"
 +msgstr ""
 +
  #. [message]: speaker=M'Brin
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:421
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:430
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:434
  msgid "<span size='large'>I am back to take what is rightfully mine!</span>"
  msgstr ""
  
  #. [message]: speaker=M'Brin
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:425
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:434
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:438
  msgid "<span size='large'>Now I will finally get my revenge on you, </span><span size='large' font_style='italic'>elves.</span>"
  msgstr ""
  
  #. [message]: speaker=Fiannon
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:429
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:438
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:442
  msgid "Revenge? What have we done to you?"
  msgstr ""
  
  #. [message]: speaker=M'Brin
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:434
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:443
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:447
  msgid ""
  "<span size='large'>You, the elves, my own people betrayed me!</span>\n"
  "<span size='large'>For these pesty </span><span size='large' font_style='italic'>humans!</span>"
@@ -1291,7 +1292,7 @@
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:465
 +#. https://en.wikipedia.org/wiki/Fight-or-flight_response
 +#. (but capitalized to indicate that the options represent a gameplay decision)
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:476
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:480
  msgid ""
  "Their first wave is coming.\n"
  "You need to decide now, Fight or Flight?"
@@ -1299,7 +1300,7 @@
  
  #. [message]: speaker=Fiannon
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:497
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:508
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:513
  msgid "These should have been the last. It was a pleasure fighting for you, milady, but we must continue to the royal court now."
  msgstr ""
  
@@ -1307,7 +1308,7 @@
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:501
 +#. Naia isn't ACTUALLY twelve years old, Limwen is just saying that as an insult to her youth. Naia is actually a young adult,
 +#. with an age in the range of 25 to 30 years old.
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:514
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:519
  msgid "Yes, and I think that I'll come with you. You and your magic look promising, but you'll need guidance from a mage who isn't twelve years old."
  msgstr ""
  
@@ -1315,45 +1316,45 @@
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:529
 -msgid "$speakerunit.name, take my place while I'm gone."
 +#. to explain why all her units don't come along with her:
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:543
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:548
 +msgid "$speakerunit.name, take my place watching over my remaining apprentices while I'm gone."
  msgstr ""
  
  #. [message]: id=$speakerunit.id
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:539
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:553
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:558
  msgid "Sure mistress, I'll do my best!"
  msgstr ""
  
  #. [message]: speaker=shaman
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:559
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:573
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:579
  msgid "Look, mistress! There are people on the horizon! Do you think they are the danger you've been feeling for the last few days?"
  msgstr ""
  
  #. [message]: speaker=Limwen
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:563
 -msgid "Neria, open your mind. Be the forest. Can't you feel they are elves? The danger has yet to come..."
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:577
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:583
 +msgid "Neria, open your mind. <i>Be</i> the forest. Can't you feel they are elves? The danger has yet to come..."
  msgstr ""
  
  #. [message]: speaker=shaman
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:567
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:581
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:587
  msgid "I'm sorry, mistress."
  msgstr ""
  
  #. [message]: speaker=Limwen
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:571
 -msgid "Welcome travelers, to the vale of tears."
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:585
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:591
 +msgid "Welcome travelers, to the Vale of Tears."
  msgstr ""
  
  #. [message]: speaker=Fiannon
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:576
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:590
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:596
  msgid ""
  "Greetings, Lady Druid. It's good to see some elvish faces. We are coming from the edge of the Southwood and are going to Aethen.\n"
  "Our feet are hurting and our legs are tired. May we rest here for a while?"
@@ -1363,26 +1364,26 @@
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:582
 -msgid "You may stay, but I fear that you won't be able to rest. I can feel the walking dead as they are surrounding us in this very moment. You could try to break through to the North-east; we will slow them down while you flee."
 +#. part about the villages is a bit of a gameplay hint to reassure the player that Limwen won't mind if you steal villages from her:
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:597
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:603
 +msgid "You may stay in our villages, but I fear that you won't have much time to rest here, though. I can feel the walking dead as they are surrounding us in this very moment. You could try to break through to the northeast; we will slow them down while you flee."
  msgstr ""
  
  #. [message]: speaker=Fiannon
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:586
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:601
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:607
  msgid "But what about you and your apprentices?"
  msgstr ""
  
  #. [message]: speaker=Limwen
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:590
 -msgid "Don't worry, the Order of the vale always finds a way."
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:605
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:611
 +msgid "Don't worry, the Order of the Vale always finds a way."
  msgstr ""
  
  #. [message]: speaker=Naia
 -#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:594
-+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:609
++#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:615
  msgid "We shouldn't let these shamans fight the undead alone. By what's moral we're bound to help them defend, but it's up to you to decide."
  msgstr ""
  
@@ -1824,9 +1825,12 @@
  msgid "Ragziss"
  msgstr ""
  
-@@ -1380,12 +1477,12 @@
+@@ -1378,144 +1475,201 @@
+ #. [side]: type=Orcish Warlord, id=bigbadguy
+ #. [side]: type=Orcish Nightblade, id=smallbadguy
  #. [side]: type=Orcish Sovereign, id=orc
- #: dawn_of_thunder/scenarios/05_lake_aelin.cfg:111
+-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:111
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:115
  #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:113
 -#: dawn_of_thunder/scenarios/15_Wild_Steppe.cfg:44
 -#: dawn_of_thunder/scenarios/15_Wild_Steppe.cfg:68
@@ -1843,25 +1847,32 @@
  msgid "Orcs"
  msgstr ""
  
-@@ -1397,125 +1494,182 @@
+ #. [side]: type=Orcish Warlord, id=Orc
+-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:116
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:120
+ msgid "Waruk-Gahn"
+ msgstr ""
+ 
  #. [side]: type=Goblin Pillager, id=Goblin
  #. [side]: type=Goblin Cutthroat, id=Bodo
- #: dawn_of_thunder/scenarios/05_lake_aelin.cfg:150
+-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:150
 -#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:158
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:158
 +#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:209
  msgid "Goblins"
  msgstr ""
  
  #. [side]: type=Goblin Pillager, id=Goblin
  #. [side]: type=Goblin Cutthroat, id=Bodo
- #: dawn_of_thunder/scenarios/05_lake_aelin.cfg:154
+-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:154
 -#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:162
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:162
 +#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:213
  msgid "Bodo"
  msgstr ""
  
 +#. [side]: type=Elvish Captain, id=elf_leader
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:177
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:189
 +msgid "Rothilion"
 +msgstr ""
 +
@@ -1869,25 +1880,25 @@
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:250
 +#. Trailing space is needed at the end to prevent the cutoff that
 +#. happens with italicized GUI2 text
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:257
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:269
  msgid "<i>5. Lake Aelin </i>"
  msgstr ""
  
  #. [label]
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:259
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:266
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:278
  msgid "Aelin's Glance"
  msgstr ""
  
  #. [objective]: condition=win
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:268
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:275
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:287
  msgid "Defeat the Goblins and the Orcs"
  msgstr ""
  
  #. [objective]: condition=win
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:272
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:279
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:291
  msgid "Defeat the Naga (Bonus)"
  msgstr ""
  
@@ -1902,7 +1913,7 @@
 -#: dawn_of_thunder/scenarios/07_deep_forest.cfg:865
 -#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1016
 -#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1231
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:291
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:303
 +#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:684
 +#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:846
 +#: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1965
@@ -1917,104 +1928,104 @@
  
  #. [objective]: condition=lose
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:288
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:295
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:307
  msgid "Death of Rothilion"
  msgstr ""
  
  #. [message]: speaker=Fiannon
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:441
 -msgid "Look, this Outpost is being attacked!"
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:481
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:493
 +msgid "Look, this Outpost is under attack!"
  msgstr ""
  
  #. [message]: speaker=elf_leader
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:445
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:485
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:497
  msgid "Finally, some Elves! Are you reinforcements from Aethen?"
  msgstr ""
  
  #. [message]: speaker=Fiannon
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:449
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:489
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:501
  msgid "I fear we are not. We are only passing through."
  msgstr ""
  
  #. [message]: speaker=Silam
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:453
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:493
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:505
  msgid "Nevertheless, we need to help! Commander, how bad is the situation?"
  msgstr ""
  
  #. [message]: speaker=elf_leader
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:457
 -msgid "Quite bad. The Nagas have always been a threat in this region, but since they allied with the Orcs it has become far worse. Last moon they attacked us together, and since then we are under a siege, unable to call for reinforcements."
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:497
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:509
 +msgid "Quite bad. The Nagas have always been a threat in this region, but since they allied with the Orcs it has become far worse. Last moon they attacked us together, and since then we have been under a siege, unable to call for reinforcements."
  msgstr ""
  
  #. [message]: speaker=elf_leader
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:461
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:501
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:513
  msgid "You would help us enormously if you took out the Goblins and the Orcs. You won't be able to rout the Nagas definitively, they will just come back next spring, to lay their eggs here. But without their allies, they aren't much of a threat."
  msgstr ""
  
  #. [message]: speaker=elf_leader
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:465
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:505
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:517
  msgid "If you want, take these Hunters. They'll help you."
  msgstr ""
  
  #. [message]: speaker=Silam
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:487
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:528
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:540
  msgid "These hunters are as good as our fighters in melee combat. But their speciality lies in their ranged attack. It may not be especially strong, but they are able to entangle our enemies with their bolas, similar to how our shamans can entangle foes."
  msgstr ""
  
 +#. [message]: speaker=narrator
 +#. EASY difficulty; loyal + 2:
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:534
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:546
 +msgid "These hunters are loyal, but beyond that, you may also choose two additional traits for each of them."
 +msgstr ""
 +
 +#. [message]: speaker=narrator
 +#. NORMAL and HARD difficulties; loyal + 1:
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:541
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:553
 +msgid "These hunters are loyal, but beyond that, you may also choose an additional trait for each of them."
 +msgstr ""
 +
 +#. [message]: speaker=narrator
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:551
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:563
 +msgid "Choose an additional trait for your first hunter."
 +msgstr ""
 +
 +#. [message]: speaker=narrator
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:558
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:570
 +msgid "Choose another additional trait for your first hunter."
 +msgstr ""
 +
 +#. [message]: speaker=narrator
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:569
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:581
 +msgid "Choose an additional trait for your second hunter."
 +msgstr ""
 +
 +#. [message]: speaker=narrator
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:576
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:588
 +msgid "Choose another additional trait for your second hunter."
 +msgstr ""
 +
 +#. [message]: speaker=narrator
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:587
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:599
 +msgid "Choose an additional trait for your third hunter."
 +msgstr ""
 +
 +#. [message]: speaker=narrator
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:594
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:606
 +msgid "Choose another additional trait for your third hunter."
 +msgstr ""
 +
 +#. [message]: id=Silam
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:605
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:617
 +msgid "All right, I think the hunters are ready to serve you now!"
 +msgstr ""
 +
@@ -2023,13 +2034,13 @@
 -msgid "Hissssssss, we'll ssssee usssss again!"
 +#. Ragziss's last breath; like with most Naga, the "Sssssnake Talk" trope is in effect:
 +#. https://tvtropes.org/pmwiki/pmwiki.php/Main/SssssnakeTalk
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:628
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:640
 +msgid "Hissssssss, you'll ssssee usssss again!"
  msgstr ""
  
  #. [message]: speaker=narrator
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:529
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:649
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:661
  msgid "Do you want this unit to pick up the ring?"
  msgstr ""
  
@@ -2037,7 +2048,7 @@
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:531
 -#: dawn_of_thunder/scenarios/09_underground.cfg:453
 -#: dawn_of_thunder/scenarios/17_Jotha.cfg:509
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:651
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:663
 +#: dawn_of_thunder/scenarios/09_underground.cfg:476
 +#: dawn_of_thunder/scenarios/17_Jotha.cfg:730
  msgid "Yes"
@@ -2045,24 +2056,24 @@
  
  #. [object]: id=ring_of_swordmanship
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:535
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:655
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:667
  msgid "Ring of Swordmanship"
  msgstr ""
  
  #. [object]: id=ring_of_swordmanship
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:538
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:658
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:670
  msgid "This ring makes a cunning Swordsman out of every Fighter"
  msgstr ""
  
  #. [object]: id=ring_of_swordmanship
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:540
 +#. As far as I can tell, the "ancient Nagaish language" is just nonsense; I'm not aware of any conlang that has been constructed for them:
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:661
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:673
  msgid ""
  "Pressed by the ongoing battle, you put on the ring very hastily, without carefully looking at it. But the ring just slips away from your fingers again. This time you look at it more carefully. Inside is written:\n"
  "								\n"
-@@ -1525,112 +1679,115 @@
+@@ -1525,112 +1679,120 @@
  "								\n"
  "<span font-style='italic'>Whoever has a sword might gain accuracy, speed and strength</span>\n"
  "								\n"
@@ -2072,7 +2083,7 @@
  
  #. [message]: speaker=narrator
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:562
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:683
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:695
  msgid "As you put the shining ring on your finger, the weight of your sword is reduced to nearly nothing. Your mind is suddenly infused with different techniques and styles of swordfighting."
  msgstr ""
  
@@ -2080,7 +2091,7 @@
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:587
 -#: dawn_of_thunder/scenarios/09_underground.cfg:545
 -#: dawn_of_thunder/scenarios/17_Jotha.cfg:584
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:708
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:720
 +#: dawn_of_thunder/scenarios/09_underground.cfg:568
 +#: dawn_of_thunder/scenarios/17_Jotha.cfg:808
  msgid "No"
@@ -2088,79 +2099,86 @@
  
  #. [message]: speaker=Naia
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:636
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:757
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:769
  msgid "Look, he dropped something!"
  msgstr ""
  
  #. [message]: speaker=second_unit
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:656
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:777
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:789
  msgid "Boss, I recognize these reinforcements. These are the Elves who have slain your Brother!"
  msgstr ""
  
  #. [message]: speaker=Orc
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:660
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:781
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:793
  msgid "Very good! I will avenge my brother and slaughter them!"
  msgstr ""
  
++#. [message]: speaker=Orc
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:813
++msgid "The elves attack me! I need to defend myself!"
++msgstr ""
++
  #. [message]: speaker=Goblin
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:678
 +#. In better English, this would be: "Ha, that's my chance to get boss!"
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:800
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:843
  msgid "Ha, dat's ma chanz to get bozz!"
  msgstr ""
  
  #. [message]: speaker=Goblin
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:682
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:804
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:847
  msgid "Follow me, guys!"
  msgstr ""
  
  #. [message]: speaker=Orc
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:690
 -msgid "Argh! I dishonored my family just as my brother. Now it's up to our eldest to avenge us!"
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:812
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:855
 +msgid "Argh! I dishonored my family just as my brother did. Now it's up to our eldest to avenge us!"
  msgstr ""
  
  #. [message]: speaker=Nagaguy
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:694
- #: dawn_of_thunder/scenarios/05_lake_aelin.cfg:816
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:941
+-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:816
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:859
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:1007
  msgid "Retreat, Nagas! Without our allies, we won't be able to secure our nesting site today."
  msgstr ""
  
  #. [message]: speaker=elf_leader
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:724
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:846
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:889
  msgid "Thank you for your brave help, travellers. Be sure that it won't be forgotten."
  msgstr ""
  
  #. [message]: speaker=Alasar
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:728
- #: dawn_of_thunder/scenarios/05_lake_aelin.cfg:850
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:975
+-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:850
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:893
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:1041
  msgid "Killing orcs? It was a pleasure."
  msgstr ""
  
  #. [message]: speaker=elf_leader
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:738
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:854
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:860
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:979
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:903
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:1045
  msgid "The Hunters who were under your command have decided that they will follow you from now on."
  msgstr ""
  
  #. [message]: speaker=Silam
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:742
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:864
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:907
  msgid "Pay attention to them, Fiannon. They are extremely rare, as they are trained nowhere else besides here. You won't be able to replace them if they die. Also, they fight for you because you impressed them, so they won't cost upkeep."
  msgstr ""
  
  #. [message]: speaker=Goblin
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:770
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:892
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:935
  msgid "Oh!"
  msgstr ""
  
@@ -2168,44 +2186,44 @@
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:774
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:804
 +#. In better English, this would be: "I'd better get out of here!"
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:897
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:929
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:940
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:995
  msgid "Betta getta ouda here!"
  msgstr ""
  
  #. [message]: speaker=Orc
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:786
 -msgid "Hmrpf, I should have relied on trolls instead of goblins. Now, as always, I'll have to do it myself!"
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:910
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:953
 +msgid "Hrmpf, I should have relied on trolls instead of goblins. Now, as always, I'll have to do it myself!"
  msgstr ""
  
  #. [message]: speaker=Goblin
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:800
 +#. In better English, this would be: "No! I was chosen to get the first Goblin leader!"
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:925
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:991
  msgid "No! I was chosen to get da first Goblin leada!"
  msgstr ""
  
  #. [message]: speaker=elf_leader
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:846
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:971
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:1037
  msgid "Thank you for your brave help, travellers. Be sure that it will not be forgotten."
  msgstr ""
  
  #. [message]: speaker=Silam
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:858
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:983
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:1049
  msgid "Pay attention to them, Fiannon. They are extremely rare, as they are trained nowhere else than here. You won't be able to replace them if they die."
  msgstr ""
  
  #. [message]: speaker=Fiannon
 -#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:879
-+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:1004
++#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:1070
  msgid "Castle Aelin's gaze is lost without me."
  msgstr ""
  
-@@ -1641,336 +1798,365 @@
+@@ -1641,336 +1803,365 @@
  
  #. [part]
  #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:46
@@ -2644,7 +2662,7 @@
  msgid ""
  "Direction NE: Aldril\n"
  "Direction NW: woodchoppers lodge\n"
-@@ -1978,586 +2164,631 @@
+@@ -1978,586 +2169,631 @@
  msgstr ""
  
  #. [message]: speaker=woodchopper3
@@ -3431,7 +3449,7 @@
  msgid ""
  "<b>NOOOOOOO!\n"
  "I JUST WOKE UP FROM MY SLUMBER!\n"
-@@ -2565,27 +2796,29 @@
+@@ -2565,27 +2801,29 @@
  msgstr ""
  
  #. [message]: speaker=Oenoch
@@ -3466,7 +3484,7 @@
  msgid "It matters not that you have defeated me! The evil has awoken already!"
  msgstr ""
  
-@@ -2620,606 +2853,662 @@
+@@ -2620,606 +2858,662 @@
  msgstr ""
  
  #. [side]: type=Elvish High Lord, id=Nyvorlas
@@ -4188,17 +4206,15 @@
  msgid "Burn this entire place down and leave nobody alive!"
  msgstr ""
  
--#. [message]: speaker=Bodo
--#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1537
--msgid "Oh no! Notta again!"
 +#. [message]: speaker=Nyvorlas
 +#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1747
 +msgid "They are burning our villages! Fiannon, I give you permission to take whatever measures might be necessary to save our villages! Even if that means you taking over control of them from us yourself!"
 +msgstr ""
 +
-+#. [message]: speaker=Bodo
+ #. [message]: speaker=Bodo
+-#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1537
 +#: dawn_of_thunder/scenarios/08_grand_meeting.cfg:1758
-+msgid "Oh no! Notta again!"
+ msgid "Oh no! Notta again!"
  msgstr ""
  
  #. [message]: speaker=Silam
@@ -4275,7 +4291,7 @@
  msgid "Pay attention, he hits hard!"
  msgstr ""
  
-@@ -3229,177 +3518,192 @@
+@@ -3229,177 +3523,192 @@
  msgstr ""
  
  #. [scenario]: id=09_suddenly_darkness
@@ -4513,7 +4529,7 @@
  msgid "Subterranean Crossfire"
  msgstr ""
  
-@@ -3407,287 +3711,300 @@
+@@ -3407,287 +3716,300 @@
  #. [side]
  #. [side]: type=Dwarvish Lord, id=Lord
  #. [side]: type=Dwarvish Dragonguard, id=Dragonguard
@@ -4891,7 +4907,7 @@
  msgid "HAHAHAHAHA"
  msgstr ""
  
-@@ -3697,213 +4014,277 @@
+@@ -3697,213 +4019,277 @@
  msgstr ""
  
  #. [part]
@@ -5222,7 +5238,7 @@
  msgid ""
  "Did you guyssss just ssssslay,\n"
  "Whom I have chosssssen asssss my prey?\n"
-@@ -3912,17 +4293,17 @@
+@@ -3912,17 +4298,17 @@
  msgstr ""
  
  #. [message]: speaker=Alasar
@@ -5244,7 +5260,7 @@
  msgid "Now where are those so-called Northguards?"
  msgstr ""
  
-@@ -3933,125 +4314,132 @@
+@@ -3933,125 +4319,132 @@
  
  #. [side]
  #. [side]: id=Ungus, type=Northguard Savageheart
@@ -5413,7 +5429,7 @@
  msgid "Gulp!"
  msgstr ""
  
-@@ -4061,112 +4449,136 @@
+@@ -4061,112 +4454,136 @@
  msgstr ""
  
  #. [part]
@@ -5578,7 +5594,7 @@
  msgid "<i>End of Chapter II </i>"
  msgstr ""
  
-@@ -4176,298 +4588,308 @@
+@@ -4176,298 +4593,308 @@
  msgstr ""
  
  #. [part]
@@ -5965,7 +5981,7 @@
  msgstr ""
  
  #. [scenario]: id=17_Jotha
-@@ -4476,67 +4898,72 @@
+@@ -4476,67 +4903,72 @@
  msgstr ""
  
  #. [part]
@@ -6052,7 +6068,7 @@
  msgid ""
  "Soldiers of Jotha!\n"
  "The day will come where the dark will triumph over the light!\n"
-@@ -4545,279 +4972,296 @@
+@@ -4545,279 +4977,296 @@
  msgstr ""
  
  #. [message]: speaker=mermen
@@ -6421,7 +6437,7 @@
  msgstr ""
  
  #. [message]: speaker=Naia
-@@ -4832,7 +5276,7 @@
+@@ -4832,7 +5281,7 @@
  
  #. [message]: speaker=Naia
  #: dawn_of_thunder/scenarios/18_Illuvèn.cfg:46
@@ -6430,7 +6446,7 @@
  msgid "ZÍRX SKRA URVATHAN..."
  msgstr ""
  
-@@ -4842,124 +5286,133 @@
+@@ -4842,124 +5291,133 @@
  msgstr ""
  
  #. [message]: speaker=Naia
@@ -6594,7 +6610,7 @@
  msgid ""
  "Well, how the tides have turned... Ironic, isn't it?\n"
  "Indeed, you captured me, but the city commander was a moron. He couldn't do much when an old friend of mine freed me and asked if I wanted to join his little... adventure. An offer that, of course, I couldn't refuse.\n"
-@@ -4967,117 +5420,171 @@
+@@ -4967,117 +5425,171 @@
  msgstr ""
  
  #. [message]: speaker=Naia
@@ -6789,7 +6805,7 @@
  #. [scenario]: id=Epilogue
  #: dawn_of_thunder/scenarios/Epilogue.cfg:5
  msgid "Epilogue"
-@@ -5085,7 +5592,7 @@
+@@ -5085,7 +5597,7 @@
  
  #. [part]
  #: dawn_of_thunder/scenarios/Epilogue.cfg:12
@@ -6798,7 +6814,7 @@
  msgstr ""
  
  #. [scenario]: id=test
-@@ -5098,6 +5605,115 @@
+@@ -5098,6 +5610,115 @@
  msgid "Elvish Watchtower"
  msgstr ""
  
@@ -6914,7 +6930,7 @@
  #. [trait]: id=elemental
  #: dawn_of_thunder/units/elementals.cfg:10
  msgid "elemental"
-@@ -5133,56 +5749,694 @@
+@@ -5133,81 +5754,714 @@
  msgid "Elementals are manifestations from the essence of nature that have been animated to life by magic."
  msgstr ""
  
@@ -6985,31 +7001,46 @@
  msgstr ""
  
 -#. [unit_type]: id=Fallen Sprite, race=fairy
+-#: dawn_of_thunder/units/faeries/fallensprite.cfg:5
+-msgid "Fallen Sprite"
 +#. [attack]: type=fire
 +#: dawn_of_thunder/units/elementals/Fire_Wisp.cfg:27
 +msgid "fire claw"
-+msgstr ""
-+
+ msgstr ""
+ 
+-#. [unit_type]: id=Fallen Sprite, race=fairy
+-#: dawn_of_thunder/units/faeries/fallensprite.cfg:40
+-msgid "Fallen sprites are mostly found in dark places, such as deep in the heart of a forest. They are formidable enemies who shouldn't be underestimated, even if they have the appearence of airy women."
 +#. [unit_type]: id=Ice_ghost, race=elemental
 +#: dawn_of_thunder/units/elementals/ice.cfg:6
 +msgid "Ice ghost"
-+msgstr ""
-+
+ msgstr ""
+ 
+-#. [unit_type]: id=Squire, race=human
+-#: dawn_of_thunder/units/humans/squire.cfg:5
+-msgid "Squire"
 +#. [unit_type]: id=Ice_ghost, race=elemental
 +#: dawn_of_thunder/units/elementals/ice.cfg:20
 +msgid "Ice ghosts are manifestations of magical energies that appear in cold and icy regions of Wesnoth. They are harmed by fire."
-+msgstr ""
-+
+ msgstr ""
+ 
+-#. [unit_type]: id=Squire, race=human
+-#: dawn_of_thunder/units/humans/squire.cfg:21
+-msgid "Knights often take young boys under their apprenticeship and train them to be squires. They equip these with a rough spear, and a donkey. Squires have to follow their Knight around and help them with various tasks, like carrying their armour. In exchange, the Knight teaches the squire how to fight. A Squire who has proven his worth in combat may become an independent Horseman."
 +#. [attack]: type=cold
 +#: dawn_of_thunder/units/elementals/ice.cfg:33
 +msgid "frost claws"
-+msgstr ""
-+
+ msgstr ""
+ 
+-#. [attack]: type=pierce
+-#: dawn_of_thunder/units/humans/squire.cfg:37
+-msgid "spear"
 +#. [race]: id=elf2
 +#: dawn_of_thunder/units/elf2.cfg:7
 +msgid "race^Elf"
-+msgstr ""
-+
+ msgstr ""
+ 
+-#. [unit_type]: id=Caravan, race=mechanical
 +#. [race]: id=elf2
 +#: dawn_of_thunder/units/elf2.cfg:8
 +msgid "race+female^Elf"
@@ -7334,14 +7365,12 @@
 +msgstr ""
 +
 +#. [unit_type]: id=Fallen Sprite, race=fairy, gender=female
- #: dawn_of_thunder/units/faeries/fallensprite.cfg:5
- msgid "Fallen Sprite"
- msgstr ""
- 
--#. [unit_type]: id=Fallen Sprite, race=fairy
++#: dawn_of_thunder/units/faeries/fallensprite.cfg:5
++msgid "Fallen Sprite"
++msgstr ""
++
 +#. [unit_type]: id=Fallen Sprite, race=fairy, gender=female
- #: dawn_of_thunder/units/faeries/fallensprite.cfg:40
--msgid "Fallen sprites are mostly found in dark places, such as deep in the heart of a forest. They are formidable enemies who shouldn't be underestimated, even if they have the appearence of airy women."
++#: dawn_of_thunder/units/faeries/fallensprite.cfg:40
 +msgid "Fallen Sprites are mostly found in dark places, such as deep in the heart of a forest. They are formidable enemies who shouldn't be underestimated, even if they have the appearence of airy women."
 +msgstr ""
 +
@@ -7635,22 +7664,22 @@
 +#. [unit_type]: id=Silver Mage of the Moon, race=human, gender=female
 +#: dawn_of_thunder/units/humans/SilverMage.cfg:87
 +msgid "SPECIAL_NOTE^ Silver Magi are well-attuned to their magical natures and are highly resistant to non-physical damage."
- msgstr ""
- 
- #. [unit_type]: id=Squire, race=human
-@@ -5195,11 +6449,6 @@
- msgid "Knights often take young boys under their apprenticeship and train them to be squires. They equip these with a rough spear, and a donkey. Squires have to follow their Knight around and help them with various tasks, like carrying their armour. In exchange, the Knight teaches the squire how to fight. A Squire who has proven his worth in combat may become an independent Horseman."
- msgstr ""
- 
--#. [attack]: type=pierce
--#: dawn_of_thunder/units/humans/squire.cfg:37
--msgid "spear"
--msgstr ""
--
- #. [unit_type]: id=Caravan, race=mechanical
++msgstr ""
++
++#. [unit_type]: id=Squire, race=human
++#: dawn_of_thunder/units/humans/squire.cfg:5
++msgid "Squire"
++msgstr ""
++
++#. [unit_type]: id=Squire, race=human
++#: dawn_of_thunder/units/humans/squire.cfg:21
++msgid "Knights often take young boys under their apprenticeship and train them to be squires. They equip these with a rough spear, and a donkey. Squires have to follow their Knight around and help them with various tasks, like carrying their armour. In exchange, the Knight teaches the squire how to fight. A Squire who has proven his worth in combat may become an independent Horseman."
++msgstr ""
++
++#. [unit_type]: id=Caravan, race=mechanical
  #: dawn_of_thunder/units/mechanical/Caravan.cfg:5
  msgid "Caravan"
-@@ -5207,7 +6456,7 @@
+ msgstr ""
  
  #. [unit_type]: id=Caravan, race=mechanical
  #: dawn_of_thunder/units/mechanical/Caravan.cfg:19
@@ -7659,7 +7688,7 @@
  msgstr ""
  
  #. [unit_type]: id=minecart, race=mechanical
-@@ -5220,6 +6469,274 @@
+@@ -5220,6 +6474,274 @@
  msgid "minecart"
  msgstr ""
  
@@ -7934,7 +7963,7 @@
  #. [unit_type]: id=Giant Troll, race=troll
  #: dawn_of_thunder/units/trolls/giant_troll.cfg:5
  msgid "Giant Troll"
-@@ -5227,12 +6744,7 @@
+@@ -5227,12 +6749,7 @@
  
  #. [unit_type]: id=Giant Troll, race=troll
  #: dawn_of_thunder/units/trolls/giant_troll.cfg:21
@@ -7948,7 +7977,7 @@
  msgstr ""
  
  #. [unit_type]: id=Elvish Ancestor, race=undead
-@@ -5247,14 +6759,57 @@
+@@ -5247,14 +6764,57 @@
  
  #. [attack]: type=arcane
  #: dawn_of_thunder/units/undead/Elvish_Spirit_Ancestor.cfg:33
@@ -8006,7 +8035,7 @@
  #. [unit_type]: id=Dark Ancient Wose, race=wose
  #: dawn_of_thunder/units/woses/dark-wose-ancient.cfg:5
  msgid "Dark Ancient Wose"
-@@ -5267,7 +6822,7 @@
+@@ -5267,7 +6827,7 @@
  "\n"
  "Such encounters are all that is known of what are presumably the most ancient of woses.\n"
  "\n"
@@ -8015,7 +8044,7 @@
  msgstr ""
  
  #. [attack]: type=impact
-@@ -5286,11 +6841,11 @@
+@@ -5286,11 +6846,11 @@
  #. [unit_type]: id=Dark Elder Wose, race=wose
  #: dawn_of_thunder/units/woses/dark-wose-elder.cfg:18
  msgid ""
@@ -8029,7 +8058,7 @@
  msgstr ""
  
  #. [unit_type]: id=Dark Immemorial Wose, race=wose
-@@ -5305,7 +6860,7 @@
+@@ -5305,7 +6865,7 @@
  "\n"
  "Such encounters are all that is known of what are presumably the most ancient of woses.\n"
  "\n"
@@ -8038,7 +8067,7 @@
  "\n"
  "The mightiest woses are called Immemorial Woses, and seeing one of them corrupted is perhaps the most terrifying thing that might ever happen to you."
  msgstr ""
-@@ -5327,7 +6882,7 @@
+@@ -5327,7 +6887,7 @@
  "\n"
  "Woses are utterly unwarlike, but possess a great strength. They are, however, neither used to, nor quick at moving around.\n"
  "\n"
@@ -8047,7 +8076,7 @@
  msgstr ""
  
  #. [unstore_unit]
-@@ -5346,22 +6901,22 @@
+@@ -5346,22 +6906,22 @@
  msgstr ""
  
  #. [message]: speaker=Limwen
@@ -8074,7 +8103,7 @@
  msgid "Still $waves_to_go more waves to defeat!"
  msgstr ""
  
-@@ -5406,7 +6961,7 @@
+@@ -5406,7 +6966,7 @@
  msgid "Through hard work and dedication, one day, while in vegetated terrains, the unit will heal itself 5 hp per turn. If it is poisoned, it will be able to remove the poison instead of healing."
  msgstr ""
  
@@ -8083,7 +8112,7 @@
  #: dawn_of_thunder/utils/Special_notes.cfg:33
  #: dawn_of_thunder/utils/abilities_redone.cfg:438
  msgid "This unit will heal itself 24 HP per turn. If it is poisoned, it will remove the poison instead of healing."
-@@ -5415,7 +6970,7 @@
+@@ -5415,7 +6975,7 @@
  #. [dummy]: id=lycanthropy
  #: dawn_of_thunder/utils/Special_notes.cfg:36
  #: dawn_of_thunder/utils/abilities_redone.cfg:448
@@ -8092,7 +8121,7 @@
  msgstr ""
  
  #: dawn_of_thunder/utils/Special_notes.cfg:39
-@@ -5438,7 +6993,7 @@
+@@ -5438,7 +6998,7 @@
  #: dawn_of_thunder/utils/Special_notes.cfg:53
  #: dawn_of_thunder/utils/weapon_specials.cfg:15
  #: dawn_of_thunder/utils/weapon_specials.cfg:16
@@ -8101,7 +8130,7 @@
  msgstr ""
  
  #: dawn_of_thunder/utils/Special_notes.cfg:56
-@@ -5458,13 +7013,13 @@
+@@ -5458,13 +7018,13 @@
  msgstr ""
  
  #: dawn_of_thunder/utils/abilities_redone.cfg:4
@@ -8117,7 +8146,7 @@
  msgstr ""
  
  #. [hides]: id=Beach Home
-@@ -5473,13 +7028,13 @@
+@@ -5473,13 +7033,13 @@
  msgstr ""
  
  #: dawn_of_thunder/utils/abilities_redone.cfg:22
@@ -8133,7 +8162,7 @@
  msgstr ""
  
  #. [hides]: id=AE_shallow_submerge
-@@ -5498,7 +7053,7 @@
+@@ -5498,7 +7058,7 @@
  msgstr ""
  
  #: dawn_of_thunder/utils/abilities_redone.cfg:57
@@ -8142,7 +8171,7 @@
  msgstr ""
  
  #. [regenerate]
-@@ -5512,7 +7067,7 @@
+@@ -5512,7 +7072,7 @@
  msgstr ""
  
  #: dawn_of_thunder/utils/abilities_redone.cfg:137
@@ -8151,7 +8180,7 @@
  msgstr ""
  
  #. [heals]: id=healing
-@@ -5550,12 +7105,12 @@
+@@ -5550,12 +7110,12 @@
  
  #. [regenerate]: id=regenerates_day
  #: dawn_of_thunder/utils/abilities_redone.cfg:192
@@ -8166,7 +8195,7 @@
  msgstr ""
  
  #. [regenerate]: id=regenerates_night
-@@ -5596,12 +7151,12 @@
+@@ -5596,12 +7156,12 @@
  msgid "sylvan spark"
  msgstr ""
  
@@ -8181,7 +8210,7 @@
  #: dawn_of_thunder/utils/abilities_redone.cfg:437
  msgid "female^regenerates"
  msgstr ""
-@@ -5617,17 +7172,17 @@
+@@ -5617,17 +7177,17 @@
  msgstr ""
  
  #. [leadership]: id=sylvan_strength
@@ -8202,7 +8231,7 @@
  msgid ""
  "This presence of this unit on the battlefield strengthens all units that are deeply connected with the faerie world.\n"
  "\n"
-@@ -5635,172 +7190,320 @@
+@@ -5635,172 +7195,320 @@
  msgstr ""
  
  #. [dummy]: id=dig
@@ -8572,7 +8601,7 @@
  msgid "Could you please stop talking and get back to battle?"
  msgstr ""
  
-@@ -5831,7 +7534,7 @@
+@@ -5831,7 +7539,7 @@
  
  #. [trait]: id=nimble
  #: dawn_of_thunder/utils/traits.cfg:28
@@ -8581,7 +8610,7 @@
  msgstr ""
  
  #. [trait]: id=tough
-@@ -5882,27 +7585,27 @@
+@@ -5882,27 +7590,27 @@
  
  #. [unstore_unit]
  #: dawn_of_thunder/utils/weapon_specials.cfg:91

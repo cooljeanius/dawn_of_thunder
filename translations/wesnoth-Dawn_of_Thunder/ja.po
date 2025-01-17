@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dawn of Thunder\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2024-12-02 23:49 UTC\n"
+"POT-Creation-Date: 2025-01-17 06:50 UTC\n"
 "PO-Revision-Date: 2023-08-31 20:53-0400\n"
 "Last-Translator: Eric Gallager <egall@gwmail.gwu.edu>\n"
 "Language-Team: \n"
@@ -128,7 +128,7 @@ msgstr "両方の敵リーダーを倒す"
 #: dawn_of_thunder/scenarios/02_rescue.cfg:708
 #: dawn_of_thunder/scenarios/02_rescue.cfg:979
 #: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:41
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:283
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:295
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:676
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:838
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1957
@@ -571,7 +571,7 @@ msgstr "Mal Lirak の手下の残党を倒す"
 #: dawn_of_thunder/scenarios/02_rescue.cfg:712
 #: dawn_of_thunder/scenarios/02_rescue.cfg:983
 #: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:45
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:287
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:299
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:680
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:842
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1961
@@ -1064,7 +1064,7 @@ msgstr ""
 #. [side]: type=Elvish Druid, id=Limwen, gender=female
 #. [side]: type=Elvish Captain, id=elf_leader
 #: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:115
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:172
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:184
 msgid "Elves"
 msgstr "エルフ"
 
@@ -1074,65 +1074,65 @@ msgid "Limwen"
 msgstr ""
 
 #. [unit]: type=Elvish Shaman, id=shaman
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:133
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:136
 msgid "Neria"
 msgstr ""
 
 #. [side]
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:160
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:163
 msgid "Elvish Ghosts"
 msgstr "エルフの亡霊"
 
 #. [interim_text]
 #. Trailing space is needed at the end to prevent the cutoff that
 #. happens with italicized GUI2 text
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:189
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:192
 msgid "<i>3. Enemies of Old </i>"
 msgstr "<i>3. 太古の敵 </i>"
 
 #. [message]: speaker=narrator
 #. [message]
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:217
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:269
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:221
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:273
 msgid "Direction N: Aethen"
 msgstr "北方向：Aethan"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:223
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:227
 msgid "Onwards; we need to continue to Aethen!"
 msgstr "先に進もう、Aethen へ向かい続けねばならない！"
 
 #. [message]: speaker=Naia
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:227
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:231
 msgid "That was about time."
 msgstr "もう、そんな時間だったんですね。"
 
 #. [message]: speaker=Naia
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:231
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:235
 msgid "I feel a bit bad about leaving Limwen and her shamans behind, though."
 msgstr ""
 "でも ちょっと気が引けますわ、Limwen さまや呪術師たちを後方に残していくなん"
 "て、ねえ。"
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:235
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:239
 msgid "Don't worry, the shamans and I will be fine."
 msgstr "心配ご無用です、私も彼女たちも大丈夫ですわ。"
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:239
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:243
 msgid ""
 "Goodbye, young warrior. I will stay here and buy you as much time as "
 "possible."
 msgstr "さよなら、若い戦士さん。私はここに残って、できるだけ時間を稼ぎますわ。"
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:243
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:247
 msgid "I hope we'll see each other again in better times."
 msgstr "もっと良き時代に再び会えることを願っています。"
 
 #. [message]: speaker=M'Brin
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:248
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:252
 msgid ""
 "Ha, flee, fool! You may escape me now, but I'll find you, and then you won't "
 "be able to flee!"
@@ -1141,12 +1141,12 @@ msgstr ""
 "は逃げることなどできなくなろう！"
 
 #. [message]: speaker=second_unit
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:284
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:288
 msgid "Die, traitor to your own kin!"
 msgstr "死ね、同じ種族を裏切った者たちめ！"
 
 #. [message]: speaker=M'Brin
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:288
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:292
 msgid ""
 "You, calling yourself Elves, are the real traitors. You killed your wisest "
 "sage! You don't deserve to be called elves!"
@@ -1156,7 +1156,7 @@ msgstr ""
 
 #. [message]: speaker=M'Brin
 #. the "Dark Lord" in question will be revealed later:
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:293
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:297
 msgid ""
 "I'll rise again. There's no way you could banish me forever! The Dark Lord "
 "will bring me back!"
@@ -1165,7 +1165,7 @@ msgstr ""
 "のだ！"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:297
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:301
 msgid ""
 "Is that true? Could this M'Brin really come back? And just who is he, "
 "anyways?"
@@ -1174,7 +1174,7 @@ msgstr ""
 "だ？"
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:301
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:305
 msgid ""
 "Yes, he can, as long as he finds a necromancer willing to do it. He's an "
 "incredibly powerful and old soul. He was born two millennia ago, and during "
@@ -1185,7 +1185,7 @@ msgstr ""
 "最初の生涯において、我々の中で最高の賢者の一人だったのです。"
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:305
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:309
 msgid ""
 "He saw the betrayal of humans against the elves when they were a young race, "
 "that still had much to learn."
@@ -1194,7 +1194,7 @@ msgstr ""
 "若く、学ぶべきことが多かった頃のことです。"
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:309
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:313
 msgid ""
 "And when he was killed for the first time by human outlaws, he became so "
 "mad, that he came back to unlife and swore to kill all men..."
@@ -1203,7 +1203,7 @@ msgstr ""
 "してのち、すべての人間を殺すと誓いを立てたのよ..."
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:313
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:317
 msgid ""
 "...some elves were with him, but most followed one of our shydes named "
 "Ethiliel, who worked together with a young human knight to defeat M'Brin."
@@ -1212,7 +1212,7 @@ msgstr ""
 "Ethiliel に追随して、M'Brin を倒すため、人間の若い騎士と共に戦ったのよね。"
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:317
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:321
 msgid ""
 "Even today one can see the remnants of his bad influence. The plants at "
 "place where he lived will never flourish, and the trees won't hold any "
@@ -1223,24 +1223,24 @@ msgstr ""
 "頑張っても。"
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:321
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:325
 msgid ""
 "Apparently M'Brin has risen again. And this time he was out for vengeance."
 msgstr ""
 "どうやら M'Brin は本当に蘇生したようね。それに今回は復讐の念が強そうだわ。"
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:336
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:340
 msgid "It seems that my time has come."
 msgstr "どうやら私の、その時が来たようね。"
 
 #. [message]: speaker=narrator
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:361
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:365
 msgid "In Memory of one of our greatest sages, M'Brin, may he rest in peace."
 msgstr "我らが偉大なる賢者の一人 M'Brin を偲ぶ　安らかに眠れ。"
 
 #. [message]: speaker=unit
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:366
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:370
 msgid ""
 "Pah! He was a vile traitor, who turned to necromancy!\n"
 "<span size='small'>(*<i>spits on the stone</i>*)</span>\n"
@@ -1251,19 +1251,19 @@ msgstr ""
 "いい厄介払いだ！"
 
 #. [message]: speaker=M'Brin
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:377
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:381
 msgid "<span size='large'>What is this?</span>"
 msgstr "<span size='large'>これは、何だ？</span>"
 
 #. [message]: speaker=M'Brin
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:381
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:385
 msgid ""
 "I can feel that there are <span font_style='italic'>humans in my valley!</"
 "span>"
 msgstr "感じるぞ、<span font_style='italic'>我が谷に、人間がいる！</span>"
 
 #. [message]: speaker=M'Brin
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:385
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:389
 msgid ""
 "Tarnishing the holy ground of my old home with their dirty human feet?<span "
 "size='large'> You will suffer for that!</span>"
@@ -1272,19 +1272,19 @@ msgstr ""
 "size='large'> 何倍にもして償ってもらおう！</span>"
 
 #. [unit]: id=M'Brin, type=Elvish Forefather
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:401
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:405
 #: dawn_of_thunder/scenarios/10_subterranean_crossfire.cfg:494
 msgid "M'Brin"
 msgstr "M'Brin"
 
 #. [message]: speaker=M'Brin
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:430
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:434
 msgid "<span size='large'>I am back to take what is rightfully mine!</span>"
 msgstr ""
 "<span size='large'>私が本来所有すべきものを取り戻しに来てやった！</span>"
 
 #. [message]: speaker=M'Brin
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:434
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:438
 msgid ""
 "<span size='large'>Now I will finally get my revenge on you, </span><span "
 "size='large' font_style='italic'>elves.</span>"
@@ -1293,12 +1293,12 @@ msgstr ""
 "size='large' font_style='italic'>エルフども。</span>"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:438
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:442
 msgid "Revenge? What have we done to you?"
 msgstr "復讐とは？ 我々が、お前に何をしたというのだ？"
 
 #. [message]: speaker=M'Brin
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:443
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:447
 msgid ""
 "<span size='large'>You, the elves, my own people betrayed me!</span>\n"
 "<span size='large'>For these pesty </span><span size='large' "
@@ -1312,7 +1312,7 @@ msgstr ""
 #. [message]: speaker=Limwen
 #. https://en.wikipedia.org/wiki/Fight-or-flight_response
 #. (but capitalized to indicate that the options represent a gameplay decision)
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:476
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:480
 msgid ""
 "Their first wave is coming.\n"
 "You need to decide now, Fight or Flight?"
@@ -1321,7 +1321,7 @@ msgstr ""
 "すぐにも決断してください、応戦するの？ 逃げるの？"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:508
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:513
 msgid ""
 "These should have been the last. It was a pleasure fighting for you, milady, "
 "but we must continue to the royal court now."
@@ -1332,7 +1332,7 @@ msgstr ""
 #. [message]: speaker=Limwen
 #. Naia isn't ACTUALLY twelve years old, Limwen is just saying that as an insult to her youth. Naia is actually a young adult,
 #. with an age in the range of 25 to 30 years old.
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:514
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:519
 msgid ""
 "Yes, and I think that I'll come with you. You and your magic look promising, "
 "but you'll need guidance from a mage who isn't twelve years old."
@@ -1342,7 +1342,7 @@ msgstr ""
 
 #. [message]: speaker=Limwen
 #. to explain why all her units don't come along with her:
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:543
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:548
 msgid ""
 "$speakerunit.name, take my place watching over my remaining apprentices "
 "while I'm gone."
@@ -1351,12 +1351,12 @@ msgstr ""
 "に見てあげてちょうだい。"
 
 #. [message]: id=$speakerunit.id
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:553
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:558
 msgid "Sure mistress, I'll do my best!"
 msgstr "分かりました、先生。最善を尽くします！"
 
 #. [message]: speaker=shaman
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:573
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:579
 msgid ""
 "Look, mistress! There are people on the horizon! Do you think they are the "
 "danger you've been feeling for the last few days?"
@@ -1365,7 +1365,7 @@ msgstr ""
 "た危険とは、彼らのことではありませんか？"
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:577
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:583
 msgid ""
 "Neria, open your mind. <i>Be</i> the forest. Can't you feel they are elves? "
 "The danger has yet to come..."
@@ -1374,17 +1374,17 @@ msgstr ""
 "かしら？ 危険はまだ来ていないわ..."
 
 #. [message]: speaker=shaman
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:581
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:587
 msgid "I'm sorry, mistress."
 msgstr "すみません、先生。"
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:585
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:591
 msgid "Welcome travelers, to the Vale of Tears."
 msgstr "ようこそ、旅人の皆さん、涙の谷へ。"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:590
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:596
 msgid ""
 "Greetings, Lady Druid. It's good to see some elvish faces. We are coming "
 "from the edge of the Southwood and are going to Aethen.\n"
@@ -1397,7 +1397,7 @@ msgstr ""
 
 #. [message]: speaker=Limwen
 #. part about the villages is a bit of a gameplay hint to reassure the player that Limwen won't mind if you steal villages from her:
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:597
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:603
 msgid ""
 "You may stay in our villages, but I fear that you won't have much time to "
 "rest here, though. I can feel the walking dead as they are surrounding us in "
@@ -1409,17 +1409,17 @@ msgstr ""
 "向なら突破を試みてもよいかと。あなた方が抜け出す時間を私たちが稼ぎましょう。"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:601
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:607
 msgid "But what about you and your apprentices?"
 msgstr "だが、君や君の弟子たちはどうするつもりだ？"
 
 #. [message]: speaker=Limwen
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:605
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:611
 msgid "Don't worry, the Order of the Vale always finds a way."
 msgstr "ご心配なく。この谷の修道会は、いつも方策を見つけ出していますから。"
 
 #. [message]: speaker=Naia
-#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:609
+#: dawn_of_thunder/scenarios/03_enemies_of_old.cfg:615
 msgid ""
 "We shouldn't let these shamans fight the undead alone. By what's moral we're "
 "bound to help them defend, but it's up to you to decide."
@@ -2007,7 +2007,7 @@ msgstr "Ragziss"
 #. [side]: type=Orcish Warlord, id=bigbadguy
 #. [side]: type=Orcish Nightblade, id=smallbadguy
 #. [side]: type=Orcish Sovereign, id=orc
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:111
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:115
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:113
 #: dawn_of_thunder/scenarios/15_Wild_Steppe.cfg:49
 #: dawn_of_thunder/scenarios/15_Wild_Steppe.cfg:73
@@ -2019,26 +2019,26 @@ msgid "Orcs"
 msgstr "オーク"
 
 #. [side]: type=Orcish Warlord, id=Orc
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:116
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:120
 msgid "Waruk-Gahn"
 msgstr "Waruk-Gahn"
 
 #. [side]: type=Goblin Pillager, id=Goblin
 #. [side]: type=Goblin Cutthroat, id=Bodo
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:150
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:158
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:209
 msgid "Goblins"
 msgstr "ゴブリン"
 
 #. [side]: type=Goblin Pillager, id=Goblin
 #. [side]: type=Goblin Cutthroat, id=Bodo
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:154
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:162
 #: dawn_of_thunder/scenarios/08_grand_meeting.cfg:213
 msgid "Bodo"
 msgstr "Bodo"
 
 #. [side]: type=Elvish Captain, id=elf_leader
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:177
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:189
 #, fuzzy
 #| msgid "Death of Rothilion"
 msgid "Rothilion"
@@ -2047,27 +2047,27 @@ msgstr "Rothilion の死"
 #. [interim_text]
 #. Trailing space is needed at the end to prevent the cutoff that
 #. happens with italicized GUI2 text
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:257
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:269
 msgid "<i>5. Lake Aelin </i>"
 msgstr "<i>5. Aelin 湖 </i>"
 
 #. [label]
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:266
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:278
 msgid "Aelin's Glance"
 msgstr "Aelin の視線"
 
 #. [objective]: condition=win
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:275
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:287
 msgid "Defeat the Goblins and the Orcs"
 msgstr "ゴブリンとオークを倒す"
 
 #. [objective]: condition=win
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:279
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:291
 msgid "Defeat the Naga (Bonus)"
 msgstr "ナーガを倒す（ボーナス）"
 
 #. [objective]: condition=lose
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:291
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:303
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:684
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:846
 #: dawn_of_thunder/scenarios/06_woodchoppers.cfg:1965
@@ -2081,33 +2081,33 @@ msgid "Death of Silam"
 msgstr "Silam の死"
 
 #. [objective]: condition=lose
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:295
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:307
 msgid "Death of Rothilion"
 msgstr "Rothilion の死"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:481
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:493
 msgid "Look, this Outpost is under attack!"
 msgstr "見てくれ、この基地は攻撃を受けてる最中だ！"
 
 #. [message]: speaker=elf_leader
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:485
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:497
 msgid "Finally, some Elves! Are you reinforcements from Aethen?"
 msgstr "やっとエルフが来た！君たちは Aethan からの援軍か？"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:489
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:501
 msgid "I fear we are not. We are only passing through."
 msgstr "すまないが、そうではない。我々はただの通りすがりだ。"
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:493
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:505
 msgid "Nevertheless, we need to help! Commander, how bad is the situation?"
 msgstr ""
 "何でもよい、我々は援護を必要としている！ 司令官、状況はどの程度悪いのだ？"
 
 #. [message]: speaker=elf_leader
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:497
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:509
 msgid ""
 "Quite bad. The Nagas have always been a threat in this region, but since "
 "they allied with the Orcs it has become far worse. Last moon they attacked "
@@ -2119,7 +2119,7 @@ msgstr ""
 "我々は包囲され続けていて、援軍を呼ぶことができないのだ。"
 
 #. [message]: speaker=elf_leader
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:501
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:513
 msgid ""
 "You would help us enormously if you took out the Goblins and the Orcs. You "
 "won't be able to rout the Nagas definitively, they will just come back next "
@@ -2131,12 +2131,12 @@ msgstr ""
 "する輩がいなければ、大した脅威ではない。"
 
 #. [message]: speaker=elf_leader
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:505
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:517
 msgid "If you want, take these Hunters. They'll help you."
 msgstr "もし良ければ、こちらの狩人たちを使ってくれ。力になれるだろう。"
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:528
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:540
 msgid ""
 "These hunters are as good as our fighters in melee combat. But their "
 "speciality lies in their ranged attack. It may not be especially strong, but "
@@ -2149,7 +2149,7 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #. EASY difficulty; loyal + 2:
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:534
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:546
 msgid ""
 "These hunters are loyal, but beyond that, you may also choose two additional "
 "traits for each of them."
@@ -2158,7 +2158,7 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #. NORMAL and HARD difficulties; loyal + 1:
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:541
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:553
 msgid ""
 "These hunters are loyal, but beyond that, you may also choose an additional "
 "trait for each of them."
@@ -2166,72 +2166,72 @@ msgstr ""
 "この狩人たちは忠誠心が高く、もう一つの特性を追加選択することができます。"
 
 #. [message]: speaker=narrator
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:551
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:563
 msgid "Choose an additional trait for your first hunter."
 msgstr "１人目の狩人に与える特性を選んでください。"
 
 #. [message]: speaker=narrator
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:558
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:570
 msgid "Choose another additional trait for your first hunter."
 msgstr "１人目の狩人に与える、もう一つの特性を選んでください。"
 
 #. [message]: speaker=narrator
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:569
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:581
 msgid "Choose an additional trait for your second hunter."
 msgstr "２人目の狩人に与える特性を選んでください。"
 
 #. [message]: speaker=narrator
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:576
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:588
 msgid "Choose another additional trait for your second hunter."
 msgstr "２人目の狩人に与える、もう一つの特性を選んでください。"
 
 #. [message]: speaker=narrator
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:587
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:599
 msgid "Choose an additional trait for your third hunter."
 msgstr "３人目の狩人に与える特性を選んでください。"
 
 #. [message]: speaker=narrator
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:594
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:606
 msgid "Choose another additional trait for your third hunter."
 msgstr "３人目の狩人に与える、もう一つの特性を選んでください。"
 
 #. [message]: id=Silam
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:605
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:617
 msgid "All right, I think the hunters are ready to serve you now!"
 msgstr "よし、狩人たちは仕事の準備ができたようだな！"
 
 #. [message]: speaker=Nagaguy
 #. Ragziss's last breath; like with most Naga, the "Sssssnake Talk" trope is in effect:
 #. https://tvtropes.org/pmwiki/pmwiki.php/Main/SssssnakeTalk
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:628
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:640
 msgid "Hissssssss, you'll ssssee usssss again!"
 msgstr "シシーーーー ま、また お目にかかろうぜ！"
 
 #. [message]: speaker=narrator
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:649
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:661
 msgid "Do you want this unit to pick up the ring?"
 msgstr "指輪をこのユニットに拾わせますか？"
 
 #. [option]
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:651
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:663
 #: dawn_of_thunder/scenarios/09_underground.cfg:476
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:730
 msgid "Yes"
 msgstr "はい"
 
 #. [object]: id=ring_of_swordmanship
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:655
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:667
 msgid "Ring of Swordmanship"
 msgstr "剣術の指輪"
 
 #. [object]: id=ring_of_swordmanship
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:658
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:670
 msgid "This ring makes a cunning Swordsman out of every Fighter"
 msgstr "この指輪は全ての戦士を熟達した剣士にします"
 
 #. [object]: id=ring_of_swordmanship
 #. As far as I can tell, the "ancient Nagaish language" is just nonsense; I'm not aware of any conlang that has been constructed for them:
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:661
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:673
 msgid ""
 "Pressed by the ongoing battle, you put on the ring very hastily, without "
 "carefully looking at it. But the ring just slips away from your fingers "
@@ -2266,7 +2266,7 @@ msgstr ""
 "輪を持つのは、あなたには不相応のようです。"
 
 #. [message]: speaker=narrator
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:683
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:695
 msgid ""
 "As you put the shining ring on your finger, the weight of your sword is "
 "reduced to nearly nothing. Your mind is suddenly infused with different "
@@ -2276,19 +2276,19 @@ msgstr ""
 "たの心には、これまでとは違った剣術の技能や流儀が、不意に流れ込んできます。"
 
 #. [option]
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:708
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:720
 #: dawn_of_thunder/scenarios/09_underground.cfg:568
 #: dawn_of_thunder/scenarios/17_Jotha.cfg:808
 msgid "No"
 msgstr "いいえ"
 
 #. [message]: speaker=Naia
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:757
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:769
 msgid "Look, he dropped something!"
 msgstr "見て、あいつが何か落とした！何かしら！"
 
 #. [message]: speaker=second_unit
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:777
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:789
 msgid ""
 "Boss, I recognize these reinforcements. These are the Elves who have slain "
 "your Brother!"
@@ -2297,23 +2297,28 @@ msgstr ""
 "ルフたちだ！"
 
 #. [message]: speaker=Orc
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:781
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:793
 msgid "Very good! I will avenge my brother and slaughter them!"
 msgstr "そいつはイイじゃねえか！兄弟の敵討ちだ、殺っちまえ！"
 
+#. [message]: speaker=Orc
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:813
+msgid "The elves attack me! I need to defend myself!"
+msgstr ""
+
 #. [message]: speaker=Goblin
 #. In better English, this would be: "Ha, that's my chance to get boss!"
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:800
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:843
 msgid "Ha, dat's ma chanz to get bozz!"
 msgstr "ハッハー、こいずはオレがボスさなるチャーンスだ！"
 
 #. [message]: speaker=Goblin
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:804
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:847
 msgid "Follow me, guys!"
 msgstr "野郎ども、オレさ付いてきなって！"
 
 #. [message]: speaker=Orc
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:812
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:855
 msgid ""
 "Argh! I dishonored my family just as my brother did. Now it's up to our "
 "eldest to avenge us!"
@@ -2322,8 +2327,8 @@ msgstr ""
 "男に任せるしかねえ！"
 
 #. [message]: speaker=Nagaguy
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:816
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:941
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:859
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:1007
 msgid ""
 "Retreat, Nagas! Without our allies, we won't be able to secure our nesting "
 "site today."
@@ -2332,7 +2337,7 @@ msgstr ""
 "え。"
 
 #. [message]: speaker=elf_leader
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:846
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:889
 msgid ""
 "Thank you for your brave help, travellers. Be sure that it won't be "
 "forgotten."
@@ -2341,21 +2346,21 @@ msgstr ""
 "しょう。"
 
 #. [message]: speaker=Alasar
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:850
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:975
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:893
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:1041
 msgid "Killing orcs? It was a pleasure."
 msgstr "オークを倒したことかな？楽しかったよ。"
 
 #. [message]: speaker=elf_leader
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:860
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:979
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:903
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:1045
 msgid ""
 "The Hunters who were under your command have decided that they will follow "
 "you from now on."
 msgstr "今回戦った狩人たちは、この先、あなた方に同行することを決めた。"
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:864
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:907
 msgid ""
 "Pay attention to them, Fiannon. They are extremely rare, as they are trained "
 "nowhere else besides here. You won't be able to replace them if they die. "
@@ -2368,19 +2373,19 @@ msgstr ""
 "だ。金銭的な代価など要求しない。"
 
 #. [message]: speaker=Goblin
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:892
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:935
 msgid "Oh!"
 msgstr "あいたー！"
 
 #. [message]: speaker=Goblin
 #. In better English, this would be: "I'd better get out of here!"
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:897
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:929
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:940
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:995
 msgid "Betta getta ouda here!"
 msgstr "こだどこ、ちゃっちゃっとズラかった方がいいべ！"
 
 #. [message]: speaker=Orc
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:910
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:953
 msgid ""
 "Hrmpf, I should have relied on trolls instead of goblins. Now, as always, "
 "I'll have to do it myself!"
@@ -2390,12 +2395,12 @@ msgstr ""
 
 #. [message]: speaker=Goblin
 #. In better English, this would be: "No! I was chosen to get the first Goblin leader!"
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:925
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:991
 msgid "No! I was chosen to get da first Goblin leada!"
 msgstr "違いっちゃよ！オラは最初のゴブリン・リーダさなるためさ選ばれたんだお！"
 
 #. [message]: speaker=elf_leader
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:971
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:1037
 msgid ""
 "Thank you for your brave help, travellers. Be sure that it will not be "
 "forgotten."
@@ -2404,7 +2409,7 @@ msgstr ""
 "無いでしょう。"
 
 #. [message]: speaker=Silam
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:983
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:1049
 msgid ""
 "Pay attention to them, Fiannon. They are extremely rare, as they are trained "
 "nowhere else than here. You won't be able to replace them if they die."
@@ -2413,7 +2418,7 @@ msgstr ""
 "ず、とても得難い人材なのだ。失ったら代わりは見つからないだろう。"
 
 #. [message]: speaker=Fiannon
-#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:1004
+#: dawn_of_thunder/scenarios/05_lake_aelin.cfg:1070
 msgid "Castle Aelin's gaze is lost without me."
 msgstr "私がいなければ、Aelin 城の目が失われてしまう。"
 
