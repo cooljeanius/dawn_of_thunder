@@ -3,6 +3,8 @@
 *.map-bak
 *.swp
 .github/*
+# VS Code junk doesn't need to go on the server:
+.vscode/*
 
 # default values not already specified:
 .+
