@@ -94,6 +94,36 @@ English via Google Translate:
 structure would be nice. It's very difficult to read as it is now. Very hard to
 find anything there."
 
+0.2.5
+-------------------------------------------------------------------------------
+general:
+-port to BfW 1.18
+-another run of ImageOptim
+-disambiguate Dwarvish Miners from mainline Dwarvish Miners (so that the dig ability works again)
+-minor map tweaks
+-actually use our own copy of the AI controller macros
+-validator fixes
+
+scenario 1:
+-vary some dialogue depending on whether trolls have arrived or not
+
+scenario 3:
+-Walking Corpses now use variations
+
+scenario 5:
+-traits for leaders of other sides
+-a few minor event tweaks
+
+scenario 7:
+-fix warning about mask extension by copying the map file to a version with the proper extension
+
+scenario 10:
+-add event for if the player tries to take the minecart back out the way they entered
+
+scenario 17:
+-a bit more dialogue about the crabs
+
+
 0.2.4
 -------------------------------------------------------------------------------
 general:
